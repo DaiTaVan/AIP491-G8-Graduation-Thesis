@@ -38,7 +38,7 @@ def main(args):
     config.init_device = device
     # config.attn_config['attn_impl'] = 'triton' # Enable if "triton" installed!
     # Log in to Hugging Face
-    login(token="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")
+    login(token="")
 
     # Load tokenizer and model
     tokenizer = AutoTokenizer.from_pretrained(llm)
