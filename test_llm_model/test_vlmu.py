@@ -38,7 +38,7 @@ def main(args):
     config.init_device = device
     # config.attn_config['attn_impl'] = 'triton' # Enable if "triton" installed!
     # Log in to Hugging Face
-    login(token="")
+    # login(token="")
 
     # Load tokenizer and model
     tokenizer = AutoTokenizer.from_pretrained(llm)
@@ -71,7 +71,7 @@ def main(args):
     jsonl_files = list(data_path.glob('test.jsonl'))
 
     # for file in jsonl_files:
-    with open("/teamspace/studios/this_studio/vlmu_v1.5/test.jsonl", "r", encoding="utf-8") as f:
+    with open("./data/test.jsonl", "r", encoding="utf-8") as f:
         lines = f.readlines()
         for line in lines:
             data = json.loads(line)
@@ -110,21 +110,10 @@ def main(args):
         "E": choices_E
     })
     logging.info(df.head())
-    example_input = """
-    Đưa ra chữ cái đứng trước câu trả lời đúng (A, B, C, D hoặc E) của câu hỏi trắc nghiệm sau:
 
-    Đường IS dốc xuống về phía phải phản ánh quan hệ:
-
-    A. Sản lượng giảm dẫn đến lãi suất cân bằng tăng
-    B. Sản lượng tăng dẫn đến lãi suất cân bằng giảm
-    C. Lãi suất giảm dẫn đến sản lượng cân bằng tăng
-    D. Câu (b) và (c) đúng
-
-    Đáp án: B
-    """
     preamble = 'Chỉ đưa ra chữ cái đứng trước câu trả lời đúng (A, B, C, D hoặc E) của câu hỏi trắc nghiệm sau: '
 
-    template = Template('Ví dụ: $example_input\n\n$preamble\n\n$prompt\n\n $a\n $b\n $c\n $d\n $e\nĐáp án:')
+    template = Template('\n$preamble\n\n$prompt\n\n $a\n $b\n $c\n $d\n $e\nĐáp án:')
 
     def format_input(df, idx):
         prompt = df.loc[idx, 'prompt']
@@ -135,7 +124,7 @@ def main(args):
         e = df.loc[idx, 'E']
 
         input_text = template.substitute(
-            example_input=example_input, preamble=preamble, prompt=prompt, a=a, b=b, c=c, d=d, e=e)
+            preamble=preamble, prompt=prompt, a=a, b=b, c=c, d=d, e=e)
         # print(input_text)
         return input_text
     # print(template)
@@ -188,8 +177,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Your script description here")
 
     # Add command-line arguments
-    parser.add_argument("--llm", type=str, default="mistralai/Mistral-Nemo-Instruct-2407",
-                        help="Specify the llm value (default: mistralai/Mistral-Nemo-Instruct-2407")
+    parser.add_argument("--llm", type=str, default="Qwen/Qwen2.5-14B-Instruct",
+                        help="Specify the llm value (default: Qwen/Qwen2.5-14B-Instruct")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu",
                         help="Specify the device")
     parser.add_argument("--folder", type=str, default="./vmlu_v1.5/",

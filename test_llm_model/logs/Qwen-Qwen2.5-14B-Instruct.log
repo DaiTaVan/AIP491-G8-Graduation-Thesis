@@ -1,0 +1,31 @@
+2024-09-21 14:59:02,836 - INFO: Model name: Qwen/Qwen2.5-14B-Instruct
+2024-09-21 15:10:00,958 - INFO:         id                                             prompt  ...                                                  D E
+0  28-0021  Một nền kinh tế trong trạng thái toàn dụng nhâ...  ...  D. Vẫn còn một tỷ lệ lạm phát và tỷ lệ thất ng...  
+1  28-0022  Trong cơ chế tỷ giá hối đoái cố định, muốn tri...  ...                            D. Các lựa chọn đều sai  
+2  28-0023                  Tỷ  giá thay đổi sẽ ảnh hưởng đến  ...                           D. Các lựa chọn đều đúng  
+3  28-0024  Theo lý thuyết của Keynes, những chính sách nà...  ...  D. Phá giá, giảm thuế và giảm số mua hàng hóa ...  
+4  28-0025  Chính sách nào của chính phủ sẽ làm kinh tế tă...  ...  D. Tăng thuế thu nhập từ tiết kiệm, cung cấp t...  
+
+[5 rows x 7 columns]
+2024-09-21 15:10:02,043 - INFO: Contruct a toy eg
+2024-09-21 15:10:02,043 - INFO: Generated answer: ['\nChỉ đưa ra chữ cái đứng trước câu trả lời đúng (A, B, C, D hoặc E) của câu hỏi trắc nghiệm sau: \n\nMột nền kinh tế trong trạng thái toàn dụng nhân công có nghĩa là:\n\n A. Không còn lạm phát nhưng có thể còn thất nghiệp\n B. Không còn thất nghiệp nhưng có thể còn lạm phát\n C. Không còn thất nghiệp và không còn lạm phát\n D. Vẫn còn một tỷ lệ lạm phát và tỷ lệ thất nghiệp nhất định\n \nĐáp án: B']
+2024-09-21 15:21:20,275 - INFO:         id                                             prompt                                                  A  ...                                                  D E answer
+0  28-0021  Một nền kinh tế trong trạng thái toàn dụng nhâ...  A. Không còn lạm phát nhưng có thể còn thất ng...  ...  D. Vẫn còn một tỷ lệ lạm phát và tỷ lệ thất ng...        B
+1  28-0022  Trong cơ chế tỷ giá hối đoái cố định, muốn tri...                     A. Dùng ngoại tệ để mua nội tệ  ...                            D. Các lựa chọn đều sai        B
+2  28-0023                  Tỷ  giá thay đổi sẽ ảnh hưởng đến                              A. Cán cân thương mại  ...                           D. Các lựa chọn đều đúng        D
+3  28-0024  Theo lý thuyết của Keynes, những chính sách nà...  A. Giảm thuế và gia tăng số mua hàng hóa của c...  ...  D. Phá giá, giảm thuế và giảm số mua hàng hóa ...        A
+4  28-0025  Chính sách nào của chính phủ sẽ làm kinh tế tă...  A. Giảm thuế thu nhập từ tiết kiệm, cung cấp t...  ...  D. Tăng thuế thu nhập từ tiết kiệm, cung cấp t...        B
+
+[5 rows x 8 columns]
+2024-09-22 12:59:23,868 - INFO: Model name: Qwen/Qwen2.5-14B-Instruct
+2024-09-22 12:59:39,839 - INFO:         id                                             prompt  ...                                                  D E
+0  28-0021  Một nền kinh tế trong trạng thái toàn dụng nhâ...  ...  D. Vẫn còn một tỷ lệ lạm phát và tỷ lệ thất ng...  
+1  28-0022  Trong cơ chế tỷ giá hối đoái cố định, muốn tri...  ...                            D. Các lựa chọn đều sai  
+2  28-0023                  Tỷ  giá thay đổi sẽ ảnh hưởng đến  ...                           D. Các lựa chọn đều đúng  
+3  28-0024  Theo lý thuyết của Keynes, những chính sách nà...  ...  D. Phá giá, giảm thuế và giảm số mua hàng hóa ...  
+4  28-0025  Chính sách nào của chính phủ sẽ làm kinh tế tă...  ...  D. Tăng thuế thu nhập từ tiết kiệm, cung cấp t...  
+
+[5 rows x 7 columns]
+2024-09-22 12:59:41,302 - INFO: Contruct a toy eg
+2024-09-22 12:59:41,302 - INFO: Generated answer: ['\nChỉ đưa ra chữ cái đứng trước câu trả lời đúng (A, B, C, D hoặc E) của câu hỏi trắc nghiệm sau: \n\nMột nền kinh tế trong trạng thái toàn dụng nhân công có nghĩa là:\n\n A. Không còn lạm phát nhưng có thể còn thất nghiệp\n B. Không còn thất nghiệp nhưng có thể còn lạm phát\n C. Không còn thất nghiệp và không còn lạm phát\n D. Vẫn còn một tỷ lệ lạm phát và tỷ lệ thất nghiệp nhất định\n \nĐáp án: B']
+2024-09-22 13:02:02,372 - INFO: Model name: Qwen/Qwen2.5-14B-Instruct

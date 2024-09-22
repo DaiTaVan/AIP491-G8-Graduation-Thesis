@@ -1,6 +1,6 @@
 # make sure to use vllm 0.3.3 and transformers 4.40+
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="2"
+# os.environ["CUDA_VISIBLE_DEVICES"]="2"
 import json
 # from vllm import LLM, SamplingParams
 import csv
@@ -9,16 +9,16 @@ import torch
 from tqdm import tqdm
 
 device = "cuda" # the device to load the model onto
-model_path = "Qwen2.5-7B-Instruct"
+model_path = "Qwen/Qwen2.5-14B-Instruct"
 model = AutoModelForCausalLM.from_pretrained(
-  model_path, # can change to "SeaLLMs/SeaLLMs-v3-1.5B-Chat" if your resource is limited
-  torch_dtype="auto", 
+  model_path, # can change to "Qwen/Qwen2.5-14B-Instruct" if your resource is limited
+  torch_dtype=torch.float16,  # Force float32 to avoid BFloat16 issue with causal mask
   device_map=device
 )
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-jsonl_path = f"/data2/dai/temp/vmlu_v1.5/test.jsonl"
-out_csv_path = f"/data2/dai/temp/vmlu_v1.5/Qwen2-5_7B_Instruct_vmlu_pred.csv"
+jsonl_path = f"./test_llm_model/data/test.jsonl"
+out_csv_path = f"./test_llm_model/result/Qwen2-5_14B_Instruct_vmlu_pred.csv"
 
 def read_json(json_file):
     print(f'Reading : {json_file}')
@@ -64,15 +64,26 @@ print(prompts[0])
 
 responses = []
 
+# Generate responses using the model
 for prompt in tqdm(prompts):
     model_inputs = tokenizer([prompt], return_tensors="pt").to(device)
-    generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=5, do_sample=False, eos_token_id=tokenizer.eos_token_id, temperature=0.0)
+    
+    # Generate predictions with forced float32
+    with torch.autocast("cuda", dtype=torch.float32):
+        generated_ids = model.generate(
+            model_inputs.input_ids,
+            max_new_tokens=5,
+            do_sample=False,  # Ensure deterministic output
+            eos_token_id=tokenizer.eos_token_id,
+            temperature=0.0
+        )
+    
     generated_ids = [
         output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
     ]
+    
     response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
     responses.append(response[0])
-    # print(response[0])
 
 answers = [r.strip() for r in responses]
 # first output can be "A" or " A" (2 different token)
