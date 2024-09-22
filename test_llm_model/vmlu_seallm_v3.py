@@ -18,7 +18,7 @@ model = AutoModelForCausalLM.from_pretrained(
 tokenizer = AutoTokenizer.from_pretrained("SeaLLMs-v3-7B-Chat")
 
 jsonl_path = f"/data2/dai/temp/vmlu_v1.5/test.jsonl"
-out_csv_path = f"/data2/dai/temp/vmlu_v1.5/seallm_v3_vmlu_pred.csv"
+out_csv_path = f"/data2/dai/temp/vmlu_v1.5/seallm_v3_vmlu_pred_2.csv"
 
 def read_json(json_file):
     print(f'Reading : {json_file}')
@@ -48,9 +48,7 @@ elif model_path == "SeaLLMs/SeaLLM-7B-v2.5":
 """
 elif model_path == "SeaLLMs-v3-7B-Chat":
     eos_token = "<|im_end|>"
-    CHAT_TEMPLATE = """<|im_start|>>system
-You are a helpful assistant.<|im_end|>
-<|im_start|>user
+    CHAT_TEMPLATE = """<|im_start|>user
 {prompt}<|im_end|>
 <|im_start|>assistant
 """
