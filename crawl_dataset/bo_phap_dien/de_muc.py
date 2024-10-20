@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs
 from crawler import WebPhapDienCrawler
-
+import re
 
 
 def _get_demuc_title(raw: str) -> str:
@@ -12,14 +12,45 @@ def _get_demuc_title(raw: str) -> str:
 
 def _process_chuong_element(dieu) -> tuple:
     """Process 'chuong' elements"""
+    chuong_id_ref = []
+    chuong_content_ref = ''
     prev = dieu.find_previous_sibling()
+    # print(dieu)
+    # print(prev)
+    if prev and 'pChiDan' in prev.get('class', []):
+        chuong_id_ref = []
+        chuong_content_ref = prev.get_text().strip()
+        pattern = r"ViewNoiDungPhapDien\('(.+?)'\)"
+        # Find all <a> tags with an onclick attribute and extract IDs
+        for a_tag in prev.find_all('a', onclick=True):
+            match = re.search(pattern, a_tag['onclick'])
+            if match:
+                chuong_id_ref.append(match.group(1))
+        prev = prev.find_previous_sibling()
+    # print(prev)
     if prev and 'pChuong' in prev.get('class', []):
         chuong_title = prev.get_text().strip() or ''
         prev = prev.find_previous_sibling()
         a_tag = prev.find('a') if prev else None
         chuong_id = a_tag.get('name') if a_tag else ''
         chuong_title = f'{prev.get_text()}: {chuong_title}' if prev else chuong_title
-        return (chuong_id, chuong_title)
+        # print(chuong_title, chuong_title.startswith('Mục 1'))
+        if chuong_title.startswith('Mục 1:'):
+            muc_id = chuong_id
+            muc_title = chuong_title
+            prev = prev.find_previous_sibling()
+            if prev and 'pChuong' in prev.get('class', []):
+                chuong_title = prev.get_text().strip() or ''
+                prev = prev.find_previous_sibling()
+                a_tag = prev.find('a') if prev else None
+                # print(a_tag)
+                chuong_id = a_tag.get('name') if a_tag else ''
+                chuong_title = f'{prev.get_text()}: {chuong_title}' if prev else chuong_title
+                if chuong_id and len(chuong_id) > 0:
+                    chuong_id = f"{chuong_id}___{muc_id}"
+                    chuong_title = f"{chuong_title}___{muc_title}"
+        return (chuong_id, chuong_title, chuong_content_ref, chuong_id_ref)
+
     return None
 
 def _process_ghi_chu_element(dieu) -> tuple:
@@ -45,7 +76,24 @@ def _process_ghi_chu_element(dieu) -> tuple:
     return sib, ghi_chu
 
 class VBPLContent:
-    def __init__(self, id, title, content, source_title, source_url, item_id, location_in_vbpl, demuc_id, demuc_title, chuong_id, chuong_title):
+    def __init__(
+            self, 
+            id, 
+            title, 
+            content, 
+            source_title, 
+            source_url, 
+            item_id, 
+            location_in_vbpl, 
+            demuc_id, 
+            demuc_title, 
+            chuong_id, 
+            chuong_title,
+            chuong_content_ref = '',
+            chuong_id_ref = [],
+            muc_id = None, 
+            muc_title = None, 
+            content_id_ref = []):
         self.id = id
         self.title = title
         self.content = content
@@ -57,6 +105,11 @@ class VBPLContent:
         self.demuc_title = demuc_title
         self.chuong_id = chuong_id
         self.chuong_title = chuong_title
+        self.chuong_content_ref = chuong_content_ref
+        self.chuong_id_ref = chuong_id_ref
+        self.muc_id = muc_id
+        self.muc_title = muc_title
+        self.content_id_ref = content_id_ref
 
     def to_json(self):
         return {
@@ -71,6 +124,11 @@ class VBPLContent:
             'demucTitle': self.demuc_title,
             'chuongId': self.chuong_id,
             'chuongTitle': self.chuong_title,
+            'chuongContentRef': self.chuong_content_ref,
+            'chuongIDRef': self.chuong_id_ref,
+            'mucID': self.muc_id,
+            'mucTitle': self.muc_title,
+            'contentIDRef': self.content_id_ref
         }
 
     def copy_with(self, **kwargs):
@@ -87,6 +145,11 @@ class VBPLContent:
             demuc_title=kwargs.get('demuc_title', self.demuc_title),
             chuong_id=kwargs.get('chuong_id', self.chuong_id),
             chuong_title=kwargs.get('chuong_title', self.chuong_title),
+            chuong_content_ref=kwargs.get('chuong_content_ref', self.chuong_content_ref),
+            chuong_id_ref=kwargs.get('chuong_id_ref', self.chuong_id_ref),
+            muc_id=kwargs.get('muc_id', self.muc_id),
+            muc_title=kwargs.get('muc_title', self.muc_title),
+            content_id_ref=kwargs.get('content_id_ref', self.content_id_ref)
         )
 
 def convert_vbpl_html_to_vbpl_contents(demuc_id: str, raw: str):
@@ -97,8 +160,8 @@ def convert_vbpl_html_to_vbpl_contents(demuc_id: str, raw: str):
     
     h3_demuc_title = document.find('h3')
     demuc_title = _get_demuc_title(h3_demuc_title.get_text() if h3_demuc_title else '')
-
-    chuong_element = None
+    
+    middle_element = None
     p_dieus = document.find_all(class_='pDieu')
 
     for dieu in p_dieus:
@@ -115,8 +178,23 @@ def convert_vbpl_html_to_vbpl_contents(demuc_id: str, raw: str):
             chuong_id='',
             chuong_title='',
         )
-
-        chuong_element = _process_chuong_element(dieu) or chuong_element
+        # print('------------------------')
+        # print(demuc_title)
+        middle_element = _process_chuong_element(dieu) or middle_element
+        
+        # print('----')
+        # print(dieu, middle_element, demuc_title)
+        if middle_element is None:
+            chuong_element = ('', '')
+            muc_element = (None, None)
+        elif '___' in middle_element[0]:
+            chuong_element = (middle_element[0].split('___')[0], middle_element[1].split('___')[0])
+            muc_element = (middle_element[0].split('___')[1], middle_element[1].split('___')[1])
+        elif 'Mục' in middle_element[1]:
+            muc_element = middle_element
+        else:
+            chuong_element = middle_element
+            muc_element = (None, None)
         sib, ghichu_element = _process_ghi_chu_element(dieu)
         content = content.copy_with(
             item_id=ghichu_element['itemId'],
@@ -126,10 +204,20 @@ def convert_vbpl_html_to_vbpl_contents(demuc_id: str, raw: str):
         )
 
         content_buffer = []
+        content_id_ref = []
         while sib is not None:
             text = sib.get_text().strip() if sib else ''
             if sib.name == 'table':
                 text = table_to_csv(sib)  # You can implement a table to CSV conversion
+            
+            if sib and 'pChiDan' in sib.get('class', []):
+                pattern = r"ViewNoiDungPhapDien\('(.+?)'\)"
+                # Find all <a> tags with an onclick attribute and extract IDs
+                for a_tag in sib.find_all('a', onclick=True):
+                    match = re.search(pattern, a_tag['onclick'])
+                    if match:
+                        content_id_ref.append(match.group(1))
+            
             content_buffer.append(text)
 
             sib = sib.find_next_sibling()
@@ -140,6 +228,11 @@ def convert_vbpl_html_to_vbpl_contents(demuc_id: str, raw: str):
             content='\n'.join(content_buffer).strip(),
             chuong_id=chuong_element[0] if chuong_element else '',
             chuong_title=chuong_element[1] if chuong_element else '',
+            chuong_content_ref = middle_element[2] if middle_element else '',
+            chuong_id_ref = middle_element[3] if middle_element else [],
+            muc_id = muc_element[0],
+            muc_title = muc_element[1],
+            content_id_ref= content_id_ref
         )
 
         contents.append(content)
