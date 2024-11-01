@@ -168,9 +168,9 @@ def add_relationship_of_child_nodes(listdieu):
                                     rel_type=Relationship.HAS_SECTION)
             # print(result)
 
-# with ThreadPoolExecutor(max_workers=3) as executor:
-#     for ix, (demuc, listdieu) in enumerate(content.items()):
-#         executor.submit(add_child_nodes, listdieu)
+with ThreadPoolExecutor(max_workers=3) as executor:
+    for ix, (demuc, listdieu) in enumerate(content.items()):
+        executor.submit(add_child_nodes, listdieu)
 
 with ThreadPoolExecutor(max_workers=3) as executor:
     for ix, (demuc, listdieu) in enumerate(content.items()):
