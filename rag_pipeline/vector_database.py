@@ -58,6 +58,7 @@ class LawBGEM3QdrantDatabase:
         Clear the index.
         """
         self.client.delete_collection(collection_name=self.database_name)
+        self.create_databse()
     
     def insert_nodes(self, nodes: List[Node]):
         node_ids = []
@@ -65,15 +66,15 @@ class LawBGEM3QdrantDatabase:
         vectors = []
 
         for node in nodes:
-            node_ids.append(node.id)
-            payloads.append(node.metadata)
+            node_ids.append(node["id"])
+            payloads.append(node["metadata"])
             vectors.append({
                 # Dynamically switch between the old and new sparse vector name
-                self.DENSE_VECTOR_NAME: models.SparseVector(
-                    indices=[int(ele) for ele in list(node.sparse_vector.keys())],
-                    values=list(node.sparse_vector.values()),
+                self.SPARSE_VECTOR_NAME: models.SparseVector(
+                    indices=[int(ele) for ele in list(node["sparse_vector"].keys())],
+                    values=list(node["sparse_vector"].values()),
                 ),
-                self.SPARSE_VECTOR_NAME: node.dense_vector,
+                self.DENSE_VECTOR_NAME: node["dense_vector"],
             })
         
         points = [
