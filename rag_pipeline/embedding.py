@@ -38,8 +38,8 @@ class BGEEmbedding:
         fn_outputs = []
         for i in range(len(sentences)):
             fn_outputs.append({
-                'dense': list(outputs['dense_vecs'][i]),
-                'sparse': dict(outputs['lexical_weights'][i])
+                'dense': outputs['dense_vecs'][i].tolist(),
+                'sparse': {k: float(v) for k, v in outputs['lexical_weights'][i].items()}
             })
         
         return fn_outputs

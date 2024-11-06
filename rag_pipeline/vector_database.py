@@ -1,7 +1,7 @@
 from qdrant_client import QdrantClient, models, AsyncQdrantClient
-from typing import Dict, List
+from typing import Dict, List, TypedDict
 
-class Node:
+class Node(TypedDict):
     id: str
     dense_vector: List
     sparse_vector: Dict
