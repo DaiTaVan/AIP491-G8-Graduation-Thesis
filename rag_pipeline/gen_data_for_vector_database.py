@@ -1,3 +1,4 @@
+import os
 import json
 from tqdm import tqdm
 from uuid import uuid4
@@ -19,6 +20,7 @@ with open('/media/tavandai/DATA10/fpt_university/Graduation_Thesis/AIP491-G8-Gra
 
 for ix, value in all_dieu.items():
     print(ix)
+    if os.path.exists(f"/media/tavandai/DATA10/fpt_university/Graduation_Thesis/AIP491-G8-Graduation-Thesis/rag_pipeline/data/{ix}.json"): continue
     list_nodes = []
     for ele in tqdm(value):
         dieu_id = ele['id']
@@ -51,8 +53,8 @@ for ix, value in all_dieu.items():
                 }
             )
             list_nodes.append(node_to_dictionary(new_node))
-        with open(f'/media/tavandai/DATA10/fpt_university/Graduation_Thesis/AIP491-G8-Graduation-Thesis/rag_pipeline/data/{ix}.json', 'w') as f1:
-            json.dump(list_nodes, f1, indent=4, ensure_ascii=False)
+    with open(f'/media/tavandai/DATA10/fpt_university/Graduation_Thesis/AIP491-G8-Graduation-Thesis/rag_pipeline/data/{ix}.json', 'w') as f1:
+        json.dump(list_nodes, f1, indent=4, ensure_ascii=False)
 
         
 
