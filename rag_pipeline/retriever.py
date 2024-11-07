@@ -19,24 +19,24 @@ class LawRetriever:
     def retrieve(self, query: str, filter: Dict):
 
         embedding_content = self.embedding.embed([query])[0]
-
-        filter = models.Filter(
-            must=[
-            models.FieldCondition(
-                key=key,
-                match=models.MatchValue(
-                    value=value,
-                ),
-            ) for key, value in filter.items()
-        ]
-)
+        if filter is not None:
+            query_filter = models.Filter(
+                must=[
+                models.FieldCondition(
+                    key=key,
+                    match=models.MatchValue(
+                        value=value,
+                    ),
+                ) for key, value in filter.items()
+                ]
+            )
 
         query_object = Query(
             content=query,
             dense_vector=embedding_content['dense'],
             sparse_vector=embedding_content['sparse'],
             similarity_top_k=self.top_k,
-            query_filter=filter
+            query_filter=query_filter
         )
 
         result = self.vector_database.query(query_object,self.alpha)
