@@ -65,18 +65,21 @@ class Agent3(BaseAgent):
             vector_database: LawBGEM3QdrantDatabase,
             embedding: BGEEmbedding,
             top_k: int = 10,
-            alpha: float = 0.5
+            alpha: float = 0.5,
+            verbose: bool = False
     ):
         self.vector_database = vector_database
         self.embedding = embedding
         self.top_k = top_k
         self.alpha = alpha
+        self.verbose = verbose
 
         self.retriever = LawRetriever(
             vector_database=self.vector_database,
             embedding=self.embedding,
             top_k=self.top_k,
-            alpha=self.alpha
+            alpha=self.alpha,
+            verbose=self.verbose
         )
     def run(self, query: str, query_filter: Dict = None):
         list_nodes = self.retriever.retrieve(
