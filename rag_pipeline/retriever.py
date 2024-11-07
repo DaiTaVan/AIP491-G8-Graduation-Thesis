@@ -9,16 +9,19 @@ class LawRetriever:
             vector_database: LawBGEM3QdrantDatabase,
             embedding: BGEEmbedding,
             top_k: int = 5,
-            alpha: float = 0.5
+            alpha: float = 0.5,
+            verbose: bool = False
     ):
         self.vector_database = vector_database
         self.embedding = embedding
         self.top_k = top_k 
         self.alpha = alpha
+        self.verbose = verbose
     
     def retrieve(self, query: str, filter: Dict):
 
         embedding_content = self.embedding.embed([query])[0]
+        query_filter = None
         if filter is not None:
             query_filter = models.Filter(
                 must=[
@@ -40,7 +43,9 @@ class LawRetriever:
         )
 
         result = self.vector_database.query(query_object,self.alpha)
-
+        if self.verbose:
+            print("Query:", query)
+            print("Retrieve nodes:",result)
         return result
 
     

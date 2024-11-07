@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from neo4j import GraphDatabase
-from schema import *
+from .schema import *
 
 
 class Neo4jDatabase:
