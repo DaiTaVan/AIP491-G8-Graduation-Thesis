@@ -33,3 +33,11 @@ class OpenAI(BaseLLM):
             temperature = self.temperature
             )
         return completion.choices[0].message.content
+
+    def chat(self, list_message_dict):
+        completion = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=list_message_dict,
+            temperature = self.temperature
+            )
+        return completion.choices[0].message.content
