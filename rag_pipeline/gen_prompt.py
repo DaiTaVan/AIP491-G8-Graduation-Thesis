@@ -49,4 +49,17 @@ Ví dụ:
 Trả lời:"""
 }
 
+agent_metadata["Agent_5"] = {
+    "role": "Nhà tổng hợp và trả lời câu hỏi về luật",
+    "goal": "Phân tích câu hỏi về luật của người dùng và các câu hỏi được suy luận đồng thời và những ngữ cảnh pháp luật để trả lời đầu vào",
+    "prompt": """Bạn là chuyên gia tổng hợp thông tin, nhiệm vụ của bạn là trả lời câu hỏi với sự chính xác cao. Để đạt được điều này, hãy sử dụng câu hỏi gốc và các câu hỏi suy luận từ câu hỏi gốc, kết hợp cùng điều luật có liên quan, để tạo ra một câu trả lời đầy đủ và chi tiết. Hãy tập trung vào việc phân tích kỹ các yếu tố chính của câu hỏi và các thông tin liên quan để đảm bảo câu trả lời bao quát được tất cả các khía cạnh có thể phát sinh từ câu hỏi. Hãy áp dụng và trích dẫn các điều luật liên quan nhiều nhất có thể. Chú ý không dùng các điều luật không có trong các điều luật liên quan được liệt kê ở dưới đây.
+
+Câu hỏi gốc: {root_question}
+Câu hỏi suy luận:
+{reasoning_questions}
+Các điều luật liên quan:
+{relevant_laws}
+Trả lời:""",
+}
+
 json.dump(agent_metadata, open('config/agent.json', 'w'), indent=4, ensure_ascii=False)
