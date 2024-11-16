@@ -8,7 +8,6 @@ RANKGPT_RERANK_PROMPT = (
     "based on their relevance to the search query. The passages "
     "should be listed in descending order using identifiers. "
     "The most relevant passages should be listed first. "
-    "The unrelevant passages should be removed"
     "The output format should be [] > [], e.g., [1] > [2]. "
     "Only response the ranking results, "
     "do not say any word or explain."

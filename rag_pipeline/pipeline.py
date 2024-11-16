@@ -15,6 +15,7 @@ class Pipeline:
             config_path: str,
             openai_api_key: str,
             qdrant_url: str,
+            qdrant_api_key: str,
             bge_m3_model_name_or_path: str,
             neo4j_uri: str,
             neo4j_auth: Tuple,
@@ -26,6 +27,7 @@ class Pipeline:
         self.config_path = config_path
         self.openai_api_key = openai_api_key
         self.qdrant_url = qdrant_url
+        self.qdrant_api_key = qdrant_api_key
         self.bge_m3_model_name_or_path = bge_m3_model_name_or_path
         self.neo4j_uri = neo4j_uri
         self.neo4j_auth = neo4j_auth
@@ -46,7 +48,8 @@ class Pipeline:
         )
 
         self.vector_database = LawBGEM3QdrantDatabase(
-            url = self.qdrant_url
+            url = self.qdrant_url,
+            api_key=self.qdrant_api_key
         )
         self.embedding_model = BGEEmbedding(
                 model_name = self.bge_m3_model_name_or_path
@@ -76,6 +79,8 @@ class Pipeline:
             config = self.config['Agent_2']
         )
         self.agent3 = Agent3(
+            config=self.config['Agent_3'],
+            llm=self.llm_model_1,
             vector_database = self.vector_database,
             embedding = self.embedding_model,
             top_k = self.top_k_retriever,
@@ -94,20 +99,35 @@ class Pipeline:
     def run(self, query: str):
         output_classify = None
         output_analysis = None
+        condition_analysis = None
+        list_retrieved_nodes = []
+        condition_retriever = None
         list_contexts = []
         final_result = ""
 
         output_classify = self.agent1.run(query=query)
         if output_classify == 'Có':
-            output_analysis = self.agent2.run(query=query)
-            for new_query in output_analysis:
-                retrieved_nodes = self.agent3.run(query=new_query)
-                reranked_context = self.agent4.run(list_nodes=retrieved_nodes, query = new_query)
-                list_contexts.append(reranked_context)
+            output_analysis, condition_analysis = self.agent2.run(query=query)
+            if condition_analysis:
+                list_retrieved_nodes, condition_retriever = self.agent3.run(list_query=output_analysis, original_query=query)
+                if condition_retriever:
+                    for new_query, retrieved_nodes in zip(output_analysis, list_retrieved_nodes):
+                        reranked_context = self.agent4.run(list_nodes=retrieved_nodes, query = new_query)
+                        list_contexts.append(reranked_context)
+            else:
+                list_retrieved_nodes, condition_retriever = self.agent3.run(list_query=[query], original_query=query)
+                if condition_retriever:
+                    reranked_context = self.agent4.run(list_nodes=list_retrieved_nodes[0], query = query)
+                    list_contexts.append(reranked_context)
             
-            final_result = self.agent5.run(query=query, list_contexts=list_contexts)
+            final_result = self.agent5.run(query=query, list_contexts=list_contexts, condition_analysis = condition_analysis, condition_retriever = condition_retriever)
         else:
             print("No support")
             final_result = "Câu hỏi của bạn có vẻ không liên quan đến Luật. Hãy hỏi lại hoặc miêu tả rõ hơn."
         
-        return final_result, list_contexts
+        return {
+            'final_result':final_result, 
+            'condition_analysis': condition_analysis,
+            'condition_retriever': condition_retriever,
+            'list_contexts': list_contexts
+        }

@@ -27,10 +27,12 @@ class LawBGEM3QdrantDatabase:
 
     def __init__(
             self,
-            url: str
+            url: str,
+            api_key: str
     ):  
         self.url = url
-        self.client = QdrantClient(url=self.url)
+        self.api_key = api_key
+        self.client = QdrantClient(url=self.url, api_key= self.api_key)
         self.aclient = AsyncQdrantClient(url=self.url)
         if not self.check_database_exist():
             self.create_databse()

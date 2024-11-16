@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, List
 from qdrant_client import models
 from vector_database import LawBGEM3QdrantDatabase, Query
 from embedding import BGEEmbedding
@@ -18,9 +18,9 @@ class LawRetriever:
         self.alpha = alpha
         self.verbose = verbose
     
-    def retrieve(self, query: str, filter: Dict):
+    def retrieve(self, list_query: List[str], filter: Dict):
 
-        embedding_content = self.embedding.embed([query])[0]
+        list_embedding_content = self.embedding.embed(list_query)
         query_filter = None
         if filter is not None:
             query_filter = models.Filter(
@@ -33,19 +33,22 @@ class LawRetriever:
                 ) for key, value in filter.items()
                 ]
             )
+        list_result = []
+        for query, embedding_content in zip(list_query, list_embedding_content):
+            query_object = Query(
+                content=query,
+                dense_vector=embedding_content['dense'],
+                sparse_vector=embedding_content['sparse'],
+                similarity_top_k=self.top_k,
+                query_filter=query_filter
+            )
 
-        query_object = Query(
-            content=query,
-            dense_vector=embedding_content['dense'],
-            sparse_vector=embedding_content['sparse'],
-            similarity_top_k=self.top_k,
-            query_filter=query_filter
-        )
+            result = self.vector_database.query(query_object,self.alpha)
+            list_result.append(result)
+            if self.verbose:
+                print("Query:", query)
+                print("Retrieve nodes:",result)
 
-        result = self.vector_database.query(query_object,self.alpha)
-        if self.verbose:
-            print("Query:", query)
-            print("Retrieve nodes:",result)
-        return result
+        return list_result
 
     
