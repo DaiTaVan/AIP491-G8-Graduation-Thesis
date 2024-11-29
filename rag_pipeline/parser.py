@@ -1,3 +1,5 @@
+import re
+
 class SentenceSplitter:
     def __init__(
             self,
@@ -32,6 +34,69 @@ class SentenceSplitter:
     
     def _token_size(self, text: str) -> int:
         return len(self.tokenizer(text)['input_ids'])
+
+
+
+def parse_law(text):
+    # Kết quả lưu cấu trúc phân cấp
+    law_structure = {}
+    
+    # Biến tạm lưu điều hiện tại
+    current_article = None
+    current_section = None
+
+    # Chia văn bản thành từng dòng để xử lý
+    lines = text.split("\n")
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        # Xác định Điều
+        article_match = re.match(r"^\u0110iều (\d+)\. (.+)$", line)
+        if article_match:
+            article_number = article_match.group(1)
+            article_title = article_match.group(2)
+            current_article = {
+                "title": f"\u0110iều {article_number}: {article_title}",
+                "sections": {}
+            }
+            law_structure[f"\u0110iều {article_number}"] = current_article
+            current_section = None
+            continue
+
+        # Xác định Khoản
+        section_match = re.match(r"^(\d+)\. (.+)$", line)
+        if section_match and current_article is not None:
+            section_number = section_match.group(1)
+            section_content = section_match.group(2)
+            current_section = {
+                "content": f"Khoản {section_number}. {section_content}",
+                "subsections": []
+            }
+            current_article["sections"][section_number] = current_section
+            continue
+
+        # Xác định Mục con
+        subsection_match = re.match(r"^([a-z])\) (.+)$", line)
+        if subsection_match and current_section is not None:
+            subsection_number = subsection_match.group(1)
+            subsection_content = subsection_match.group(2)
+            current_section["subsections"].append(f"Mục {subsection_number}) {subsection_content}")
+            continue
+
+        # Nội dung khác (thêm vào nội dung của khoản hoặc mục con trước đó)
+        if current_section:
+            if current_section["subsections"]:
+                if "Điều này có nội dung liên quan đến"  not in line:
+                    current_section["subsections"][-1] += f"\n{line}"
+            else:
+                if "Điều này có nội dung liên quan đến"  not in line:
+                    current_section["content"] += f"\n{line}"
+
+    return law_structure
+
 
 if __name__ == '__main__':
     from transformers import AutoTokenizer

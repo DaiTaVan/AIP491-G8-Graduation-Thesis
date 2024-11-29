@@ -55,6 +55,7 @@ class Agent2(BaseAgent):
         completion_condition_result = self.llm.generate(
             query = completion_condition_query
         )
+        print("analysis condition result:", completion_condition_result)
         list_new_questions = []
         # completion_condition_result = "Có"
         if completion_condition_result == "Có":
@@ -101,7 +102,7 @@ class Agent3(BaseAgent):
         completion_condition_result = self.llm.generate(
             query = completion_condition_query
         )
-
+        print("retriever condition result:", completion_condition_result)
         list_result = []
         if completion_condition_result == "Có":
             list_result = self.retriever.retrieve(

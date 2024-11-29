@@ -1,6 +1,6 @@
 from typing import Tuple
 import json
-from llm import OpenAI
+from llm import OpenAI, Qwen
 from vector_database import LawBGEM3QdrantDatabase
 from embedding import BGEEmbedding
 from reranker import RankGPTRerank
@@ -47,6 +47,9 @@ class Pipeline:
             model_name = "gpt-4o-mini"
         )
 
+        # self.llm_model_1 = Qwen(temperature=0.7, min_p=0.2, max_new_tokens=4096)
+        # self.llm_model_2 = Qwen(url = 'http://localhost:8000/generate', temperature=0.7, top_p=0.8, max_new_tokens=2048)
+
         self.vector_database = LawBGEM3QdrantDatabase(
             url = self.qdrant_url,
             api_key=self.qdrant_api_key
@@ -56,7 +59,7 @@ class Pipeline:
             )
         self.rerank = RankGPTRerank(
             top_n = self.top_n_rerank,
-            llm = self.llm_model_2,
+            llm = self.llm_model_1,
             verbose = self.verbose
         )
 
@@ -71,7 +74,7 @@ class Pipeline:
             self.config = json.load(f1)
         
         self.agent1 = Agent1(
-            llm = self.llm_model_2,
+            llm = self.llm_model_1,
             config = self.config['Agent_1']
         )
         self.agent2 = Agent2(
