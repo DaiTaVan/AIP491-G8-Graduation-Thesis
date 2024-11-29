@@ -54,17 +54,31 @@ def parse_law(text):
             continue
 
         # Xác định Điều
-        article_match = re.match(r"^\u0110iều (\d+)\. (.+)$", line)
+        article_match = re.match(r"^Điều (.+)\. (.+)$", line)
         if article_match:
             article_number = article_match.group(1)
             article_title = article_match.group(2)
             current_article = {
-                "title": f"\u0110iều {article_number}: {article_title}",
+                "title": f"Điều {article_number}: {article_title}",
+                "content":"",
                 "sections": {}
             }
-            law_structure[f"\u0110iều {article_number}"] = current_article
+            law_structure[f"Điều {article_number}"] = current_article
             current_section = None
             continue
+        else:
+            article_match = re.match(r"^Điều (.+)\.$", line)
+            if article_match:
+                article_number = article_match.group(1)
+                # article_title = article_match.group(2)
+                current_article = {
+                    "title": f"Điều {article_number}",
+                    "content":"",
+                    "sections": {}
+                }
+                law_structure[f"\u0110iều {article_number}"] = current_article
+                current_section = None
+                continue
 
         # Xác định Khoản
         section_match = re.match(r"^(\d+)\. (.+)$", line)
@@ -91,9 +105,23 @@ def parse_law(text):
             if current_section["subsections"]:
                 if "Điều này có nội dung liên quan đến"  not in line:
                     current_section["subsections"][-1] += f"\n{line}"
+                else:
+                    return law_structure
             else:
                 if "Điều này có nội dung liên quan đến"  not in line:
                     current_section["content"] += f"\n{line}"
+                else:
+                    return law_structure
+        else:
+            if "Điều này có nội dung liên quan đến"  not in line:
+                try:
+                    current_article["content"] += f"{line}\n"
+                except:
+                    print(current_article)
+                    print(line)
+                    raise Exception
+            else:
+                return law_structure
 
     return law_structure
 
