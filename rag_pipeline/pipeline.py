@@ -117,7 +117,7 @@ class Pipeline:
                     for new_query, retrieved_nodes in zip(output_analysis, list_retrieved_nodes):
                         reranked_context = self.agent4.run(list_nodes=retrieved_nodes, query = new_query)
                         list_contexts.append(reranked_context)
-            else:
+            else:   
                 list_retrieved_nodes, condition_retriever = self.agent3.run(list_query=[query], original_query=query)
                 if condition_retriever:
                     reranked_context = self.agent4.run(list_nodes=list_retrieved_nodes[0], query = query)

@@ -2,7 +2,7 @@ from typing import Dict, List
 from abc import abstractmethod
 import json
 from llm import BaseLLM
-from vector_database import LawBGEM3QdrantDatabase, Node
+from vector_database import LawBGEM3QdrantDatabase, NodeWithScore
 from embedding import BGEEmbedding
 from retriever import LawRetriever
 from reranker import RankGPTRerank
@@ -47,25 +47,30 @@ class Agent2(BaseAgent):
     ):
         self.llm = llm
         self.config = config
-        self.condition_prompt = self.config['condition_prompt']
+        # self.condition_prompt = self.config['condition_prompt']
         self.prompt = self.config['prompt']
-    
     def run(self, query):
-        completion_condition_query = self.condition_prompt.format(input = query)
-        completion_condition_result = self.llm.generate(
-            query = completion_condition_query
+        completion_query = self.prompt.format(input = query)
+        completion_result = self.llm.generate(
+            query = completion_query
         )
-        print("analysis condition result:", completion_condition_result)
-        list_new_questions = []
-        # completion_condition_result = "Có"
-        if completion_condition_result == "Có":
-            completion_query = self.prompt.format(input = query)
-            completion_result = self.llm.generate(
-                query = completion_query
-            )
-            list_new_questions = completion_result.split('\n')
+        return completion_result
+    # def run(self, query):
+    #     completion_condition_query = self.condition_prompt.format(input = query)
+    #     completion_condition_result = self.llm.generate(
+    #         query = completion_condition_query
+    #     )
+    #     print("analysis condition result:", completion_condition_result)
+    #     list_new_questions = []
+    #     # completion_condition_result = "Có"
+    #     if completion_condition_result == "Có":
+    #         completion_query = self.prompt.format(input = query)
+    #         completion_result = self.llm.generate(
+    #             query = completion_query
+    #         )
+    #         list_new_questions = completion_result.split('\n')
 
-        return list_new_questions, completion_condition_result == "Có"
+    #     return list_new_questions, completion_condition_result == "Có"
 class Agent3(BaseAgent):
     """
     Tìm kiếm luật
@@ -97,7 +102,6 @@ class Agent3(BaseAgent):
             verbose=self.verbose
         )
     def run(self, list_query: List[str], query_filter: Dict = None, original_query: str=""):
-        
         completion_condition_query = self.condition_prompt.format(input = original_query)
         completion_condition_result = self.llm.generate(
             query = completion_condition_query
@@ -108,7 +112,6 @@ class Agent3(BaseAgent):
             list_result = self.retriever.retrieve(
                 list_query=list_query,
                 filter=query_filter,
-
             )
         return list_result, completion_condition_result == "Có"
 
@@ -124,13 +127,11 @@ class Agent4(BaseAgent):
         self.rerank = rerank
         self.graph_database = graph_database
     
-    def run(self, list_nodes: List[Node], query: str):
-        
+    def run(self, list_nodes: List[NodeWithScore], query: str):
         new_list_nodes = self.rerank._postprocess_nodes(
             nodes=list_nodes,
             query=query
         )
-
         node_ids = []
         node_titles = []
         for node in new_list_nodes:
@@ -141,8 +142,8 @@ class Agent4(BaseAgent):
         
         list_dieu_luat = [self.get_dieu_luat_theo_id(node_id) for node_id in node_ids]
 
-
-
+        dict_dieu_luat_lien_quan =  {node_id: self.get_dieu_luat_lien_quan_theo_id(node_id) for node_id in node_ids}
+        
         contexts = [(node_id, self.get_context_by_dieu_luat(dieu_luat, node_title)) for node_id, dieu_luat, node_title in zip(node_ids, list_dieu_luat, node_titles)]
 
         return {
@@ -180,6 +181,33 @@ class Agent4(BaseAgent):
             result = session.run(query).data()[0]['n']['title']
         return result
     
+    def get_dieu_luat_lien_quan_theo_id(self, dieu_id: str):
+        query = f"MATCH (n:DieuPhapDien {{id: \'{dieu_id}\'}})-[r:RELATE_TO]->(m) RETURN m"
+        with self.graph_database.driver.session() as session:
+            result = session.run(query).data()
+            result = [ele["m"] for ele in result]
+        return result
+    
+    def get_parent_of_dieu_luat_by_id(self, dieu_id: str):
+    
+        def _get_parent_of_node(node_id: str, node_type: str):
+            query = f"MATCH (n:{node_type} {{id:\'{node_id}\'}})-[r:BELONG_TO]->(m) RETURN m"
+            with self.graph_database.driver.session() as session:
+                result = session.run(query).data()[0]['m']
+            return result
+        
+        parent_dict = {}
+
+        node_id = dieu_id
+        node_type = 'DieuPhapDien'
+        while node_type != 'BoPhapDien':
+            parent_node = _get_parent_of_node(node_id, node_type)
+            node_id = parent_node['id']
+            node_type = parent_node['label']
+            parent_dict[node_type] = parent_node
+
+        return parent_dict
+    
 
 class Agent5(BaseAgent):
     """
@@ -193,57 +221,56 @@ class Agent5(BaseAgent):
         self.llm = llm
         self.config = config
         self.prompt = self.config['prompt']
-        self.prompt_have_revevant_laws_no_reasoning_questions = \
-            self.config['prompt_have_revevant_laws_no_reasoning_questions']
-        self.prompt_have_reasoning_questions_no_relevant_laws = \
-            self.config['prompt_have_reasoning_questions_no_relevant_laws']
-        self.prompt_no_reasoning_questions_no_relevant_laws = \
-            self.config['prompt_no_reasoning_questions_no_relevant_laws']
 
-
-    def run(self, query: str, list_contexts: List, condition_analysis: bool, condition_retriever: bool):
-        
-        reasoning_questions = ''
-        relevant_laws = ''
-
-        if condition_analysis:
-            reasoning_questions = "\n".join([ele['question'] for ele in list_contexts])
-        if condition_retriever:
-            list_ids = []
-            list_text_of_contexts = []
-            for element in list_contexts:
-                for sub_element in element['contexts']:
-                    if sub_element[0] not in list_ids:
-                        list_ids.append(sub_element[0])
-                        list_text_of_contexts.append(sub_element[1])
-
-            relevant_laws = "\n".join(list_text_of_contexts)
-
-        completion_query = ''
-        if condition_analysis and condition_retriever:
-
-            completion_query = self.prompt.format(
-                root_question = query, 
-                reasoning_questions = reasoning_questions, 
-                relevant_laws = relevant_laws
-            )
-        elif condition_analysis and not condition_retriever:
-            completion_query = self.prompt_have_reasoning_questions_no_relevant_laws.format(
-                root_question = query, 
-                reasoning_questions = reasoning_questions, 
-            )
-        elif not condition_analysis and condition_retriever:
-            completion_query = self.prompt_have_revevant_laws_no_reasoning_questions.format(
-                root_question = query, 
-                relevant_laws = relevant_laws
-            )
-        else:
-            completion_query = self.prompt_no_reasoning_questions_no_relevant_laws.format(
-                root_question = query,
-            )
+    def run(self, context_str, query):
+        completion_query = self.prompt.format(context_str = context_str,query_str = query)
         completion_result = self.llm.generate(
             query = completion_query
         )
-
-
         return completion_result
+    # def run(self, query: str, list_contexts: List, condition_analysis: bool, condition_retriever: bool):
+        
+    #     reasoning_questions = ''
+    #     relevant_laws = ''
+
+    #     if condition_analysis:
+    #         reasoning_questions = "\n".join([ele['question'] for ele in list_contexts])
+    #     if condition_retriever:
+    #         list_ids = []
+    #         list_text_of_contexts = []
+    #         for element in list_contexts:
+    #             for sub_element in element['contexts']:
+    #                 if sub_element[0] not in list_ids:
+    #                     list_ids.append(sub_element[0])
+    #                     list_text_of_contexts.append(sub_element[1])
+
+    #         relevant_laws = "\n".join(list_text_of_contexts)
+
+    #     completion_query = ''
+    #     if condition_analysis and condition_retriever:
+
+    #         completion_query = self.prompt.format(
+    #             root_question = query, 
+    #             reasoning_questions = reasoning_questions, 
+    #             relevant_laws = relevant_laws
+    #         )
+    #     elif condition_analysis and not condition_retriever:
+    #         completion_query = self.prompt_have_reasoning_questions_no_relevant_laws.format(
+    #             root_question = query, 
+    #             reasoning_questions = reasoning_questions, 
+    #         )
+    #     elif not condition_analysis and condition_retriever:
+    #         completion_query = self.prompt_have_revevant_laws_no_reasoning_questions.format(
+    #             root_question = query, 
+    #             relevant_laws = relevant_laws
+    #         )
+    #     else:
+    #         completion_query = self.prompt_no_reasoning_questions_no_relevant_laws.format(
+    #             root_question = query,
+    #         )
+    #     completion_result = self.llm.generate(
+    #         query = completion_query
+    #     )
+
+
+    #     return completion_result

@@ -1,5 +1,6 @@
 from typing import List
 from FlagEmbedding import BGEM3FlagModel
+import torch
 
 
 class BGEEmbedding:
@@ -8,12 +9,12 @@ class BGEEmbedding:
             model_name: str,
             max_length: int = 8192,
             use_fp16: bool = True,
-            device: str = 'cuda'
+            device: str = None
     ):
         self.model_name = model_name
         self.max_length = max_length
         self.use_fp16 = use_fp16
-        self.device = device
+        self.device = device or ('cuda' if torch.cuda.is_available() else 'cpu')
     
         self.model = BGEM3FlagModel(
             model_name_or_path=self.model_name,  

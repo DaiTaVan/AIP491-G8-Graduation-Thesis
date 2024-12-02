@@ -44,7 +44,7 @@ class LawRetriever:
             )
 
             result = self.vector_database.query(query_object,self.alpha)
-            list_result.append(result)
+            list_result.extend(result)
             if self.verbose:
                 print("Query:", query)
                 print("Retrieve nodes:",result)
