@@ -1,0 +1,352 @@
+[
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 7 giờ ngày 07/3/2024, Lò Tuấn L mang theo 300.000 đồng để tìm mua heroin tại bản Ông Lý, xã Chiềng Khừa, huyện Mộc Châu. Sau khi mua được 0,16 gam heroin từ một người đàn ông lạ mặt, L bị tổ công tác Công an huyện Yên Châu phát hiện và bắt quả tang khi về đến bản Tà Làng Trung, xã Tú Nang, huyện Yên Châu",
+        "answer": "[Tội danh:] Tàng trữ trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Phạm Văn X và ông Bùi Quang T có quan hệ họ hàng, sinh sống gần nhà nhau tại khu phố L, phường A, thành phố A, tỉnh Bình Dương. Từ năm 2017, giữa hai gia đình thường xuyên xảy ra mâu thuẫn với nhau do tranh chấp đất đai. Vào ngày 19/02/2023, Phạm Văn X đã dùng búa sắt đánh vào đầu ông Bùi Quang T, gây thương tích 1% và gãy xương ức 8%.",
+        "answer": "[Tội danh:] Cố ý gây thương tích"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 10/5/2022, Nguyễn Văn A đã trộm cắp 01 chiếc xe máy hiệu Future Neo, biển số 61F1-567.89 của anh Lê Văn B, đang để tại trước cửa nhà. Khi bị phát hiện, A đã đâm anh B 01 nhát dao khiến anh B bị thương tích.",
+        "answer": "[Tội danh:] Cướp tài sản, cố ý gây thương tích"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Sự kiện: Tòa án nhân dân cấp cao tại Đà Nẵng, trong bản án số 26/2020/HSPT, đã xét xử phúc thẩm vụ án hình sự thụ lý số 102/2019/HSPT liên quan đến bị cáo Hoàng Thị Kim L.Tình tiết liên quan:\n•        Thời gian phạm tội: Từ tháng 12 năm 2016 đến tháng 10 năm 2017.\n•        Hành vi phạm tội: Hoàng Thị Kim L đã tiếp xúc và làm quen với các nạn nhân (bà Trần Thị Đ, bà Cái Thị Xuân H, bà Đinh Thị Hồng H1, bà Hồ Thị Việt H2, bà Nguyễn Thị N, bà Nguyễn Thị Xuân H3) và lừa đảo họ bằng cách cung cấp thông tin giả về việc đầu tư vào Công ty xăng dầu P tại Đà Nẵng.\n•        Giấy tờ giả: Hoàng Thị Kim L đã in sao nhiều loại giấy tờ giả (hợp đồng chuyển nhượng cổ phần, chứng nhận sở hữu cổ phần, biên bản ngừng nhận ủy thác nhập khẩu xăng dầu, v.v.) để tạo lòng tin cho các nạn nhân.\n•        Số tiền chiếm đoạt: Tổng cộng chiếm đoạt 65.515.017.400 đồng từ các nạn nhân thông qua hình thức vay tiền.",
+        "answer": "[Tội danh :] Lừa đảo chiếm đoạt tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Sự kiện:** Tòa án nhân dân cấp cao tại Đà Nẵng, trong bản án số 42/2020/HSPT, đã xét xử phúc thẩm vụ án hình sự thụ lý số 72/2019/TLPT-HS liên quan đến bị cáo Lê Ngọc A và đồng phạm.\n\n**Tình tiết liên quan:**\n- **Thời gian phạm tội:** Từ tháng 3 năm 2018 đến tháng 8 năm 2018.\n- **Hành vi phạm tội:** Lê Ngọc A cùng với các đồng phạm đã thực hiện 07 vụ trộm cắp dây cáp điện tại nhiều công ty khác nhau.\n- **Tổng giá trị tài sản chiếm đoạt:** 841.793.835 đồng.\n- **Cách thức thực hiện:** Các bị cáo sử dụng xe môtô để di chuyển đến các địa điểm trộm cắp, phân công người cảnh giới và đột nhập vào các công trình để cắt trộm dây cáp điện. Sau khi trộm được, họ bán dây cáp cho một tiệm phế liệu.",
+        "answer": "[Tội danh: ]Trộm cắp tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 00 giờ 50 phút ngày 25/4/2024, tại quán I thuộc xóm N, xã H, thành phố V, tỉnh Nghệ An, bị cáo Nguyễn Anh T đã lợi dụng sơ hở của chủ sở hữu để lén lút trộm cắp 01 chiếc xe mô tô nhãn hiệu Honda Wave Alpha, trị giá 16.000.000 đồng của anh Trần Tiến M.",
+        "answer": "[Tội danh: ]Trộm cắp tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 10 giờ 00 ngày 27/02/2011, Nguyễn Đăng T, vì ghen ghét và đố kỵ với chị Vũ Thị Hoàng A sau khi bị từ chối, đã mang dao đến nhà của chị A và đâm chị A nhiều nhát,导致 chị A chết vì choáng mất máu cấp do bị đâm gây thủng tim, phổi, gan, lách, dạ dày.",
+        "answer": "[Tội danh]: Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo là Nguyễn Văn A, sinh năm 1987, trú tại tỉnh Hải Dương.\n- Bị cáo có hành vi sử dụng tài khoản mạng xã hội Facebook để đăng tải thông tin sai lệch, xuyên tạc, vu khống, xúc phạm uy tín của cơ quan, tổ chức, cá nhân.\n- Cụ thể, bị cáo đã đăng tải 2 bài viết:\n    - Bài viết 1: Nêu thông tin sai lệch về việc chính quyền địa phương có hành vi tiêu cực, gây ảnh hưởng xấu đến uy tín của cơ quan, tổ chức.\n    - Bài viết 2: Vu khống một cá nhân có hành vi phạm tội, làm ảnh hưởng nghiêm trọng đến danh dự, nhân phẩm của người bị hại.",
+        "answer": "[Tội danh:]Phá hoại hòa bình, trật tự, an ninh xã hội"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Sự kiện:\n•\tBị cáo Phan Thị Minh T có mối quan hệ vay mượn tiền của bà Nguyễn Thị Kim D, đến ngày 21/3/2013, T đã vay của bà D tổng số tiền là 1,3 tỷ đồng.\n•\tNgày 21/5/2013, bà D yêu cầu T viết giấy bán căn nhà và bán xe ô tô cho bà D để ràng buộc T trả nợ.\n•\tSau đó, T tiếp tục mượn của bà D 450 triệu đồng.\n•\tNgày 17/9/2013, bà D yêu cầu T bán xe ô tô 75A-02XXX cho bà D để trừ bớt nợ.\n•\tT đã dùng xe ô tô 75A-02XXX, vốn đã bán cho bà D, để lừa bán cho bà Trịnh Thị Hoài U và cầm cố cho anh Lê Lương V, chiếm đoạt tổng cộng 650 triệu đồng.\n•\tT còn lừa vay của anh V 1,1 tỷ đồng để đáo hạn Ngân hàng W.",
+        "answer": "[Tội danh:] Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Từ tháng 5/2009 đến tháng 8/2009, Ngô Doãn P cùng các đồng phạm đã mua 2 xe ô tô HUMMER và LEXUS từ Lào với giá rẻ, nhập lậu vào Việt Nam dưới dạng tạm nhập tái xuất.\n- Các bị cáo đã dùng thủ đoạn hợp pháp hóa giấy tờ đăng ký cho các xe này bằng cách tạo lập hồ sơ bắt giữ hành chính 4 xe ô tô cũ nát, sau đó bán lại cho người khác để thu lợi bất chính.\n- Tổng giá trị 2 xe ô tô là 4.204.100.000 đồng.",
+        "answer": "[Tội danh:]Buôn lậu"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 16/12/2016, tại bản C, xã L, huyện V, tỉnh Sơn La, Hàng Thị D bị phát hiện và bắt quả tang khi đang vận chuyển 08 bánh bột nén màu trắng,weight 2.446,36 gam, là chất ma túy loại hêrôin.\n- D khai nhận được Sùng A S thuê vận chuyển ma túy và sẽ trả tiền công.\n- D vận chuyển ma túy từ nhà S đến nương ngô gần bản C để giao cho Mùa A T, nhưng sau đó lấy lại ma túy để trả cho S vì người mua chưa mua.",
+        "answer": "[Tội danh:]Vận chuyển trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 17/6/2016, tại khu nhà cho thuê trọ của ông Nguyễn Minh D tại xóm Đ (xã S, huyện P, tỉnh Thái Nguyên), công an phát hiện Bùi Văn H có 01 gói chứa chất bột màu trắng, bên ngoài bọc túi nilon màu đen ký hiệu “H”.\n- H khai nhận chất bột trên là Heroin mới mua của Cao Ngọc L tại khu vực đường tròn T, thành phố T mục đích bán lại kiếm lời nhưng chưa trả tiền thì bị phát hiện bắt giữ.\n- Tiến hành kiểm tra và khám xét khẩn cấp nơi ở của Cao Ngọc L, Cơ quan điều tra phát hiện thu giữ 08 gói giấy bạc bên trong đều chứa chất bột màu trắng ký hiệu “Kl”.\n- Kết quả giám định xác định chất bột màu trắng trong các mẫu “H” và “Kl” gửi giám định đều có thành phần Heroin.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo Hà Huy T, sinh năm 1986, trú tại khu chợ R, xã T, huyện C, Hà Nội.\n- Vào khoảng 02h00’ ngày 12-12-2010, T cùng với Nguyễn Quyết T3, Trịnh Bá H và Trịnh Thúc C1 đi xe máy đến khu vực bến xe Mỹ Đình để tìm đánh bọn H “cu” vì trước đó T3 bị H và đồng bọn bắt giữ, đánh đập và lấy tiền.\n- Khi đến nơi, thấy một nhóm người đang đánh bạc, T3, T, C1 và H cầm hung khí (02 đao và 02 tuýp sắt có gắn dao nhọn) chạy đến đám bạc.\n- Anh Mai Văn T2 cùng một số người đang đánh bạc liền bỏ chạy. Mặc dù biết rõ anh T1 không tham gia vào việc bắt giữ, đánh đập và lấy tiền của mình, nhưng khi thấy anh T1 bỏ chạy về hướng tường rào phía Nam của bến xe thì T3, T và C1 vẫn đuổi theo truy sát.\n- Các bị cáo đã sử dụng tuýp phóng lợn và đao đâm chém gây vết thương thấu ổ bụng làm đứt động mạch chậu, đứt động mạch khoeo và động mạch chày trái làm anh T1 bị chết.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo Đàm Nguyễn N, sinh năm 1960, đã thực hiện hành vi hiếp dâm cháu Nông Thị Thu L, sinh ngày 28/10/2012.\n- Vào khoảng 17 giờ 00 ngày 09/3/2017, N đã giao cấu với cháu L tại nhà hoang, sau đó cõng cháu về nhà.\n- Khi về đến nhà, cháu L bị phát hiện có vết thương ở bộ phận sinh dục và được đưa đến bệnh viện điều trị.",
+        "answer": "[Tội danh: ]Hiếp dâm trẻ em"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 09/8/2016, tại khu vực cầu H (xã H, huyện V, tỉnh Thái Nguyên), Công an bắt quả tang Đinh Văn S đang có trong người 01 bánh heroin trọng lượng 347,96g và 02g heroin.\n- S khai nhận đã mua số heroin trên từ Phạm Thanh S1 với giá 200.000.000đ để bán lại cho một người tên Q với mục đích kiếm lời.\n- Kết quả giám định xác định tổng cộng 184,538 gam tinh chất heroin.",
+        "answer": "[Tội danh: ]Mua bán trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo Nguyễn Thành Đ, sinh ngày 05/9/1975, là Chấp hành viên Chi cục Thi hành án dân sự huyện Ch, tỉnh Tiền Giang.\n- Từ năm 2009 đến tháng 04/2014, Đ đã thu tiền của những người phải thi hành án dân sự nhưng không nộp hoặc chỉ nộp một phần vào quỹ, chiếm đoạt và tiêu dùng cá nhân.\n- Cụ thể, Đ đã chiếm đoạt của 19 trường hợp với tổng số tiền 200.641.250 đồng và không nộp vào quỹ số tiền thu được từ 41 biên lai thu nộp vào Ngân sách Nhà nước và chi bồi thường cho công dân, tổng cộng 682.825.097 đồng.",
+        "answer": "[Tội danh: ]Lạm dụng chức vụ, quyền hạn chiếm đoạt tài sản\n Tham ô tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "•\tVào khoảng 10 giờ 00 ngày 22/5/2016, tại khu vực hồ SL thuộc xã Th7, huyện Đ1, tỉnh Bình Phước, Nh1 điện thoại nhờ Phạm Thanh H đến nhà Mã Minh H4 đón về.\n•\tH đi đến gặp Nh1, H4 và T2, nhưng sau đó xảy ra mâu thuẫn và T2 ném đá vào H, khiến H bỏ chạy.\n•\tSau đó, H cùng với các đồng phạm khác đã hẹn nhóm của H4 gặp tại ấp Th8 1, xã Th9, huyện Đ1, tỉnh Bình Phước để nói chuyện, nhưng dẫn đến vụ tấn công và đâm chết T2.",
+        "answer": "[Tội danh: ]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 21 giờ ngày 15/9/2016, tại khu vực Cầu C, xã T, huyện T, tỉnh Quảng Nam, Phạm Huỳnh Đ, Lê Xuân D, Dương Vĩnh L và Nguyễn Đình P đã xảy ra mâu thuẫn và xô xát với nhau.\n- Phạm Huỳnh Đ, Lê Xuân D và Dương Vĩnh L đã đuổi đánh Nguyễn Đình P, P chạy xuống sông và bị ngạt nước chết.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Từ tháng 01/2011 đến tháng 3/2016, Lê Văn T, cán bộ Phòng PC68 Công an tỉnh Quảng Ngãi, được phân công làm kế toán kiêm thủ quỹ.\n- T đã lợi dụng nhiệm vụ được giao, không nhập tiền vào sổ quỹ của đơn vị mà bỏ ngoài sổ sách để chiếm đoạt số tiền 1.364.476.932 đồng.\n- T đã chiếm đoạt 1.259.650.382 đồng kinh phí hoạt động của đơn vị và 104.826.550 đồng kinh phí thuộc nguồn ngân sách chi trả chế độ chính sách cán bộ, chiến sĩ.",
+        "answer": "[Tội danh: ]Tham ô tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào lúc 22 giờ 00 ngày 19/5/2016, tại ngã ba đường T – đường N, phường T, thành phố N, Công an bắt quả tang Phùng Văn Th1 và Huỳnh Thị Mỹ Th2 đang cất giấu trái phép chất ma túy.\n- Cơ quan công an thu giữ được tổng cộng 42,974 gam ma túy các loại từ Th1, Th2 và tại nơi ở của Phan Hải Th.\n- Phan Hải Th là người cầm đầu, trực tiếp mua ma túy từ TP.HCM rồi gửi về Nha Trang cho Th1 nhận và cất giữ. Th1 và Th2 là người giúp sức, trực tiếp giao ma túy và thu tiền từ người nghiện.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 18 giờ ngày 25/12/2015, tại quán karaoke H ở thị trấn P, huyện Đ, tỉnh Nghệ An, Ngô Công T và ông Trần Đình S cùng uống rượu.\n- Trong lúc uống rượu, T và S xảy ra mâu thuẫn.\n- T đã dùng tay đánh vào mặt S, sau đó dùng chân đạp vào ngực S khiến S ngã xuống nền nhà.\n- Hậu quả là S bị chấn thương sọ não, dẫn đến tử vong sau đó tại bệnh viện.\n- Kết quả giám định pháp y kết luận nguyên nhân tử vong của S là do chấn thương sọ não.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 27/9/2016, Tổ công tác của Phòng Cảnh sát điều tra tội phạm về ma túy - Công an tỉnh Yên Bái phát hiện và bắt giữ Ngân Văn Tr và Thào A P tại ngã ba đường T – đường N, phường T, thành phố N, tỉnh Yên Bái.\n- Tại thời điểm bắt giữ, Tr đang cất giấu 01 gói nilón màu trắng bên trong có chứa chất bột nén màu trắng (nghi là hêrôin) và 01 điện thoại di động, nhãn hiệu OPPO vỏ máy màu đen đã qua sử dụng.\n- P cất giấu 01 xe mô tô nhãn hiệu YAMAHA BKS 21 G1-082.25 và 02 điện thoại di động, trong đó: 01 chiếc nhãn hiệu OPPO màn hình cảm ứng,",
+        "answer": "[Tội danh:]Tàng trữ trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 19/01/2015, tại khu vực thôn Tòng Chú 3, xã Cốc S1, huyện Bát X, tỉnh Lào Cai, Tổ công tác thuộc Phòng Cảnh sát điều tra tội phạm về ma túy Công an tỉnh Lào Cai phát hiện và bắt giữ Quàng Thị Đ với 03 bánh ma túy hêrôin, tổng trọng lượng 1.043,04 gam.\n- Quàng Thị Đ khai nhận đã được một người phụ nữ tên O thuê mang bao tải đựng miến và hộp thịt trâu khô từ Điện Biên đến Lào Cai với giá 6 triệu đồng.",
+        "answer": "[Tội danh:]Vận chuyển trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 22 giờ ngày 03/06/2013, sau khi nhậu xong, nhóm của Phạm Văn C1 (gồm C1, Nguyễn Anh T3, Vắn Nhật B và Đinh Công Thế H) xảy ra va chạm giao thông với Lê Minh N1.\n- Hai bên xảy ra cự cãi, dẫn đến ẩu đả.\n- Lê Văn T1 (bảo vệ chợ) can ngăn, bị nhóm của H tấn công, sau đó T1 dùng cây gắp than đánh trả.\n- Trương Hoàng N (con của chủ quán cơm nơi N1 làm thuê) dùng vỉ nướng thịt bằng kim loại đánh vào đầu H một cái, khiến H ngã xuống đường.\n- H được đưa đi cấp cứu nhưng đã tử vong vào ngày hôm sau.\n- Nguyên nhân tử vong được xác định là do vết thương và chấn thương sọ não.",
+        "answer": "[Tội danh:]Cố ý gây thương tích"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 10 tháng 5 năm 2018, tại khu vực đường phố ở thành phố Hà Nội, Biện Xuân T và Nguyễn Hoàng L đã thực hiện hành vi mua bán trái phép chất ma túy. Cụ thể, họ đã bán 2 gói heroin có trọng lượng 10,2 gam cho một người đàn ông tên là Nguyễn Văn H. Quá trình mua bán diễn ra tại một quán cà phê ở gần đó. Sau khi nhận tiền, T và L đã bị lực lượng công an bắt giữ. Tại thời điểm bị bắt, họ đã thừa nhận hành vi mua bán trái phép chất ma túy và khai nhận đã bán heroin cho nhiều người khác trước đó.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Hà Ngọc L ở trọ tại nhà ông Phạm Hồng S và vay của ông S 900.000 đồng. Tối 17/8/2016, cả hai xảy ra mâu thuẫn khi ông S chửi mắng L và đòi tiền. L dùng búa đánh ông S tử vong. Sau đó, L lấy xe máy, điện thoại và 20.000 đồng của ông S rồi bỏ trốn. L bán chiếc xe được 5.000.000 đồng.",
+        "answer": "[Tội danh:]Giết người, Cướp tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 1 giờ ngày 07/6/2016, tại nhà của Nguyễn Thị Thùy D, Nguyễn Hùng T đã tức giận vì D không đưa cho T số tiền 5.000.000 đồng để mua xe mô tô. T đã dùng dầu hỏa tưới lên người D và T, giữ chặt D và bật hộp quẹt gas đốt làm cả hai người bị cháy. Hậu quả D bị bỏng nặng và tử vong sau đó.",
+        "answer": "[Tội danh: ]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 1 giờ ngày 29/9/2016, tại khu vực giữa ngã tư đường PNL và LD thuộc khu phố 9, phường PM, thành phố PR – TC, tỉnh Ninh Thuận, bị cáo Nguyễn Ca S và Nguyễn Ngọc D đã có hành vi cãi vã với Nguyễn U. Sau đó, S và D đã tấn công U bằng tay và dao, khiến U bị thương nặng và tử vong.",
+        "answer": "[Tội danh:]Giết người."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng tháng 5/2015, bị cáo K’ N biết được chị Nguyễn Thị N1 ở quận GV, Thành phố Hồ Chí Minh cần mua đá thiên thạch, nên nảy sinh ý định chiếm đoạt số lượng tiền lớn của bà N1 thông qua hình thức giả mạo bán đá thiên thạch. K’ N đã điện thoại thông báo với Trần Văn A và được Trần Văn A hướng dẫn tiếp tục trao đổi, gặp mặt bà N1 và rủ thêm Trần Quốc V tham gia. Sau đó, ba người gặp nhau tại nhà trọ Trần Văn A thuê ở số 369 quốc lộ 20 thị trấn LN, huyện ĐT, tỉnh Lâm Đồng và cùng nhau bàn bạc kế hoạch lừa bà N1 và thống nhất như sau: K’ N lấy tên giả là K’ M và Trần Quốc V lấy tên giả là Phạm Văn G đóng giả làm vợ chồng và có quen biết với chủ đá thiên thạch, môi giới bán đá thiên thạch cho bà N1. Trong quá trình thực hiện kế hoạch, các bị cáo đã lừa bà N1 mua 3 chiếc ly thủy tinh và tiến hành các hành vi gian dối để chiếm đoạt 527.000.000 đồng.",
+        "answer": "[Tội danh:]Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 21 giờ 00 ngày 01/12/2012, Nguyễn Hữu H, NLC2, NLC1, NLC3, NLC4, Nguyễn Thị H2 cùng nhau vui chơi tại khu vực đường liên xã thuộc ấp 4, xã ML, huyện CT. Tại đây, Nguyễn Hữu H rủ cả nhóm vào vườn cao su của anh NLC5 tại ấp 7, xã MT, huyện CT để uống rượu. Nguyễn Hữu H nói riêng với NLC1 và NLC2 \"Rủ tụi nó nhậu rồi Đ... chết mẹ nó đi\", NLC2 gật đầu đồng ý. Sau khi uống rượu, Nguyễn Thị H2 bị say nằm nghỉ tại gốc cây cao su, NLC1 và NLC2 đã thực hiện hành vi hiếp dâm Nguyễn Thị H2.",
+        "answer": "[Tội danh:]Hiếp dâm trẻ em"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Khoảng 05 giờ 30 phút ngày 15/11/2016, tại Đà Nẵng, Công an thành phố Đà Nẵng bắt quả tang Nguyễn Hoàng N đang vận chuyển 02 gói ni lông chứa chất ma túy. Kết quả giám định xác định có 226,633 gam ma túy loại Methamphetamine. Nguyễn Hoàng N khai nhận đã nhận ma túy từ một người tên Lâm ở Hà Nội và vận chuyển vào Đà Nẵng.",
+        "answer": "[Tội danh:]Vận chuyển trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Nguyễn Văn H, là Chấp hành viên của Chi cục Thi hành án dân sự huyện C, tỉnh Tây Ninh, đã ra Quyết định giải tỏa kê biên số 11/QĐ-THA ngày 29/11/2012 để ông Lê Văn Đ và bà Dương Thị Kim N4 sang nhượng quyền sử dụng đất số 2586 cho bà Huỳnh Thị G với giá 1.200.000.000 đồng, mà không có sự thỏa thuận của những người được thi hành án là bà Lê Thị H1, bà Trương Thị Thúy O, bà Nguyễn Thị R và bà Hà Thị N.",
+        "answer": "[Tội danh:]Ra quyết định trái pháp luật"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Khoảng 11 giờ 00 phút ngày 01/01/2016, Lê Hoàng Th cùng Nguyễn Quốc H điều khiển xe máy đi tìm người có tài sản sơ hở để cướp giật. Khi thấy bà D J E (quốc tịch Canada) đang đi bộ và có đeo túi xách, Th điều khiển xe áp sát để H giật túi xách của bà D J E nhưng không thành công. Th và H bỏ chạy nhưng bị người dân đuổi theo và bắt giữ.",
+        "answer": "[Tội danh:]Cướp giật tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào các ngày 05/8/2014 và 06/8/2014, E E N C cùng với几个 đồng phạm thực hiện nhiều vụ trộm cắp tài sản tại siêu thị M, trụ ATM của Ngân hàng Nông N, Bưu cục thị trấn D, và trụ ATM của Ngân hàng V. Họ sử dụng dụng cụ hàn xì và kềm cắt để phá khóa, đột nhập và lấy trộm tài sản. Tổng cộng, họ đã chiếm đoạt 5.919.382.777 đồng và gây thiệt hại về tài sản khác là 283.096.074 đồng.",
+        "answer": "[Tội danh:]Trộm cắp tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 28/12/2014, Lê Minh T và Võ Hoàng M đã dùng dao khống chế và cướp tài sản của Nguyễn Thị N1 (còn gọi là Lý Thị N2) trị giá 2.271.090 đồng. Sau đó, hai bị cáo đã đâm nhiều nhát vào người nạn nhân, ném nạn nhân xuống huyệt mộ và bịt miệng nạn nhân cho đến khi tử vong.",
+        "answer": "[Tội danh:]Giết người và Cướp tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo Đinh Văn S bị bắt quả tang khi đang thực hiện hành vi mua bán 01 \"bánh\" heroin trọng lượng 347,96 gam, hàm lượng heroin 53% và 02 gam heroin, hàm lượng 60,2%.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 19 giờ 45 phút ngày 03/7/2016, bị cáo Nguyễn Văn T, lái xe taxi ML BKS 38A-110.91, đã chở chị Phạm Thị O từ khách sạn S đến nhà thờ A nhưng không chở về nơi chị O yêu cầu. Thay vào đó, T đã đi lòng vòng và dừng xe tại một đoạn đường vắng, yêu cầu chị O thêm tiền. Khi chị O từ chối, T đã bóp cổ và giết chị O, sau đó ném thi thể xuống sông và chiếm đọat tài sản của chị O.\n- Trước đó, vào khoảng 08 giờ 30 phút ngày 02/6/2016, T đã thực hiện hành vi dâm ô đối với cháu Nguyễn Thị R, 11 tuổi, khi chở cháu về nhà.",
+        "answer": "[Tội danh:]Giết người, Cướp tài sản, Dâm ô đối với trẻ em"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 21 giờ ngày 15/9/2016, tại khu vực cầu C thuộc ranh giới giữa xã T và thị trấn K, huyện T, tỉnh Quảng Nam, một nhóm thanh niên gồm Phạm Huỳnh Đ, Lê Xuân D, Dương Vĩnh L và others đã xảy ra mâu thuẫn và xô xát với nhóm thanh niên khác gồm Nguyễn Đình P, Nguyễn Phúc Q, và others. Trong quá trình cãi vã, Nguyễn Đình P dùng mũ bảo hiểm đánh Phạm Huỳnh Đ và Dương Vĩnh L, nhưng không gây thương tích. Các bị cáo đã đuổi đánh Nguyễn Đình P, dẫn đến P chạy xuống bờ sông và bơi ra giữa lòng sông. Phạm Huỳnh Đ, Lê Xuân D, và Dương Vĩnh L đã ném đá về phía P, và P đã bị ngạt nước, suy hô hấp, trụy tuần hoàn không hồi phục, dẫn đến tử vong.",
+        "answer": "[Tội danh:]giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Lê Văn T, nguyên cán bộ Phòng PC68 Công an tỉnh Quảng Ngãi, đã lợi dụng nhiệm vụ được giao để chiếm đoạt số tiền 1.364.476.932 đồng từ ngân sách nhà nước và tiền chế độ chính sách của cán bộ chiến sĩ trong đơn vị.",
+        "answer": "[Tội danh:]Tham ô tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào lúc 22 giờ 00 ngày 19/5/2016, tại ngã ba đường T – đường N, phường T, thành phố N, tỉnh Khánh Hòa, bị cáo Phùng Văn Th1 và Huỳnh Thị Mỹ Th2 bị bắt quả tang đang cất giấu trái phép chất ma túy. Tiếp tục điều tra, Cơ quan Công an đã phát hiện và mời Phan Hải Th về Công an phường T để làm việc. Tại đây, Th khai nhận đã giao ma túy tổng hợp “thuốc lắc” và ma túy “khay” cho Th1 để đi bán cho người nghiện. Khám xét khẩn cấp chỗ ở của Phan Hải Th, Cơ quan công an thu giữ 309 viên ma túy “thuốc lắc” có trọng lượng 78,827 gam; một bịch nylon đựng 9,034 gam ma túy “đá”; 01 bịch nylon đựng 0,700 gam ma túy “khay”. Tổng trọng lượng ma túy bị thu giữ là 42,974 gam.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Võ Thị Hồng Đ, cán bộ tín dụng của Ngân hàng N Việt Nam - Chi nhánh T, đã lấy 07 giấy chứng nhận quyền sử dụng đất trong hồ sơ thế chấp vay tiền của khách hàng, mang thế chấp cho bà Trần Thị Bạch Y, bà Vũ Thị Phúc A, bà Trần Thị O và ông Nguyễn Phi H2 để đảm bảo cho các khoản vay của mình, từ đó chiếm đoạt của họ số tiền 6.069.000.000đ.",
+        "answer": "[Tội danh:]Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Khoảng 14 giờ, ngày 31/10/2016, Ngô Công T cùng ông Nguyễn Đức Đ1 và ông Huỳnh L đến quán bi da. Tại đây, ông Đ1 và ông L đánh bi da, còn T ghi điểm. Sau đó, ông Trần Đình S và ông Võ Thanh H1 cũng đến quán. Sau khi T đi về, ông H1 và ông L cá độ đánh bi da. T quay lại thấy ông L đưa tiền cho ông H1 nên bực tức đánh ông H1. Ông S thấy vậy liền chạy theo và chửi T. Tức giận, T xô và dùng chân đạp mạnh vào người ông S khiến ông S ngã và tử vong trên đường đi cấp cứu.",
+        "answer": "[Tội danh:]Giết người."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào lúc 01 giờ 30 phút ngày 27/9/2016, Tổ công tác của Phòng Cảnh sát điều tra tội phạm về ma túy - Công an tỉnh Yên Bái phát hiện và bắt quả tang Ngân Văn Tr và Thào A P vì mua bán trái phép chất ma túy. Ngân Văn Tr và Thào A P đã mua 01 cây hêrôin từ Lảo A R và bị bắt khi đang giao dịch với người đàn ông tên L1.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 19/01/2015, Quàng Thị Đ bị bắt quả tang khi đang vận chuyển 3 bánh hêrôin với tổng trọng lượng 1.043,04 gam. Trước đó, Đ nhận lời từ một người phụ nữ quen biết để vận chuyển bao tải miến và hộp thịt trâu khô từ Lai Châu về Lào Cai với giá 6 triệu đồng.",
+        "answer": "[Tội danh:]Vận chuyển trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Khoảng 22 giờ ngày 03/06/2013, sau khi nhậu xong, Phạm Văn C1 điều khiển xe mô tô phía sau chở Nguyễn Anh T3, còn Vắn Nhật B chở Đinh Công Thế H lưu thông trên trên đường N, Phường N,  quận V. Khi đến trước  nhà đường N, thì xe của C1 và T3 va quẹt với Lê Minh N1 đang đi bộ mang bàn ghế qua đường. Hai bên xảy ra cự cãi, xô xát. Trong lúc ẩu đã, Trương Hoàng N (là con của chủ quán cơm nơi N1 làm thuê) từ trong nhà lấy vỉ nướng thịt bằng kim loại chạy đến đánh từ trên xuống đầu H  một cái, làm  H bị ngã. H đứng lên bỏ chạy, N tiếp tục ném vỉ sắt vào người H, làm H ngã xuống đường. H được đưa đi cấp cứu nhưng đã tử vong sau đó.",
+        "answer": "[Tội danh:]Cố ý gây thương tích"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Theo Cáo trạng của Viện Kiểm sát nhân dân tỉnh Bình Dương và Bản án hình sự sơ thẩm của Tòa án nhân dân tỉnh Bình Dương, ngày 28/12/2014, Lê Minh T và Võ Hoàng M đã dùng dao Thái Lan khống chế, cướp tài sản và giết Nguyễn Thị N1 tại nghĩa địa ở phường H, thành phố M, tỉnh Bình Dương. Sau khi phạm tội, hai bị cáo đã ném xác N1 xuống huyệt mộ gần đó và chia nhau tài sản cướp được.",
+        "answer": "[Tội danh:]Giết người và Cướp tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo Nguyễn Văn T đã giết chị Phạm Thị O và cướp tài sản của cô, sau đó ném xác cô xuống sông. Ngoài ra, bị cáo còn phạm tội dâm ô đối với trẻ em Nguyễn Thị R, khi chở cô bé về nhà và sờ mó vào ngực, đùi và vùng âm hộ của cô bé.",
+        "answer": "[Tội danh:]Giết người và Cướp tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 06/10/2015, bị cáo Phạm Chiến T tổ chức ăn cơm uống rượu mừng sinh nhật con tại nhà. Khoảng 14 giờ cùng ngày, do bực tức từ câu nói của anh Trần Văn S khi đã uống nhiều rượu, T đã dùng chân phải đá vào sườn bên trái của S, dùng tay trái đấm mạnh vào má bên phải của S làm S ngã ngửa đầu đập vào tường. T tiếp tục dùng chân phải đạp mạnh vào vùng bụng của S. Sau đó S bị ngã thêm 2 lần nữa, một lần ngã sấp mặt xuống nền sân và một lần ngã ngửa đầu đập vào đống củi. S được đưa đi cấp cứu nhưng đã tử vong vào 3h20 ngày 07/10/2015.",
+        "answer": "[Tội danh:]Cố ý gây thương tích."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 06/5/2016, bị cáo Vừ Bá T đã cùng với các bị cáo khác vận chuyển 49 gói ma túy là Methamphetamine đi bán, khi đi đến địa phận xã B, huyện Y, tỉnh NA thì bị lực lượng chức năng Công an tỉnh NA bắt quả tang.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 16/7/2016, giữa Lưu Trần H và Nguyễn Văn T có xảy ra mâu thuẫn tại quán karaoke NEWSTAR và Nguyễn Văn T đã 2 lần đấm vào mặt H. Sau đó, Lưu Trần H đã lái xe ô tô về nhà gọi Nguyễn Đăng H1 là người làm thuê cho gia đình H để lái xe chở H đến nhà T. Trên đường đi, H nói với H1 là vừa xảy ra xích mích với T, khi đến nhà T, H bảo H1 dừng xe trước cổng rồi cầm súng thể thao ngắm vào phía cổng nhà T bắn bốn phát trong đó có 02 phát trúng vào cánh cổng và 02 phát trúng kính cửa xe ô tô của gia đình T. Sau khi bắn xong, H nói H1 lái xe ô tô chạy được khoảng 45 m thì phát hiện T cùng với hai người nữa đuổi theo nên H đã nói H1 lùi xe lại, trong khi H1 vừa dừng xe thì H tiếp tục chĩa súng thể thao bắn về phía T 02 đến 03 phát làm một viên đạn trúng vào vai trái và một viên trúng vào đùi pH1 của T. Hậu quả làm Nguyễn Văn T bị thương với tỷ lệ thương tích là 15%.",
+        "answer": "[Tội danh:]Giết người."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 10/4/2016, Nguyễn Văn B và Nguyễn Văn Q, là anh em ruột, xảy ra mâu thuẫn với ông Nguyễn Viết D1 tại phòng trọ của ông Trần Anh D. Sau đó, B gọi điện cho Q nói B bị đánh. \n- Khi nhận được cuộc gọi, Q đã về nhà lấy dao Thái Lan rồi chở B đến phòng trọ. Q đứng ở cửa phòng trọ, còn B đi vào đánh ông D1. Trong lúc ấy, ông Ngô Văn Th chạy đến thì Q đã dùng dao đâm ông Th, gây tử vong.",
+        "answer": "[Tội danh:]Giết người."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Khoảng 07 giờ ngày 22/9/2016, bị cáo Triệu Văn L đến khu vực thửa đất mà gia đình L đã bán cho bà Triệu Thị X tại xóm C, thôn T, xã Tr, huyện T, Hà Nội. L phát hiện bà X có xây tường lấn ra phần đất lưu không của gia đình L.\n- L đã đến nhà anh Triệu Khắc N mượn 01 chiếc búa sắt với mục đích đập phần tường xây lấn của bà X. Khi quay về, L gặp bà X, giữa L và bà X đã xảy ra cãi nhau. Theo L, bà X xông vào túm cổ áo L và tát nhưng L tránh được. L cầm búa bằng tay phải tạt ngang liên tiếp vào đầu bà X làm bà X ngã gục xuống. Ông Vũ Văn C (thợ lăn sơn) và chị Triệu Thị T (vợ L) can ngăn nhưng L dùng tay đẩy chị T ra và tiếp tục dùng búa đập 02 nhát vào đầu bà X.\n- Sau sự việc, bà X được đưa đi cấp cứu nhưng đã tử vong vào 14h30 ngày 24/9/2016 do chấn thương sọ não nặng.",
+        "answer": "[Tội danh:]Giết người."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Khoảng 9 giờ ngày 26-02-2014, tại khu A, phường T, thành phố M, tỉnh Quảng Ninh, Nguyễn Phú C đã có hành vi vận chuyển trái phép 4.812,68 gam Methamphetamine từ Trung Quốc về Việt Nam.",
+        "answer": "[Tội danh:]Vận chuyển trái phép chất ma túy."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Lê Tấn C đã sử dụng giấy tờ giả để chiếm đoạt tài sản. Cụ thể, vào khoảng thời gian từ tháng 5/2018 đến tháng 5/2019, bị cáo đã sử dụng các vi bằng và văn bản thỏa thuận giả để thế chấp căn nhà số 05 cho nhiều người, trong đó có ông Trịnh Huy Th, ông Võ Văn S, và bà Trần Thị Kim L, nhằm chiếm đoạt tổng số tiền 880.000.000 đồng. Những giấy tờ giả này được bị cáo thuê làm thông qua một đối tượng không rõ lai lịch trên mạng xã hội.",
+        "answer": "[Tội danh:]Lừa đảo chiếm đoạt tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 20/02/2020, bị cáo Duy Văn Đ đã tham gia khai thác cát trái phép trên sông CC, tỉnh Bến Tre cùng với Nguyễn Thành Nh, dù trước đó bị cáo đã bị xử phạt hành chính về hành vi tương tự vào ngày 06/12/2019. Cả hai sử dụng tàu sắt không biển kiểm soát, có trang bị máy bơm và hệ thống hút cát để khai thác trái phép 4,896 m³ cát sông. Hành vi này bị lực lượng Cảnh sát môi trường tỉnh Bến Tre phát hiện và bắt quả tang",
+        "answer": "[Tội danh:]Vi phạm quy định về khai thác tài nguyên."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Chiều ngày 11/02/2021, tại nhà bà Huỳnh Thị B ở thôn TT 1, xã P, huyện N, tỉnh Ninh Thuận, Phạm Minh P cùng anh Trịnh Minh T xảy ra cãi vã trong bữa tiệc tất niên. Sau khi mọi người ra về, chỉ còn lại một số người ở lại, anh Trịnh Minh Đ, em ruột của T, đến để lấy áo khoác và có xảy ra tranh cãi với bị cáo P. P sau đó đã dùng dao bấm đâm 10 nhát vào bụng và tay trái của Trịnh Minh Đ, khiến Đ tử vong tại chỗ. Bị cáo cũng đâm một nhát vào bụng Trịnh Minh T, gây tổn thương với tỷ lệ thương tật là 63%. Sau khi gây án, bị cáo đã bỏ trốn và tự ra đầu thú vào ngày 12/02/2021",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 20/02/2020, bị cáo Duy Văn Đ cùng Nguyễn Thành Nh sử dụng tàu sắt để khai thác cát trái phép tại đoạn sông thuộc xã CS, huyện MCN, tỉnh Bến Tre. Cả hai đã khai thác được 4,896 m³ cát thì bị lực lượng cảnh sát môi trường phát hiện và bắt quả tang. Trước đó, vào ngày 06/12/2019, Duy Văn Đ đã bị phạt hành chính về hành vi khai thác khoáng sản trái phép với số tiền 2 triệu đồng.",
+        "answer": "[Tội danh:]Vi phạm quy định về khai thác tài nguyên"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Lê Tấn C đã sử dụng vi bằng và văn bản thỏa thuận giả để thực hiện các giao dịch mua bán nhà đất, nhằm lừa đảo và chiếm đoạt tài sản của nhiều người. Tổng cộng, bị cáo đã chiếm đoạt của các bị hại, bao gồm ông Trịnh Huy Th, ông Võ Văn S, ông Hoàng Đình Tr, ông Đậu Đức H1 và bà Trần Thị Kim L, với số tiền là 880.000.000 đồng",
+        "answer": "[Tội danh:]Lừa đảo chiếm đoạt tài sản."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Bị cáo Phạm Phú Q có quan hệ tình cảm ngoài hôn nhân với chị Trần Thị Mỹ N. Khi chị N muốn chấm dứt mối quan hệ, bị cáo đã đe dọa và tiếp tục theo đuổi. Vào ngày 28/4/2020, bị cáo mua xăng để uy hiếp chị N. Tại cổng công ty nơi chị N làm việc, bị cáo đổ xăng lên người mình và châm lửa tự thiêu. Trong quá trình này, bị cáo ôm chặt ông Trần Ngọc H, một người can ngăn, gây bỏng nặng cho ông H với tỷ lệ thương tích là 52%. Ông H không tử vong nhờ được cấp cứu kịp thời.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 31/01/2019, sau khi nghe Vũ Văn T2 kể lại việc bị Phạm Văn Đ đánh, Vũ Văn T đã cùng Vũ Văn P, T2 và Th2 đến nhà Phạm Văn Đ để hỏi rõ sự việc. Sau khi xảy ra lời qua tiếng lại và xô xát, Vũ Văn T đã dùng dao đâm vào ngực ông Trần Quang S, gây thương tích 61%, và đâm nhiều nhát vào bụng Phạm Văn Đ, gây thương tích 38%. Các nạn nhân không tử vong là nhờ được cấp cứu kịp thời.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Tháng 7 năm 2020, trong khi làm việc tại khu vực khai thác vàng ở thôn Khau Liêu, xã Thượng Quan, Hoàng Văn D đã nhặt được một thỏi thuốc nổ, hai kíp nổ và một đoạn dây cháy chậm và mang về nhà cất giữ. Ngày 12/5/2021, D cùng Hoàng Văn T sử dụng số thuốc nổ này để chế thành quả mìn và ném xuống suối nhằm mục đích đánh bắt cá. Sau đó, cả hai bị công an xã Thượng Quan phát hiện và thu giữ vật chứng bao gồm một thỏi thuốc nổ 90g, một đoạn dây cháy chậm và một kíp nổ.",
+        "answer": "[Tội danh:]Tàng trữ, vận chuyển, sử dụng trái phép vật liệu nổ"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào khoảng 20 giờ ngày 10/6/2021, sau khi đi nhậu về, Hồ Văn D nảy sinh ý định giết con ruột của mình do bức xúc vì thường xuyên cãi nhau với vợ về vấn đề tài chính. D đã dùng dao đâm một nhát vào ngực của con trai, cháu Hồ Triệu A (sinh năm 2018), khiến cháu tử vong tại chỗ. Sau đó, bị cáo tự đâm vào ngực để tự sát nhưng được phát hiện và cấp cứu kịp thời.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 29/8/2020, trong lúc ăn tối và uống rượu tại nhà trọ ở Quảng Nam, Lê Văn T đã xảy ra xô xát với ông Huỳnh Văn T1 sau khi ông T1 đánh vào đầu T. Sau đó, T dùng dao chém nhiều nhát vào ông T1, khiến ông tử vong tại chỗ. Tiếp đó, T đuổi theo và dùng gạch ném vào ông Phan Dương T2, gây thương tích 56%. T còn đập hỏng điện thoại của ông T2 trong lúc lo sợ ông báo tin cho người khác.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 04/9/2020, tại khu vực hầm chui đường cao tốc Đà Nẵng - Quảng Ngãi, Nguyễn Phú T và Trì Thế T bị bắt quả tang khi đang vận chuyển 204,49 gam heroin cho Huỳnh Thị H từ Nghệ An về Quảng Nam. Huỳnh Thị H đã chỉ đạo và cung cấp tiền để các bị cáo mua heroin, sau đó bán lại cho nhiều người nghiện tại Quảng Nam.",
+        "answer": "[Tội danh:]Mua bán trái phép chất ma túy”.\n “Vận chuyển trái phép chất ma túy”."
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 16/02/2021, Phan Tấn H lợi dụng việc gia đình bà Phan Thị L, dì ruột của bị cáo, đi vắng trong dịp Tết Nguyên Đán để lẻn vào nhà và trộm cắp tài sản. Bị cáo phá két sắt lấy trộm 520.000.000 đồng tiền mặt và 03 dây chuyền vàng, 03 nhẫn vàng với tổng giá trị tài sản là 620.541.000 đồng. Sau khi thực hiện hành vi, bị cáo tạo hiện trường giả nhưng sau đó đã tự thú và giao nộp toàn bộ tài sản trộm cắp cho cơ quan công an.",
+        "answer": "[Tội danh:]Trộm cắp tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Từ tháng 4 đến tháng 7 năm 2020, Võ Thị S đã lừa đảo bà Nguyễn Thị Hồng V bằng cách giả vờ có mối quan hệ với một người có chức vụ lớn trong ngành công an và hứa giúp bà V lấy lại số tiền nợ từ người khác. Bị cáo nhiều lần yêu cầu bà V đưa tiền để lo việc \"thu hồi nợ\" và chiếm đoạt của bà V tổng cộng 1.742.000.000 đồng.",
+        "answer": "[Tội danh:]Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Vào ngày 15/01/2021, Đặng Công K và Phạm S cùng nhóm bạn đã tổ chức sử dụng ma túy tại phòng karaoke ở Quảng Nam. K còn tàng trữ 95,9 gam ma túy loại Methamphetamine nhằm mục đích bán lại và nhiều lần bán ma túy cho người khác. Trong quá trình sử dụng, K là người cầm đầu, phân công S chuẩn bị địa điểm và rủ thêm người tham gia. Lực lượng công an đã kiểm tra và bắt quả tang nhóm này.",
+        "answer": "[Tội danh:] Mua bán trái phép chất ma túy” và “Tổ chức sử dụng trái phép chất ma túy"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": ": Từ cuối năm 2014 đến tháng 7 năm 2019, Nguyễn Thành T đã lừa đảo bà Nguyễn Thị H và bà Lê Thị C bằng cách giả mạo là người có quan hệ và khả năng đầu tư, lừa bà H góp vốn làm ăn, vay tiền để làm thủ tục mua đất và cho con em đi du học. Tổng cộng, T đã lừa đảo chiếm đoạt 16.388.000.000 đồng từ các nạn nhân.",
+        "answer": "[Tội danh:]Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 20/11/2020, trong lúc ăn uống tại nhà một người bạn, NHHA xảy ra mâu thuẫn với Võ Văn C (VVC). VVC hăm dọa NHHA và sau đó quay lại với một con dao để tấn công. Khi bị VVC đâm nhiều nhát vào cơ thể, NHHA đã dùng kéo tự vệ, vô tình gây tử vong cho anh LĐM, người đi cùng VVC. Kết quả giám định cho thấy LĐM tử vong do vết thương ở cổ.",
+        "answer": "[Tội danh:]Giết người"
+    },
+    {
+        "instruction": "Vui lòng mô phỏng một thẩm phán \nvà cung cấp cáo buộc dựa trên các \nsự kiện sau. Chỉ cần tên của cáo buộc. \nVí dụ: [Tội danh:] Trộm cắp; Gian lận. \nVui lòng tuân thủ nghiêm ngặt định dạng này trong câu trả lời của bạn",
+        "question": "Ngày 06/12/2020, tại tỉnh Vĩnh Long, trong khi điều khiển xe tải, bị cáo Tang Kit S đã dừng xe lại sau khi cho rằng có va chạm với ông Du Văn T, người đang đi ngược chiều trên xe máy. Xảy ra cãi vã, ông T đã ném đá trúng ngực Tang Kit S, khiến bị cáo tức giận và xảy ra xô xát. Bị cáo đè tay ông T xuống đường, nhấn đầu ông xuống mặt đường nhiều lần, gây thương tích cho ông T với tỷ lệ tổn thương cơ thể là 22%.",
+        "answer": "[Tội danh:]Cố ý gây thương tích"
+    }
+]
