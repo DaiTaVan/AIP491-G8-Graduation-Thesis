@@ -336,23 +336,8 @@
     },
     {
         "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp hợp đồng tín dụng và tranh chấp hợp đồng chuyển nhượng vốn góp giữa các thành viên công ty",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
         "question": "Tại đơn khởi kiện ngày 12/8/2016, ngày 16/8/2016 và các lời khai trong quá trình tố tụng nguyên đơn là Chùa KQ (do ông Nguyễn Đình T- pháp danh: TTT) trình bày: Nguồn gốc diện tích đất đang tranh chấp hiện do vợ chồng ông Đỗ K, bà Nguyễn Thị N và vợ chồng ông Đỗ Xuân A, bà Nguyễn Thị H đang quản lý, sử dụng là của Chùa KQ, nằm trong tổng diện tích 5.475m2 đất thuộc các thửa số 513, 514, 515, 516, 522 và 523 được thể hiện tại 06 Giấy Đại nam Trung kỳ Chánh phủ cấp cho Chùa KQ năm 1936. Khoảng năm 1975, Chùa KQ đã cho cụ BC (bác của ông Đỗ K) và cụ Đỗ Thị H1 (cô của ông Đỗ Xuân A) ở nhờ, việc cho ở nhờ chỉ bằng miệng, không có giấy tờ. Sau đó, cụ BC để lại cho gia đình Đỗ K, còn cụ H1 để lại cho gia đình ông A. Vợ chồng ông A, bà H đã được Ủy ban nhân dân thành phố TH cấp Giấy chứng nhận quyền sử dụng đất ngày 24/7/2008, diện tích 200m2; vợ chồng Đỗ K, bà N được cấp Giấy chứng nhận quyền sử dụng đất ngày 05/3/2009, diện tích 200m2. Nay Chùa KQ có nhu cầu mở rộng, nên Chùa KQ đã nhiều lần thương lượng với hộ ông K, ông A nhưng không thành. Vì vậy, Chùa KQ khởi kiện yêu cầu vợ chồng Đỗ K, bà N và vợ chồng ông A, bà H trả lại diện đất của mỗi hộ là 200m2; đồng thời, yêu cầu hủy giấy chứng nhận quyền sử dụng đất đã cấp cho vợ chồng Đỗ K, vợ chồng ông A và đồng ý trả lại giá trị tài sản gắn liền với đất cho hai hộ gia đình theo Biên bản định giá lập ngày 02/11/2017. Bị đơn là ông Đỗ K, bà Nguyễn Thị N trình bày: Năm 1975, vợ chồng ông bà ở PV về TP khai hoang một khoảnh đất giáp với đất Chùa KQ, còn cụ BC ở thôn PC, xã AT không ở trên đất tranh chấp như đại diện Chùa KQ trình bày. Từ năm 1975 đến nay, gia đình ông bà quản lý, sử dụng ổn định và đã qua 04 lần sửa chữa, xây dựng nhà. Ngày3 05/3/2009, vợ chồng ông bà được Ủy ban nhân dân thành phố TH cấp giấy chứng nhận quyền sử dụng. Năm 2016, Chùa KQ có nhu cầu mở rộng và cho rằng đất gia đình ông bà đang ở là của Chùa KQ nên xảy ra tranh chấp. Nay ông bà có ý kiến, nếu Chùa KQ mua lại nhà đất của vợ chồng ông bà với giá 700.000.000 đồng thì ông bà đồng ý nhượng lại đất để Chùa KQ mở rộng diện tích.",
         "answer": "Tranh chấp quyền sử dụng đất"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp quyền sử dụng đất và hủy giấy chứng nhận quyền sử dụng đất",
-        "answer": "Tranh chấp quyền sử dụng đất"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp quyền sở hữu nhà",
-        "answer": "Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản"
     },
     {
         "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
@@ -366,87 +351,7 @@
     },
     {
         "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp hợp đồng xây dựng",
-        "answer": "Tranh chấp về xây dựng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
         "question": "Tại đơn khởi kiện ngày 14/02/2019, đơn khởi kiện bổ sung ngày 10/3/2019, ngày 02/8/2019 và các lời khai tại Tòa án, nguyên đơn là Công ty TP do người đại diện trình bày: Công ty TP (viết tắt là Công ty TP) là chủ đầu tư của 03 dự án: Dự án khu dân cư MP, dự án khu dân cư CĐ và Dự án khu dân cư HL thực hiện vay vốn của NHVN - Chi nhánh Chợ Lớn (viết tắt là NHVN) để đầu tư vào dự án. Đối với Dự án khu dân cư HL, Công ty TP vay theo Hợp đồng tín dụng số 03.519/HĐTD ngày 01/7/2003 (kèm theo Phụ lục, Phụ kiện hợp đồng) vay 305.000.000.000 đồng và Hợp đồng số 28.0307.15/HĐTD ngày 26/3/2007 (kèm theo Phụ lục, Phụ kiện hợp đồng) vay 738,2kg vàng hạt (tương đương 18.643,266 lượng vàng hoặc 250.000.000.000 đồng). Để đảm bảo cho khoản vay nêu trên, các bên ký hợp đồng cầm cố, thế chấp tài sản hình thành từ vốn vay số 03.519/BĐTV-TC ngày 01/7/2003 và 03 phụ kiện hợp đồng. Năm 2009, Công ty TP được cấp giấy chứng nhận quyền sử dụng đất diện tích 490.765,1m2 (trong đó, đất Nhà nước giao có thu tiền sử dụng đất là 243.912m2, đất Nhà nước giao không thu tiền sử dụng đất là 246.853,1m2). Ngày 15/3/2011, NHVN và Công ty TP ký 02 hợp đồng thế chấp tài sản gồm: Hợp đồng số 6220-LAV-200300/TC thế chấp tài sản là các quyền sử dụng đất được Nhà nước giao có thu tiền sử dụng đất của 03 dự án tổng diện tích 707.219m2, trong đó Dự án HL là 243.912m2 (hợp đồng có công chứng và đăng ký giao dịch bảo đảm); Hợp đồng số 6220-LAV2001100301/TC thế chấp tài sản là các quyền sử dụng đất được Nhà nước giao không thu tiền sử dụng đất của 03 Dự án tổng diện tích 605.085,1m2, trong đó Dự án HL là 246.853,1m2 (hợp đồng không công chứng và không đăng ký giao dịch bảo đảm). Ngày 15/02/2017, hai bên ký Hợp đồng sửa đổi hợp đồng thế chấp tài sản số 6220- LAV2001100300/01/PLHĐ, nội dung sửa đổi tài sản thế chấp.",
         "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp hợp đồng chuyển nhượng quyền sử dụng đất và yêu cầu hủy giấy chứng nhận quyền sử dụng đất",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp dân sự đòi tài sản",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp hợp đồng tặng cho quyền sử dụng đất",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp đòi quyền sử dụng đất và tài sản gắn liền với đất; tranh chấp hợp đồng chuyển nhượng quyền sử dụng đất; tranh chấp hợp đồng tín dụng; yêu cầu hủy hợp đồng ủy quyền đứng tên quyền sử dụng đất; yêu cầu hủy giấy chứng nhận quyền sử dụng đất",
-        "answer": "Tranh chấp quyền sử dụng đất"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp đòi lại tài sản là quyền sử dụng đất, tuyên bố văn bản công chứng vô hiệu và yêu cầu hủy quyết định cá biệt là giấy chứng nhận quyền sử dụng đất",
-        "answer": "Tranh chấp quyền sử dụng đất"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp hợp đồng chuyển nhượng quyền sử dụng đất, hợp đồng mua bán tài sản và yêu cầu hủy giấy chứng nhận quyền sử dụng đất",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "tranh chấp hợp đồng tặng cho, hủy giấy chứng nhận quyền sở hữu nhà ở, đất ở và chia tài sản chung",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Đòi tài sản",
-        "answer": "Tranh chấp quyền sử dụng đất"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp Hợp đồng tặng cho bất động sản",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp hợp đồng tín dụng",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp Hợp đồng chuyển nhượng quyền sử dụng đất và yêu cầu hủy Giấy chứng nhận quyền sử dụng đất.",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp di sản thừa kế",
-        "answer": "Tranh chấp về thừa kế tài sản"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp hợp đồng ở nhờ nhà ở",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp hợp đồng mua bán nhà và hợp đồng vay tài sản",
-        "answer": "Tranh chấp hợp đồng"
-    },
-    {
-        "instruction": "Xác định loại trọng tâm tranh chấp có trong đoạn văn bản. Các loại tranh chấp bao gồm: Tranh chấp đất đai,Tranh chấp quyền sử dụng đất, Tranh chấp hợp đồng , Tranh chấp về xây dựng, Tranh chấp về thừa kế tài sản, Tranh chấp về quyền sở hữu và các quyền khác đối với tài sản.   Mỗi câu chỉ chứa một loại trọng tâm tranh chấp.",
-        "question": "Tranh chấp quyền sử dụng đất và tài sản gắn liền với đất",
-        "answer": "Tranh chấp quyền sử dụng đất"
     }
 ]
