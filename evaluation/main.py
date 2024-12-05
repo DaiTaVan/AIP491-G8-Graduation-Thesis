@@ -1,3 +1,5 @@
+import sys
+sys.setrecursionlimit(100000)
 import json
 import os
 import pandas as pd
@@ -10,13 +12,7 @@ def read_json(input_file):
     with open(input_file, "r", encoding="utf-8") as f:
         data_dict = json.load(f)
 
-    dict_size = len(data_dict)
-    new_data_dict = []
-    for i in range(dict_size):
-        example = data_dict[str(i)]
-        new_data_dict.append(example)
-
-    return new_data_dict
+    return data_dict
 
 
 def main(argv):
@@ -26,23 +22,23 @@ def main(argv):
     parser.add_argument("-o", "--outfile", dest="outfile",
                   help="output file saving the evaluation results", metavar="FILE")
     args = parser.parse_args(argv)
-    funct_dict = {"3-6": jec_ac.compute_jec_ac,
+    funct_dict = {"3-6": flzx.compute_flzx, #jec_ac.compute_jec_ac,
                   "1-2": jec_kd.compute_jec_kd,
                   "3-2": cjft.compute_cjft,
-                  "3-8": flzx.compute_flzx,
+                #   "3-8": flzx.compute_flzx,
                   "1-1": ftcs.compute_ftcs,
                   "2-2": jdzy.compute_jdzy,
-                  "3-7": jetq.compute_jetq,
+                #   "3-7": jetq.compute_jetq,
                   "3-3": ljp_accusation.compute_ljp_accusation,
                   "3-1": ljp_article.compute_ljp_article,
                   "3-4": ljp_imprison.compute_ljp_imprison,
-                  "3-5": ljp_imprison.compute_ljp_imprison,
+                  "3-5": jec_ac.compute_jec_ac, #ljp_imprison.compute_ljp_imprison,
                   "2-3": wbfl.compute_wbfl,
                   "2-6": xxcq.compute_xxcq,
                   "2-1": wsjd.compute_wsjd,
                   "2-4": zxfl.compute_zxfl,
                   "2-7": yqzy.compute_yqzy,
-                  "2-8": lblj.compute_lblj,
+                #   "2-8": lblj.compute_lblj,
                   "2-5": ydlj.compute_ydlj,
                   "2-9": sjjc.compute_sjjc,
                   "2-10": sjjc.compute_cfcy}
