@@ -1,5 +1,5 @@
 task,model_name,score,abstention_rate
-1-1,chatgpt,{'score': 0.10085991737784447},0.0
+1-1,chatgpt,0.10085991737784447,0.0
 1-2,chatgpt,0.8714285714285714,0.0
 2-1,chatgpt,0.653246,0.0
 2-10,chatgpt,0.289840838803708,0.0
@@ -15,8 +15,8 @@ task,model_name,score,abstention_rate
 3-3,chatgpt,0.7261215348161326,0.0
 3-4,chatgpt,0.8677770431894378,0.0
 3-5,chatgpt,0.9,0.0
-3-6,chatgpt,{'score': 0.38671741400174797},0.0
-1-1,qwen_finetune_1,{'score': 0.22544578953823827},0.0
+3-6,chatgpt,0.38671741400174797,0.0
+1-1,qwen_finetune_1,0.22544578953823827,0.0
 1-2,qwen_finetune_1,0.7142857142857143,0.1
 2-1,qwen_finetune_1,0.360552,0.0
 2-10,qwen_finetune_1,0.1209181824712558,0.0
@@ -32,8 +32,8 @@ task,model_name,score,abstention_rate
 3-3,qwen_finetune_1,0.6466299335143657,0.0
 3-4,qwen_finetune_1,0.6735784211621142,0.11428571428571428
 3-5,qwen_finetune_1,0.7857142857142857,0.07142857142857142
-3-6,qwen_finetune_1,{'score': 0.2945033115479156},0.0
-1-1,qwen_original,{'score': 0.1728596105106055},0.0
+3-6,qwen_finetune_1,0.2945033115479156,0.0
+1-1,qwen_original,0.1728596105106055,0.0
 1-2,qwen_original,0.7714285714285715,0.0
 2-1,qwen_original,0.346534,0.0
 2-10,qwen_original,0.07832540627237174,0.0
@@ -49,4 +49,4 @@ task,model_name,score,abstention_rate
 3-3,qwen_original,0.4438773765540394,0.0
 3-4,qwen_original,0.8130684950537624,0.0
 3-5,qwen_original,0.6714285714285714,0.12857142857142856
-3-6,qwen_original,{'score': 0.34104300041714297},0.0
+3-6,qwen_original,0.34104300041714297,0.0
