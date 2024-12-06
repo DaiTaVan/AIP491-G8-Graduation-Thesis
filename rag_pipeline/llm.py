@@ -4,8 +4,11 @@ from typing import Dict
 from openai import OpenAI as OpenAIClient
 from llama_index.core.llms.llm import LLM
 import requests
+import os
 from typing import List, Dict
-
+from dotenv import load_dotenv
+# Load environment variables from the .env file
+load_dotenv()
 class BaseLLM:
     @abstractmethod
     def generate(self, **kwargs):
@@ -83,11 +86,11 @@ class Ollama(BaseLLM):
 class OpenAI(BaseLLM):
     def __init__(
             self,
-            api_key: str,
+            api_key: str = os.getenv('OPENAI_API_KEY'),
             model_name: str = 'gpt-4o-mini',
             temperature = 0.1
     ):
-        self.api_key = api_key
+        self.api_key = api_key 
         self.model_name = model_name
         self.temperature = temperature
         self.client = OpenAIClient(api_key=self.api_key)

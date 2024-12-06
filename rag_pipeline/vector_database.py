@@ -139,7 +139,7 @@ class LawBGEM3QdrantDatabase:
         dense_nodes = self.get_node_from_response(search_response[0])
         sparse_nodes = self.get_node_from_response(search_response[1])
 
-
+        
 
         return self.relative_score_fusion(dense_nodes=dense_nodes,
                                           sparse_nodes=sparse_nodes,

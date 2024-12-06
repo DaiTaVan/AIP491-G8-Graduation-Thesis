@@ -1,5 +1,5 @@
 from typing import Any, Dict, List
-
+import requests
 from vector_database import NodeWithScore
 from llm import OpenAI
 
@@ -127,3 +127,61 @@ class RankGPTRerank:
         return response_list + [
             tt for tt in range(rank_end) if tt not in response_list
         ]  # add the rest of the rank
+
+
+DEFAULT_JINA_AI_API_URL = "https://api.jina.ai/v1"
+class JinaRerank:
+
+    def __init__(
+        self,
+        top_n: int = 2,
+        model: str = "jina-reranker-v1-base-en",
+        base_url: str = DEFAULT_JINA_AI_API_URL,
+        api_key: str = None,
+    ):
+        self.top_n = top_n
+        self.api_url = f"{base_url}/rerank"
+        self.api_key = api_key
+        self.model = model
+        self._session = requests.Session()
+        self._session.headers.update(
+            {"Authorization": f"Bearer {self.api_key}", "Accept-Encoding": "identity"}
+        )
+
+    def _postprocess_nodes(
+        self,
+        nodes: List[NodeWithScore],
+        query: str = None,
+    ) -> List[NodeWithScore]:
+
+        if query is None:
+            raise ValueError("Missing query bundle in extra info.")
+        if len(nodes) == 0:
+            return []
+
+        
+        texts = [
+            node["metadata"]["content"]
+            for node in nodes
+        ]
+        resp = self._session.post(  # type: ignore
+            self.api_url,
+            json={
+                "query": query,
+                "documents": texts,
+                "model": self.model,
+                "top_n": self.top_n,
+            },
+        ).json()
+        if "results" not in resp:
+            raise RuntimeError(resp["detail"])
+
+        results = resp["results"]
+
+        new_nodes = []
+        for result in results:
+            new_node_with_score = nodes[result["index"]]
+            new_node_with_score['jina_score'] = result["relevance_score"]
+            new_nodes.append(new_node_with_score)
+        
+        return new_nodes
