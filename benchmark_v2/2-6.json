@@ -6,8 +6,8 @@
     },
     {
         "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
-        "question": "Vào khoảng 1 giờ chiều một ngày cuối tháng 6 năm 2017, tại khu vực gần trường tiểu học Hoàn Kiếm ở thành phố Hà Nội, bị cáo Hoàng Huy đã mở yên xe và trộm 4 bình acquy trên chiếc xe đạp điện của anh/chị Huy Hoàng, tổng giá trị khoảng 352 nhân dân tệ.",
-        "answer": "Nghi phạm: Hoàng Huy\nNạn nhân: Huy Hoàng\nTài sản bị đánh cắp: 352 nhân dân tệ, 4 bình acquy\nThời gian: Khoảng 1 giờ chiều một ngày cuối tháng 6 năm 2017\nĐịa điểm: Khu vực gần trường tiểu học Hoàn Kiếm ở thành phố Hà Nội"
+        "question": "Vào khoảng 1 giờ chiều một ngày cuối tháng 6 năm 2017, tại khu vực gần trường tiểu học Hoàn Kiếm ở thành phố Hà Nội, bị cáo Hoàng Huy đã mở yên xe và trộm 4 bình acquy trên chiếc xe đạp điện của anh/chị Huy Hoàng, tổng giá trị khoảng 1.5 triệu đồng.",
+        "answer": "Nghi phạm: Hoàng Huy\nNạn nhân: Huy Hoàng\nTài sản bị đánh cắp: 1.5 triệu đồng, 4 bình acquy\nThời gian: Khoảng 1 giờ chiều một ngày cuối tháng 6 năm 2017\nĐịa điểm: Khu vực gần trường tiểu học Hoàn Kiếm ở thành phố Hà Nội"
     },
     {
         "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
@@ -36,7 +36,7 @@
     },
     {
         "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
-        "question": "Vào khoảng ngày 13 tháng 8 năm 2017, bị cáo Hoàng Huy tại hành lang bên ngoài phòng thứ hai, phía Bắc, tầng hai của khu nhà trọ công ty nói trên, đã đưa tay qua cửa sổ để trộm một chiếc máy tính xách tay Lenovo G470 màu đen của anh Vũ Hiệu, trị giá 1110 Nhân dân tệ.",
+        "question": "Vào khoảng ngày 13 tháng 8 năm 2017, bị cáo Hoàng Huy tại hành lang bên ngoài phòng thứ hai, phía Bắc, tầng hai của khu nhà trọ công ty nói trên, đã đưa tay qua cửa sổ để trộm một chiếc máy tính xách tay Lenovo G470 màu đen của anh Vũ Hiệu, trị giá 4.5 triệu đồng.",
         "answer": "Nghi phạm: Hoàng Huy\nNạn nhân: Vũ Hiệu\nTài sản bị đánh cắp: Một chiếc máy tính xách tay Lenovo G470 màu đen của anh Vũ Hiệu\nThời gian: Khoảng ngày 13 tháng 8 năm 2017\nĐịa điểm: Hành lang bên ngoài phòng thứ hai, phía Bắc, tầng hai của khu nhà trọ công ty nói trên"
     },
     {
