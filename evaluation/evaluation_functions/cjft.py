@@ -9,4 +9,4 @@ def compute_cjft(content):
     average_rouge_l = compute_rouge(predictions, references)
     average_rouge_l
     
-    return {"score": average_rouge_l}
+    return average_rouge_l
