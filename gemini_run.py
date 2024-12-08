@@ -24,7 +24,7 @@ llm = GoogleGenerativeAI(model="gemini-1.5-flash", google_api_key="")
 # Here we assume the data has "instruction" and "question" fields and you want to get the LLM's answer.
 # Modify as needed.
 template = ChatPromptTemplate.from_messages([
-    SystemMessage(content="Bạn là một chuyên gia về luật Việt Nam. Hãy trích dẫn đúng nội dung quy định luật từ văn bản gốc. Không cần giải thích, chỉ cần đưa nội dung luật."),
+    SystemMessage(content="Bạn là một chuyên gia về luật Việt Nam. Hãy trả lời câu hỏi dưới đây cũng như theo hướng dẫn người dùng"),
     HumanMessagePromptTemplate.from_template("{instruction}\n{question}")
 ])
 
