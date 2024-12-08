@@ -192,10 +192,11 @@ class Agent4(BaseAgent):
         self.graph_database = graph_database
     
     def run(self, retrieved_nodes: List[NodeWithScore], query: str):
-        new_list_nodes = self.rerank._postprocess_nodes(
-            nodes=retrieved_nodes,
-            query=query
-        )
+        # new_list_nodes = self.rerank._postprocess_nodes(
+        #     nodes=retrieved_nodes,
+        #     query=query
+        # )
+        new_list_nodes = retrieved_nodes
 
         node_ids = []
         node_titles = []
@@ -297,12 +298,7 @@ class RelatedLegalRules(BaseModel):
     reference_ids: List[str] = Field(
         description="Lấy `reference_id` của ngữ cảnh cung cấp ở trên"
     )
-class BaseAgent:
-    @abstractmethod
-    def run(self, **kwargs):
-        """
-        Run the agent
-        """
+
 class Agent5(BaseAgent):
     def __init__(self, config, model):
         """

@@ -71,7 +71,7 @@ class Pipeline:
         
         # Initialize vector database and retriever components
         self.vector_database = LawBGEM3QdrantDatabase(url=self.qdrant_url, api_key=self.qdrant_api_key)
-        self.embedding_model = BGEEmbedding(model_name="BAAI/bge-m3")
+        self.embedding_model = BGEEmbedding(model_name="bge-m3")#(model_name="BAAI/bge-m3")
         
         DEFAULT_TOP_N = 3
         self.jina_reranker = JinaRerank(
@@ -242,12 +242,12 @@ class Pipeline:
 
         return workflow.compile()
 
-    def run(self, query: str, legal_topics: str) -> Dict:
+    def run(self, query: str) -> Dict: #, legal_topics: str) -> Dict:
         """Executes the pipeline."""
         try:
             state = AgentState(
                 query=query,
-                legal_topics=legal_topics,
+                # legal_topics=legal_topics,
                 agent1_output={},
                 agent2_output={},
                 retrieved_nodes=[],
@@ -324,13 +324,13 @@ def main():
     # Parse arguments
     args = parser.parse_args()
 
-    # Read legal topics
-    if os.path.exists(args.legal_topics_path):
-        with open(args.legal_topics_path, "r", encoding="utf-8") as file:
-            legal_topics = file.read()
-    else:
-        print(f"Legal topics file not found at {args.legal_topics_path}. Using empty string.")
-        legal_topics = ""
+    # # Read legal topics
+    # if os.path.exists(args.legal_topics_path):
+    #     with open(args.legal_topics_path, "r", encoding="utf-8") as file:
+    #         legal_topics = file.read()
+    # else:
+    #     print(f"Legal topics file not found at {args.legal_topics_path}. Using empty string.")
+    #     legal_topics = ""
 
     # Initialize pipeline
     pipeline = Pipeline(
@@ -345,7 +345,7 @@ def main():
 
     # Run the pipeline
     try:
-        result = pipeline.run(args.query, legal_topics)
+        result = pipeline.run(args.query) #, legal_topics)
     except Exception as e:
         print(f"Pipeline execution failed: {e}")
         return
