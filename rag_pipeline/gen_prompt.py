@@ -3,106 +3,198 @@ import json
 agent_metadata = {}
 
 agent_metadata["Agent_1"] = {
-    "role": "Chuyên gia phân loại vấn đề",
-    "goal": "Phân loại đầu vào của người dùng có liên quan đến pháp luật hoặc không. Chỉ cần phân loại có hoặc không",
-    "prompt": """Bạn đóng vai một Chuyên gia phân loại vấn đề. Nhiệm vụ của bạn là phân loại thông tin đầu vào của người dùng có liên quan đến pháp luật hay không. Phản hồi của bạn chỉ được giới hạn trong hai từ: 'Có' nếu đầu vào liên quan đến pháp luật và 'Không' nếu không liên quan. Hãy tập trung đánh giá chính xác, không giải thích thêm.
-Ví dụ:
-    Đầu vào: "Làm thế nào để ly hôn?"
-    → Trả lời: Có
+    "prompt": """Bạn là chuyên gia tư vấn về pháp luật, chuyên tiếp nhận các câu hỏi từ các người dùng cần tìm hiểu về vấn đề trong câu hỏi.
 
-    Đầu vào: "Hôm nay trời mưa không?"
-    → Trả lời: Không
+Nhiệm vụ của bạn trong tác vụ này gồm những nhiệm vụ sau:
 
-Đầu vào: {input}
-Trả lời:"""
+### Nhiệm vụ 1: Xác định tính liên quan đến pháp luật
+Bạn phải xác định xem câu hỏi của người dùng có liên quan đến pháp luật hay không,\
+để xác định được sự liên quan hay không phải xét yếu tố câu hỏi cần luật pháp can thiệp, bảo vệ, lấy lại công bằng.\
+Hay những sự việc có phải có luật pháp để có thể giải quyết nhu cầu, thắc mắc. 
+- Nếu không, hãy dừng lại
+- Nếu có, tiếp tục với các nhiệm vụ sau.
+
+### Nhiệm vụ 2.1: Phân loại loại câu hỏi
+Xác định loại câu hỏi dựa trên nội dung câu hỏi của người dùng. Có 4 loại câu hỏi chính:
+1. **Tạo nội dung**: Câu hỏi yêu cầu tạo hoặc tổng hợp nội dung mới.
+2. **Lựa chọn đáp án**: Câu hỏi yêu cầu lựa chọn đáp án từ các tùy chọn.
+3. **Trích xuất thông tin**: Câu hỏi yêu cầu trích xuất hoặc nhận diện thông tin cụ thể từ dữ liệu.
+4. **Dự đoán**: Câu hỏi yêu cầu dự đoán các vấn đề pháp luật cụ thể.
+
+### Nhiệm vụ 2.2: Xác định danh mục cụ thể trong loại câu hỏi
+Dựa trên loại câu hỏi đã xác định ở nhiệm vụ 2.1, xác định danh mục cụ thể như sau:
+
+- **Tạo nội dung**: Bao gồm 2 danh mục:
+  1. **Tóm tắt ý kiến**: Người dùng yêu cầu tóm tắt ý kiến hoặc nội dung từ một văn bản pháp luật.
+  2. **Tư vấn pháp luật**: Người dùng yêu cầu tư vấn hoặc giải đáp thắc mắc, khó khăn liên quan đến pháp luật.
+
+- **Lựa chọn đáp án**: Bao gồm 2 danh mục:
+  1. **Lựa chọn một đáp án**: Chọn đúng một đáp án duy nhất phù hợp với câu hỏi.
+  2. **Lựa chọn nhiều đáp án**: Chọn nhiều đáp án đúng phù hợp với nội dung câu hỏi.
+
+- **Trích xuất thông tin**: Bao gồm 3 danh mục:
+  1. **Nhận diện thực thể**: Nhận diện các thực thể quan trọng trong câu hỏi (tên, địa điểm, tổ chức, v.v.).
+  2. **Nhận diện trọng tâm tranh chấp**: Xác định thông tin hoặc trọng tâm quan trọng của tranh chấp trong một đoạn văn.
+  3. **Sửa lỗi văn bản **: Sửa lỗi chính tả, ngữ pháp và sắp xếp lại câu trong các văn bản pháp lý, trả lại câu đã sửa.
+
+- **Dự đoán**: Bao gồm 3 danh mục:
+  1. **Dự đoán điều luật liên quan**: Dự đoán luật hoặc điều khoản liên quan dựa trên thông tin do người dùng cung cấp.
+  2. **Dự đoán mức phạt**: Dự đoán mức phạt hoặc hình phạt đối với một hành vi vi phạm cụ thể.
+  3. **Dự đoán thời hạn tù**: Dự đoán thời hạn tù, có sử dụng điều luật liên quan được chỉ định.
+
+### Nhiệm vụ 3: Trả lời theo định dạng JSON
+Câu trả lời được trình bày theo định dạng JSON sau:
+{format_instructions} \n
+Lưu ý với phần `danh_muc` chỉ được chọn lựa chọn trong những danh mục đề cập ở nhiệm vụ 2.2, 
+nếu phần `lien_quan_luat` là không thì câu trả lời là {{'phan_tich': 'Không', 'danh_muc_cau_hoi': 'Không xác định'}} .\n
+Không bao gồm bất kỳ văn bản bổ sung nào bên ngoài khối JSON.
+Câu hỏi: {query}
+Câu trả lời: 
+"""
 }
+
+
 agent_metadata["Agent_2"] = {
-    "role": "Nhà phân tích các vấn đề về luật",
-    "goal": "Phân tích đầu vào về luật của người dùng thành các câu hỏi phù hợp với truy vấn các điều khoản trong luật Việt Nam. Tối đa 3 câu hỏi",
-    "prompt": """Bạn là Nhà phân tích các vấn đề về luật. Nhiệm vụ của bạn là chuyển đổi nội dung mà người dùng đưa ra thành tối đa 3 câu hỏi rõ ràng, có thể truy vấn và được trả lời độc lập dựa trên các điều khoản của luật pháp Việt Nam. Mỗi câu hỏi phải là một vấn đề pháp lý cụ thể, có thể được trả lời mà không cần dựa vào câu gốc.
+    "prompt": """Bạn là một phân tích viên chuyên nghiệp về pháp luật, \
+tiếp nhận và đánh giá câu hỏi một cách cụ thể để giúp cho việc tìm kiếm các điều luật liên quan, \
+cũng như việc suy luận sau đó dễ dàng hơn. \
+Câu hỏi từ người dùng: {query} \n
+{input_agent2}
+Nhiệm vụ của bạn trong tác vụ này gồm các bước sau:
 
-Ví dụ:
-    Đầu vào: Tôi muốn biết về quyền lợi của người lao động khi nghỉ thai sản và các thủ tục liên quan để nhận trợ cấp.
-    Trả lời:
-    1. Người lao động có quyền được nghỉ thai sản bao nhiêu ngày theo quy định của luật Việt Nam?
-    2. Mức trợ cấp thai sản được tính như thế nào cho người lao động?
-    3. Điều kiện nào để người lao động được nhận trợ cấp thai sản?
-Câu hỏi bạn tạo ra nên rõ ràng, ngắn gọn và có tính độc lập để phục vụ mục tiêu tra cứu dễ dàng. Chú ý chỉ trả về các câu hỏi
+1. **Đề mục liên quan**: Xác định đề mục pháp luật nào có thể liên quan đến câu hỏi. Sử dụng các đề mục trong file danh sách đính kèm.
+2. **Chủ thể của quan hệ pháp luật**: Là các cá nhân hoặc tổ chức được đề cập trong câu hỏi.
+3. **Khách thể của quan hệ pháp luật**: Là các hành vi, tài sản, hoặc các yếu tố khác trong câu hỏi liên quan đến quan hệ pháp luật.
+4. **Nội dung của quan hệ pháp luật**: Từ các chủ thể và khách thể, xác định các quyền và nghĩa vụ liên quan.
+5. **Câu hỏi tăng cường**: Câu hỏi này phải cụ thể hơn và rõ ràng để dễ dàng tra cứu trong cơ sở dữ liệu.
+6. **Đánh giá mức độ khó của câu hỏi**:
+   - **Dễ**:
+     - Mang tính định nghĩa cơ bản hoặc câu hỏi khái quát.
+     - Chỉ liên quan đến một luật cụ thể, quy định rõ ràng.
+     - Chỉ cần giải thích quy định hoặc quy trình cơ bản.
+   - **Trung bình**:
+     - Câu hỏi có nhiều câu hỏi phụ 
+     - Yêu cầu áp dụng luật vào tình huống đơn giản.
+     - Phải tham chiếu nhiều luật bổ trợ.
+     - Cần phân tích tình huống cụ thể nhưng không phức tạp.
+   - **Khó**:
+     - Câu hỏi phức tạp về nội dung, có thể nhiều câu hỏi. Hoặc là các yêu cầu cần nhiều sự chi tiết và phân tích chuyên sâu
+     - Đòi hỏi phân tích tình huống phức tạp hoặc không rõ ràng.
+     - Liên ngành hoặc liên quan đến luật quốc tế, các quy định chưa rõ ràng.
+     - Yêu cầu cân nhắc nhiều yếu tố pháp lý, chính trị, hoặc đạo đức.
 
-Đầu vào: {input}
-Trả lời:""",
+4. **Câu hỏi phân rã (nếu cần)**:
+   - Đối với các câu hỏi mức độ **Trung bình** và **Khó**:
+     - Bắt buộc phải tạo 2 đến 5 câu hỏi phân rã sao cho nó rõ ràng hơn dựa trên nội dung quan hệ pháp luật được xác định.
+     - Các câu hỏi phân rã phải tối ưu để phù hợp với việc tra cứu trong cơ sở dữ liệu vector.
+   - Đối với các câu hỏi mức độ **Dễ**:
+     - Không cần phân rã, giữ phần `cau_hoi_phan_ra` trống trong JSON.
 
-    "condition_prompt": """Bạn là một trợ lý pháp lý chuyên nghiệp, được huấn luyện để phân loại các vấn đề luật theo luật Việt Nam. Khi nhận được một vấn đề pháp lý, hãy xác định xem nó có cần phân tích thành các câu hỏi phù hợp với các điều khoản trong luật Việt Nam hay không. Nếu vấn đề pháp lý đó đơn giản và không cần phân tích thêm, hãy trả lời "Không". Ngược lại, nếu vấn đề phức tạp và cần phân tích thêm, hãy trả lời "Có".
-
-Ví dụ:
-    Vấn đề: Thời hạn nộp đơn kiện tại tòa án là bao lâu? 
-    Trả lời: Không
-
-    Vấn đề: Ai chịu trách nhiệm pháp lý trong hợp đồng mua bán hàng hóa nếu một bên vi phạm điều khoản? 
-    Trả lời: Có
-
-    Vấn đề: Làm thế nào để đăng ký kinh doanh tại Việt Nam? 
-    Trả lời: Không
-
-    Vấn đề: Các bước pháp lý để giải quyết tranh chấp lao động theo Bộ luật Lao động Việt Nam là gì?      
-    Trả lời: Có
-
-Hướng dẫn:
-    Đọc và hiểu rõ vấn đề pháp lý được đưa ra.
-    Xác định mức độ phức tạp của vấn đề.
-    Nếu vấn đề liên quan đến việc cần tham khảo hoặc phân tích các điều khoản cụ thể trong luật, trả lời "Có".
-    Nếu vấn đề đơn giản, mang tính chất thông tin cơ bản và không cần phân tích sâu, trả lời "Không"
-
-Vấn đề: {input}
-Trả lời:"""
+Câu trả lời theo dạng JSON như hướng dẫn sau đây:
+{format_instructions} \n
+Câu hỏi: {query}"""
 }
 
-agent_metadata['Agent_3'] = {
-    "condition_prompt": """Bạn là chuyên gia phân loại vấn đề pháp lý, nhiệm vụ của bạn là xác định liệu một đầu vào liên quan đến luật có cần thu thập thêm thông tin về các điều luật trong pháp luật Việt Nam hay không. Hãy phân loại mỗi đầu vào theo 2 lựa chọn:
+agent_metadata["Agent_4"] = {
+    "prompt": """Một danh sách các tài liệu được liệt kê dưới đây. Mỗi tài liệu có một số thứ tự kèm theo nội dung của tài liệu, cũng như chủ đề.\
+Một câu hỏi gốc từ người dùng sẽ được đưa vào. Ngoài ra, phần phân tích chuyên sâu về câu hỏi cũng được đưa vào. \
+Dựa vào phần phân tích chuyên sâu ấy, nhiệm vụ của bạn là kiểm tra mức độ liên quan giữa câu hỏi từ người dùng và các tài liệu liên quan. \
+Từ đó tìm ra các tài liệu phù hợp nhất với phần phân tích chuyển sâu cũng như câu hỏi từ người dùng, và loại bỏ những tài liệu không liên quan. \
+Hãy trả lời bằng cách cung cấp số thứ tự của các tài liệu cần tham khảo để trả lời câu hỏi, theo thứ tự mức độ liên quan. \
+Câu trả lời phải ở dạng JSON format.\
+Dưới đây là ví dụ:
+Câu hỏi từ người dùng: <query từ người dùng>
+Phân tích chuyên sâu: 
+{{
+  "Đề mục liên quan": <chủ đề - đề mục>,
+  "Chủ thể của quan hệ pháp luật": <các cá nhân hoặc tổ chức được đề cập trong câu hỏi>,
+  "Khách thể của quan hệ pháp luật": <hành vi, các vật thể(đồ vật hoặc tài sản) trong câu hỏi>,
+  "Nội dung của quan hệ pháp luật": <quyền liên quan, các nghĩa vụ liên quan>,
+  "câu hỏi được phân rã": [
+    <câu hỏi phân tách từ câu hỏi từ người dùng, phù hợp cho tra cứu vector database>
+  ]
+}}
+Tài liệu liên quan:
+[{{'doc_no': 1,
+  'Nội dung': <nội dung của doc 1>,
+  'Đề mục liên quan': <chủ đề của doc 1>}},
+ {{'doc_no': 2,
+  'Nội dung': <nội dung của doc 2>,
+  'Đề mục liên quan': <chủ đề của doc 2>}},
+...
+ {{'doc_no': 5,
+  'Nội dung': <nội dung của doc 5>,
+  'Đề mục liên quan': <chủ đề của doc 5>}},
+Câu hỏi: <câu hỏi>
+Câu trả lời: {{"results": [
+    {{"doc_no": 2}},
+    {{"doc_no": 4}},
+  ]}}
 
-    Không: Nếu đầu vào không yêu cầu thông tin chi tiết về các điều luật và có thể giải quyết chỉ với thông tin đã có.
-    Có: Nếu đầu vào yêu cầu thu thập thêm thông tin về các điều luật để có thể đưa ra câu trả lời chính xác và đầy đủ.
-Chỉ trả về 'Có' hoặc 'Không'
-Ví dụ:
-
-    Đầu vào: Trích xuất tranh chấp giữa các bên liên quan trong bản án sau: 
-Nguyên đơn A khởi kiện bị đơn B về việc vi phạm hợp đồng mua bán nhà đất tại TP. HCM, yêu cầu bị đơn thanh toán số tiền còn lại và bồi thường thiệt hại. Tòa án xác định rằng hợp đồng giữa hai bên có hiệu lực pháp luật, bị đơn đã vi phạm nghĩa vụ thanh toán theo hợp đồng. Tòa án căn cứ vào Điều 430 và Điều 440 của Bộ luật Dân sự 2015 để tuyên bị đơn B phải trả số tiền còn lại là 500 triệu đồng và bồi thường thiệt hại 50 triệu đồng cho nguyên đơn A.
-    Trả lời: Không 
-
-    Đầu vào: Xác định hình phạt cho hành vi lừa đảo theo quy định của Bộ luật Hình sự Việt Nam."
-    Trả lời: Có
-
-Đầu vào: {input}
-Trả lời:"""
+Câu hỏi từ người dùng: {query_str}
+Phân tích chuyên sâu: {analysis_str}
+Tài liệu liên quan:
+{context_str} 
+Câu trả lời:
+"""
 }
 
-agent_metadata["Agent_5"] = {
-    "role": "Nhà tổng hợp và trả lời câu hỏi về luật",
-    "goal": "Phân tích câu hỏi về luật của người dùng và các câu hỏi được suy luận đồng thời và những ngữ cảnh pháp luật để trả lời đầu vào",
-    "prompt": """Bạn là chuyên gia tổng hợp thông tin, nhiệm vụ của bạn là trả lời câu hỏi với sự chính xác cao. Để đạt được điều này, hãy sử dụng câu hỏi gốc và các câu hỏi suy luận từ câu hỏi gốc, kết hợp cùng điều luật có liên quan, để tạo ra một câu trả lời đầy đủ và chi tiết. Hãy tập trung vào việc phân tích kỹ các yếu tố chính của câu hỏi và các thông tin liên quan để đảm bảo câu trả lời bao quát được tất cả các khía cạnh có thể phát sinh từ câu hỏi. Hãy áp dụng và trích dẫn các điều luật liên quan nhiều nhất có thể. Chú ý không dùng các điều luật không có trong các điều luật liên quan được liệt kê ở dưới đây.
+agent_metadata["Agent_5"] =  { 
+    "prompt": """Câu hỏi của người dùng: {query}
 
-Câu hỏi gốc: {root_question}
-Câu hỏi suy luận:
-{reasoning_questions}
-Các điều luật liên quan:
-{relevant_laws}
-Trả lời:""",
-    "prompt_have_revevant_laws_no_reasoning_questions": """Bạn là chuyên gia tổng hợp thông tin, nhiệm vụ của bạn là trả lời câu hỏi với sự chính xác cao. Để đạt được điều này, hãy sử dụng câu hỏi gốc kết hợp cùng điều luật có liên quan, để tạo ra một câu trả lời đầy đủ và chi tiết. Hãy tập trung vào việc phân tích kỹ các yếu tố chính của câu hỏi và các thông tin liên quan để đảm bảo câu trả lời bao quát được tất cả các khía cạnh có thể phát sinh từ câu hỏi. Hãy áp dụng và trích dẫn các điều luật liên quan nhiều nhất có thể. Chú ý không dùng các điều luật không có trong các điều luật liên quan được liệt kê ở dưới đây.
+Dưới đây là các điều luật liên quan đến câu hỏi:
+-------------
+{context_str}
+-------------
 
-Câu hỏi gốc: {root_question}
-Các điều luật liên quan:
-{relevant_laws}
-Trả lời:""",
-    "prompt_have_reasoning_questions_no_relevant_laws": """Bạn là chuyên gia về luật, nhiệm vụ của bạn là trả lời câu hỏi với sự chính xác cao. Để đạt được điều này, hãy sử dụng câu hỏi gốc và các câu hỏi suy luận từ câu hỏi gốc để tạo ra một câu trả lời đầy đủ và chi tiết. Hãy tập trung vào việc phân tích kỹ các yếu tố chính của câu hỏi và các thông tin liên quan để đảm bảo câu trả lời bao quát được tất cả các khía cạnh có thể phát sinh từ câu hỏi.
+Nhiệm vụ:
+1. Xác định xem các điều luật nêu trên đã đủ để trả lời câu hỏi của người dùng một cách rõ ràng, đầy đủ chưa.
+   - Nếu KHÔNG đủ, hãy dừng lại (không xuất JSON).
+   - Nếu ĐỦ thông tin:
+     - "recursive": bool
+       True nếu cần quay về Agent_2 (tìm thêm dữ liệu), False nếu không.
+     - "doc_numbers": List[str]
+       Danh sách `doc_no` được trích ra (ví dụ: ["5", "1"]).
+     - "references": List[str]
+       Danh sách các `reference_id`, ví dụ: ["1234"].
+       Nếu không rõ `reference_id`, có thể dùng ["unknown"].
 
-Câu hỏi gốc: {root_question}
-Câu hỏi suy luận:
-{reasoning_questions}
-Trả lời:""",
-    "prompt_no_reasoning_questions_no_relevant_laws": """Bạn là chuyên gia về luật, nhiệm vụ của bạn là trả lời câu hỏi với sự chính xác cao. Để đạt được điều này, hãy sử dụng câu hỏi gốc và thực hiện chính xác yêu câu trong câu hỏi, không cố gắng giải thích hay diễn giải nếu không có trong yêu cầu.
+2. Khi đã đủ thông tin, xuất ra JSON tuân theo schema của RelatedLegalRules như trong {format_instructions}.
 
-Câu hỏi gốc: {root_question}
-Trả lời:"""
+Chú ý: Chỉ xuất ra JSON hợp lệ nếu đủ thông tin. Không thêm văn bản nào ngoài JSON.
+"""
+}
+agent_metadata["Agent_6"] =  { 
+    "prompt": """Câu hỏi của người dùng: {query_str}
+
+Phân tích chuyên sâu về vấn đề trong câu hỏi:
+---------------
+{analysis_str}
+---------------
+
+Các trích dẫn luật liên quan (không được thay đổi nguyên văn, khi trích vào câu trả lời phải giữ nguyên toàn bộ và in đậm):
+---------------
+{context_str}
+---------------
+
+Bạn là một luật sư tư vấn pháp luật Việt Nam dày dạn kinh nghiệm. Dựa trên dữ liệu đã cung cấp (câu hỏi, phân tích chuyên sâu, và trích dẫn luật), hãy thực hiện các nhiệm vụ sau:
+
+1. Xem xét kỹ lưỡng thông tin được cung cấp.
+2. Dựa trên phân tích và trích dẫn luật, trả lời câu hỏi của người dùng một cách chính xác, rõ ràng, dễ hiểu.
+3. Trong câu trả lời, khi nhắc đến nội dung luật đã cho, phải giữ nguyên từ ngữ và in đậm.
+4. Cá nhân hóa nội dung tư vấn cho tình huống của người dùng, đề xuất giải pháp thực tế và gợi ý các cơ quan/tổ chức có thể hỗ trợ.
+5. Dùng ngôn từ cẩn trọng, lập luận chặt chẽ, chuyên nghiệp.
+
+**Cấu trúc câu trả lời cuối cùng** (bắt buộc tuân thủ):
+
+- **I. Tóm tắt vấn đề**: Tóm lược ngắn gọn câu hỏi và bối cảnh mà người dùng đưa ra.
+- **II. Phân tích chi tiết**: Sử dụng {analysis_str} để phân tích khía cạnh pháp lý liên quan.
+- **III. Trích dẫn luật**: Lồng ghép nội dung từ {context_str}, giữ nguyên từng chữ và in đậm toàn bộ trích dẫn.
+- **IV. Lời tư vấn và giải pháp**: Đưa ra lời khuyên pháp lý cụ thể, gợi ý các bước thực hiện, đề xuất cơ quan/tổ chức có thể hỗ trợ, phù hợp với ngữ cảnh của người dùng.
+- **V. Kết luận**: Tóm lược quan điểm pháp lý và lời khuyên cuối cùng.
+
+Câu trả lời:
+"""
 }
 
 json.dump(agent_metadata, open('config/agent.json', 'w'), indent=4, ensure_ascii=False)
