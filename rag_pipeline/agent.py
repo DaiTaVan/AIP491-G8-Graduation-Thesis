@@ -153,6 +153,18 @@ class Agent3(BaseAgent):
             verbose=self.verbose
         )
         self.reranker = reranker
+    
+    def update_top_k_and_alpha(self, top_k: int, alpha: float):
+        self.top_k = top_k
+        self.alpha = alpha
+        self.retriever = LawRetriever(
+            vector_database=self.vector_database,
+            embedding=self.embedding,
+            top_k=self.top_k,
+            alpha=self.alpha,
+            verbose=self.verbose
+        )
+
     def run(self, list_query: List[str], query_filter: Dict = None, original_query: str=""):
         list_result = self.retriever.retrieve(
             list_query=list_query,

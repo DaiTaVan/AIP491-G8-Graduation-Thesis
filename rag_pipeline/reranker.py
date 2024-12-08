@@ -148,6 +148,9 @@ class JinaRerank:
             {"Authorization": f"Bearer {self.api_key}", "Accept-Encoding": "identity"}
         )
 
+    def update_top_n(self, n: int):
+        self.top_n = n
+        
     def _postprocess_nodes(
         self,
         nodes: List[NodeWithScore],

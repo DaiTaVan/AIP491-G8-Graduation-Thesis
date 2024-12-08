@@ -61,14 +61,71 @@ class Pipeline:
         else:
             print(f"Config file not found at {config_path}. Using empty configuration.")
 
+        # Load legal topics
+        if os.path.exists(self.legal_topics_path):
+            with open(self.legal_topics_path, "r", encoding="utf-8") as file:
+                self.legal_topics = file.read()
+        else:
+            print(f"Legal topics file not found at {self.legal_topics_path}. Using empty string.")
+            self.legal_topics = ""
+        
+        # Initialize vector database and retriever components
+        self.vector_database = LawBGEM3QdrantDatabase(url=self.qdrant_url, api_key=self.qdrant_api_key)
+        self.embedding_model = BGEEmbedding(model_name="BAAI/bge-m3")
+        
+        DEFAULT_TOP_N = 3
+        self.jina_reranker = JinaRerank(
+            top_n=DEFAULT_TOP_N,
+            model="jina-colbert-v2",
+            api_key="jina_c3454a5b2f874d2290894c0d81137503mLsIhAJEVBn1SAKqFNjJbMnhQCnk"
+        )
+
+        self.gpt_reranker = RankGPTRerank(
+            top_n=DEFAULT_TOP_N,
+            llm=OpenAI(
+                temperature=0,
+                model_name="gpt-4o-mini"
+            ),
+        )
+        self.graph_db = Neo4jDatabase(
+            uri=self.neo4j_uri,
+            username=self.neo4j_auth[0],
+            password=self.neo4j_auth[1],
+        )
+
+        self.agent1 = Agent1(config=self.config, model=self.gpt_model)
+        self.agent2 = Agent2(config=self.config, model=self.gpt_model)
+        self.agent3 = Agent3(
+            llm=self.gpt_model, 
+            vector_database=self.vector_database, 
+            embedding=self.embedding_model, 
+            reranker=self.jina_reranker,
+            top_k=10,
+            alpha=0.5
+        )
+
+        self.agent4 = Agent4(
+            rerank=self.gpt_reranker,
+            graph_database=self.graph_db,
+        )
+        self.agent5 = Agent5(
+                model=self.gpt_model,
+                config=self.config
+            )
+
+        self.agent6 = Agent6(
+                model=self.gpt_model,
+                config=self.config
+            )
+
         # Create the LangGraph workflow
         self.graph = self._create_graph()
 
     def agent1_node(self, state: AgentState) -> AgentState:
         """Determines if the query is legal-related and its category."""
         try:
-            agent1 = Agent1(config=self.config, model=self.gpt_model)
-            state["agent1_output"] = agent1.run(query=state["query"])
+            
+            state["agent1_output"] = self.agent1.run(query=state["query"])
             return state
         except Exception as e:
             print(f"Error in agent1_node: {e}")
@@ -79,18 +136,9 @@ class Pipeline:
         try:
             question_category = state["agent1_output"].get("danh_muc_cau_hoi", "")
 
-            # Load legal topics
-            if os.path.exists(self.legal_topics_path):
-                with open(self.legal_topics_path, "r", encoding="utf-8") as file:
-                    legal_topics = file.read()
-            else:
-                print(f"Legal topics file not found at {self.legal_topics_path}. Using empty string.")
-                legal_topics = ""
-
-            input_agent2 = f"Đề mục trong văn bản pháp luật Việt Nam: {legal_topics}\nLoại câu hỏi: {question_category}"
-
-            agent2 = Agent2(config=self.config, model=self.gpt_model)
-            state["agent2_output"] = agent2.run(input_agent2=input_agent2, query=state["query"])
+            input_agent2 = f"Đề mục trong văn bản pháp luật Việt Nam: {self.legal_topics}\nLoại câu hỏi: {question_category}"
+            
+            state["agent2_output"] = self.agent2.run(input_agent2=input_agent2, query=state["query"])
             return state
         except Exception as e:
             print(f"Error in agent2_node: {e}")
@@ -107,22 +155,14 @@ class Pipeline:
             }
             top_k, alpha, top_n = params.get(difficulty, (5, 0.5, 3))
 
-            # Initialize vector database and retriever components
-            vector_database = LawBGEM3QdrantDatabase(url=self.qdrant_url, api_key=self.qdrant_api_key)
-            embedding_model = BGEEmbedding(model_name="BAAI/bge-m3")
-            jina_reranker = JinaRerank(
-                top_n=top_n,
-                model="jina-colbert-v2",
-                api_key="jina_c3454a5b2f874d2290894c0d81137503mLsIhAJEVBn1SAKqFNjJbMnhQCnk"
-            )
-
+            self.jina_reranker.update_top_n(n=top_n)
             # Prepare queries for retrieval
             list_query = [state["agent2_output"].get("cau_hoi_tang_cuong", "")] + state["agent2_output"].get("cau_hoi_phan_ra", [])
             print(f"Retrieval Queries: {list_query}")
 
             # Perform retrieval
-            agent3 = Agent3(llm=self.gpt_model, vector_database=vector_database, embedding=embedding_model, reranker=jina_reranker)
-            state["retrieved_nodes"] = agent3.run(list_query=list_query, original_query=state["query"])
+            self.agent3.update_top_k_and_alpha(top_k=top_k, alpha=alpha)
+            state["retrieved_nodes"] = self.agent3.run(list_query=list_query, original_query=state["query"])
 
             if not state["retrieved_nodes"]:
                 print("No nodes retrieved in retrieval_node.")
@@ -143,25 +183,8 @@ class Pipeline:
             }
             _, _, top_n = params.get(difficulty, (5, 0.5, 3))
 
-            gpt_reranker = RankGPTRerank(
-                top_n=top_n,
-                llm=OpenAI(
-                    temperature=0,
-                    model_name="gpt-4o-mini"
-                ),
-            )
-            graph_db = Neo4jDatabase(
-                uri=self.neo4j_uri,
-                username=self.neo4j_auth[0],
-                password=self.neo4j_auth[1],
-            )
-
-            agent4 = Agent4(
-                rerank=gpt_reranker,
-                graph_database=graph_db,
-            )
             # final_answer_state as final_content_context
-            state["final_answer_state"] = agent4.run(
+            state["final_answer_state"] = self.agent4.run(
                 query=state["query"],
                 retrieved_nodes=state["retrieved_nodes"],
             )
@@ -174,12 +197,9 @@ class Pipeline:
         """Processes the final answer through Agent5."""
         try:
             final_content_context = state["final_answer_state"]
-            agent5 = Agent5(
-                model=self.gpt_model,
-                config=self.config
-            )
+            
             # Run Agent5
-            ans = agent5.run(state["query"], str(final_content_context))
+            ans = self.agent5.run(state["query"], str(final_content_context))
             state["agent5_output"] = ans
             return state
         except Exception as e:
@@ -192,11 +212,8 @@ class Pipeline:
             final_content_context = state["final_answer_state"]
             response_2 = state["agent5_output"]  # Assuming response_2 comes from Agent5
 
-            agent6 = Agent6(
-                model=self.gpt_model,
-                config=self.config
-            )
-            result = agent6.run(state["query"], str(response_2), str(final_content_context))
+            
+            result = self.agent6.run(state["query"], str(response_2), str(final_content_context))
             state["agent6_output"] = result
             return state
         except Exception as e:
