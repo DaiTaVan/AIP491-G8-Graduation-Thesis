@@ -1,0 +1,422 @@
+[
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Người chưa thành niên từ đủ mười lăm tuổi đến \nchưa đủ mười tám tuổi phạm tội thì hình phạt cao\n nhất có thể áp dụng là bao nhiêu năm tù? \nA. Không quá 5 năm tù. \nB. Không quá 10 năm tù. \nC. Không quá 18 năm tù. \nD. Không quá 15 năm tù.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Câu hỏi: Người chưa thành niên từ đủ mười lăm tuổi đến \nchưa đủ mười tám tuổi phạm tội thì hình phạt cao\n nhất có thể áp dụng là bao nhiêu năm tù? \nA. Không quá 5 năm tù. \nB. Không quá 10 năm tù. \nC. Không quá 18 năm tù. \nD. Không quá 15 năm tù."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Người phạm tội có thể bị xử phạt hành chính thay cho xử phạt hình sự nếu thuộc trường hợp nào? \nA. Khi người phạm tội là người có hoàn cảnh khó khăn. \nB. Khi người phạm tội đã bồi thường thiệt hại và xin lỗi. \nC. Khi hành vi phạm tội không gây hậu quả nghiêm trọng và người phạm tội tự nguyện khắc phục. \nD. Khi người phạm tội lần đầu phạm tội ít nghiêm trọng.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Câu hỏi: Người phạm tội có thể bị xử phạt hành chính thay cho xử phạt hình sự nếu thuộc trường hợp nào? \nA. Khi người phạm tội là người có hoàn cảnh khó khăn. \nB. Khi người phạm tội đã bồi thường thiệt hại và xin lỗi. \nC. Khi hành vi phạm tội không gây hậu quả nghiêm trọng và người phạm tội tự nguyện khắc phục. \nD. Khi người phạm tội lần đầu phạm tội ít nghiêm trọng."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Trường hợp nào sau đây thì người phạm tội được miễn trách nhiệm hình sự?\nA. Khi người phạm tội dưới 18 tuổi. \nB. Khi người phạm tội là người có công với cách mạng. \nC. Khi người phạm tội bị mất khả năng nhận thức và khả năng điều khiển hành vi do bệnh lý. \nD. Khi người phạm tội không gây ra thiệt hại đáng kể cho xã hội.",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "Câu hỏi: Trường hợp nào sau đây thì người phạm tội được miễn trách nhiệm hình sự?\nA. Khi người phạm tội dưới 18 tuổi. \nB. Khi người phạm tội là người có công với cách mạng. \nC. Khi người phạm tội bị mất khả năng nhận thức và khả năng điều khiển hành vi do bệnh lý. \nD. Khi người phạm tội không gây ra thiệt hại đáng kể cho xã hội."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Theo Bộ luật Hình sự, hình phạt tử hình có thể áp dụng cho hành vi phạm tội nào sau đây?\nA. Tội phạm gây nguy hiểm cho an toàn hàng không. \nB. Tội phạm xâm phạm tài sản nhà nước. \nC. Tội phạm buôn bán hàng hóa giả mạo. \nD. Tội phạm xâm phạm tính mạng người khác ở mức độ đặc biệt nghiêm trọng.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Câu hỏi: Theo Bộ luật Hình sự, hình phạt tử hình có thể áp dụng cho hành vi phạm tội nào sau đây?\nA. Tội phạm gây nguy hiểm cho an toàn hàng không. \nB. Tội phạm xâm phạm tài sản nhà nước. \nC. Tội phạm buôn bán hàng hóa giả mạo. \nD. Tội phạm xâm phạm tính mạng người khác ở mức độ đặc biệt nghiêm trọng."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Theo quy định, ai có quyền yêu cầu bồi thường thiệt hại trong trường hợp người phạm tội là người dưới 18 tuổi?\nA. Người giám hộ của người phạm tội. \nB. Người bị hại hoặc đại diện hợp pháp của người bị hại. \nC. Cha, mẹ của người phạm tội. \nD. Tòa án nhân dân.",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "Câu trả lời: [Câu trả lời đúng] B."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Theo Công ước Luật biển năm 1982, vùng biển nào thuộc chủ quyền của quốc gia ven biển? \nA. Vùng biển quốc tế \nB. Vùng đặc quyền kinh tế rộng 188 hải lý kể từ đường cơ sở \nC. Thềm lục địa kéo dài 350 hải lý kể từ đường cơ sở \nD. Nội thủy và Lãnh hải",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] B."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Công ước Luật biển của Liên Hợp quốc năm 1982 quy định có mấy loại đường cơ sở? \nA. Đường cơ sở thẳng                                          \nB. Đường cơ sở thông thường \nC. Đường cơ sở thông thường và đường cơ sở thẳng     \nD. Đường cơ sở thẳng thông thường ",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "[Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Công ước về Luật biển năm 1982, vùng biển nào tiếp liền với nội thủy, nằm phía ngoài đường cơ sở và có chiều rộng không vượt quá 12 hải lý kể từ đường cơ sở được vạch ra theo đúng Công ước? \nA. Nội thủy \nB. Lãnh hải  \nC. Vùng Tiếp giáp Lãnh hải \nD. Thềm lục địa",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "[Câu trả lời đúng] B."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật biển Việt Nam năm 2012, trong lãnh hải Việt Nam, tàu thuyền của tất cả các quốc gia được hưởng quyền gì? A. Tự do đánh bắt hải sản, nghiên cứu và đo đạc thủy văn B. Quyền phóng đi, tiếp nhận hay xếp phương tiện bay lên tàu thuyền \nC. Quyền đi qua không gây hại; đối với tàu quân sự nước ngoài khi thực hiện quyn này phải thông báo trước cho cơ quan có thẩm quyền của Việt Nam \nD. Tổ chức diễn tập quân sự ",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "[Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Lực lượng cảnh sát biển của quốc gia A khi tuần tra trong lãnh hải của mình đã phát hiện tàu thương mại treo cờ của quốc gia B có hành vi buôn bán ma túy. Theo Công ước Luật biển năm 1982, thẩm quyền tài phán đối với hành vi buôn bán ma túy của tàu thương mại treo cờ của quốc gia B thuộc về quốc gia nào? \nA. Quốc gia A (là quốc gia ven biển)  \nB. Quốc gia B (là quốc gia mà tàu mang cờ) \nC. Cả quốc gia A và B \nD. Không thuộc quyền tài phán của quốc gia nào",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "[Câu trả lời đúng] A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu 8.  Theo bộ luật hình sự, trách nhiệm hình sự đối với người tự ý nửa chừng chấm dứtviệc phạm tội sẽ được giải quyết như thế nào?\nA. Không được miễn trách nhiệm hình sự về tội định phạm trong mọitrường hợp\nB. Được miễn trách nhiệm hình sự về tội định phạm trong một số trườnghợp\nC. Được miễn trách nhiệm hình sự nếu khai báo thành khẩn\nD. Được miễn trách nhiệm hình sự về tội định phạm trong mọi trườnghợp",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "A. Không được miễn trách nhiệm hình sự về tội định phạm trong mọi trường hợp"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu 12.  Theo bộ luật hình sự, nguyên tắc xác định trách nhiệm hình sự của những ngườiđồng phạm bao gồm những nguyên tắc nào sau đây?\nA. Nguyên tắc chịu TNHS chung về toàn bộ tội phạm\nB. Nguyên tắc cá thể hoá TNHS của những người đồng phạm\nC. Nguyên tắc chịu trách nhiệm độc lập về việc cùng thực hiện vụ đồngphạm\nD. Cả a, b, c đúng",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D. Cả a, b, c đều đúng."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu 17.  Đồng phạm là trường hợp nào sau đây?\nA. Là trường hợp có hai người trở lên tham gia vào thực hiện một tộiphạm\nB. Là trường hợp có hai người trở lên cố ý hoặc vô ý cùng thực hiện một tội phạm\nC. Là trường hợp có hai người trở lên cố ý cùng thực hiện một tội phạm\nD. Cả a, b, c, đúng",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "Câu trả lời đúng là: [Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu 21.  Đồng phạm có những hình thức nào sau đây?\nA. Đồng phạm giản đơn\nB. Đồng phạm phức tạp\nC. Đồng phạm có thông mưu trước\nD. Cả a, b, c đúng",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "  Theo BLHS 2015 thì những trường hợp nào sau đây sẽ loạitrừ trách nhiệm hình sự?\nA. Gây thiệt hại trong khi bắt giữ người phạm tội\nB. Rủi ro trong nghiên cứu, thử nghiệm, áp dụng tiến bộ khoa học, kỹthuật và công nghệ\nC. Thi hành mệnh lệnh của người chỉ huy hoặc của cấp trên\nD. Cả a, b, c đúng",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "  Theo BLHS 2015 thì những trường hợp nào sau đây sẽ loạitrừ trách nhiệm hình sự?\nA. Phòng vệ chính đáng\nB. Sự kiện bất ngờ\nC. Tình thế cấp thiết\nD. Cả a, b, c đúng",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": " Theo quy định của Luật Nghĩa vụ quân sự năm 2015, nhập ngũ được hiểu là:\nA. Việc công dân vào phục vụ có thời hạn trong lực lượng thường trực của Quân đội nhân dân và lực lượng Cảnh sát biển.\nB. Việc công dân công tác trong lực lượng thường trực của Quân đội nhân dân và lực lượng Cảnh sát biển.\nC. Việc công dân vào phục vụ lâu dài trong lực lượng thường trực của Quân đội nhân dân và lực lượng Cảnh sát biển.\nD.Việc công dân vào phục vụ trong Quân đội nhân dân và lực lượng Cảnh sát biển.",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Việc công dân vào phục vụ có thời hạn trong lực lượng thường trực của Quân đội nhân dân và lực lượng Cảnh sát biển."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo quy định của Luật Nghĩa vụ quân sự năm 2015, câu nào sau đây là câu đúng?\nA. Công dân có nghĩa vụ phục vụ tại ngũ trong Quân đội nhân dân.\nB. Công dân nam có nghĩa vụ phục vụ tại ngũ trong Quân đội nhân dân.\nC. Công dân nam là người đã thành niên có nghĩa vụ phục vụ tại ngũ trong Quân đội nhân dân.\nD. Công dân nam trong độ tuổi thực hiện nghĩa vụ quân sự có nghĩa vụ phục vụ tại ngũ trong Quân đội nhân dân.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Theo quy định của Luật Nghĩa vụ quân sự năm 2015, câu đúng là:\n[Câu trả lời đúng] C. Công dân nam là người đã thành niên có nghĩa vụ phục vụ tại ngũ trong Quân đội nhân dân."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo quy định của Luật Nghĩa vụ quân sự năm 2015, câu nào sau đây là câu đúng?\nA. Công dân nữ trong độ tuổi thực hiện nghĩa vụ quân sự nếu tự nguyện và quân đội có nhu cầu thì được phục vụ tại ngũ.\nB. Công dân nữ trong độ tuổi thực hiện nghĩa vụ quân sự trong thời bình nếu quân đội có nhu cầu thì được phục vụ tại ngũ.\nC. Công dân nữ trong độ tuổi thực hiện nghĩa vụ quân sự trong thời bình nếu tự nguyện và quân đội có nhu cầu thì được phục vụ tại ngũ.\nD. Công dân nữ trong độ tuổi thực hiện nghĩa vụ quân sự trong thời bình nếu tự nguyện thì được phục vụ tại ngũ.",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "Theo quy định của Luật Nghĩa vụ quân sự năm 2015, câu đúng là:\n[Câu trả lời đúng] C. Công dân nữ trong độ tuổi thực hiện nghĩa vụ quân sự trong thời bình nếu tự nguyện và quân đội có nhu cầu thì được phục vụ tại ngũ."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Các hành vi bị nghiêm cấm theo quy định của Luật Nghĩa vụ quân sự năm 2015 bao gồm:\nA. Trốn tránh thực hiện nghĩa vụ quân sự; Chống đối, cản trở việc thực hiện nghĩa vụ quân sự.\nB. Gian dối trong khám sức khỏe nghĩa vụ quân sự; Lợi dụng chức vụ, quyền hạn làm trái quy định về nghĩa vụ quân sự.\nC. Sử dụng hạ sĩ quan, binh sĩ trái quy định của pháp luật; Xâm phạm thân thể, sức khỏe; xúc phạm danh dự, nhân phẩm của hạ sĩ quan, binh sĩ.\nD. Tất cả các hành vi trên.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật nghĩa vụ quân sự 2015 hành vi không đăng ký nghĩa vụ quân sự lần đầu đối với công dân nam đủ 17 tuổi trong năm thuộc diện phải đăng ký nghĩa vụ quân sự sẽ bị phạt?\nA. Cảnh cáo.\nB. Phạt tiền từ 100.000 đồng đến 500.000 đồng.\nC.  Cảnh cáo hoặc phạt tiền từ 100.000 đồng đến 500.000 đồng.\nD. Cảnh cáo hoặc phạt tiền từ 200.000 đồng đến 600.000 đồng.",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "A. Cảnh cáo."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật nghĩa vụ quân sự 2015 Người không chấp hành lệnh gọi nhập ngũ, lệnh gọi tập trung huấn luyện, đã bị xử phạt vi phạm hành chính về hành vi này mà còn vi phạm thì sẽ bị xử lý như thế nào?\nA. Cải tạo không giam giữ đến 01 năm hoặc phạt tù từ 03 tháng đến 02 năm.\nB. Cải tạo không giam giữ đến 02 năm và phạt tù từ 03 tháng đến 01 năm.\nC. Cải tạo không giam giữ đến 02 năm hoặc phạt tù từ 03 tháng đến 02 năm.\nD. Cải tạo không giam giữ đến 02 năm và phạt tù từ 03 tháng đến 02 năm.",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "Theo luật nghĩa vụ quân sự 2015, người không chấp hành lệnh gọi nhập ngũ, lệnh gọi tập trung huấn luyện, đã bị xử phạt vi phạm hành chính về hành vi này mà còn vi phạm thì sẽ bị xử lý theo điểm b khoản 2 Điều 332 Bộ luật hình sự 2015 (sửa đổi, bổ sung năm 2017).\n\nĐiểm b khoản 2 Điều 332 quy định: \"Người nào không chấp hành đúng quy định của pháp luật về đăng ký nghĩa vụ quân sự, không chấp hành lệnh gọi nhập ngũ, lệnh gọi tập trung huấn luyện, đã bị xử phạt hành chính về hành vi này mà còn vi phạm, thì bị phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 03 tháng đến 02 năm.\"\n\nDo đó, câu trả lời đúng là:\n\n[Câu trả lời đúng] B. Cải tạo không giam giữ đến 02 năm và phạt tù từ 03 tháng đến 01 năm."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật nghĩa vụ quân sự 2015 Mức trợ cấp tạo việc làm cho hạ sĩ quan, binh sĩ hoàn thành nghĩa vụ phục vụ tại ngũ khi xuất ngũ được tính như thế nào?\nA. Bằng 03 tháng lương cơ sở theo quy định của Chính phủ tại thời điểm xuất ngũ.\nB. Bằng 06 tháng lương cơ sở theo quy định của Chính phủ tại thời điểm xuất ngũ.\nC. Bằng 09 tháng lương cơ sở theo quy định của Chính phủ tại thời điểm xuất ngũ.\nD. Bằng 12 tháng lương cơ sở theo quy định của Chính phủ tại thời điểm xuất ngũ.\n        ",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "A. Bằng 03 tháng lương cơ sở theo quy định của Chính phủ tại thời điểm xuất ngũ."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Luật Giá số 11/2012/QH13 quy định nội dung quản lý nhà nước trong lĩnh vực giá:\n\nA. Nghiên cứu, xây dựng, tổ chức thực hiện chính sách, pháp luật trong lĩnh vực giá phù hợp với đường lối, chính sách phát triển kinh tế – xã hội;\n\nB. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật trong lĩnh vực giá;\n\nC. Quản lý đào tạo, bồi dưỡng nghiệp vụ chuyên ngành thẩm định giá; quản lý thi, cấp và thu hồi thẻ thẩm định viên về giá, giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá;\n\nD. Tất cả các phương án trên",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Hành vi nào dưới đây bị cấm trong lĩnh vực quản lý giá theo quy định của Luật Giá số 11/2012/QH13:\n\nA. Can thiệp không đúng chức năng, nhiệm vụ, quyền hạn vào quyền, nghĩa vụ của tổ chức, cá nhân sản xuất, kinh doanh trong lĩnh vực giá;\n\nB. Tố cáo vi phạm pháp luật trong lĩnh vực giá;\n\nC. Tiết lộ, sử dụng thông tin do tổ chức, cá nhân sản xuất, kinh doanh cung cấp theo quy định của cơ quan nhà nước có thẩm quyền;\n\nD. A và C",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "[Câu trả lời đúng] A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Giá số 11/2012/QH13, một trong các nguồn thành lập quỹ bình ổn giá:\n\nA. Trích từ giá hàng hóa, dịch vụ; Tự nguyện đóng góp của tổ chức, cá nhân;\n\nB. Viện trợ của Chính phủ nước ngoài;\n\nC. Trích từ giá hàng hóa, dịch vụ; Tự nguyện đóng góp hoặc viện trợ của các tổ chức cá nhân trong và ngoài nước;\n\nD. Ngân sách nhà nước cấp.",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "Theo Luật Giá số 11/2012/QH13, một trong các nguồn thành lập quỹ bình ổn giá là:\n\n[Câu trả lời đúng] C. Trích từ giá hàng hóa, dịch vụ; Tự nguyện đóng góp hoặc viện trợ của các tổ chức cá nhân trong và ngoài nước."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Luật Giá số 11/2012/QH13 quy định các hình thức định giá, loại trừ:\n\nA. Mức giá cụ thể;\n\nB. Chi phí sản xuất và lợi nhuận hợp lý;\n\nC. Khung giá;\n\nD. Mức giá tối đa, mức giá tối thiểu.",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Giá số 11/2012/QH13, hiệp thương giá là:\n\nA. Nhà nước áp dụng các biện pháp thích hợp về điều hòa cung cầu, tài chính, tiền tệ, hành chính… tác động vào sự hình thành và vận động của giá, không để giá hàng hóa, dịch vụ tăng quá cao hoặc giảm quá thấp bất hợp lý;\n\nB. Cơ quan nhà nước có thẩm quyền tổ chức và làm trung gian cho bên mua và bên bán thương lượng về mức giá mua, giá bán theo đề nghị của một trong hai bên hoặc cả hai bên mua, bán hoặc khi có yêu cầu của cơ quan nhà nước có thẩm quyền;\n\nC. Cơ quan nhà nước có thẩm quyền hoặc tổ chức, cá nhân sản xuất, kinh doanh quy định giá cho hàng hóa, dịch vụ.\n\nD. Tất cả các phương án trên.",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "Theo Luật Giá số 11/2012/QH13, hiệp thương giá là:\n\nA. Nhà nước áp dụng các biện pháp thích hợp về điều hòa cung cầu, tài chính, tiền tệ, hành chính… tác động vào sự hình thành và vận động của giá, không để giá hàng hóa, dịch vụ tăng quá cao hoặc giảm quá thấp bất hợp lý;"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Bộ Luật Lao động 2019, ngày 20/11/2019. Đối tượng áp dụng , gồm?\n\nA. Người lao động nước ngoài làm việc tại Việt Nam\n\nB. Tất cả phương án\n\nC. Người sử dụng lao động, Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động\n\nD. Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động.",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "Theo Bộ Luật Lao động 2019, ngày 20/11/2019. Đối tượng áp dụng , gồm?\n\nA. Người lao động nước ngoài làm việc tại Việt Nam\n\nB. Tất cả phương án\n\nC. Người sử dụng lao động, Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động\n\nD. Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Bộ Luật Lao động 2019, ngày 20/11/2019. Đối tượng không áp dụng Nghị định này?\n\nA. Người Việt Nam lao động ở nước ngoài\n\nB. Người sử dụng lao động; cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động\n\nC. Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động.\n\nD. Người lao động nước ngoài làm việc tại Việt Nam.",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "[Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": " Theo Bộ Luật Lao động 2019, ngày 20/11/2019. Nội dung “ Đơn phương chấm dứt hợp đồng lao động” là?\n\nA. Nghĩa vụ của người lao động\n\nB. Quyền của người sử dụng lao động\n\nC. Nghĩa vụ của người sử dụng lao động\n\nD. Quyền của người lao động",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "A. Nghĩa vụ của người lao động"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": " Theo Bộ Luật Lao động 2019, ngày 20/11/2019. Nội dung “ Đơn phương chấm dứt hợp đồng lao động” là?\n\nA. Nghĩa vụ của người lao động\n\nB. Quyền của người sử dụng lao động\n\nC. Nghĩa vụ của người sử dụng lao động\n\nD. Quyền của người lao động",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "A. Nghĩa vụ của người lao động"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng 2018. An ninh mạng là?\nA. sự đảm bảo hoạt động thông tin trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\nB.phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.\nC. sự đảm bảo hoạt động của con người trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\nD. sự đảm bảo hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Theo Luật An ninh mạng 2018. An ninh mạng là?\nA. sự đảm bảo hoạt động thông tin trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng 2018. Sự cố an ninh mạng là?\nA. là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự.\nB. là tình trạng không gia mạng xuất hiện dấu hiệu đe dọa xâm phạm an ninh quốc gia , gây tổn hại nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\nC. là sự việc xảy ra trên không gian mạng khi có hành vi xâm phạm nghiêm trọng an ninh quốc gia, gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân\nD. là sự việc bất ngờ xảy ra trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Theo Luật An ninh mạng 2018, một sự cố an ninh mạng là:\n\nA. là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng năm 2018, lực lượng nào có trách nhiệm áp dụng biện pháp để phòng ngừa, phát hiện, ngăn chặn, xử lý nghiêm hành vi sử dụng không gian mạng gây nguy hại cho trẻ em, xâm phạm đến trẻ em?\nA. Lực lượng chuyên trách bảo vệ an ninh mạng và các cơ quan chức năng.\nB. Bộ Khoa học và Công nghệ.\nC. Bộ Tài chính.\nD. Bộ Ngoại giao.",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "Theo Luật An ninh mạng năm 2018, lực lượng có trách nhiệm áp dụng biện pháp để phòng ngừa, phát hiện, ngăn chặn, xử lý nghiêm hành vi sử dụng không gian mạng gây nguy hại cho trẻ em, xâm phạm đến trẻ em là:\nA. Lực lượng chuyên trách bảo vệ an ninh mạng và các cơ quan chức năng."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng năm 2018, đáp án nào dưới đây đúng khi nói về \"hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội\"?\nA. Giả mạo trang thông tin điện tử của cơ quan, tổ chức, cá nhân; làm giả, lưu hành, trộm cắp, mua bán, thu thập, trao đổi trái phép thông tin thẻ tín dụng, tài khoản ngân hàng của người khác.\nB. Tuyên truyền, quảng cáo, mua bán hàng hóa, dịch vụ thuộc danh mục cấm theo quy định của pháp luật.\nC. Hướng dẫn người khác thực hiện hành vi vi phạm pháp luật.\nD. Cả 3 đáp án trên đều đúng.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng thì Tội phạm mạng là?\n\nA. hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự.\n\n\nB. hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Dân sự.\n\nC. hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự và Luật Xử lý vi phạm hành chính\n\nD. hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Tố tụng hình sự.",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng năm 2018 thì Tài khoản số là thông tin dùng để làm gì?\n\nA.  Chứng thực, xác thực, bảo đảm, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng\n\nB. Chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng\n\nC. Phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng\n\nD. Xác thực để sử dụng thông tin và các dịch vụ trên không gian mạng, được cơ quan có thẩm quyền số hóa",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "[Câu trả lời đúng] A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Luật An ninh mạng có hiệu lực kể từ ngày tháng năm nào?\nA. 01/01/2018\n\nB. 01/7/2018\n\nC. 01/01/2019\n\nD. 01/7/2019",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật An ninh mạng thì Kiểm tra an ninh mạng là?\n\nA. hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\nB. hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin.\n\nC. hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin hoặc thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "A. hoạt động xác định thực trạng an ninh mạng của hệ thống thông tin, cơ sở hạ tầng hệ thống thông tin nhằm phòng ngừa, phát hiện, xử lý nguy cơ đe dọa an ninh mạng và đưa ra các phương án, biện pháp bảo đảm hoạt động bình thường của hệ thống thông tin."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": ". Điều kiện kết hôn theo quy định của Luật hôn nhân và gia đình?\nA. Nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi.\nB. Việc kết hôn do nam và nữ tự nguyện quyết định, không bên nào được ép\nbuộc, lừa dối bên nào; không ai được cưỡng ép hoặc cản trở.\nC. Việc kết hôn không thuộc một trong các trường hợp cấm kết hôn quy định.\nD. Tất cả các ý trên.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "A. Nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Trường hợp nào cấm kết hôn theo quy định của Luật hôn nhân và\ngia đình năm 2014?\nA. Người mất năng lực hành vi dân sự.\nB. Giữa những người cùng giới tính.\nC. Giữa cha, mẹ nuôi với con nuôi; giữa người đã từng là cha, mẹ nuôi với con\nnuôi, cha chồng với con dâu, mẹ vợ với con rể, cha dượng với con riêng của vợ, mẹ\nkế với con riêng của chồng.\nD. Tất cả các trường hợp trên.",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Trường hợp nào cấm kết hôn theo quy định của Luật hôn nhân và gia đình năm 2014?\nA. Người mất năng lực hành vi dân sự.\nB. Giữa những người cùng giới tính.\nC. Giữa cha, mẹ nuôi với con nuôi; giữa người đã từng là cha, mẹ nuôi với con\nnuôi, cha chồng với con dâu, mẹ vợ với con rể, cha dượng với con riêng của vợ, mẹ\nkế với con riêng của chồng.\nD. Tất cả các trường hợp trên.\n[Câu trả lời đúng] D. Tất cả các trường hợp trên."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Thời hiệu khởi kiện chia di sản thừa kế:\nA. 5 năm kể từ thời điểm mở thừa kế\nB. 10 năm kể từ ngày mở thừa kế\nC. 5 năm kể từ ngày mở thừa kế\nD. 10 năm kể từ thởi điểm mở thừa kế",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Thời điểm phát sinh quyền và nghĩa vụ tài sản của người thừa kế:\nA. Thời điểm người để thừa kế chết\nB. Thời điểm mở thừa kế\nC. Thời điểm người thừa kế nhận được chia tài sản\nD. A, B đúng",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Phạm vi điều chỉnh của Luật Giáo dục 2019 là: \n A. Quy định về quản lý nhà nước về giáo dục\n B. Quy định về quyền và trách nhiệm của cơ quan, tổ chức, cá nhân liên quan đến hoạt động giáo dục\n C. Quy định về hệ thống giáo dục quốc dân; cơ sở giáo dục, nhà giáo, người học\n D. Tất cả các đáp án trên đều đúng",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "A. Quy định về quản lý nhà nước về giáo dục"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Giáo dục 2019: Giáo dục chính quy là: (Điều 5)\n A. Là giáo dục theo khóa học trong cơ sở giáo dục để thực hiện một chương trình giáo dục nhất định, được thiết lập theo mục tiêu của các cấp học, trình độ đào tạo và được cấp văn bằng của hệ thống giáo dục quốc dân.\n B. Là giáo dục theo môn học trong cơ sở giáo dục để thực hiện một chương trình giáo dục nhất định, được thiết lập theo mục tiêu của các trình độ đào tạo và được cấp văn bằng của hệ thống giáo dục quốc dân\n C. Là giáo dục theo khóa học trong cơ sở giáo dục để thực hiện nhiều chương trình giáo dục nhất định, được thiết lập theo mục tiêu của các cấp học, trình độ đào tạo và được cấp văn bằng của hệ thống giáo dục quốc dân\n D. Là giáo dục theo khóa học trong cơ sở giáo dục để thực hiện một chương trình giáo dục nhất định, được thiết lập theo mục tiêu của các cấp học, trình độ đào tạo và được cấp chứng chỉ của hệ thống giáo dục quốc dân",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Là giáo dục theo khóa học trong cơ sở giáo dục để thực hiện một chương trình giáo dục nhất định, được thiết lập theo mục tiêu của các cấp học, trình độ đào tạo và được cấp văn bằng của hệ thống giáo dục quốc dân."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Giáo dục 2019: Tín chỉ là gì ? (Điều 5)\n A. Là đơn vị dùng để đánh giá khối lượng kiến thức, kỹ năng và kết quả học tập đã tích lũy được trong một khoảng thời gian nhất định.\n B. Là đơn vị dùng để đo lường khối lượng kiến thức đã tích lũy được trong một khoảng thời gian nhất định.\n C. Là đơn vị dùng để đo lường khối lượng kiến thức, kỹ năng và kết quả học tập đã tích lũy được trong một khoảng thời gian nhất định.\n D. Là đơn vị dùng để đánh giá kết quả học tập đã tích lũy được trong một khoảng thời gian nhất định.",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Là đơn vị dùng để đánh giá khối lượng kiến thức, kỹ năng và kết quả học tập đã tích lũy được trong một khoảng thời gian nhất định."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Giáo dục 2019: Ai là người quy định thời gian đào tạo, tiêu chuẩn cho từng trình độ đào tạo, khối lượng học tập tối thiểu đối với trình độ của giáo dục nghề nghiệp, giáo dục đại học? \n A. Chủ tịch Tỉnh\n B. Bộ trưởng Bộ Lao động, thương binh và xã hội\n C. Thủ tướng Chính phủ\n D. Bộ trưởng Bộ Giáo dục và Đào tạo",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Theo Luật Giáo dục 2019, Bộ trưởng Bộ Lao động, Thương binh và Xã hội quy định thời gian đào tạo, tiêu chuẩn cho từng trình độ đào tạo, khối lượng học tập tối thiểu đối với trình độ của giáo dục nghề nghiệp, giáo dục đại học."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Giáo dục 2019:Chuẩn kiến thức, kỹ năng, yêu cầu cần đạt về phẩm chất và năng lực người học quy định trong chương trình giáo dục phải được cụ thể hóa thành sách giáo khoa đối với cơ sở giáo dục nào? \n A. Giáo dục nghề nghiệp\n B. Giáo dục đại học\n C. Giáo dục mầm non\n D. Giáo dục phổ thông",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "Theo Luật Giáo dục 2019, chuẩn kiến thức, kỹ năng, yêu cầu cần đạt về phẩm chất và năng lực người học quy định trong chương trình giáo dục phải được cụ thể hóa thành sách giáo khoa đối với cơ sở giáo dục phổ thông."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Luật Giáo dục 2019: Cơ quan nào quy định chi tiết hướng nghiệp và phân luồng trong giáo dục theo từng giai đoạn phù hợp với nhu cầu phát triển kinh tế - xã hội? \n A. Chính phủ\n B. Ủy ban nhân dân Tỉnh\n C. Bộ Giáo dục và Đào tạo\n D. Bộ Nội vụ",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Chính phủ"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật sở hữu trí tuệ, Quyền sở hữu trí tuệ nào sau đây được bảo hộ không phụ thuộc vào thủ tụcđăng ký và cấp văn bằng?\nA. Sáng chế\nB. Kiểu dáng công nghiệp\nC. Nhãn hiệu\nD. Bí mật kinh doanh",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] C. Nhãn hiệu"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật sở hữu trí tuệ, Đối tượng nào sau đây không được bảo hộ quyền tác giả:\nA. Trò chơi dân gian\nB. Phần mềm điều khiển hoạt động xe điện\nC. Văn bản quy phạm pháp luật\nD. Bản tin thời sự",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "[Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật sở hữu trí tuệ, Thời hạn để người thứ ba phản đối đơn đăng ký sáng chế trước ngày raquyết định cấp văn bằng bảo hộ là:\nA. Bốn tháng kể từ ngày đơn đăng ký sáng chế được công bố\nB. Chín tháng kể từ ngày đơn đăng ký sáng chế được công bố (Điểm a K1 Điều 112LSHTT)\nC. Năm tháng kể từ ngày đơn đăng ký sáng chế được công bố\nD. Ba tháng kể từ ngày đơn đăng ký sáng chế được công bố",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "Theo Luật Sở hữu trí tuệ, thời hạn để người thứ ba phản đối đơn đăng ký sáng chế trước ngày ra quyết định cấp văn bằng bảo hộ là:\nB. Chín tháng kể từ ngày đơn đăng ký sáng chế được công bố (điểm a khoản 1 Điều 112 LSHTT)."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật sở hữu trí tuệ, Đối tượng nào sau đây không được phép chuyển giao?\nA. Quyền tác giả\nB. Quyền sử dụng sáng chế\nC. Quyền sử dụng chỉ dẫn địa lý (Chỉ những nơi có đặc tính của vùng đó thì mới đượcmang chỉ dẫn địa lý đó nếu khác thì ko mang CDĐL đó  không chuyển giao)\nD. Quyền sử dụng nhãn hiệu tập thể",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "[Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật sở hữu trí tuệ, Điều kiện để tổ chức và cá nhân nước ngoài được áp dụng Luật Sở hữu trí tuệ số 50/2005/QH11 là gì?\n\nA. Phải đáp ứng các điều kiện quy định trong luật này\n\nB. Phải đáp ứng các điều kiện quy định trong luật này và các điều ước quốc tế mà Việt Nam là thành viên\n\nC. Phải đáp ứng các điều kiện quy định trong luật này và các điều kiện đặc thù chỉ áp dụng cho tổ chức và cá nhân nước ngoài\n\nD. Chỉ cần là tổ chức và cá nhân nước ngoài, không cần đáp ứng bất kỳ điều kiện nào\n\n ",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "A. Phải đáp ứng các điều kiện quy định trong luật này và các điều ước quốc tế mà Việt Nam là thành viên"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật sở hữu trí tuệ, Theo Luật sở hữu trí tuệ số 50/2005/QH11, Tổ chức và cá nhân có trách nhiệm gì đối với quyền sở hữu trí tuệ của người khác?\n\nA. Trách nhiệm tôn trọng quyền sở hữu trí tuệ của người khác\n\nB. Trách nhiệm bảo vệ quyền sở hữu trí tuệ của người khác\n\nC. Trách nhiệm đưa ra các biện pháp mà pháp luật cho phép để bảo vệ quyền sở hữu trí tuệ của người khác\n\nD. Trách nhiệm yêu cầu chính phủ can thiệp để bảo vệ quyền sở hữu trí tuệ của người khác",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Trách nhiệm tôn trọng quyền sở hữu trí tuệ của người khác"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Đất đai số 31/2024/QH15, Bảo vệ, cải tạo, phục hồi đất bao gồm các biện pháp nào?\n\nA. Quản lý, kỹ thuật, cơ giới, sinh học, hữu cơ\n\nB. Quản lý tài chính và điều chỉnh chính sách\n\nC. Lập quy hoạch và phân chia khu vực sử dụng đất\n\nD.  Phân bổ các loại đất và đo đạc bản đồ địa chính",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "[Câu trả lời đúng] A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Đất đai số 31/2024/QH15, Bản đồ quy hoạch sử dụng đất được lập khi nào?\n\nA.  Tại thời điểm cuối kỳ quy hoạch\n\nB. Tại thời điểm đầu kỳ quy hoạch\n\nC. Sau khi bảo vệ, cải tạo đất\n\nD. Sau khi thu hồi đất",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "[Câu trả lời đúng] B."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Đất đai số 31/2024/QH15, Bản đồ hiện trạng sử dụng đất là gì?\n\nA. Bản đồ thể hiện sự phân bố các loại đất tại một thời điểm xác định\n\nB. Bản đồ thể hiện nội dung phân bố các loại đất tại thời điểm cuối kỳ quy hoạch\n\nC. Bản đồ thể hiện các biện pháp quản lý và cải tạo đất\n\nD. Bản đồ thể hiện thửa đất và đối tượng địa lý liên quan\n\n ",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Bản đồ thể hiện sự phân bố các loại đất tại một thời điểm xác định"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Đất đai số 31/2024/QH15, Bản đồ địa chính thể hiện các đối tượng nào?\n\nA. Các loại đất tại một thời điểm xác định\n\nB. Các thửa đất và đối tượng địa lý liên quan\n\nC. Các loại đất theo quy hoạch sử dụng đất\n\nD. Các loại đất bị thoái hóa và cần cải tạo",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "[Câu trả lời đúng] B."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo Luật Đất đai số 31/2024/QH15, Đối tượng áp dụng gồm:\n\nA. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu toàn dân về đất đai, thực hiện nhiệm vụ thống nhất quản lý nhà nước về đất đai.\n\nB. Người sử dụng đất.\n\nC. Các đối tượng khác có liên quan đến việc quản lý, sử dụng đất đai.\n\nD. Tất cả các đáp án trên",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] D."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật kinh doanh, Hồ sơ ĐKDN được nộp tại:\n\nA. Phòng Tài chính – Kế hoạch thuộc UBND cấp huyện\n\nB. Phòng đăng ký kinh doanh thuộc Sở Kế hoạch và Đầu tư\n\nC. Phòng đăng ký kinh doanh thuộc Sở Công thương\n\nD. Cả A, B và C đều đúng",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "[Câu trả lời đúng] B."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật kinh doanh, Hồ sơ ĐKDN được nộp tại:\n\nA. Phòng Tài chính – Kế hoạch thuộc UBND cấp huyện\n\nB. Phòng đăng ký kinh doanh thuộc Sở Kế hoạch và Đầu tư\n\nC. Cả A và B đều đúng\n\nD. Cả A và B đều sai",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "A. Phòng Tài chính – Kế hoạch thuộc UBND cấp huyện"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật kinh doanh, Hồ sơ đăng ký hộ kinh doanh được nộp tại:\n\nA. Phòng Tài chính – Kế hoạch thuộc UBND cấp huyện \n\nB. Phòng Tư pháp thuộc UBND cấp huyện\n\nC. Phòng Công thương thuộc UBND cấp huyện\n\nD. Cả A, B và C đều đúng",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "[Câu trả lời đúng] A. Phòng Tài chính – Kế hoạch thuộc UBND cấp huyện"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Theo luật kinh doanh, Có hai phương pháp điều chỉnh trong Luật kinh doanh:\n\nA. Phương pháp mệnh lệnh và phương pháp phục tùng\n\nB. Phương pháp bình đẳng và phương pháp tự nguyện\n\nC. Phương pháp mệnh lệnh và phương pháp bình đẳng tự nguyện\n\nD. Cả A, B và C đều sai",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "Theo luật kinh doanh, có hai phương pháp điều chỉnh trong Luật kinh doanh:\n\nC. Phương pháp mệnh lệnh và phương pháp bình đẳng tự nguyện"
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Trong Luật giao thông đường bộ khái niệm \"Đường cao tốc\" được hiểu như thế\nnào là đúng?\nA. Là đường chỉ dành riêng cho xe cơ giới chạy với tốc độ cao, có dải phân cách chia\nđường cho xe chạy theo hai chiều ngược nhau riêng biệt và không giao cắt cùng\nmức với đường khác.\nB. Là đường chỉ dành riêng cho xe cơ giới chạy với tốc độ cao, có dải phân cách chia\nđường cho xe chạy theo hai chiều ngược nhau riêng biệt và xe thô sơ, không giao cắt\ncùng mức với đường khác.\nC. Là đường chỉ dành riêng cho xe cơ giới chạy với tốc độ cao, có dải phân cách chia\nđường cho xe chạy theo hai chiều ngược nhau riêng biệt và xe thô sơ.",
+        "answer": "[Câu trả lời đúng]A",
+        "prediction": "A. Là đường chỉ dành riêng cho xe cơ giới chạy với tốc độ cao, có dải phân cách chia\nđường cho xe chạy theo hai chiều ngược nhau riêng biệt và không giao cắt cùng\nmức với đường khác."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": " Theo Luật Giao thông đường bộ, Đường cao tốc được giải thích như thế nào?\nA. Đường cao tốc là đường dành cho xe cơ giới, có dải phân cách chia đường cho xe\nchạy hai chiều riêng biệt.\nB. Đường cao tốc là đường dành cho xe cơ giới, có dải phân cách chia đường cho xe\nchạy hai chiều riêng biệt; không giao nhau cùng mức với một hoặc các đường khác;\nC. Đường cao tốc là đường dành cho xe cơ giới, có dải phân cách chia đường cho xe\nchạy hai chiều riêng biệt; không giao nhau cùng mức với một hoặc các đường khác;\nđược bố trí đầy đủ trang thiết bị phục vụ, bảo đảm giao thông liên tục, an toàn, rút\nngắn thời gian hành trình và chỉ cho xe ra, vào ở những điểm nhất định.",
+        "answer": "[Câu trả lời đúng]C",
+        "prediction": "[Câu trả lời đúng] C."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": " Theo luật giao thông đường bộ, Người điều khiển, người ngồi trên xe mô tô, xe gắn máy không đội mũ bảo hiểm\nsẽ bị xử phạt vi phạm hành chính bao nhiêu tiền?\nA. Từ 100.000 đến 200.000 đồng.\nB. Từ 200.000 đến 300.000 đồng.\nC. Từ 300.000 đến 400.000 đồng.\nD. Từ 400.000 đến 500.000 đồng.",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "A. Từ 100.000 đến 200.000 đồng."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Luật Giao thông đường bộ quy định các trường hợp nhường đường khi tránh\nnhau như thế nào?\nA. Nơi đường hẹp chỉ đủ cho một xe chạy và có chỗ tránh xe thì xe nào ở gần chỗ tránh\nhơn phải vào vị trí tránh, nhường đường cho xe kia đi.\nB. Xe xuống dốc phải nhường đường cho xe đang lên dốc.\nC. Xe nào có chướng ngại vật phía trước phải nhường đường cho xe không có chướng\nngại vật đi trước.\nD. Tất cả các đáp án trên",
+        "answer": "[Câu trả lời đúng]D",
+        "prediction": "[Câu trả lời đúng] A."
+    },
+    {
+        "instruction": "Hãy vận dụng kiến thức pháp luật của bạn để chọn câu trả lời đúng trong số A, B, C, D và viết nó vào sau [Câu trả lời đúng]. \nVí dụ: [Câu trả lời đúng] A. \nVui lòng câu trả lời đúng theo định dạng này. \nSau đây là ví dụ:\nCâu hỏi: Hiến pháp năm 2013 quy định Quốc ca nước Cộng hòa xã hội chủ nghĩa Việt Nam là nhạc và lời của bài:\nA: Quốc gia có cảng\nB: Quốc gia ký kết\nC: Quốc gia quần đảo; \nTrả lời: [Câu trả lời đúng] A.",
+        "question": "Câu hỏi: Luật Phòng, chống tác hại của rượu bia có hiệu lực khi nào?\nA. Từ 01/7/2019\nB. Từ 01/01/2020\nC. Từ 01/3/2020\nD. Từ 01/7/2020",
+        "answer": "[Câu trả lời đúng]B",
+        "prediction": "Câu hỏi: Luật Phòng, chống tác hại của rượu bia có hiệu lực khi nào?\nA. Từ 01/7/2019\nB. Từ 01/01/2020\nC. Từ 01/3/2020\nD. Từ 01/7/2020\n[Câu trả lời đúng] A."
+    }
+]
