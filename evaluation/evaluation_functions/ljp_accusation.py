@@ -9,6 +9,8 @@ def compute_ljp_accusation(content):
         matches_1 = re.match(r"\[\s*[^]]*\s*\]\s*(.*)", text)
         if matches_1:
             result = matches_1.group(1).replace('.', '').strip().rstrip()
+        else:
+            result = text
         return result
 
 
