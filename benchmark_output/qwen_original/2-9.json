@@ -1,0 +1,422 @@
+[
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đến tháng 5/2019, T có nhắn tin rủ Q đến thị trấn Q để hẹn hò và sau đó hai người thực hiện hành vi quan hệ tình dục với nhau tại một nhà nghỉ trên địa bàn thị trấn Q, Q, thời điểm này T trên 20 tuổi, còn Q khoảng 15 tuổi 7 tháng",
+        "answer": "xâm hại thân thể",
+        "prediction": " mại dâm, xâm hại thân thể"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Từ ngày 30/01/2021, do gặp khó khăn về tài chính nên chị C không có khả năng thanh toán tiền lãi cho K",
+        "answer": "thanh toán",
+        "prediction": "thanh toán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đại diện Viện kiểm sát nhân dân tỉnh H tham gia phiên toà đề nghị Hội đồng xét xử căn cứ điểm b khoản 1 Điều 355; điểm e khoản 1 Điều 357 Bộ luật Tố tụng hình sự",
+        "answer": "đề nghị",
+        "prediction": "không"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Vì trên thửa đất còn tồn tại tài sản gắn liền với đất thuộc sở hữu của Công ty H3, nên ngày 12/6/2020, Công ty H3 đã gửi đơn yêu cầu công nhận Quyền sở hữu đối với lò gạch",
+        "answer": "yêu cầu",
+        "prediction": "yêu cầu, thanh toán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Khi trả đủ 95% tổng giá trị lô đất thì ông Trư Ng Đình H ký hợp đồng công chứng chuyển nhượng cho người mua và nhận thêm 05% tổng số tiền theo giá trị còn lại của lô đất bán ra.",
+        "answer": "bán ra",
+        "prediction": "thanh toán, bán ra"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Vì trên thửa đất còn tồn tại tài sản gắn liền với đất thuộc sở hữu của Công ty H3, nên ngày 12/6/2020, Công ty H3 đã gửi đơn yêu cầu công nhận Quyền sở hữu đối với lò gạch",
+        "answer": "thanh toán, yêu cầu",
+        "prediction": "yêu cầu, thanh toán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi mua xe thì bị cáo sử dụng làm phương tiện đi lại, việc bị cáo tự gây tai nạn giao thông thì bà L không biết do thời gian này bà L về quê tại tỉnh Long An để chăm sóc con nhỏ mới sinh.",
+        "answer": "mua vào, bị thương",
+        "prediction": "mua vào"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tháng 7/2014, bị cáo Nguyễn Văn A đã dùng các thủ đoạn trên để lừa chị L 2 triệu việt nam đồng",
+        "answer": "lừa dối",
+        "prediction": "lừa dối"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tổng số tiền mà bị cáo Th đã cho bà U vay là 300.000.000 đồng, thu lợi bất chính 1.000.732.877 đồng",
+        "answer": "vay, thu lợi",
+        "prediction": "thanh toán, thu lợi"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Quá trình điều tra người bị hại anh Cao Thanh H, người liên quan anh Ngô Xuân T không yêu cầu bị cáo hay ai khác phải bồi thường hay hoàn trả gì nên Hội đồng xét xử không đặt ra xem xét.",
+        "answer": "yêu cầu, bồi thường, hoàn trả",
+        "prediction": "bị thương"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Kết luận giám định số 143/KL-KTHS(Đ2-MT) ngày 14/01/2024 của Phòng kỹ thuật hình sự Công an tỉnh Nghệ An kết luận: “Mẫu chất cục bột màu trắng thu giữ của Nguyễn Văn T gửi đến giám định là ma túy",
+        "answer": "giám định",
+        "prediction": "không có"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tại Toà án, ông T, bà L đưa ra mức giá thoả thuận buộc ông bà phải giao 500.000.000 đồng thì ông T, bà L mới đồng ý ký vào hợp đồng chuyển nhượng để ông bà làm thủ tục cấp GCN nhưng ông bà không chấp nhận",
+        "answer": "đồng ý",
+        "prediction": "thanh toán, đồng ý"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": ": Ngày 15/7, bị cáo Zhong Huaqing và Zhong Mou 1 bị công an bắt giữ tại cầu Nanhe, quận Zhanggong, thành phố Ganzhou.",
+        "answer": "bắt giữ",
+        "prediction": "bắt giữ"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi nhận được tiền, D tự viết giấy biên nhận với nội dung giả mạo đặt tiền mua nhiệt kế điện tử hồng ngoại rồi chụp ảnh gửi cho anh C để che giấu hành vi phạm tội",
+        "answer": "mua vào, giả mạo",
+        "prediction": "giả mạo, thanh toán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ông yêu cầu Thanh tra Sở T xem xét lại trình tự cấp quyền sử dụng đất cho ông M, yêu cầu xử lý hành vi của ông D vì lạm dụng tín nhiệm chiếm đoạt tiền của ông M, giả mạo chữ ký của bà T4.",
+        "answer": "yêu cầu, khám xét, thu lợi",
+        "prediction": "yêu cầu, lừa dối, giả mạo"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tối ngày hôm sau, Vương lái xe xuống tầng dưới nhà Chu và đưa cho Chu 200.000 đồng tiền mặt, Chu đã nhận lời.",
+        "answer": "đồng ý",
+        "prediction": "thanh toán, mua vào"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi về Việt Nam, T và T1 thỉnh thoảng liên lạc với nhau thông qua Zalo, T1 đặt vấn đề nhờ Tr tìm người ở khu vực biên giới để đưa khách xuất cảnh trái phép sang Trung Quốc theo đường mòn",
+        "answer": "liên lạc",
+        "prediction": "liên lạc"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Hoàn trả cho ông H số tiền tạm ứng án phí phúc thẩm 300.000 đồng (Ba trăm nghìn đồng)",
+        "answer": "hoàn trả",
+        "prediction": "thanhtoán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Được Bệnh viện Nhân dân huyện Cát Châu chẩn đoán, nạn nhân T bị vỡ lá lách và chấn thương sọ não nhẹ.",
+        "answer": "bị thương",
+        "prediction": "bị thương"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Nay bố anh chết và anh là con được hưởng thì anh tự nguyện để lại cho mẹ anh, anh không có đòi hỏi quyền lợi gì đối với phần di sản này.",
+        "answer": "yêu cầu",
+        "prediction": "đồng ý"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Các anh, chị xác nhận nội dung như bà D và anh V trình bày.",
+        "answer": "đồng ý",
+        "prediction": "đồng ý"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Nói lời sau cùng, bị cáo nhận thấy hành vi của bị cáo là vi phạm pháp luật, rất hối hận, đề nghị Hội đồng xét xử xem xét giảm nhẹ hình phạt cho bị cáo",
+        "answer": "đề nghị",
+        "prediction": "không đồng ý, không có sự kiện trong đoạn văn được liệt kê."
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Khi về phòng bà kiểm tra và đối chiếu với giấy chứng chỉ khác bà thấy có điểm nghi ngờ, bà cầm chứng chỉ trên đến Sở Y tế tỉnh Lạng Sơn hỏi và đối chiếu thì phát hiện giấy chứng chỉ Nguyễn Thị Huyền C đưa cho bà là giả, Sở Y tế tỉnh Lạng Sơn giữ lại.",
+        "answer": "giả mạo",
+        "prediction": "lừa dối, giả mạo"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "bị cáo thu lợi gì từ việc môi giới mại dâm,  thực hiện việc giới thiệu P với T1 để có bạn đi cùng.",
+        "answer": "thu lợi",
+        "prediction": "bán ra, môi giới mại dâm, thu lợi"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Khoảng 15 phút sau thì T3 gọi L ra nói chuyện và trao đổi thỏa thuận mua dâm với nhân viên của quán",
+        "answer": "mại dâm, mua vào",
+        "prediction": "bán ra, mua vào, mại dâm"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Khoảng hơn 11 giờ, ngày 08/01/2023 B gọi điện cho tôi bảo tôi đến nhà nghỉ Huyền Chinh bán dâm, tôi đồng ý",
+        "answer": "liên lạc, đồng ý, mại dâm, bán ra",
+        "prediction": "bán ra, mua vào, liên lạc, mại dâm, đồng ý"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ngày 27/1/2011, sau khi Dương A và bị cáo Yang Yanfei từ huyện Julu trở về Nhà máy Dây buộc Feihuang ở huyện Yongnian, bị cáo Yang Yanfei đã gọi điện cho nạn nhân Yang Yanfei và nói rằng anh ta đã gửi các thanh thép đi bán.",
+        "answer": "liên lạc, bán ra",
+        "prediction": "thanh toán, liên lạc"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "bà T1 biết bị H lừa đảo chiếm đoạt tài sản nên liên hệ H để đòi tiền thì H bỏ trốn và cắt đứt liên lạc",
+        "answer": "lừa dối, liên lạc",
+        "prediction": "lừa dối, liên lạc"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tuy nhiên, sau khi xét xử sơ thẩm xong, bị cáo đã tác động gia đình bồi thường toàn bộ số tiền đã chiếm đoạt cho người bị hại và được người bị hại làm đơn bãi nại.",
+        "answer": "hoàn trả",
+        "prediction": "bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Các bị hại đã nhận lại tiền, không có yêu cầu về dân sự và có đơn xin giảm nhẹ hình phạt cho T.",
+        "answer": "yêu cầu",
+        "prediction": "trả lại tiền"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Quá trình điều tra, T khai nhận thực hiện các hành vi lừa đảo chiếm đoạt tài sản nêu trên",
+        "answer": "lừa dôi, khai báo",
+        "prediction": "lừa dối"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đối với xe máy nhãn hiệu Piago Liberty màu trắng, biển kiểm soát 29B1- ttttt mà T sử dụng để đi lừa đảo chiếm đoạt tài sản là tài sản của T. T khai mua ở một cửa hàng mua bán xe cũ, không nhớ địa chỉ",
+        "answer": "lừa dối, khai báo, mua vào",
+        "prediction": "lừa dối, mua vào, khai báo"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Nay, ông T yêu cầu ông Nguyễn Doãn Đ bồi thường số tiền 7.500.000 đồng về hành vi xúc phạm danh dự, uy tín đối với ông Vũ Đức T",
+        "answer": "yêu cầu, bồi thường",
+        "prediction": "yêu cầu, bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Nay chị Thanh Ph khởi kiện yêu cầu chị C phải bồi thường thiệt hại do sức khỏa bị xâm phạm và bồi thường thiệt hại về tài sản do bị xâm phạm cụ thể như sau",
+        "answer": "yêu cầu, xâm hại thân thể, bồi thường",
+        "prediction": "bồi thường, bị thương"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Chấp nhận yêu cầu khởi kiện của nguyên đơn chị Văn Thị Thanh Ph",
+        "answer": "đồng ý, yêu cầu",
+        "prediction": "yêu cầu"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đã chấp hành xong bản án bổ sung tịch thu tài sản 50.000 tệ trước đó",
+        "answer": "khám xét/tịch thu",
+        "prediction": "thanh toán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi kiểm tra hải quan, người ta tìm thấy 3 khẩu súng lục giả nghi vấn ở thắt lưng và bụng anh ta",
+        "answer": "khám xét/tịch thu",
+        "prediction": "khám xét"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Người ta cũng biết rằng thực ra bị cáo T đã bị giam 6 ngày trong vụ án này trước khi bị bắt",
+        "answer": "bắt giữ",
+        "prediction": "bắt giữ"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi bị đưa ra xét xử, bị cáo H đã khai nhận thành thật những sự việc trên",
+        "answer": "khai báo",
+        "prediction": "khai báo"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Trong vụ án này, Nguyễn Thị Kim P và Bùi Văn C cùng có hành vi bàn bạc với Nguyễn Hùng C và Nguyễn Minh T để khai báo giao dối, tuy nhiên hành vi khai báo gian dối của P và nhằm che dấu hành vi phạm tội của mình nên không có căn cứ để xử lý hình sự về tội danh độc lập khác.",
+        "answer": "khai báo, lừa dối, liên lạc",
+        "prediction": "lừa dối, khai báo"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi bị khởi tố và bắt tạm giam Hoàng Minh H2, Dương Tấn P1 và Phạm Quang T5 đều chấp hành, không có ý kiến gì",
+        "answer": "bắt giữ",
+        "prediction": "đồng ý"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Cùng ngày, công an đã bắt giữ các bị cáo Hoàn T và H và G đưa họ ra trước công lý",
+        "answer": "bắt giữ",
+        "prediction": "bắt giữ"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "T cầm đoạn gậy tre đâm qua cửa kính xe ô tô vào đầu anh T1 làm cho anh bị thương nhẹ, sau đó anh T1 đi vào trạm y tế xã Đ khám thương và về nhà tự điều trị.",
+        "answer": "bị thương",
+        "prediction": "bị thương"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ngày 20/02/2024, bị hại là anh Nguyễn Đăng T1 kháng cáo đề nghị Tòa án nhân dân tỉnh Thanh Hóa tăng mức hình phạt đối với bị cáo Lê Phú T và tăng mức bồi thường thiệt hại cho anh T1 lên 100.000.000 đồng.",
+        "answer": "đề nghị, bồi thường",
+        "prediction": "kháng cáo, đề nghị, bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Theo quy định tại Điều 50 Luật Thương mại, Công ty J Việt Nam có nghĩa vụ thanh toán khoản tiền 85.714 USD tương ứng 1.951.707.780 đồng là phù hợp pháp luật.",
+        "answer": "thanh toán",
+        "prediction": "thanh toán"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Quá trình điều tra xác định chiếc BKS 89L1-xxxx đã thu giữ trong quá trình khám xét là của xe mô tô nhãn hiệu DETECH",
+        "answer": "khám xét",
+        "prediction": "khám xét"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Thời hạn thuê 5 năm kể từ ngày 17/9/2019 đến ngày 17/9/2024, giá thuê 7.000.000đ/tháng",
+        "answer": "thuê",
+        "prediction": "thuê"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đất cho ông H và ông Đ thuê khoán chung diện tích, không có tách riêng mỗi người diện tích cụ thể và cũng không có ranh diện tích đất của mỗi người. Hiện nay các bên tranh chấp, đề nghị Tòa án giải quyết theo quy định",
+        "answer": "thuê",
+        "prediction": "thuê"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ông T phải chịu án phí dân sự sơ thẩm không có giá ngạch đối với tranh chấp hợp đồng thuê quyền sử dụng đất bị vô hiệu",
+        "answer": "thuê",
+        "prediction": "thuê"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đối với cây cối trên đất thửa 285 và 307 bà T thừa nhận là của bà N, đề nghị Hội đồng xét xử xem xét giải quyết cho phù hợp, các nội dung khác thì luật sư không có ý kiến",
+        "answer": "đồng ý, xem xét",
+        "prediction": "không có sự kiện"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Sau khi thỏa thuận xong, C đứng ở dưới tầng 1 nói vọng lên tầng 2 cho Lê Cẩm T (tên gọi khác ở quán là L) là “L ơi, có khách, khách chuyển khoản 15 ca rồi” là ám hiệu giữa C và T thỏa thuận từ trước, T hiểu 15 ca tức là bán dâm cho khách, vì mỗi lần tẩm quất bình thường thì được hưởng 50.000 đồng/ca, mỗi lần bán dâm được hưởng bằng số tiền tẩm quất 15 ca tức là 15 ca x 50.000 đồng = 750.000 đồng. Sau đó, C và T vào phòng bên trái cầu thang để bán dâm, đang thực hiện thì bị Công an huyện K bắt quả tang.",
+        "answer": "mại dâm",
+        "prediction": "bán ra, bị thương, mại dâm"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Khoảng 11 giờ cùng ngày C đến quán cà phê “Thắng V1”, sau đó L1, T, N và C cùng đến nhà nghỉ G thuộc thôn A, xã T, huyện Y để thuê phòng thực hiện hành vi mua bán dâm. Khi đến nhà nghỉ G chủ nhà nghỉ là Nguyễn Thị N1 yêu cầu L1 và T xuất trình giấy tờ tùy thân đầy đủ và cho thuê phòng. Sau khi thuê phòng N vào phòng 205 bán dâm cho L1 và được L1 cho thêm 400.000 đồng để phục vụ nhiệt tình. Chính vào phòng 201 bán dâm cho T. Khi các đối tượng đang thực hiện hành vi mua, bán dâm thì tổ công tác Công an huyện Y đến kiểm tra, phát hiện N đang mua bán dâm với L1, C đang mua bán dâm với T.",
+        "answer": "mại dâm",
+        "prediction": "bán ra, mua vào, thanh toán, thuê, mại dâm"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Khoảng 14 giờ cùng ngày, S và Lầu đến nhà nghỉ Tr lên phòng 405 gặp Th. Tại đây, Th đưa cho S 800.000 đồng tiền mua dâm của Th và H, 200.000 đồng tiền công môi giới. Th gọi H lên đưa Lầu xuống phòng 302 để mua bán dâm. Khoảng 14 giờ 30 phút cùng ngày, tổ công tác của Công an thành phố N kiểm tra hành chính nhà nghỉ Trang My đã phát hiện hành vi mua bán dâm của Hoàng và Lầu ở phòng 302; Thông và S ở phòng 405",
+        "answer": "mại dâm",
+        "prediction": "mua vào, bán ra, lừa dối, bắt giữ"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tối ngày 04/7/2023, Trịnh Minh P và bạn là Phạm Minh H1 sử dụng điện thoại vào trang Web: GaiGu.Tv tìm gái bán dâm thì thấy tin đăng bán dâm cùng với hình ảnh của Cao Huỳnh Thanh T1, Lưu Văn X nên P gọi điện thoại cho T1 để thỏa thuận việc bán dâm. T1 đồng ý và nói P, H1 đến nhà nghỉ B để thực hiện việc mua, bán dâm. Cùng thời gian này, Nguyễn Việt H2 đi du lịch ở D có nhu cầu mua dâm, nên sử dụng điện thoại vào trang Web: GaiGu.Tv tìm gái bán dâm thì thấy tin đăng bán dâm cùng với hình ảnh của Nguyễn Thị L. H2 đã gọi điện cho L để mua dâm. L đồng ý và hẹn H2 đến nhà nghỉ B để thực hiện việc mua bán dâm.",
+        "answer": "mại dâm",
+        "prediction": "mua vào, bán ra, liên lạc, đề nghị, đồng ý, thuê"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đến khoảng 23 giờ cùng ngày, khi T đang ngồi ở quầy lễ tân trông nH thì có 02 thanh niên là Phạm Văn L, sinh năm 2005 trú tại thôn D, xã G, huyện Lục Nam và Vũ Đức Z, sinh năm 2004 trú tại tổ dân phố E, thị trấn Đồi Ngô, huyện Lục Nam, tỉnh Bắc Giang đến đặt vấn đề mua dâm với nhân viên, T đồng ý. T bảo L, Z ngồi đợi. Tiếp đó T nhắn tin vào Zalo nhóm có tên Cafe 93 bảo Trương Thị P và Lê Thị P sang nH nghỉ P Linh bán dâm cho khách. Sau đó, Trương Thị P và Lê Thị P đi bộ sang nH nghỉ P Linh gặp Z, Fở tầng 1. Tại đây Trương Thị P, Lê Thị P thỏa thuận với Phạm Văn L, Vũ Đức Z giá mua dâm là 350.000 đồng/người. Sau khi thống nhất thì Trương Thị P đưa Phạm Văn Flên phòng 201, còn Lê Thị P đưa Vũ Đức Z lên phòng 204 để mua bán dâm.",
+        "answer": "mại dâm",
+        "prediction": "mua vào, bán ra, đề nghị, đồng ý, liên lạc"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "T nhắn tin qua zalo gửi vị trí nhà nghỉ và số phòng cho Ch. Khoảng hơn 20 giờ cùng ngày, Ch và H gọi taxi từ phòng trọ đến nhà nghỉ “24h” để gặp T. Khi đến nơi, Ch và H lên phòng 301. Tại đây, T đưa cho Ch 3.300.000 đồng (Số tiền cả hai đã thoả thuận trước đó cho 02 lượt bán dâm và tiền taxi đi lại). Sau đó, Ch và D đi sang phòng 303; còn T và H ở lại phòng 301 để thực hiện việc mua bán dâm.",
+        "answer": "mại dâm",
+        "prediction": "bán ra, mua vào, liên lạc"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Bà N cho rằng bà là người làm ruộng, có trồng hoa màu và chăn nuôi để mua bán kiếm lời và được nhiều người tin tưởng cùng làm ăn với bà, nhưng từ khi bà N1 chửi và bêu xấu bà đến nay nhiều người xa lánh, không còn mua bán gì với bà nữa, làm ảnh hưởng đến thu nhập hàng ngày của bà. Do đó, bà N khởi kiện yêu cầu N1 phải công khai xin lỗi bà N tại nơi cư trú và buộc N1 phải bồi thường tổn thất tinh thần cho bà N bằng 05 tháng lương tối thiểu do Nhà nước quy định với số tiền 7.450.000 đồng.",
+        "answer": "bồi thường",
+        "prediction": "yêu cầu, bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Bà T và ông K xác định gia đình ông K, bà T mất 01 suất ruộng của bà T do ông H, bà P sử dụng không có căn cứ pháp luật. Bà T và ông K đề nghị Tòa án buộc ông H, bà P phải trả lại 01 suất ruộng canh tác có diện tích là 590m² và phải bồi thường sản lượng trong 09 năm (tính đến hết năm 2023) cụ thể: 590m2 quy ra là 1 sào 10, mỗi năm cấy 02 vụ lúa thu hoạch tổng 700kg thóc, với giá thóc 11.000đồng/01kg = 7.700.000 đồng; mỗi năm 01 vụ đông thu hoạch = 3.000.000 đồng. Tổng thu một năm là 10.700.000 đồng, 09 năm là 96.300.000 đồng.",
+        "answer": "bồi thường",
+        "prediction": "bán ra, bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ngày 06/02/2022, ông bà đi lấy thuốc tại trạm y tế xã TC về thi thấy tường ông bà xây năm 2021 bị phá. Ông có hỏi con trai và được biết do ông Nguyễn Tuấn M 1 chỉ đạo máy ủi phá tường, ông báo gọi Công an 113 thì Công an 113 chỉ đạo Công an xã TC đến làm việc. Ngày 17/02/2023, Công an xã đến hiện trường lập biên bản, số tiền gia đình thiệt hại đối với bức tường xây dài khoảng 20m và 31 khóm chuối trị giá 8.000.000đ.\n\nÔng bà đề nghị buộc ông Nguyễn Tuấn M 1 phải tháo dỡ, di rời bức tường do ông M 1 xây năm 2019 và buộc ông M 1 phải bồi thường thiệt hại do phá tường ông xây và 31 khóm chuối trị giá 8.000.000đ.",
+        "answer": "bồi thường",
+        "prediction": "bán ra, yêu cầu, bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ủy ban nhân dân quận Ninh K và Chủ tịch Ủy ban nhân dân thành phố C cho rằng: Trên cơ sở Quyết định số 1264/QĐ-UBND ngày 26 tháng 6 năm 2020 của Ủy ban nhân dân thành phố C về việc phê duyệt giá đất cụ thể để tính bồi thường khi Nhà nước thu hồi đất và vị trí thửa đất (không tiếp giáp đường hay các vị trí còn lại khác), Ủy ban nhân dân quận Ninh K đã xem xét phê duyệt bồi thường đối với phần diện tích đất 69,7m2, loại đất trồng cây lâu năm cho bà Huỳnh Yến O với giá 1.640.000 đồng/m2 là phù hợp nên việc bà Oanh khiếu nại yêu cầu nâng giá bồi thường lên 12.000.000 đồng/m2, đồng thời xem xét cho bà được nhận chuyển nhượng nền tái định cư là không có cơ sở để giải quyết.",
+        "answer": "bồi thường",
+        "prediction": "bồi thường, yêu cầu"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Đối với các thửa đất nêu trên có 08 thửa (Thửa số 43, thửa số 04, thửa số 09, thửa số 11a; thửa số 16; thửa số 91b; thửa số 61; thửa số 88) đã bị Nhà nước thu hồi để thực hiên dự án khu Tái định cư và dân cư N thành phố L diện tích bị thu hồi là 3.567,9m2 (trong đó bà Trình Thị L thực hiện kê khai, kiểm đếm diện tích 3.354,5m2, ông Trình A V kê khai, kiểm đếm diện tích 213,4m2). Bà Trình Thị L nhận giá trị bồi thường, hỗ trợ, tái định cư số tiền là 1.716.911.500 đồng; ông Trình A V nhận số tiền là 315.073.200 đồng.",
+        "answer": "bồi thường",
+        "prediction": "bán ra, bồi thường"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Anh Trần Hoàng S không phải chịu án phí dân sự sơ thẩm, hoàn trả lại cho anh S 800.000 đồng tiền tạm ứng án phí dân sự sơ thẩm đã nộp theo biên lai số 0000907 ngày 28 tháng 3 năm 2024 của Chi cục Thi hành án dân sự huyện Đầm Dơi.",
+        "answer": "hoàn trả",
+        "prediction": "hoàn trả"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Buộc ông Nguyễn Văn Tr phải hoàn trả cho ông Phạm Công Qu toàn bộ số tiền đã chi phí xem xét, thẩm định tại chỗ lần 1 là: 2.800.000 đồng.",
+        "answer": "hoàn trả",
+        "prediction": "hoàn trả"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Hoàn trả lại cho Ngân hàng TMCP Q, Công ty Đ2 và ông Đồng Thanh S, số tiền 300.000 đồng tạm ứng án phí dân sự phúc thẩm mà họ đã nộp theo các biên lai thu tạm ứng án phí, lệ phí Tòa án lần lượt số AA/2023/0004348, ngày 14/11/2023; AA/2023/0004415, ngày 22/11/2023; AA/2023/0004317, ngày 09/11/2023 của Chi cục thi hành án dân sự thành phố B, tỉnh Đắk Lắk.",
+        "answer": "hoàn trả",
+        "prediction": "hoàn trả"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Yêu cầu khởi kiện của OVN được chấp nhận nên ông S phải chịu toàn bộ chi phí tố tụng. Tổng chi phí đo đạc, định giá, xem xét, thẩm định tại chỗ với số tiền là 7.400.000 đồng thì OVN đã nộp đủ nên ông S phải nộp để hoàn trả cho OVN.",
+        "answer": "hoàn trả",
+        "prediction": "thanh toán, hoàn trả"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Tổng số tiền H chỉ đạo thu của 29 khách hàng (29 hợp đồng) là 516.500.000 đồng, trong đó tiền phí dịch vụ Công ty S được hưởng theo thoả thuận và hạch toán vào chứng từ kế toán là 141.500.000 đồng; còn 375.000.000 đồng là số tiền mà H tự tính toán, yêu cầu khách hàng phải chuyển cho H để uỷ quyền cho Công ty S nộp các khoản thuế, phí phát sinh trong quá trình thực hiện hợp đồng và H chỉ sử dụng 106.383.173 đồng để nộp các khoản thuế, phí theo quy định, còn lại 268.616.827 đồng nhưng H không thông báo, không trả lại cho khách hàng mà chiếm đoạt sử dụng cá nhân hết.",
+        "answer": "lừa dối",
+        "prediction": "thanh toán, yêu cầu, chiếm đoạt"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Ngày 07/02/2018, ông H đến nhà bà H2 hỏi bà H2 đã làm thủ tục xong chưa trả bản chính GCNQSDĐ cho ông H thì bà H2 nói bản chính GCNQSDĐ bà H2 cầm cố rồi, bà H2 kêu ông H đi mượn tiền giùm bà H2 để chuộc lại sổ đỏ. Vài hôm sau khi ông S kéo vật liệu xây nhà thì địa phương xuống không cho xây lý do là ông S xây trên đất của bà H2, GCNQSDĐ bà H2 đang đứng tên. Sau đó ông H đến Văn phòng C xin sao lục hợp đồng ủy quyền mới biết bà T2 và bà H2 đã lừa dối ông H.",
+        "answer": "lừa dối",
+        "prediction": "lừa dối"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Quá trình thực hiện việc chuyển nhượng nhà đất sang cho vợ chồng ông N, bà H, ông ào ức N2 và bà Hoàng Thị N3 biết rõ các thành viên gia đình ông Trần Xuân T và bà Võ Thị M vẫn sinh sống trong căn nhà trên, biết được thửa đất và ngôi nhà đang có tranh chấp vẫn cố tình đưa ra thông tin gian dối khẳng định nhà và đất không tranh chấp làm cho vợ chồng ông N, bà H tin rằng nhà và đất này hoàn toàn đã đủ điều kiện để chuyển nhượng, khiến gia đình ông N, bà H lâm vào cảnh “tiến thoái lưỡng nan” giấy tờ thì đã sang tên, tiền đã chuyển đầy đủ nhưng nhà thì không nhận được.",
+        "answer": "lừa dối",
+        "prediction": "lừa dối, bán ra"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Riêng số tiền 400.000 đồng bị cáo có được là tiền thu lợi bất chính từ hành vi phạm tội và thực tế đang chiếm hưởng nên cần buộc bị cáo nộp lại số tiền này để tịch thu sung Ngân sách Nhà nước.",
+        "answer": "thu lợi",
+        "prediction": "thu lợi"
+    },
+    {
+        "instruction": "Dưới đây là một đoạn văn bản pháp lý, vui lòng xác định các sự kiện mà đoạn văn này đã nêu ra, bao gồm: thanh toán, lừa dối, khám xét, yêu cầu, bán ra, mua vào, thu lợi, bắt giữ, giám định, đồng ý, khai báo, đề nghị, liên lạc, thuê, bị thương, giả mạo, mại dâm, xâm hại thân thể, bồi thường, hoàn trả. Vui lòng đưa ra các sự kiện đã kích hoạt, ngăn cách bằng dấu chấm phẩy, ví dụ: thanh toán, bán ra. Vui lòng trả lời chính xác theo định dạng này. Dưới đây là một ví dụ:\nCâu hỏi: Theo giám định pháp y, nạn nhân XX bị gãy xương mũi hai bên, thuộc thương tích nhẹ cấp độ hai\nTrả lời: bị thương\nVui lòng trả lời:",
+        "question": "Với mục đích thu lời bất chính, ngày 24/4/2023 tại thôn L, xã M, thị xã D, Lương Ngọc T đã cho chị Trần Lệ Q1 vay số tiền 100.000.000đ, với mức lãi suất 3.000 đồng/01 triệu/01 ngày, tương đương lãi suất 108%/năm (vượt quá 05 lần mức lãi suất theo quy định tại Điều 468 Bộ luật Dân sự), tính thời điểm từ tháng 4/2023 đến tháng 10/2023 (06 tháng), đã thu lợi bất chính tổng số tiền là 44.001.000 đồng.",
+        "answer": "thu lợi",
+        "prediction": "thanh toán, thu lợi"
+    }
+]

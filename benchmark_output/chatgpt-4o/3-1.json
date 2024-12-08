@@ -1,0 +1,422 @@
+[
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Ngày 11/12/2021, tại quán \"Cô Chủ Nhỏ\" ở huyện Củ Chi, Thành phố Hồ Chí Minh, Nguyễn Trung T1 đã xảy ra mâu thuẫn với anh Trần Thanh P trong tiệc sinh nhật. Sau khi bị anh P kẹp cổ đánh, T1 gọi điện báo cho anh trai Nguyễn Trung C, nhờ mang hung khí đến. Nguyễn Trung C cùng Trần Ngọc T2 đã mang 2 cây rựa đến hiện trường.\n\nNguyễn Trung T1 và Nguyễn Trung C lần lượt sử dụng cây rựa chém anh P, gây tổn thương vùng đầu và tay với tỷ lệ thương tích 25%. Sau khi gây án, cả ba bị cáo bỏ trốn và sau đó bị bắt giữ.\n\nCáo buộc:\nCả ba bị cáo Nguyễn Trung T1, Nguyễn Trung C, và Trần Ngọc T2 bị truy tố tội \"Giết người\" với tình tiết tăng nặng là có tính chất côn đồ.",
+        "answer": "Điều 123 Bộ luật Hình sự, Điều 57 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 21/3/2023, Võ Lập N, trong lúc điều khiển xe đạp trên đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh, nhìn thấy bà Zheng Wei W cầm điện thoại di động Iphone 13 Pro Max trên tay. Bị cáo đã áp sát, giật điện thoại và bỏ chạy. Người dân đuổi theo và bắt giữ Võ Lập N cùng vật chứng là chiếc điện thoại trị giá 17.535.000 đồng. Tài sản đã được thu hồi và trả lại cho bị hại.\n\nCáo buộc:\nVõ Lập N bị cáo buộc tội \"Cướp giật tài sản\".",
+        "answer": "Điều 171 Bộ luật Hình sự",
+        "prediction": "Điều 171 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Ngày 20/6/2023, Tổ công tác 363 Công an quận Bình Tân, Thành phố Hồ Chí Minh, phát hiện Huỳnh Thanh P có dấu hiệu nghi vấn sử dụng ma túy và kiểm tra căn nhà nơi bị cáo cư trú. Tại đây, cơ quan công an phát hiện bị cáo tàng trữ: \n\n01 khẩu súng ngắn nhãn hiệu ROHM RG70 CAL.315K. \n65 viên đạn, trong đó 33 viên đạn thuộc nhóm vũ khí thể thao và 32 viên thuộc nhóm vũ khí quân dụng. \nHuỳnh Thanh P khai nhận đã mua số súng, đạn trên từ một người không rõ lai lịch với giá 8.600.000 đồng vào tháng 11/2022 và cất giấu tại nhà. Bị cáo không có giấy phép tàng trữ vũ khí và không sử dụng số vũ khí này vào bất kỳ mục đích cụ thể nào. \n\nCáo buộc: \nBị cáo Huỳnh Thanh P bị cáo buộc tội \"Tàng trữ trái phép vũ khí quân dụng\".",
+        "answer": "Điều 304 Bộ luật Hình sự",
+        "prediction": "Điều 304 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nVào ngày 28/3/2022, tại quận Bình Thạnh, Thành phố Hồ Chí Minh, bị cáo Lê Bá H bị bắt quả tang khi đang tàng trữ trái phép chất ma túy loại Methamphetamine với khối lượng 42,7981 gam. Trước đó, bị cáo đã thực hiện hành vi mua bán chất ma túy từ tháng 1/2022, liên quan đến các đối tượng không rõ nhân thân tên T1 và D. Bị cáo khai nhận đã nhiều lần mua bán ma túy để hưởng lợi. \n\nCáo buộc: \nLê Bá H bị cáo buộc tội \"Mua bán trái phép chất ma túy\".",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nNgày 23/3/2022, Cao Chí T, Nguyễn Văn D và một số đồng phạm đến một đám cưới ở huyện C, tỉnh Kiên Giang để giải quyết mâu thuẫn giữa bạn của họ là Nguyễn Trọng T2 với người khác. Trước đó, Cao Chí T đã mang theo một khẩu súng ngắn trái phép. Khi đến đám cưới, nhóm của Cao Chí T xảy ra xô xát với nhóm khác. Trong lúc hỗn loạn, Cao Chí T dùng súng bắn vào ngực trái của Nguyễn Văn D4, gây tổn thương cơ thể với tỷ lệ 41%. \n\nNgoài ra, Cao Chí T đã mua và tàng trữ khẩu súng ngắn này trái phép từ tháng 2/2022. \n\nCáo buộc: \n\"Giết người\" (chưa đạt) \"Tàng trữ, vận chuyển, sử dụng, mua bán trái phép vũ khí quân dụng\", \"Gây rối trật tự công cộng\"",
+        "answer": "Điều 123 Bộ luật Hình sự, Điều 304 Bộ luật Hình sự, Điều 318 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự, Điều 304 Bộ luật hình sự, Điều 318 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nBị cáo Cù Văn S, Nguyễn Tiến L, và đồng phạm là các cán bộ và nhân viên thuộc Chi nhánh Văn phòng Đăng ký đất đai và Phòng Tài nguyên Môi trường huyện HU1, tỉnh Đắk Nông. Trong giai đoạn từ năm 2017 đến năm 2019, các bị cáo đã lợi dụng chức vụ, quyền hạn để làm giả giấy chứng nhận quyền sử dụng đất (GCN QSDĐ) và hồ sơ đất đai. Các giấy tờ giả này được sử dụng để thế chấp vay vốn tại nhiều ngân hàng. \n\nTổng cộng, các bị cáo đã thực hiện 66 GCN QSDĐ không đúng quy định, thỏa thuận với 23 hộ dân để thế chấp vay vốn, chiếm đoạt tổng cộng hơn 11 tỷ đồng. \n\nCáo buộc: \nTội \"Lạm dụng chức vụ, quyền hạn để chiếm đoạt tài sản\". \nTội \"Làm giả con dấu, tài liệu của cơ quan, tổ chức\".",
+        "answer": "Điều 355 Bộ luật Hình sự, Điều 341 Bộ luật Hình sự",
+        "prediction": "Điều 355 Bộ luật hình sự, Điều 341 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nNgày 17/9/2022, tại Quận 1, Thành phố Hồ Chí Minh, các bị cáo Lê Trần Hoàn P, Nguyễn Phan Anh K và Nguyễn Kim Trà M đã thực hiện hành vi vi phạm pháp luật như sau: \n\nLê Trần Hoàn P và Nguyễn Phan Anh K đã đánh ông Heiko Hermann O để chiếm đoạt một chiếc điện thoại Samsung Galaxy S21 FE 5G trị giá 9.108.000 đồng. Sau đó, hai bị cáo giao điện thoại này cho Nguyễn Kim Trà M để cất giữ. Nguyễn Kim Trà M biết rõ chiếc điện thoại là tài sản do phạm tội mà có nhưng vẫn đồng ý giữ và sau đó định bán đi. \nCáo buộc: \nLê Trần Hoàn P và Nguyễn Phan Anh K bị cáo buộc tội \"Cướp tài sản\". \nNguyễn Kim Trà M bị cáo buộc tội \"Chứa chấp tài sản do người khác phạm tội mà có\".",
+        "answer": "Điều 168 Bộ luật Hình sự, Điều 323 Bộ luật Hình sự",
+        "prediction": "Điều 168 Bộ luật hình sự, Điều 323 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nNgày 4/4/2021, tại Thành phố Hồ Chí Minh, Vĩnh Huyền Tường V bị bắt quả tang tại khách sạn Y.T1 khi đang cất giấu và chuẩn bị bán trái phép chất ma túy. Số lượng ma túy thu giữ tại hiện trường và nơi ở của bị cáo bao gồm: \n\n149,38 gam Methamphetamine. \n16.534,76 gam Heroine. \n10.087,77 gam Methamphetamine (tổng các vụ khác). \nCác chất khác như MDMA, Ketamine với tổng trọng lượng hơn 5 kg. \nDiệp Trọng H tham gia mua bán ma túy với vai trò nhận ma túy từ Vĩnh Huyền Tường V và phân phối cho khách hàng. Tổng lượng ma túy do Diệp Trọng H thực hiện bao gồm: \n\n18,74 gam Methamphetamine. \n0,36 gam Ketamine. \nCáo buộc: \nVĩnh Huyền Tường V bị cáo buộc tội \"Mua bán trái phép chất ma túy\". \nDiệp Trọng H bị cáo buộc tội \"Mua bán trái phép chất ma túy\".",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nLò Thị G, dưới tên giả Lê Thị Trinh, đã lợi dụng mạng xã hội để lừa đảo chiếm đoạt tài sản. Tháng 7/2023, bị cáo làm quen với chị Phạm Thị Thắm qua ứng dụng WeChat. Bị cáo tự nhận mình là phụ nữ độc thân, có ý định kết hôn với người quốc tịch Trung Quốc để nhận sính lễ. Qua trung gian chị Thắm, Lò Thị G được giới thiệu anh Chen Jian Goong. Sau nhiều trao đổi, ngày 5/9/2023, tại thành phố Hòa Bình, Lò Thị G đã sử dụng giấy tờ giả để làm tin và chiếm đoạt: \n\nSố tiền 200.000.000 đồng. \nMột vòng cổ và một lắc tay bằng vàng trị giá 30.818.000 đồng. \nTổng tài sản chiếm đoạt là 230.818.000 đồng. Sau khi chiếm đoạt, bị cáo bỏ trốn nhưng bị bắt giữ khẩn cấp vào ngày 6/9/2023. \n\nCáo buộc: \nBị cáo Lò Thị G bị truy tố và xét xử về tội \"Lừa đảo chiếm đoạt tài sản\".",
+        "answer": "Điều 174 Bộ luật Hình sự",
+        "prediction": "Điều 174 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nNgày 25/7/2023, Lê Văn N được nhận vào làm nhân viên giao nhận hàng tại bưu cục 276C02 của Công ty TNHH Một thành viên C tại huyện Gò Dầu, tỉnh Tây Ninh. Trong quá trình làm việc, bị cáo biết mật khẩu mở két sắt đựng tiền. Khoảng 20 giờ 20 phút ngày 30/10/2023, lợi dụng sự sơ hở, bị cáo đã lấy trộm 48.900.000 đồng trong két sắt của bưu cục. \n\nNgày 31/10/2023, Lê Văn N tự giác chuyển trả toàn bộ số tiền đã chiếm đoạt và đến công an đầu thú. Công ty bị hại không yêu cầu bồi thường thêm và có đơn xin giảm nhẹ hình phạt cho bị cáo. \n\nCáo buộc: \nLê Văn N bị truy tố về tội \"Trộm cắp tài sản\".",
+        "answer": "Điều 173 Bộ luật Hình sự",
+        "prediction": "Điều 173 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Ngày 25 tháng 7 năm 2017, Tòa án nhân dân cấp cao tại Hà Nội đã tiến hành xét xử vụ án hình sự thụ lý số 151/2016/TLPT-HS ngày 24 tháng 02 năm 2016 đối với bị cáo Mua A T vì tội Mua bán trái phép chất ma túy. Bị cáo Mua A T đã kháng cáo bản án hình sự sơ thẩm số 19/2016/HSST ngày 13 tháng 01 năm 2016 của Toà án nhân dân tỉnh Lai Châu.\nCáo buộc: Mua A T đã thực hiện hành vi mua bán trái phép chất ma túy 04 lần với 06 bánh ma túy, tổng trọng lượng là 1.980 gam.\nKết quả: Tòa án cấp phúc thẩm giữ nguyên bản án sơ thẩm, xử phạt bị cáo Mua A T tử hình về tội “Mua bán trái phép chất ma túy”.",
+        "answer": "Điều 251 Bộ luật hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 18/10/2015, Giàng A S đã thực hiện hành vi mua bán trái phép chất ma túy. Bị cáo đã mua 01 gói Hêrôin từ một người đàn ông dân tộc Mông quốc tịch Lào với giá 10.000.000VNĐ và sau đó chia gói Hêrôin thành 04 gói nhỏ để bán kiếm lời.\n\nCáo buộc: Mua bán trái phép chất ma túy.\n\n\nKết quả: Tòa án cấp phúc thẩm giữ nguyên bản án sơ thẩm, xử phạt bị cáo Giàng A S 12 năm tù về tội “Mua bán trái phép chất ma túy”.",
+        "answer": "Điều 251 Bộ luật hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Ngày 21/9/2016, khoảng 4 giờ sáng, bị cáo Phạm Mạnh H đã dùng một thanh kim loại đánh vào đầu anh Đ (là tổ trưởng của bị cáo) tại nơi làm việc, khiến anh Đ bị thương nặng với tỷ lệ thương tật 52%. Sau khi gây án, bị cáo đã bỏ trốn.\n\nCáo buộc: Giết người\nKết quả: Bị cáo Phạm Mạnh H bị xử phạt 5 năm 6 tháng tù về tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 12/10/2016, bị cáo Trần Văn C và anh Nguyễn Văn D có mâu thuẫn dẫn đến cãi vã. Trong lúc cãi vã, anh D đã dùng tay đánh vào mặt bị cáo C. Do bị tức giận, bị cáo C đã dùng dao đâm vào người anh D. Hậu quả, anh D bị thương nặng và tử vong tại bệnh viện.\nCáo buộc: Giết người.",
+        "answer": "Điều 123 Bộ luật hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Nguyễn Đức G, Tổng Giám đốc Công ty RX, đã bán trái phép 268 số hóa đơn thuế giá trị gia tăng cho nhiều đối tượng, với tổng số tiền hàng hóa, dịch vụ bán ra ghi trên các số hóa đơn là 38.280.211.001 đồng, nhưng không có hàng hóa dịch vụ kèm theo để thu lợi bất chính 312.353.000 đồng và làm thất thoát cho ngân sách Nhà nước 3.533.536.239 đồng.\n\nCáo buộc: Mua bán trái phép hóa đơn thu nộp ngân sách nhà nước.",
+        "answer": "Điều 203 Bộ luật hình sự",
+        "prediction": "Điều 203 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 17/12/2015, Mai Văn D và vợ là Phan Thị T đã lén lút chiếm đoạt tài sản của cha mẹ D là ông Trần Văn L và bà Mai Thị L, bao gồm 120.000.000 đồng tiền mặt và một số vàng (10 nhẫn tròn, 6 dây chuyền, 1 lắc và 7 nhẫn có gắn đá). Tổng giá trị tài sản bị chiếm đoạt được xác định là 192.833.296 đồng. Sau khi bị phát hiện, D và T đã thú nhận hành vi và trả lại tài sản.\nCáo buộc: Trộm cắp tài sản\nKết quả:\n• Mai Văn D bị phạt 1 năm 3 tháng tù giam\n• Phan Thị T bị phạt 1 năm 3 tháng tù nhưng cho hưởng án treo",
+        "answer": "Điều 173 Bộ luật Hình sự",
+        "prediction": "Điều 173 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào khoảng 10 giờ ngày 27/02/2011, Nguyễn Đăng T mang theo dao đến nhà chị Vũ Thị Hoàng A. Do ghen tuông, T đã dùng dao đâm nhiều nhát vào người chị A khiến chị tử vong.\nCáo buộc: Giết người.",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào khoảng 18 giờ ngày 13/3/1996, bị cáo Trần Đình P và ông Trần Ngọc T cùng với anh S, anh T uống rượu tại nhà ông T ở Thôn 1, xã TX, huyện ĐN, tỉnh Đăk Lắc (nay là huyện ĐS, tỉnh Đăk Nông). Sau đó, ông T dùng cái ly thủy tinh đánh trúng vào trán của P, dẫn đến xảy ra cự cãi. Khoảng 20 giờ cùng ngày, P về đến nhà ông Th thì lấy dao dọa chém ông Th. Sau đó, P đến nhà ông T, dùng dao chém một nhát vào vùng cổ bên phải của ông T, làm ông T tử vong.\n\nCáo buộc: Giết người.",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 16/12/2016, tại bản C, xã L, huyện V, tỉnh Sơn La, Hàng Thị D bị phát hiện và bắt quả tang khi đang vận chuyển trái phép 08 bánh hêrôin, trọng lượng 2.446,36 gam. D đã nhận ma túy từ Sùng A S để vận chuyển đến nương ngô giao cho Mùa A T nhưng sau đó được chỉ đạo lấy lại ma túy để trả cho S.\n\nCáo buộc: Vận chuyển trái phép chất ma túy.",
+        "answer": "Điều 250 Bộ luật Hình sự",
+        "prediction": "Điều 250 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 16/12/2016, tại bản C, xã L, huyện V, tỉnh Sơn La, Hàng Thị D bị phát hiện và bắt quả tang khi đang vận chuyển trái phép 08 bánh hêrôin, trọng lượng 2.446,36 gam. D đã nhận ma túy từ Sùng A S để vận chuyển đến nương ngô giao cho Mùa A T nhưng sau đó được chỉ đạo lấy lại ma túy để trả cho S.\n\nCáo buộc: Vận chuyển trái phép chất ma túy.\nKết quả: Bị cáo Hàng Thị D bị xử phạt tù chung thân. Thời hạn tù tính từ ngày 16/12/2016.",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 250 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 11/12/2010, tại bến xe Mỹ Đình, Hà Nội, nhóm của Nguyễn Quyết T3 và Trịnh Bá H bị nhóm của Hà Huy H cưỡng đoạt tiền sau khi đánh bạc. Nhóm H đe dọa, ép T3 và H lên xe taxi, đưa đến một bãi đất trống và một căn nhà để tiếp tục đe dọa, đánh đập và cướp tiền. T3 và H sau đó đã trốn thoát.\nCáo buộc: Bắt giữ người trái pháp luật và Cướp tài sản.\nKết quả: Các bị cáo bị kết án với mức án từ 24 tháng đến 90 tháng tù giam về tội Bắt giữ người trái pháp luật và Cướp tài sản",
+        "answer": "Điều 157 Bộ luật Hình sự, Điều 168 Bộ luật Hình sự",
+        "prediction": "Điều 157 Bộ luật hình sự, Điều 168 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: Vào ngày 9/3/2017, Đàm Nguyễn N đã hiếp dâm cháu gái Nông Thị Thu L, sinh ngày 28/10/2012, tại xóm T, xã T, huyện H, tỉnh Cao Bằng. Hành vi của N đã gây tổn thương cho cháu L, bao gồm vết rách tầng sinh môn và rỉ máu. Sau khi bị phát hiện, N đã bồi thường cho gia đình cháu L.\nCáo buộc: Hiếp dâm người dưới 16 tuổi.",
+        "answer": "Điều 142 Bộ luật Hình sự",
+        "prediction": "Điều 142 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \nVào năm 2014, ông Lê Phan Trọng H vay của ông Bùi Nhựt Th1 số tiền 175.000.000 đồng. Vũ Thị Phương Th (vợ ông H) và Nguyễn Hoài Ph (người làm công cho Th) nhiều lần gặp Th1 để trả tiền lãi. Th quen biết Dương Văn Q (bạn của Th1) và Lê Võ Xuân Th2 (vợ của Th1). \n\nNgày 25/02/2014, Th thuê của Công ty TNHH BAT 01 xe ô tô Toyota Camry và nhờ Q làm giả giấy chứng nhận đăng ký xe và giấy chứng minh nhân dân mang tên Trần Văn Đ để cầm cố lấy tiền trả nợ. Th nhờ Ph tìm người để cầm cố xe.\n\nPh biết Th làm giấy tờ giả nhưng vẫn đồng ý giúp Th tìm người cầm cố xe. Ph liên hệ với bà Trần Thị L và các đối tượng khác để tìm người cầm cố xe. Cuối cùng, Ph, Q và người đóng giả chủ xe đem xe đến tiệm cầm đồ của ông Phạm Văn T cầm cố với giá 600.000.000 đồng.\n\nKết quả: \n- Tòa án cấp sơ thẩm tuyên bố bị cáo Nguyễn Hoài Ph không phạm tội \"Làm giả con dấu, tài liệu của cơ quan, tổ chức\" mà chỉ phạm tội \"Lừa đảo chiếm đoạt tài sản\".\n- Viện trưởng Viện KSND tỉnh Bình Dương kháng nghị, Tòa cấp phúc thẩm giữ nguyên bản án sơ thẩm.",
+        "answer": "Điều 341 Bộ luật Hình sự , Điều 174 Bộ luật Hình sự",
+        "prediction": "Điều 174 Bộ luật hình sự, Điều 341 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện: \n- Nguyễn Thành Đ là chấp hành viên tại Chi cục Thi hành án dân sự huyện Ch, tỉnh Tiền Giang. \n- Từ năm 2009 đến tháng 4/2014, Đ đã lợi dụng chức vụ để thu tiền của những người phải thi hành án dân sự nhưng không nộp hoặc chỉ nộp một phần số tiền cho đơn vị, chiếm đoạt hơn 200 triệu đồng.\n- Đ nộp thiếu tiền thi hành án cho thủ quỹ Nguyễn Thị Kim Ng, hứa sẽ trả lại nhưng không thực hiện. \n- Kế toán Nguyễn Thị Bạch H phát hiện sự việc nhưng vì lo sợ nên đã cùng Ng hợp thức hóa chứng từ cho Đ, dẫn đến Đ chiếm đoạt được hơn 675 triệu đồng. \n\nCáo buộc:\n- Nguyễn Thành Đ: Tham ô tài sản. \n- Nguyễn Thị Bạch H và Nguyễn Thị Kim Ng: Tham ô tài sản với vai trò đồng phạm.",
+        "answer": "Điều 353 Bộ luật Hình sự .",
+        "prediction": "Điều 353 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 7 tháng 7 năm 2016, anh Lê Đình T1 và anh Phạm Anh D, là nhân viên bảo tồn biển thuộc Vườn quốc gia Núi Chúa, trong quá trình tuần tra tại bờ biển thôn MH, phát hiện Nguyễn H và vợ đang bắt con giời biển (trùng biển) tại khu vực quản lý của Vườn quốc gia. Khi bị phát hiện, Nguyễn H đã bỏ chạy. Vợ của Nguyễn H, chị Nguyễn Trần Thị Bích H1, không chấp hành yêu cầu của nhân viên tuần tra và có lời lẽ chống đối.\nNguyễn H, sau khi nghe vợ gọi điện báo là bị giữ, đã lấy một con dao Thái Lan có lưỡi bằng inox, cán nhựa màu vàng, và tấn công anh Lê Đình T1. Cú chém vào phía sau khuỷu tay phải của anh T1 đã gây ra vết thương nghiêm trọng dẫn đến cái chết của nạn nhân do mất máu cấp.\nSau khi sự việc xảy ra, Nguyễn H đến Cơ quan Cảnh sát Điều tra đầu thú và thừa nhận hành vi phạm tội của mình.\nTrả lời:\nCáo buộc: Nguyễn H bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNguyễn Nhật T là người có tiền án về tội \"Mua bán trái phép chất ma túy\" và nghiện ma túy đá tổng hợp (Methamphetamine). Vào ngày 13 tháng 1 năm 2016, T đã mua 02 gói ma túy đá từ một người không rõ danh tính với giá 65 triệu đồng để sử dụng và bán kiếm lời. Cùng ngày, khi Nguyễn Nhật T chở bạn gái là Trần Thị Thúy A trên xe mô tô, T bị tổ tuần tra giao thông phát hiện ma túy trên xe mô tô và bị bắt.\nNgày 10 tháng 3 năm 2016, T tiếp tục mua 10 gam ma túy đá để phân thành 06 gói nhỏ và bán kiếm lời. Ngày 11 tháng 3 năm 2016, T bị Công an thành phố Biên Hòa phát hiện và bắt quả tang khi đang tàng trữ ma túy.\nTại phiên tòa, bị cáo thừa nhận hành vi phạm tội ngày 11 tháng 3 năm 2016 nhưng không thừa nhận số ma túy bị phát hiện ngày 13 tháng 1 năm 2016. Tuy nhiên, tòa án đã căn cứ vào lời khai tại cơ quan điều tra và các chứng cứ để xét xử.\nCáo buộc:\nNguyễn Nhật T bị cáo buộc tội \"Tàng trữ trái phép chất ma túy\".",
+        "answer": "Điều 249 Bộ luật Hình sự",
+        "prediction": "Điều 249 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 27 tháng 1 năm 2016, Võ Văn T điều khiển xe ô tô biển kiểm soát UN-0135 khi trời mưa to, và khi đến ngã tư giữa đường L và đường Q thuộc xã H, thành phố Vinh, tỉnh Nghệ An, T bật đèn xi nhan phải để rẽ. Lúc này, chị Nguyễn Thị T1 điều khiển xe mô tô đi cùng chiều. Do T không chú ý quan sát và không nhường đường, dẫn đến va chạm giữa xe ô tô và xe mô tô của chị T1. Hậu quả là chị T1 bị ngã xuống đường và bánh xe ô tô chèn bẹp đầu, gây tử vong tại chỗ.\nCáo buộc:\nVõ Văn T bị cáo buộc tội Tội vi phạm quy định về tham gia giao thông đường bộ.",
+        "answer": "Điều 260 Bộ luật Hình sự",
+        "prediction": "Điều 260 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 8 tháng 6 năm 2015, Hà Mạnh Q cùng anh trai và một người bạn đến quán của bà Từ Thị Thanh H để thu tiền họ. Trong lúc xảy ra xô xát giữa Hà Văn T1 và một người quen của Nguyễn Trọng H tại quán, H1, bạn gái của Nguyễn Trọng N (con trai bà H), đã nhắn tin cho Nguyễn Trọng H rằng có người dọa đánh mẹ anh. Nhận được tin, Nguyễn Trọng H cùng anh họ là Từ Trung H và Phạm Ngọc T trở về quán của bà H để giải quyết mâu thuẫn. Trên đường về, Từ Trung H đã lấy một khẩu súng tự chế và giấu vào túi. Khi đến quán, Từ Trung H đã dùng súng bắn vào mặt Hà Mạnh Q, khiến Q bị thương nặng nhưng may mắn không tử vong.\nCáo buộc:\nTừ Trung H, Nguyễn Trọng H, và Phạm Ngọc T bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 5 tháng 2 năm 2015, Triệu Đức H bị lực lượng chức năng bắt giữ tại Cao Bằng khi đang vận chuyển 156 bánh heroin với tổng trọng lượng 54.662,97 gam. Điều tra cho thấy Bế Thị D đã tổ chức vụ vận chuyển này, thuê người vận chuyển ma túy từ Thái Nguyên lên Cao Bằng để đưa qua biên giới sang Trung Quốc. Bế Thị D cùng chồng là Chu Văn A và Bế Thị M đã thăm dò đường trước, trong khi Triệu Đức H trực tiếp lái xe chở ma túy. Sau khi H bị bắt, Bế Thị D đã trốn sang Trung Quốc nhưng bị bắt sau đó.\nCáo buộc:\nBế Thị D và Chu Văn A bị cáo buộc tội \"Mua bán trái phép chất ma túy\".",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Ngày 18/9/2016, Huỳnh Tấn T cùng nhóm bạn tổ chức ăn nhậu và T có mâu thuẫn với anh BH1 (Trưởng Công an xã HT). T nghi ngờ rằng BH1 báo cáo hành vi hát xin tiền của mình nên T đã rủ thêm các đồng phạm là BC1, BC2, BC3, BC4 và BC5 mang hung khí tấn công anh BH1. Trong vụ việc, T cùng các đồng phạm đã dùng dao và gậy gỗ tấn công anh BH1 và những người trong gia đình anh, gây thương tích cho nhiều người, trong đó anh BH1 bị thương tích 51%, bà BH3 bị thương tích 23%, ông BH2 bị thương tích 4%, và chị BH4 bị thương tích 2%. T hành động rất hung hãn và côn đồ, cố ý giết anh BH1 nhưng không thành do sự can thiệp và trốn thoát của nạn nhân.\nCáo buộc:\nHuỳnh Tấn T bị cáo buộc tội \"Giết người\" và \"Cố ý gây thương tích\"",
+        "answer": "Điều 123 Bộ luật Hình sự, Điều 134 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự, Điều 134 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nLê Thị Minh T là cán bộ tại Đội đăng ký quản lý phương tiện, thuộc Phòng PC C - Công an tỉnh Khánh Hòa, có nhiệm vụ thu tiền phí, lệ phí đăng ký biển số xe mô tô. Trong quá trình thực hiện nhiệm vụ, từ tháng 7/2008 đến tháng 5/2011, T đã lợi dụng vị trí của mình, cố ý ghi sai lệch số tiền thu phí giữa các liên biên lai thu phí, nhằm chiếm đoạt số tiền chênh lệch. Cụ thể, trên liên 1 và liên 3 của biên lai, T ghi số tiền thu phí ít hơn số tiền thực thu được ghi trên liên 2 (liên giao cho chủ phương tiện), để chiếm đoạt số tiền chênh lệch.\nTổng cộng, Lê Thị Minh T đã chiếm đoạt số tiền chênh lệch là 30.200.000 đồng từ 151 hồ sơ đăng ký xe mô tô. Việc làm này gây thiệt hại cho ngân sách Nhà nước và các chủ phương tiện.\nCáo buộc:\nLê Thị Minh T bị cáo buộc tội \"Tham ô tài sản\".",
+        "answer": "Điều 353 Bộ luật Hình sự",
+        "prediction": "Điều 353 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 20/11/2016, khi Hoàng Thế A và anh trai là Hoàng Tuấn A đang lái xe ô tô, họ gặp nhóm của Trương Văn U và Hồ Thanh H. Sau khi xảy ra va chạm và tranh cãi trong khi tham gia giao thông, hai bên xảy ra xô xát. Hoàng Thế A đã dùng dao Thái Lan đâm một nhát vào lưng của anh Trương Văn U, gây tử vong do vết thương thấu ngực. Trong khi đó, Hồ Thanh H đã dùng đá ném vào xe ô tô của Hoàng Thế A, làm hư hỏng xe với thiệt hại 5.250.000 đồng.\nCáo buộc:\n• Hoàng Thế A bị cáo buộc tội \"Giết người\".\n• Hồ Thanh H bị cáo buộc tội \"Cố ý làm hư hỏng tài sản",
+        "answer": "Điều 123 Bộ luật Hình sự, Điều 178 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự, Điều 178 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 21/12/2016, Nguyễn Thị Thu H nghi ngờ chồng là anh Từ Dương N và nhóm bạn của anh N đang sử dụng ma túy trong nhà. Khi H đến nơi và không được mở cửa, cô đã đập cửa và dùng dao xông vào nhà. Lúc này, anh Nguyễn Quốc A (bạn của anh N) can ngăn H, dẫn đến việc H cầm dao đâm anh A một nhát vào ngực trái. Vết thương khiến anh A tử vong do mất máu cấp.\nCáo buộc:\nNguyễn Thị Thu H bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nY M là Chi hội trưởng Chi hội phụ nữ làng K và Tổ trưởng tổ vay vốn dự án CARITAS Kon Tum. Lợi dụng chức vụ, từ giữa năm 2013 đến năm 2015, Y M đã nhiều lần vay tiền của bà Nguyễn Thị B và bà Trần Thị X với lý do đáo hạn ngân hàng và dự án CARITAS. Sau khi vay, Y M không trả nợ và sử dụng số tiền để tiêu xài cá nhân. Tổng số tiền chiếm đoạt của bà Nguyễn Thị B là 2.275.000.000 đồng và của bà Trần Thị X là 2.500.000.000 đồng.\nCáo buộc:\nY M bị cáo buộc tội \"Lừa đảo chiếm đoạt tài sản\".",
+        "answer": "Điều 174 Bộ luật Hình sự",
+        "prediction": "Điều 174 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nPhan Thúy H là kế toán trưởng Công ty TNHH TH (Công ty TH). Từ năm 2009 đến 2010, lợi dụng lòng tin của giám đốc công ty là bà Nguyễn Thị Thanh H1, Phan Thúy H đã dùng nhiều thủ đoạn gian dối, chiếm đoạt tài sản của Công ty TH và cá nhân bà H1. Bị cáo đã thực hiện các hành vi chiếm đoạt qua việc tất toán các thẻ tiết kiệm, lập khống phiếu chi, chiếm đoạt tiền từ các hợp đồng tín dụng và các khoản vay của công ty. Tổng số tiền bị cáo chiếm đoạt là 15.319.880.353 đồng.\nCụ thể, bị cáo đã lợi dụng việc quản lý tài chính lỏng lẻo của công ty để thực hiện các giao dịch gian dối với các ngân hàng và cá nhân. Các hành vi này gây thiệt hại nghiêm trọng đến tài sản của công ty và cá nhân bà H1.\nCáo buộc:\nPhan Thúy H bị cáo buộc tội \"Lạm dụng tín nhiệm chiếm đoạt tài sản\".",
+        "answer": "Điều 175 Bộ luật Hình sự",
+        "prediction": "Điều 175 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 20 tháng 10 năm 2016, Đinh Văn H và các đồng phạm gồm BC1, BC2, BC3, BC4, BC5, BC6, BC7, BC8 cùng nhau tham gia một vụ tấn công do mâu thuẫn với anh Nguyễn Nam T2, Trạm trưởng Trạm Bảo vệ rừng thuộc Công ty TNHH Một thành viên KHN, tại xã SL, huyện K, tỉnh Gia Lai. Mâu thuẫn bắt nguồn từ việc anh Nguyễn Nam T2 không cho BC1 khai thác gỗ về làm nhà cho bố mình. Sau khi bị từ chối, BC1 đã kích động và rủ rê các bị cáo khác quay lại Trạm với hung khí gồm dao và gậy để tấn công anh Nguyễn Nam T2.\nTrong lúc xảy ra xô xát, BC2 đã chém anh Nguyễn Nam T2 hai nhát, và BC6 đã dùng dao đâm vào góc hàm trái của anh Nguyễn Nam T2, dẫn đến việc anh T2 tử vong do đa vết thương và mất máu cấp. Các đồng phạm khác tham gia vào việc ném đá và rượt đuổi những người có mặt tại hiện trường.\nCáo buộc:\nCác bị cáo bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nTừ tháng 3 năm 2016 đến tháng 5 năm 2016, Trần Vĩnh P cùng các đồng phạm, bao gồm Trần Thị Kim P, Lê Đỗ Bích A, Trần Kim T và những người khác, đã thực hiện hành vi mua bán trái phép chất ma túy. Trần Thị Kim P là người chủ mưu, tổ chức việc mua bán heroin từ Thành phố Hồ Chí Minh về tỉnh Bến Tre. Trần Vĩnh P, với vai trò giúp sức, đã tham gia trực tiếp vào việc mua bán ma túy qua nhiều lần vận chuyển, giao dịch heroin.\nCụ thể, Trần Vĩnh P đã tham gia mua bán nhiều lần, từ nhận heroin tại Thành phố Hồ Chí Minh và giao lại cho các đồng phạm khác để tiêu thụ. P cũng có hành vi bán ma túy trực tiếp cho người sử dụng và tham gia cùng các đồng phạm trong quá trình phân chia, vận chuyển heroin.\nTrong lần bắt quả tang vào ngày 6 tháng 5 năm 2016, cơ quan chức năng đã thu giữ hơn 438 gram heroin và một số lượng nhỏ methamphetamine.\nCáo buộc:\nCác bị cáo bị cáo buộc tội \"Mua bán trái phép chất ma túy\".",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nLê Khánh H là chủ rẫy điều và tiêu tại ấp S, xã X, huyện L, tỉnh Đồng Nai. Ngày 28 tháng 2 năm 2016, do phát hiện anh Nguyễn Tiến D vào rẫy của mình để nhặt hạt điều, Lê Khánh H đã yêu cầu anh D về nhà mình để giải quyết nhưng anh D không đồng ý và xảy ra xô xát giữa hai người. Trong lúc giằng co, H đã dùng cây ba chỉa (một loại vũ khí tự chế) đâm trúng vào mắt anh D, gây ra vết thương nghiêm trọng dẫn đến tử vong của anh D do vỡ nền sọ và xuất huyết não.\nCáo buộc:\nLê Khánh H bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 18/9/2016, tại sân bay quốc tế Nội Bài, Nguyễn Văn V bị bắt quả tang khi mang theo trong ba lô một lượng ma túy lớn, bao gồm 2.957,48 gam Methamphetamine, qua máy soi chiếu an ninh. Nguyễn Văn V khai rằng mình được một người phụ nữ tên T nhờ vận chuyển gói hàng và đã được trả tiền công 5 triệu đồng. Trong quá trình điều tra, bị cáo thừa nhận đã nhận hàng từ một người lạ và mang vào Thành phố Hồ Chí Minh nhưng không biết bên trong chứa ma túy. Tuy nhiên, sau đó bị cáo cũng thừa nhận nghi ngờ hàng hóa có thể là hàng cấm.\nCáo buộc:\nNguyễn Văn V bị cáo buộc tội \"Vận chuyển trái phép chất ma túy\".",
+        "answer": "Điều 250 Bộ luật Hình sự",
+        "prediction": "Điều 250 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nHuỳnh Văn H là giám đốc Công ty TNHH ĐH, hoạt động trong lĩnh vực sản xuất phân bón. Ngày 17/10/2014, trong quá trình sản xuất phân bón tại chi nhánh công ty, một vụ nổ xảy ra khiến 3 người thiệt mạng, gồm chị Huỳnh Thị T1, Nguyễn Thị Cẩm T2 và Nguyễn Thị Ngọc T3, đồng thời gây thương tích cho 5 người dân và làm hư hại 86 căn nhà xung quanh. Nguyên nhân vụ nổ được xác định là do sử dụng bếp gas mini trong phòng pha chế phân bón gần các hóa chất nguy hiểm, dẫn đến kích nổ.\nCáo buộc:\nHuỳnh Văn H bị cáo buộc tội \"Vi phạm quy định về an toàn lao động, vệ sinh lao động, về an toàn ở những nơi đông người\".",
+        "answer": "Điều 317 Bộ luật Hình sự",
+        "prediction": "Điều 295 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nPhạm Văn T1 cùng với Nguyễn Anh T2 và Nguyễn H đã tham gia mua bán trái phép chất ma túy, cụ thể là Methamphetamine. Vào ngày 27/3/2016, tổ công tác Cục Cảnh sát điều tra tội phạm về ma túy đã bắt quả tang các bị cáo khi đang vận chuyển ma túy được giấu trong thùng nồi cơm điện. Khối lượng ma túy bị phát hiện là 197,82 gam, với hàm lượng Methamphetamine khoảng 65%. Phạm Văn T1 là người chủ mưu, tổ chức mua ma túy từ một người phụ nữ tên Hà và nhờ đồng bọn thực hiện các công đoạn vận chuyển, giao dịch ma túy.\n\nNgoài ra, Nguyễn Văn T3, mặc dù biết hành vi phạm tội của Phạm Văn T1 trong các giao dịch trước đó, nhưng không tố giác tội phạm. T3 đã hai lần biết rõ T1 mua bán ma túy, nhưng không báo với cơ quan chức năng.\n\nCáo buộc:\nPhạm Văn T1, Nguyễn Anh T2, Nguyễn H bị cáo buộc tội \"Mua bán trái phép chất ma túy\".\nNguyễn Văn T3 bị cáo buộc tội \"Không tố giác tội phạm\".",
+        "answer": "Điều 251 Bộ luật Hình sự, Điều 390 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự, Điều 390 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 2/9/2014, Đỗ Văn C có mâu thuẫn với Nguyễn Văn N4 và đã xảy ra đánh nhau tại khu nhà trọ ở phường Tân Đông Hiệp, thị xã Dĩ An, tỉnh Bình Dương. Ông Lê Văn D1, cha vợ của N4, thấy sự việc và tham gia đánh nhau để bảo vệ con mình. Trong lúc xô xát, Đỗ Văn T1 (cha của Đỗ Văn C) đã dùng tuốc nơ vít đâm vào vùng thái dương của ông D1, gây ra cái chết do chấn thương sọ não. Đỗ Văn C sau đó cũng dùng gậy gỗ đánh ông D1 nhiều lần. Sau sự việc, T1 và C đã bỏ trốn nhưng đến tối ngày 3/9/2014, cả hai đã đầu thú.\nCáo buộc:\n• Đỗ Văn T1 và Đỗ Văn C bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào khoảng 22 giờ ngày 22/3/2016, nhóm của Nguyễn Minh T và nhóm của Châu Phong H, Trần Minh K gặp nhau tại quán bia ở ấp T, xã T1, huyện C, Thành phố Hồ Chí Minh. Sau khi rời quán, do mâu thuẫn phát sinh khi nhìn nhau tại quán, Châu Phong H và Trần Minh K đã đuổi theo Nguyễn Minh T. Trong quá trình đuổi theo, Trần Minh K đã dùng đá ném vào Nguyễn Minh T, khiến T bị ngã xe và bị K cùng H đánh. T sau đó đã dùng dao đâm Châu Phong H, khiến H tử vong do sốc mất máu cấp từ vết thương đâm thủng quai động mạch chủ. Ngay sau đó, Nguyễn Minh T đã ra đầu thú.\nTrả lời: Cáo buộc:\nTrần Minh K bị cáo buộc tội \"Gây rối trật tự công cộng\".",
+        "answer": "Điều 318 Bộ luật Hình sự",
+        "prediction": "Điều 318 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nCông ty TNHH MTV A4 là doanh nghiệp nhà nước, do Ủy ban nhân dân tỉnh Tây Ninh làm chủ sở hữu. Bị cáo Trần Cảnh L là Chủ tịch Hội đồng thành viên kiêm Tổng Giám đốc công ty, Nguyễn Xuân D là Trưởng phòng Kinh doanh - Thương mại và Nguyễn Thị P là Kế toán trưởng. Trong giai đoạn từ 2009 đến 2012, các bị cáo đã ký 50 hợp đồng xuất khẩu tinh bột sắn và gạo sang Trung Quốc thông qua hai công ty trung gian là Công ty X và Công ty G. Tuy nhiên, sau khi giao hàng, phía đối tác không thực hiện thanh toán đúng hạn. Tổng số tiền chưa được thanh toán là 55.545.770.000 đồng.\nTrần Cảnh L đã chỉ đạo cho Nguyễn Xuân D và Nguyễn Thị P hợp thức hóa các hồ sơ để ký thêm các hợp đồng mới với đối tác, dù biết rằng đối tác không có khả năng thanh toán.\nCáo buộc:\n• Trần Cảnh L và Nguyễn Thị P bị cáo buộc tội \"Thiếu trách nhiệm gây hậu quả nghiêm trọng\".\n• Nguyễn Xuân D bị cáo buộc tội Tội vi phạm quy định về quản lý, sử dụng tài sản Nhà nước gây thất thoát, lãng phí.",
+        "answer": "Điều 360 Bộ luật Hình sự, Điều 219 Bộ luật Hình sự",
+        "prediction": "Điều 360 Bộ luật hình sự, Điều 219 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 12/8/2014, tại sân bay Cát Bi, Hải Phòng, Nguyễn Thế A bị bắt quả tang khi vận chuyển 03 túi ma túy Ketamine được giấu trong một chiếc quạt điện hơi nước. Qua điều tra, Nguyễn Thế A khai nhận đã tham gia mua bán ma túy cùng với Lê Anh T1, Nguyễn Đức T, Nguyễn Ngọc S và một số đồng phạm khác. Tổng trọng lượng Ketamine thu giữ là 984,82 gam Ketamine tinh chất. Các bị cáo đã tổ chức mua bán ma túy từ Hải Phòng vào Thành phố Hồ Chí Minh để tiêu thụ. Nguyễn Đức T là người trực tiếp thỏa thuận và thực hiện giao dịch mua bán với các đối tượng liên quan.\nNguyễn Ngọc S giúp đỡ Lê Anh T1 trong việc trộn ma túy và giấu ma túy vào các vật dụng để vận chuyển. Sau khi vụ việc bị phát giác, Nguyễn Ngọc S đã ra đầu thú.\nCáo buộc:\n• Nguyễn Đức T và Nguyễn Ngọc S bị cáo buộc tội \"Mua bán trái phép chất ma túy\".",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nCao Minh T và chị Võ Thị L là vợ chồng, kết hôn từ năm 2007 và có hai con chung. Từ năm 2014, T bắt đầu nghi ngờ chị L ngoại tình và cho rằng con thứ hai không phải là con ruột của mình, dẫn đến việc mâu thuẫn gia đình ngày càng nghiêm trọng. Cao Minh T nhiều lần yêu cầu ly hôn nhưng chị L không đồng ý. Từ năm 2014, T đã có dấu hiệu bất ổn về tâm thần và được chẩn đoán mắc bệnh \"Rối loạn phân liệt cảm xúc\".\nVào ngày 4/2/2016, sau khi cả hai vợ chồng đi dự đám giỗ về, T tiếp tục nghĩ về những mâu thuẫn trước đó và nảy sinh ý định giết vợ. T đã dùng dao rựa đánh và dùng dây dù siết cổ chị L cho đến khi chị tử vong. Sau đó, T gọi điện thoại cho công an để tự thú.\nCáo buộc:\nCao Minh T bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nTừ tháng 11/2014 đến tháng 5/2015, Đỗ Thái B và các đồng phạm đã tham gia tổ chức đánh bạc dưới hình thức cá độ bóng đá qua mạng. Đỗ Thái B nhận một trang cá độ bóng đá từ Dương Mạnh H, với số tiền trong tài khoản là 2 tỷ đồng. B sau đó đã giao trang này cho Nguyễn Hồng P để P tổ chức cá độ. Các bị cáo sử dụng mạng Internet và các thiết bị điện tử để quản lý và thực hiện các giao dịch cá độ. Tổng số tiền B thu lợi cá nhân từ việc tổ chức đánh bạc là 9.920.000 đồng.\nNgoài ra, các bị cáo Trần Anh K và Phạm Đình V đã tham gia cá độ với số tiền lần lượt là 10.850.000 đồng và 7.200.000 đồng.\nCáo buộc:\n• Đỗ Thái B bị cáo buộc tội \"Tổ chức đánh bạc\".\n• Trần Anh K và Phạm Đình V bị cáo buộc tội \"Đánh bạc\".",
+        "answer": "Điều 321 Bộ luật Hình sự, Điều 322 Bộ luật Hình sự",
+        "prediction": "Điều 322 Bộ luật hình sự, Điều 321 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nPhạm Ngọc H quen biết với một người đàn ông tên Nông Văn D bên Trung Quốc, người đề nghị H tìm phụ nữ Việt Nam để đưa sang Trung Quốc bán. Phạm Ngọc H đã đồng ý và cùng với Nguyễn Thanh T bàn bạc để lừa bán chị Lương Thị L. Tháng 8/2013, H và T lừa dối chị L, dụ dỗ đưa chị sang Trung Quốc và bán cho một người đàn ông Trung Quốc. Sau khi giao nộp chị L, H và T nhận được 10.000.000 đồng và chia nhau số tiền này. Đến năm 2016, sau khi chị L trốn thoát và trở về Việt Nam, chị đã tố cáo hành vi của H và T.\nNgoài ra, tại phiên tòa, chị L còn tố cáo H và T có hành vi giao cấu trái ý muốn với chị trước khi bán sang Trung Quốc.\nCáo buộc:\n• Phạm Ngọc H và Nguyễn Thanh T bị cáo buộc tội \"Mua bán người\"",
+        "answer": "Điều 150 Bộ luật Hình sự",
+        "prediction": "Điều 150 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nTẩn A N, sinh năm 1993, trong một lần cãi vã với vợ là Tẩn San M vào ngày 12/4/2013, đã dùng gậy đập ngô và hòn đá đánh vào đầu và mặt của vợ, khiến nạn nhân tử vong. Sau khi giết vợ, N đã kéo xác của nạn nhân xuống khe suối gần đó và chôn vùi dưới đất. Vụ án được phát hiện vào ngày 17/4/2013, khi gia đình và người dân địa phương tìm thấy thi thể nạn nhân. Trong quá trình điều tra, Tẩn A N đã khai nhận hành vi của mình do mâu thuẫn trong đời sống vợ chồng.\nCáo buộc:\nTẩn A N bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nTừ năm 1999 đến 2003, ông Dương N (chồng của Trần Thị K) là cán bộ địa chính xã H, tỉnh Kon Tum, đã nhận nhiều giấy chứng nhận quyền sử dụng đất từ Phòng Tài nguyên và Môi trường để cấp phát cho người dân. Tuy nhiên, ông N không cấp phát mà giữ lại các giấy này. Trong khoảng thời gian từ 2014 đến 2015, Trần Thị Thu H đã nhiều lần mượn giấy chứng nhận quyền sử dụng đất này từ bà Trần Thị K (vợ ông N) để thế chấp và vay tiền với lý do cần tiền làm ăn. Sau đó, H chiếm đoạt tổng cộng 3.636.406.000 đồng từ nhiều người bằng cách giả mạo giấy vay tiền và đưa thông tin gian dối để thế chấp các giấy chứng nhận không có giá trị.\nTrần Thị K đồng phạm với Trần Thị Thu H trong việc sử dụng 37 giấy chứng nhận quyền sử dụng đất để giúp H chiếm đoạt tài sản từ các bị hại. Tuy nhiên, K chỉ hưởng lợi một phần nhỏ từ các khoản này.\nCáo buộc:\n• Trần Thị Thu H và Trần Thị K bị cáo buộc tội \"Lừa đảo chiếm đoạt tài sản\".",
+        "answer": "Điều 174 Bộ luật Hình sự",
+        "prediction": "Điều 174 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào khoảng 1 giờ ngày 29/9/2016, sau khi uống rượu, Nguyễn Ca S và Nguyễn Ngọc D đi bộ trên đường LD, khu phố 9, phường PM, thành phố PR, tỉnh Ninh Thuận, và gặp Nguyễn U điều khiển xe mô tô đến. Sau khi xảy ra mâu thuẫn, Nguyễn Ca S và Nguyễn Ngọc D đã có hành vi bạo lực với U. S đã dùng dao đâm và chém vào người U, khiến U bị thương nặng và sau đó tử vong do sốc mất máu. Sau khi sự việc xảy ra, cả hai bị cáo bỏ trốn nhưng sau đó ra đầu thú.\nCáo buộc:\nNguyễn Ca S và Nguyễn Ngọc D bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào khoảng 1 giờ ngày 29/9/2016, sau khi uống rượu, Nguyễn Ca S và Nguyễn Ngọc D đi bộ trên đường LD, khu phố 9, phường PM, thành phố PR, tỉnh Ninh Thuận, và gặp Nguyễn U điều khiển xe mô tô đến. Sau khi xảy ra mâu thuẫn, Nguyễn Ca S và Nguyễn Ngọc D đã có hành vi bạo lực với U. S đã dùng dao đâm và chém vào người U, khiến U bị thương nặng và sau đó tử vong do sốc mất máu. Sau khi sự việc xảy ra, cả hai bị cáo bỏ trốn nhưng sau đó ra đầu thú.\nCáo buộc:\nNguyễn Ca S và Nguyễn Ngọc D bị cáo buộc tội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào khoảng tháng 5/2015, bị cáo K'Ni biết được chị Nguyễn Thị N1 có nhu cầu mua đá thiên thạch với số tiền lớn. K'Ni đã liên hệ với Trần Văn A và Trần Quốc V để thực hiện hành vi lừa đảo bằng cách giả mạo bán đá thiên thạch. K'Ni lấy tên giả là K'M, Trần Quốc V giả làm Phạm Văn G đóng giả là vợ chồng và giới thiệu có quen biết với chủ đá thiên thạch. Ma L được giới thiệu là con gái chủ đá thiên thạch.\nCác bị cáo đã hẹn chị N1 tại Lâm Đồng, tạo niềm tin bằng cách giả vờ thử đá thiên thạch với các thủ đoạn tinh vi. Sau đó, K'Ni, Trần Văn A và Trần Quốc V đã chiếm đoạt của chị N1 tổng cộng 527.000.000 đồng tiền đặt cọc mua đá thiên thạch.\nCáo buộc:\nK'Ni, Trần Văn A, Trần Quốc V và Ma L bị cáo buộc tội \"Lừa đảo chiếm đoạt tài sản\".",
+        "answer": "Điều 174 Bộ luật Hình sự",
+        "prediction": "Điều 174 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 5/2/2017, Bùi Xuân Y đến lán trại của Trạm Bảo vệ rừng Tràng 2 để uống rượu cùng ông Hà Văn T1 và ông K’Vr. Trong lúc uống rượu, do bị ông K’Vr quở trách vì một số hành vi không đúng mực, Bùi Xuân Y đã bực tức và dùng dao đâm một nhát vào lưng ông K’Vr khi ông đang đứng dậy ra ngoài. Vết đâm xuyên thấu vào gan và mạch máu chính, khiến ông K’Vr tử vong do choáng mất máu và trụy tim mạch. Sau khi gây án, Bùi Xuân Y bỏ trốn nhưng đến 18 giờ cùng ngày đã ra đầu thú tại Công an xã.\nCáo buộc:\nBùi Xuân Y bị cáo buộc tội \"Giết người\"",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNguyễn Hữu H và các đồng phạm bao gồm NLC2, NLC1, NLC3, NLC4 và nạn nhân Nguyễn Thị H2 (sinh năm 1998) quen biết nhau và cùng tụ tập uống rượu tại một vườn cao su vào tối ngày 1/12/2012. Trong buổi tụ tập, Nguyễn Hữu H đã xúi giục NLC2 và NLC1 thực hiện hành vi xâm hại tình dục Nguyễn Thị H2. Cả nhóm đã thực hiện hành vi hiếp dâm nạn nhân khi cô say rượu và không có khả năng tự vệ. Sau sự việc, nạn nhân do mặc cảm và tổn thương đã cố gắng tự tử bằng cách uống thuốc nhưng được gia đình phát hiện và cứu chữa kịp thời.\nCáo buộc:\nNguyễn Hữu H bị cáo buộc tội \"tội hiếp dâm người dưới 16 tuổi\".",
+        "answer": "Điều 142 Bộ luật Hình sự",
+        "prediction": "Điều 142 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 15/11/2016, Nguyễn Hoàng N bị Công an thành phố Đà Nẵng bắt quả tang tại phường Hòa Minh, quận Liên Chiểu, thành phố Đà Nẵng khi đang tàng trữ trái phép ma túy. Bị cáo đã vận chuyển 322,38 gam chất ma túy loại Methamphetamine từ Hà Nội vào Đà Nẵng theo yêu cầu của một người bạn tên Lâm. Bị cáo giấu ma túy trong quần lót và di chuyển bằng xe khách từ bến xe Giáp Bát (Hà Nội) đến Đà Nẵng. Khi xuống xe tại đường Trường Chinh, bị cáo bị bắt giữ.\nCáo buộc:\nNguyễn Hoàng N bị cáo buộc tội \"Vận chuyển trái phép chất ma túy\".",
+        "answer": "Điều 250 Bộ luật Hình sự",
+        "prediction": "Điều 250 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 21/3/2017, khoảng 17 giờ 30 phút, Phạm C đến quán bánh mì của bà Đặng Thị Ngọc A tại phường PM, quận ST, thành phố Đà Nẵng. Tại đây, do nghi ngờ anh Trần Quang T là người báo với bà A rằng C đến quậy phá, Phạm C đã dùng dao của quán bánh mì đâm liên tiếp 3 nhát vào hông trái của anh T. Anh T bị thương nặng với tỷ lệ tổn thương cơ thể là 51%, bao gồm rách lách, đứt động mạch liên sườn, rách cơ hoành và tổn thương màng phổi. Anh T may mắn không tử vong do được cấp cứu kịp thời.\nCáo buộc:\nPhạm C bị cáo buộc tội \"Giết người\"",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 10/7/2013, do nghi ngờ ông Đặng Hoàng T, người có rẫy liền kề, là người chặt mỳ của gia đình mình, Võ Tuấn Nh đã mang theo một con dao phát dài 1m đến nhà ông T để hỏi. Khi ông T trả lời không phải mình và cúi xuống dựng xe máy, Võ Tuấn Nh đã dùng dao chém mạnh vào đầu ông T khiến ông ngã xuống đất. Sau khi chém xong, bị cáo bỏ chạy nhưng sau đó quay lại quỳ gối xin lỗi và cùng mọi người đưa ông T đi cấp cứu. Ông T bị thương nặng với tỷ lệ tổn thương cơ thể là 71%.\nCáo buộc:\ntội \"Giết người\".",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 06/7/2016, tại kho hàng ở huyện Hóc Môn, Thành phố Hồ Chí Minh, Nguyễn Hữu A, Tô Ngọc Hồng V, Bùi Văn K và Nguyễn Hữu T bị bắt quả tang đang sản xuất ống nhựa giả nhãn hiệu B. Tô Ngọc Hồng V, là kế toán của Công ty H, đã tham gia cùng Nguyễn Hữu A sản xuất ống nhựa giả bằng cách cung cấp ống nhựa và thuê vận chuyển. Các bị cáo đã sản xuất tổng cộng 1.876 ống nhựa giả, có giá trị tương đương hàng thật là 389.383.280 đồng. Sản phẩm giả này được giao cho các công ty và khách hàng qua hệ thống vận chuyển.\nCáo buộc:\nCác bị cáo Tô Ngọc Hồng V và Bùi Văn K bị cáo buộc tội \"Sản xuất hàng giả\".",
+        "answer": "Điều 192 Bộ luật Hình sự",
+        "prediction": "Điều 192 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNăm 2010, Công ty cổ phần Xây dựng Thương mại V (Công ty V) ký hợp đồng với Công ty TNHH MTV Xây dựng Thương mại Dịch vụ T (Công ty T) để giám sát thi công công trình Khách sạn V tại Cần Thơ. Trần Hoàng T là người phụ trách thi công công trình, trong khi Nguyễn Trọng H chịu trách nhiệm giám sát. Trong quá trình thi công, Trần Hoàng T đã thuê Lê Văn K chế tạo một máy vận thăng không qua kiểm định và đưa vào sử dụng. Máy vận thăng này bị phát hiện dây cáp rỉ sét nhưng Trần Hoàng T không thay mới.\nNgày 03/10/2011, trong khi nâng vật liệu bằng máy vận thăng, dây cáp đứt khiến 04 công nhân tử vong và 01 người bị thương nặng. Các nạn nhân đã tự ý trèo lên máy vận thăng, bất chấp cảnh báo.\nCáo buộc:\n• Trần Hoàng T và Nguyễn Trọng H bị cáo buộc tội \"Vi phạm quy định về xây dựng gây hậu quả nghiêm trọng\".",
+        "answer": "Điều 298 Bộ luật Hình sự",
+        "prediction": "Điều 298 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNgày 02/5/2016, Huỳnh Thế H điều khiển xe khách biển số 53S-8992 từ Thành phố Hồ Chí Minh đến Buôn Ma Thuột. Khi đến địa phận tỉnh Đắk Nông, phụ xe Nguyễn Văn D đề nghị H giao xe để D lái vì cho rằng H chạy chậm. D không có giấy phép lái xe hạng E theo quy định, nhưng H vẫn giao xe cho D điều khiển. Trong quá trình lái xe, D đã lấn sang phần đường ngược chiều và gây tai nạn với xe tải biển số 47C-087.99, khiến D và hai hành khách khác tử vong, cùng nhiều người khác bị thương.\nCáo buộc:\nHuỳnh Thế H bị cáo buộc tội \"Giao cho người không đủ điều kiện điều khiển các phương tiện giao thông đường bộ\".",
+        "answer": "Điều 264 Bộ luật Hình sự",
+        "prediction": "Điều 264 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 04/6/2016, Phạm Văn T bị bắt quả tang tại Bến xe miền Đông, quận Bình Thạnh, Thành phố Hồ Chí Minh, khi đang vận chuyển 1.229,6577 gram ma túy loại Methamphetamine. T khai nhận đã mua ma túy từ một người ở Lạng Sơn để bán lại cho các đối tượng tại Thành phố Hồ Chí Minh. Trước đó, T đã mua 500 gram ma túy, bán và thu lợi 60 triệu đồng. Vũ Thị Thùy D cũng bị bắt giữ cùng ngày, với số ma túy thu giữ tại nơi ở của D là 30,7804 gram, bao gồm Methamphetamine, Ketamine, MDA và MDMA.\nCáo buộc:\n• Phạm Văn T bị cáo buộc tội \"Mua bán trái phép chất ma túy\".\n• Vũ Thị Thùy D bị cáo buộc tội \"Tàng trữ trái phép chất ma túy\".",
+        "answer": "Điều 249 Bộ luật Hình sự, Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự, Điều 249 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 30/7/2015, tại Quốc lộ 22, huyện Củ Chi, Thành phố Hồ Chí Minh, Phan Văn Q bị bắt quả tang đang vận chuyển 1.404,52 gram ma túy loại heroin. Bị cáo khai nhận đã tham gia vận chuyển ma túy cho chú ruột là Phan Văn L và con trai của L là Phan Thái N1. Trước đó, Phan Văn Q đã ba lần tham gia vận chuyển ma túy từ Campuchia về Việt Nam, mỗi lần đều được trả 1.000.000 đồng. Đến lần thứ ba, Q biết rõ hàng mà mình vận chuyển là ma túy.\nCáo buộc:\nPhan Văn Q bị cáo buộc tội \"Vận chuyển trái phép chất ma túy\".",
+        "answer": "Điều 250 Bộ luật Hình sự",
+        "prediction": "Điều 250 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNguyễn Văn H, Chấp hành viên của Chi cục Thi hành án dân sự huyện C, tỉnh Tây Ninh, đã ra quyết định trái pháp luật trong quá trình thi hành án dân sự. Cụ thể, ông H đã ký quyết định giải tỏa kê biên đối với thửa đất số 2586, diện tích 2.100 m², mà không có sự đồng ý của người được thi hành án, gồm 4 cá nhân liên quan. Sau đó, thửa đất này được bán cho bà Huỳnh Thị G với giá 1,2 tỷ đồng. Số tiền từ việc bán đất đã không được chia cho người được thi hành án theo đúng quy định, gây thiệt hại tổng cộng 362.403.000 đồng cho những người liên quan. Nguyễn Văn H đã thừa nhận hành vi phạm tội và đã nộp đủ số tiền khắc phục hậu quả.\nCáo buộc:\nNguyễn Văn H bị cáo buộc tội \"Ra quyết định trái pháp luật\".",
+        "answer": "Điều 371 Bộ luật Hình sự",
+        "prediction": "Điều 371 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nNguyễn Văn H, Chấp hành viên của Chi cục Thi hành án dân sự huyện C, tỉnh Tây Ninh, đã ra quyết định trái pháp luật trong quá trình thi hành án dân sự. Cụ thể, ông H đã ký quyết định giải tỏa kê biên đối với thửa đất số 2586, diện tích 2.100 m², mà không có sự đồng ý của người được thi hành án, gồm 4 cá nhân liên quan. Sau đó, thửa đất này được bán cho bà Huỳnh Thị G với giá 1,2 tỷ đồng. Số tiền từ việc bán đất đã không được chia cho người được thi hành án theo đúng quy định, gây thiệt hại tổng cộng 362.403.000 đồng cho những người liên quan. Nguyễn Văn H đã thừa nhận hành vi phạm tội và đã nộp đủ số tiền khắc phục hậu quả.\nCáo buộc:\nNguyễn Văn H bị cáo buộc tội \"Ra quyết định trái pháp luật\".",
+        "answer": "Điều 371 Bộ luật Hình sự",
+        "prediction": "Điều 371 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 21/01/2016, Phan Thanh Kh có mâu thuẫn với vợ chồng Lê Trọng S2 do Kh còn nợ 50.000.000 đồng. Vợ chồng S2 nhiều lần đòi nợ và dọa đánh Kh. Chiều hôm đó, nhóm của Lê Trọng Ph1 (em trai của S2) và một số người khác đến nhà Kh đòi nợ. Kh cùng các đồng phạm gồm Phan Thanh Kh1, Lâm Sĩ Q và Trần Minh Tr đã chuẩn bị sẵn hung khí như dao, rựa, mã tấu để tấn công nhóm của Ph1. Nhóm của Kh tấn công dữ dội khiến Châu Hoàng V1 tử vong tại chỗ và 3 người khác bị thương với tỷ lệ thương tích khác nhau.\nCáo buộc:\n• Phan Thanh Kh, Phan Thanh Kh1, Lâm Sĩ Q và Trần Minh Tr bị cáo buộc tội \"Giết người\" và \"Cố ý gây thương tích\".",
+        "answer": "Điều 123 Bộ luật Hình sự, Điều 134 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự, Điều 134 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 26/6/2014, tại thành phố Hồ Chí Minh, Ngô Văn T bị bắt quả tang khi bán 10 bánh heroin với tổng trọng lượng 3.503,30 gram cho Nguyễn Thị M. Qua điều tra, Ngô Văn T đã tham gia vào việc mua bán heroin từ tháng 2/2014, với tổng cộng 13 bánh heroin được bán cho nhiều đối tượng. Các đồng phạm của Ngô Văn T như Trần Thị Ngọc T, Nguyễn Đắc H, Đặng Kim Q, Lê Thị Thu T, và Trần Hoàng N đều tham gia mua bán, vận chuyển heroin và các chất ma túy khác như Methamphetamine.\nCáo buộc:\n• Ngô Văn T và các đồng phạm bị cáo buộc tội \"Mua bán trái phép chất ma túy\".",
+        "answer": "Điều 251 Bộ luật Hình sự",
+        "prediction": "Điều 251 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 28/5/2015, tại thị xã Tân Uyên, tỉnh Bình Dương, Trần Văn Ph, Nguyễn Văn Nh và Hồ Minh Ph1 cùng Mai Vũ L1 đã tổ chức đánh ông Ngô Văn Tr. Nguyên nhân xuất phát từ việc L1 bị Tr1 (em trai của ông Tr) đánh trước đó và đã nhờ Ph và Nh trả thù. Trong lúc tấn công, Nh đã dùng dao tự chế chém vào vai và lưng của ông Tr gây thương tích nghiêm trọng. Sau đó, Ph cầm dao đuổi theo và chém nhiều nhát vào người ông Tr khi ông cố gắng chạy trốn, gây ra tỷ lệ tổn thương cơ thể là 52%.\nCáo buộc:\n• Trần Văn Ph, Nguyễn Văn Nh và Hồ Minh Ph1 bị cáo buộc tội \"Giết người\" với tính chất côn đồ.",
+        "answer": "Điều 123 Bộ luật Hình sự",
+        "prediction": "Điều 123 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào khoảng 11 giờ ngày 01/01/2016, Lê Hoàng Th cùng Nguyễn Quốc H quyết định thực hiện hành vi cướp giật tài sản. Th đã điều khiển xe máy chở H đi qua nhiều tuyến đường. Khi đến khu dân cư M, quận Y1, TP. Hồ Chí Minh, H thấy bà D J E (quốc tịch Canada) đang đi bộ với túi xách đeo trên vai và rủ Th cướp giật túi xách. Th điều khiển xe áp sát bà E, còn H ngồi sau giật túi xách nhưng bà E giữ lại được và tri hô. Th và H bỏ chạy nhưng bị bảo vệ khu vực truy đuổi, cả hai bị ngã xe và bị bắt giữ.\nCáo buộc:\nLê Hoàng Th bị cáo buộc tội \"Cướp giật tài sản\".",
+        "answer": "Điều 171 Bộ luật Hình sự",
+        "prediction": "Điều 171 Bộ luật hình sự"
+    },
+    {
+        "instruction": "Các quy định của luật hình sự liên quan được đưa ra dựa trên các sự kiện và cáo buộc sau đây. Chỉ cần cho biết số điều luật trong bộ luật hình sự .\nCâu trả lời được format như sau: Điều xx Bộ luật hình sự\nVí dụ : Điều 128 Bộ luật hình sự, Điều 341 Bộ luật hình sự",
+        "question": "Sự kiện:\nVào ngày 05/8/2014 và 06/8/2014, E E N C và các đồng phạm bao gồm B C R, T T C, L C D C R (quốc tịch Peru) đã nhập cảnh vào Việt Nam và tiến hành thực hiện hàng loạt vụ trộm cắp tài sản trên địa bàn Thành phố Hồ Chí Minh, Đồng Nai, và Khánh Hòa. E E N C có nhiệm vụ thuê xe ô tô và chở đồng bọn đến các địa điểm để thực hiện trộm cắp, trong đó mục tiêu là các két sắt tại các siêu thị và trụ ATM. Trong quá trình này, các đối tượng đã sử dụng dụng cụ hàn xì tự chế để phá két sắt, lấy tài sản với tổng giá trị tài sản chiếm đoạt hơn 5,9 tỷ đồng và gây thiệt hại cho tài sản khác trị giá 283 triệu đồng.\nCáo buộc:\nE E N C bị cáo buộc tội \"Trộm cắp tài sản\".",
+        "answer": "Điều 173 Bộ luật Hình sự",
+        "prediction": "Điều 173 Bộ luật hình sự"
+    }
+]

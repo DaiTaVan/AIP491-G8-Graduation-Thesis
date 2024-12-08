@@ -1,0 +1,422 @@
+[
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Sau khi phá án, cơ quan công an đã thu hồi điện thoại và trả lại cho các nạn nhân là ông/bà Hiếu và Ngân theo đúng quy định của pháp luật.",
+        "answer": "Nạn nhân: Hiếu, Ngân \nTài sản bị đánh cắp: điện thoại đã thu hồi\nTổ chức: cơ quan công an",
+        "prediction": "Nghi phạm: Không có thông tin  \nNạn nhân: Ông/bà Hiếu, Ngân  \nTài sản bị đánh cắp: Điện thoại  \nCông cụ gây án: Không có thông tin  \nThời gian: Không có thông tin  \nĐịa điểm: Không có thông tin  \nTổ chức pháp lý: Cơ quan công an  \nTội danh: Không có thông tin  \nPhán quyết: Không có thông tin"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào khoảng 1 giờ chiều một ngày cuối tháng 6 năm 2017, tại khu vực gần trường tiểu học Hoàn Kiếm ở thành phố Hà Nội, bị cáo Hoàng Huy đã mở yên xe và trộm 4 bình acquy trên chiếc xe đạp điện của anh/chị Huy Hoàng, tổng giá trị khoảng 1.5 triệu đồng.",
+        "answer": "Nghi phạm: Hoàng Huy\nNạn nhân: Huy Hoàng\nTài sản bị đánh cắp: 352 nhân dân tệ, 4 bình acquy\nThời gian: Khoảng 1 giờ chiều một ngày cuối tháng 6 năm 2017\nĐịa điểm: Khu vực gần trường tiểu học Hoàn Kiếm ở thành phố Hà Nội",
+        "prediction": "Thời gian: Cuối tháng 6 năm 2017, khoảng 1 giờ chiều  \nĐịa điểm: Khu vực gần trường tiểu học Hoàn Kiếm, thành phố Hà Nội  \nNghi phạm: Hoàng Huy  \nNạn nhân: Huy Hoàng  \nTài sản bị đánh cắp: 4 bình acquy  \nGiá trị tài sản bị đánh cắp: Khoảng 1.5 triệu đồng  \nTội danh: Trộm cắp"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Bản án: Sau khi xảy ra sự việc, gia đình bị cáo đã bồi thường thiệt hại cho Nga và được tha thứ",
+        "answer": "Nạn nhân: Nga",
+        "prediction": "Nạn nhân: Nga  \nPhán quyết: Gia đình bị cáo đã bồi thường thiệt hại và được tha thứ"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào khoảng 19h một ngày đầu tháng 7/2017, bị cáo Bình đã dùng chiếc chìa khóa do chủ xe để lại để mở đệm ngồi của chiếc xe đạp điện màu đỏ ở cánh đồng hoa ngã tư đường Đường Tía, làng Xanh, phố Hoàng, thành phố Quảng Ninh, 5 cục pin Green Pack đã bị đánh cắp, trị giá 600 đồng",
+        "answer": "Nghi phạm: Bình \nTài sản bị đánh cắp: 5 cục pin Green Pack \nThời gian: 19:00 một ngày đầu tháng 7 năm 2017\nĐịa điểm: đường Đường Tía, làng Xanh, phố Hoàng, thành phố Quảng Ninh",
+        "prediction": "Nghi phạm: Bình  \nThời gian: Khoảng 19h, một ngày đầu tháng 7/2017  \nCông cụ gây án: Chiếc chìa khóa  \nTài sản bị đánh cắp: 5 cục pin Green Pack  \nĐịa điểm: Cánh đồng hoa ngã tư đường Đường Tía, làng Xanh, phố Hoàng, thành phố Quảng Ninh  \nTrị giá tài sản bị đánh cắp: 600 đồng"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Sau vụ việc, 5 cục pin Green Pack đã được Công an thành phố Hà Nội thu hồi.",
+        "answer": "Vật phẩm bị đánh cắp: 5 cục pin Green Pack \nTổ chức:  Công an thành phố Hà Nội",
+        "prediction": "Nghi phạm: Không có thông tin  \nTài sản bị đánh cắp: 5 cục pin Green Pack  \nCông cụ gây án: Không có thông tin  \nThời gian: Không có thông tin  \nĐịa điểm: Không có thông tin  \nTổ chức pháp lý: Công an thành phố Hà Nội  \nTội danh: Không có thông tin  \nPhán quyết: Không có thông tin"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Khoảng 13h ngày 10/8/2017, bị cáo Hải Giang đã lấy chiếc hộp đựng xe đạp điện nơi Yến đậu ở tầng 1 ký túc xá Gia Viên. Bên trong, một chiếc điện thoại di động nhãn hiệu \"Iphone\" đã bị đánh cắp, trị giá 25 triệu đồng.",
+        "answer": "Nghi phạm: Hải Giang; nạn nhân: Yến\nTài sản bị đánh cắp: một chiếc điện thoại di động nhãn hiệu \"Iphone\"\nThời gian: khoảng 13h  ngày 10 tháng 8 năm 2017 \nĐịa điểm: Tầng một của tòa nhà ký túc xá Gia Viên",
+        "prediction": "Thời gian: Khoảng 13h ngày 10/8/2017  \nNghi phạm: Hải Giang  \nTài sản bị đánh cắp: Chiếc điện thoại di động nhãn hiệu \"Iphone\"  \nĐịa điểm: Tầng 1 ký túc xá Gia Viên  \nNạn nhân: Yến  \nGiá trị tài sản bị đánh cắp: 25 triệu đồng"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Bản án: Sau khi xảy ra sự việc, gia đình bị cáo đã bồi thường thiệt hại cho Hải Yến và được tha thứ",
+        "answer": "Nạn nhân: Hải Yến",
+        "prediction": "Nghi phạm: Không có thông tin cụ thể\nNạn nhân: Hải Yến\nPhán quyết: Gia đình bị cáo đã bồi thường thiệt hại và được tha thứ"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào khoảng ngày 13 tháng 8 năm 2017, bị cáo Hoàng Huy tại hành lang bên ngoài phòng thứ hai, phía Bắc, tầng hai của khu nhà trọ công ty nói trên, đã đưa tay qua cửa sổ để trộm một chiếc máy tính xách tay Lenovo G470 màu đen của anh Vũ Hiệu, trị giá 4.5 triệu đồng.",
+        "answer": "Nghi phạm: Hoàng Huy\nNạn nhân: Vũ Hiệu\nTài sản bị đánh cắp: Một chiếc máy tính xách tay Lenovo G470 màu đen của anh Vũ Hiệu\nThời gian: Khoảng ngày 13 tháng 8 năm 2017\nĐịa điểm: Hành lang bên ngoài phòng thứ hai, phía Bắc, tầng hai của khu nhà trọ công ty nói trên",
+        "prediction": "Dựa vào câu đã cho, thông tin thực thể được trích xuất như sau:\n\n- Nghi phạm: Hoàng Huy\n- Nạn nhân: Vũ Hiệu\n- Tài sản bị đánh cắp: Chiếc máy tính xách tay Lenovo G470 màu đen\n- Thời gian: Khoảng ngày 13 tháng 8 năm 2017\n- Địa điểm: Hành lang bên ngoài phòng thứ hai, phía Bắc, tầng hai của khu nhà trọ công ty\n- Tội danh: Trộm cắp"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Sau khi giải quyết vụ việc, cơ quan công an trả lại hợp pháp chiếc điện thoại bị thu giữ\nđiện thoại cho nạn nhân, Bình và Đại",
+        "answer": "Nạn nhân: Bình, Đại\nTài sản bị đánh cắp: điện thoại di động bị tịch thu\nTổ chức pháp lý: cơ quan công an",
+        "prediction": "Nghi phạm: Không có thông tin\nNạn nhân: Bình, Đại\nTài sản bị đánh cắp: Chiếc điện thoại\nCông cụ gây án: Không có thông tin\nThời gian: Không có thông tin\nĐịa điểm: Không có thông tin\nTổ chức pháp lý: Cơ quan công an\nTội danh: Không có thông tin\nPhán quyết: Trả lại hợp pháp chiếc điện thoại bị thu giữ cho nạn nhân"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Sau khi xảy ra vụ việc, chiếc xe đạp điện Yamaha đã được Công an thành phố Hòa Bình thu hồi và trả lại cho nạn nhân",
+        "answer": "Tài sản bị đánh cắp: Xe đạp điện Yamaha\nTổ chức pháp lý:  Công an thành phố Hòa Bình",
+        "prediction": "Nạn nhân: Không có thông tin cụ thể về nạn nhân trong câu này  \nTài sản bị đánh cắp: Chiếc xe đạp điện Yamaha  \nTổ chức pháp lý: Công an thành phố Hòa Bình  \nĐịa điểm: Thành phố Hòa Bình  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Khoảng 22 giờ ngày 08/5/2017, đối tượng tên N liên lạc với Hồ Hải Đ để thuê xe tải hiệu KIA qua Campuchia chở hàng về TP.HCM với giá 4.000.000 đồng",
+        "answer": "Thời gian: 22 giờ ngày 08/5/2017\nNghi phạm: Đối tượng tên N, Hồ Hải Đ\nĐịa điểm: Campuchia và TP. Hồ Chí Minh",
+        "prediction": "Thời gian: Khoảng 22 giờ ngày 08/5/2017  \nNghi phạm: Đối tượng tên N  \nNạn nhân: Hồ Hải Đ  \nTài sản bị đánh cắp: Xe tải hiệu KIA  \nĐịa điểm: Campuchia, TP.HCM  \nTội danh: Thuê xe tải để chở hàng trái phép  \nPhán quyết: Không có thông tin trong câu  \nTổ chức pháp lý: Không có thông tin trong câu  \nCông cụ gây án: Không có thông tin trong câu"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Đ gọi điện thuê Cao Hiền H lái xe từ Campuchia về TP.HCM với giá 400.000 đồng",
+        "answer": "Nghi phạm: Cao Hiền H\nĐịa điểm: Campuchia và TP. Hồ Chí Minh",
+        "prediction": "Nghi phạm: Đ  \nTài sản bị đánh cắp: Không có thông tin  \nCông cụ gây án: Không có thông tin  \nThời gian: Không có thông tin  \nĐịa điểm: Campuchia, TP.HCM  \nTổ chức pháp lý: Không có thông tin  \nTội danh: Không có thông tin  \nPhán quyết: Không có thông tin"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Khoảng 02 giờ sáng ngày 09/5/2017, Cục Cảnh sát phòng chống tội phạm buôn lậu kiểm tra xe tải và phát hiện 41 thùng thuốc tân dược không có hóa đơn",
+        "answer": "Thời gian: 02 giờ sáng ngày 09/5/2017\nTổ chức pháp lý: Cục Cảnh sát phòng chống tội phạm buôn lậu",
+        "prediction": "Thời gian: Khoảng 02 giờ sáng ngày 09/5/2017  \nTổ chức pháp lý: Cục Cảnh sát phòng chống tội phạm buôn lậu  \nĐịa điểm: Không được đề cập rõ ràng trong câu  \nTài sản bị đánh cắp: 41 thùng thuốc tân dược  \nTội danh: Buôn lậu (ngụ ý từ việc kiểm tra và phát hiện thuốc tân dược không có hóa đơn)"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Giá trị lô hàng là 7.001.192.000 đồng, theo định giá tài sản của Quận 4, TP.HCM",
+        "answer": "Tổ chức pháp lý: Quận 4, TP.HCM",
+        "prediction": "Tài sản bị đánh cắp: lô hàng trị giá 7.001.192.000 đồng  \nĐịa điểm: Quận 4, TP.HCM  \nTổ chức pháp lý: không có thông tin cụ thể trong câu  \nThời gian, Nghi phạm, Nạn nhân, Công cụ gây án, Tội danh, Phán quyết: không có thông tin cụ thể trong câu"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Cục quản lý dược xác định lô thuốc không có giấy phép nhập khẩu, không được phép lưu hành tại Việt Nam.",
+        "answer": "Tổ chức pháp lý: Cục quản lý dược\nĐịa điểm: Việt Nam",
+        "prediction": "Tổ chức pháp lý: Cục quản lý dược  \nTài sản bị đánh cắp: lô thuốc  \nTội danh: không có giấy phép nhập khẩu, không được phép lưu hành tại Việt Nam"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Bị cáo Bình bị tuyên phạt tội Mua bán sử dụng trái phép chất ma túy, phạt 10 năm tù giam",
+        "answer": "Nghi phạm: Bình\nTội danh: Mua bán sử dụng trái phép chất ma túy\nPhán quyết: 10 năm tù giam",
+        "prediction": "Nghi phạm: Bình  \nTội danh: Mua bán sử dụng trái phép chất ma túy  \nPhán quyết: 10 năm tù giam"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Tháng 2/2020, Nguyễn Minh T liên hệ với một người tên N để mua ma túy về sử dụng cùng Lan A",
+        "answer": "Nghi phạm: Nguyễn Minh T,  Lan A\nThời gian: Tháng 2/2020",
+        "prediction": "Thời gian: Tháng 2/2020  \nNghi phạm: Nguyễn Minh T  \nNạn nhân: Lan A  \nTội danh: Mua ma túy"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Từ 08 giờ ngày 29/3/2020 đến 02 giờ ngày 30/3/2020, T và Lan A đã dùng tay, cán chổi, chổi nhựa đánh liên tục vào cháu M, thậm chí dùng kim khâu chọc vào tay và đùi cháu",
+        "answer": "Nghi phạm:  T, Lan A\nNạn nhân:  M\nThời gian: 08 giờ ngày 29/3/2020 đến 02 giờ ngày 30/3/2020\nCông cụ gây án : tay, cán chổi, chổi nhựa",
+        "prediction": "Thời gian: Từ 08 giờ ngày 29/3/2020 đến 02 giờ ngày 30/3/2020  \nNghi phạm: T, Lan A  \nNạn nhân: Cháu M  \nCông cụ gây án: Tay, cán chổi, chổi nhựa, kim khâu  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Khoảng 02 giờ sáng ngày 30/3/2020, Lan A và T phát hiện cháu M mệt nên gọi xe cấp cứu, nhưng cháu M đã tử vong trước khi đến bệnh viện",
+        "answer": "Nghi phạm:  T,  A\nNạn nhân:  M\nThời gian: 02 giờ sáng ngày 30/3/2020\nĐịa điểm: Bệnh viện",
+        "prediction": "Thời gian: Khoảng 02 giờ sáng ngày 30/3/2020  \nNạn nhân: Cháu M  \nĐịa điểm: Bệnh viện (nơi cháu M được đưa đến)"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Tại Kết luận giám định pháp y số 4220 ngày 02/6/2020, nguyên nhân tử vong của cháu M do chấn thương sọ não nặng, các thương tích trên cơ thể là do tác động của vật tày",
+        "answer": "Nạn nhân:  M\nThời gian: 02/6/2020",
+        "prediction": "Thời gian: ngày 02/6/2020  \nNạn nhân: cháu M  \nNguyên nhân tử vong: chấn thương sọ não nặng  \nCông cụ gây án: vật tày"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Nguyễn Minh T bị kết án tử hình và Nguyễn Thị Lan A bị kết án tù chung thân vì tội Giết người và Tàng trữ trái phép chất ma túy",
+        "answer": "Nghi phạm: Nguyễn Minh T, Nguyễn Thị Lan A\nTội danh: Giết người, Tàng trữ trái phép chất ma túy\nHình phạt: Tử hình , tù chung thân",
+        "prediction": "Nghi phạm: Nguyễn Minh T, Nguyễn Thị Lan A  \nTội danh: Giết người, Tàng trữ trái phép chất ma túy  \nPhán quyết: Tử hình (Nguyễn Minh T), Tù chung thân (Nguyễn Thị Lan A)"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Từ ngày 09/3/2020, cháu M có biểu hiện bướng bỉnh nên bị T và Lan A đánh, phạt bằng cách bắt ngồi trong chậu nhựa",
+        "answer": "Nghi phạm:  T,  A\nNạn nhân:  M\nThời gian: Từ ngày 09/3/2020",
+        "prediction": "Thời gian: Ngày 09/3/2020  \nNạn nhân: Cháu M  \nNghi phạm: T, Lan A  \nCông cụ gây án: Chậu nhựa"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào khoảng 20 giờ 30 phút ngày 20/02/2023, Nguyễn Quốc H đã dùng tay phải đấm mạnh vào tai trái của cháu Trần Ánh T, gây chấn thương tai trái, thủng màng nhĩ, tỷ lệ tổn thương cơ thể là 12%.",
+        "answer": "Nghi phạm: Nguyễn Quốc H\nNạn nhân: Trần Ánh T (cháu, sinh năm 2005)\nCông cụ gây án: Tay phải\nThời gian: 20 giờ 30 phút ngày 20/02/2023\nĐịa điểm: Tổ dân phố P, thị trấn N, huyện Bố Trạch, tỉnh Quảng Bình",
+        "prediction": "Nghi phạm: Nguyễn Quốc H  \nNạn nhân: Trần Ánh T  \nCông cụ gây án: Tay phải  \nThời gian: Khoảng 20 giờ 30 phút ngày 20/02/2023  \nTội danh: Gây chấn thương tai trái, thủng màng nhĩ  \nPhán quyết: Tỷ lệ tổn thương cơ thể là 12%  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 15/4/2024, Tòa án nhân dân huyện Bố Trạch tuyên phạt Nguyễn Quốc H 06 tháng tù về tội 'Cố ý gây thương tích",
+        "answer": "Nghi phạm: Nguyễn Quốc H\nTội danh: Cố ý gây thương tích\nTổ chức pháp lý: Tòa án nhân dân huyện Bố Trạch\nPhán quyết: 06 tháng tù \nThời gian: Ngày 15/4/2024",
+        "prediction": "Thời gian: Ngày 15/4/2024  \nTổ chức pháp lý: Tòa án nhân dân huyện Bố Trạch  \nNghi phạm: Nguyễn Quốc H  \nPhán quyết: 06 tháng tù  \nTội danh: Cố ý gây thương tích"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 23/7/2024, Tòa án nhân dân tỉnh Quảng Bình không chấp nhận kháng cáo xin giảm nhẹ hình phạt của Nguyễn Quốc H và giữ nguyên bản án sơ thẩm",
+        "answer": "Nghi phạm: Nguyễn Quốc H\nTổ chức pháp lý: Tòa án nhân dân tỉnh Quảng Bình\nThời gian: Ngày 23/7/2024\nPhán quyết: Giữ nguyên hình phạt 06 tháng tù",
+        "prediction": "Thời gian: Ngày 23/7/2024  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Quảng Bình  \nNghi phạm: Nguyễn Quốc H  \nPhán quyết: Không chấp nhận kháng cáo xin giảm nhẹ hình phạt và giữ nguyên bản án sơ thẩm"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Nguyễn Quốc H và gia đình đã bồi thường tổng số tiền 24.700.000 đồng cho Trần Ánh T và gia đình bị hại không có yêu cầu gì thêm",
+        "answer": "Nghi phạm: Nguyễn Quốc H\nNạn nhân: Trần Ánh T",
+        "prediction": "Nghi phạm: Nguyễn Quốc H  \nNạn nhân: Trần Ánh T  \nTài sản bị đánh cắp: 24.700.000 đồng  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Tại quyết định giám đốc thẩm, Tòa án nhân dân tối cao hủy bản án sơ thẩm và phúc thẩm, yêu cầu xét xử lại theo thủ tục sơ thẩm",
+        "answer": "Tổ chức: Tòa án nhân dân tối cao",
+        "prediction": "Tổ chức pháp lý: Tòa án nhân dân tối cao  \nPhán quyết: hủy bản án sơ thẩm và phúc thẩm, yêu cầu xét xử lại theo thủ tục sơ thẩm"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Khoảng 21 giờ ngày 07/8/2023, Dương Văn H1 cùng em trai Dương Văn H4 và bạn Hoàng Văn T đi hát karaoke tại quán X3 thuộc huyện Bắc Quang, tỉnh Hà Giang. Trong lúc hát, Dương Văn H1 phát sinh mâu thuẫn về việc thanh toán tiền với chủ quán Đỗ Duy H3",
+        "answer": "Nghi phạm: Dương Văn H1\nNạn nhân: Đỗ Duy H3\nThời gian: 21 giờ ngày 07/8/2023\nĐịa điểm: Quán karaoke X3, huyện Bắc Quang, tỉnh Hà Giang",
+        "prediction": "Thời gian: Khoảng 21 giờ ngày 07/8/2023  \nNghi phạm: Dương Văn H1  \nNạn nhân: Đỗ Duy H3  \nĐịa điểm: Quán X3, huyện Bắc Quang, tỉnh Hà Giang  \nTài sản bị đánh cắp: (không có thông tin)  \nCông cụ gây án: (không có thông tin)  \nTổ chức pháp lý: (không có thông tin)  \nTội danh: (không có thông tin)  \nPhán quyết: (không có thông tin)"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Sau khi bị từ chối cho nợ, Dương Văn H1 đã sử dụng dao (loại dao chặt, dài 39 cm) để chém Đỗ Duy H3 nhiều nhát vào các vùng đầu, vai, gáy và cổ, gây tổn thương cơ thể với tỷ lệ 70%",
+        "answer": "Nghi phạm: Dương Văn H1\nNạn nhân: Đỗ Duy H3\nCông cụ gây án: Dao chặt (dài 39 cm)",
+        "prediction": "Nghi phạm: Dương Văn H1  \nNạn nhân: Đỗ Duy H3  \nCông cụ gây án: Dao (loại dao chặt, dài 39 cm)  \nTỷ lệ tổn thương cơ thể: 70%  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 16/6/2024, Tòa án nhân dân tỉnh Hà Giang tuyên phạt Dương Văn H1 14 năm tù về tội 'Giết người'",
+        "answer": "Nghi phạm: Dương Văn H1\nTội danh: Giết người\nTổ chức pháp lý: Tòa án nhân dân tỉnh Hà Giang\nPhán quyết: 14 năm tù\nThời gian: Ngày 16/6/2024",
+        "prediction": "Thời gian: Ngày 16/6/2024  \nĐịa điểm: Tỉnh Hà Giang  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Hà Giang  \nNghi phạm: Dương Văn H1  \nTội danh: Giết người  \nPhán quyết: 14 năm tù  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Đại diện Viện kiểm sát nhân dân tỉnh Hà Giang đã giữ nguyên cáo trạng truy tố và đề nghị hình phạt từ 13 đến 14 năm tù, đồng thời miễn toàn bộ án phí do bị cáo thuộc hộ cận nghèo",
+        "answer": "Tổ chức pháp lý: Viện kiểm sát nhân dân tỉnh Hà Giang\nPhán quyết: từ 13 đến 14 năm tù, miễn toàn bộ án phí cho bị cáo",
+        "prediction": "Tổ chức pháp lý: Viện kiểm sát nhân dân tỉnh Hà Giang  \nPhán quyết: Giữ nguyên cáo trạng truy tố, đề nghị hình phạt từ 13 đến 14 năm tù, miễn toàn bộ án phí  \nNghi phạm: Bị cáo (không có tên cụ thể trong câu)  \nTội danh: Không được nêu rõ trong câu"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Trong quá trình điều tra, bị cáo H1 đã tác động gia đình bồi thường trước cho nạn nhân 10.000.000 đồng",
+        "answer": "Nghi phạm: Dương Văn H1",
+        "prediction": "Nghi phạm: H1  \nNạn nhân: Không có thông tin cụ thể về tên nạn nhân  \nTài sản bị đánh cắp: 10.000.000 đồng"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Tòa án quyết định tịch thu tiêu hủy con dao gây án và trả lại các vật chứng khác, gồm điện thoại của bị cáo và nạn nhân, cùng các thẻ nhớ liên quan",
+        "answer": "Công cụ gây án: Dao chặt",
+        "prediction": "Câu: Tòa án quyết định tịch thu tiêu hủy con dao gây án và trả lại các vật chứng khác, gồm điện thoại của bị cáo và nạn nhân, cùng các thẻ nhớ liên quan.\n\n- Công cụ gây án: con dao\n- Tài sản bị đánh cắp: điện thoại của bị cáo và nạn nhân, các thẻ nhớ\n- Tổ chức pháp lý: Tòa án\n- Phán quyết: tịch thu tiêu hủy con dao gây án, trả lại các vật chứng khác"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào lúc 14 giờ 50 phút ngày 25/01/2024, tổ công tác bắt quả tang Lò Văn T1 có hành vi bán trái phép 01 gói ma túy (heroine) cho Hoàng Văn H và Lường Văn H1 tại khu vực đường liên thôn thuộc bản V, xã S, thị xã Nghĩa Lộ",
+        "answer": "Nghi phạm: Lò Văn T1\nThời gian: 14 giờ 50 phút ngày 25/01/2024\nĐịa điểm: Bản V, xã S, thị xã Nghĩa Lộ",
+        "prediction": "Thời gian: 14 giờ 50 phút ngày 25/01/2024  \nNghi phạm: Lò Văn T1  \nTội danh: Bán trái phép ma túy  \nTài sản bị đánh cắp: 01 gói ma túy (heroine)  \nNạn nhân: Hoàng Văn H, Lường Văn H1  \nĐịa điểm: Khu vực đường liên thôn thuộc bản V, xã S, thị xã Nghĩa Lộ  \nTổ chức pháp lý: Tổ công tác  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Lò Văn T đã chỉ đạo Lò Văn T1 mua ma túy từ một người đàn ông dân tộc Mông với giá 1.200.000 đồng vào ngày 23/01/2024 và đưa về cất giấu tại nhà chung.",
+        "answer": "Nghi phạm: Lò Văn T\nThời gian: Ngày 23/01/2024",
+        "prediction": "Nghi phạm: Lò Văn T, Lò Văn T1  \nTài sản bị đánh cắp: Ma túy  \nThời gian: Ngày 23/01/2024  \nĐịa điểm: Nhà chung  \nTội danh: Mua bán trái phép chất ma túy"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Cơ quan điều tra thu giữ tại nơi ở của Lò Văn T1 và T các vật chứng gồm 2,79g ma túy (heroine), 0,16g ma túy methamphetamine, cùng nhiều túi nilon chứa chất ma túy",
+        "answer": "Nghi phạm: Lò Văn T, Lò Văn T1\nĐịa điểm: Nhà ở \nTổ chức pháp lý: Cơ quan điều tra",
+        "prediction": "Nghi phạm: Lò Văn T1, T  \nTài sản bị đánh cắp: 2,79g ma túy (heroine), 0,16g ma túy methamphetamine, nhiều túi nilon chứa chất ma túy  \nĐịa điểm: nơi ở của Lò Văn T1 và T  \nCông cụ gây án: không có thông tin  \nThời gian: không có thông tin  \nTổ chức pháp lý: Cơ quan điều tra  \nTội danh: không có thông tin  \nPhán quyết: không có thông tin  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 31/7/2024, Tòa án nhân dân thị xã Nghĩa Lộ tuyên phạt Lò Văn T 09 năm tù và Lò Văn T1 07 năm 06 tháng tù về tội 'Mua bán trái phép chất ma túy'",
+        "answer": "Tội danh: Mua bán trái phép chất ma túy\nTổ chức pháp lý: Tòa án nhân dân thị xã Nghĩa Lộ\nPhán quyết: 09 năm tù;  07 năm 06 tháng tù\nThời gian: Ngày 31/7/2024",
+        "prediction": "Thời gian: Ngày 31/7/2024  \nĐịa điểm: Thị xã Nghĩa Lộ  \nTổ chức pháp lý: Tòa án nhân dân thị xã Nghĩa Lộ  \nNghi phạm: Lò Văn T, Lò Văn T1  \nTội danh: Mua bán trái phép chất ma túy  \nPhán quyết: Lò Văn T 09 năm tù, Lò Văn T1 07 năm 06 tháng tù  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào lúc 20 giờ ngày 28/12/2023, tại trước cửa Gara ô tô Đ1 trên Quốc lộ A, thuộc khu phố T, phường A, thị xã T, tỉnh Bắc Ninh, Ngô Văn C bị bắt quả tang cất giấu trái phép 170,4280 gam Ketamine để bán cho 'Cò' với giá 110 triệu đồng",
+        "answer": "Nghi phạm: Ngô Văn C\nThời gian: 20 giờ ngày 28/12/2023\nĐịa điểm: Gara ô tô Đ1, Quốc lộ A, khu phố T, phường A, thị xã T, tỉnh Bắc Ninh",
+        "prediction": "- Thời gian: 20 giờ ngày 28/12/2023\n- Địa điểm: Trước cửa Gara ô tô Đ1 trên Quốc lộ A, thuộc khu phố T, phường A, thị xã T, tỉnh Bắc Ninh\n- Nghi phạm: Ngô Văn C\n- Tài sản bị đánh cắp: 170,4280 gam Ketamine\n- Tội danh: Cất giấu trái phép chất ma túy (Ketamine)\n- Tổ chức pháp lý: Không có thông tin trong câu\n- Nạn nhân: Không có thông tin trong câu\n- Công cụ gây án: Không có thông tin trong câu\n- Phán quyết: Không có thông tin trong câu"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vũ Trung H mua Ketamine từ một người không quen biết với giá 70 triệu đồng và giao cho Ngô Văn C để bán với giá 96 triệu đồng",
+        "answer": "Nghi phạm: Vũ Trung H, Ngô Văn C",
+        "prediction": "Nghi phạm: Vũ Trung H, Ngô Văn C  \nTài sản bị đánh cắp: Ketamine  \nThời gian: Không có thông tin  \nĐịa điểm: Không có thông tin  \nTổ chức pháp lý: Không có thông tin  \nTội danh: Không có thông tin  \nPhán quyết: Không có thông tin"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 29/12/2023, Vũ Trung H ra đầu thú và giao nộp 01 điện thoại Iphone và xe mô tô BKS 99F1-599.60, được xác định là công cụ dùng để mua bán ma túy.",
+        "answer": "Nghi phạm: Vũ Trung H\nCông cụ gây án: Điện thoại Iphone, xe mô tô BKS 99F1-599.60\nThời gian: Ngày 29/12/2023",
+        "prediction": "Thời gian: Ngày 29/12/2023  \nNghi phạm: Vũ Trung H  \nCông cụ gây án: 01 điện thoại Iphone, xe mô tô BKS 99F1-599.60  \nTội danh: Mua bán ma túy  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 16/6/2024, Tòa án nhân dân tỉnh Bắc Ninh tuyên phạt Ngô Văn C và Vũ Trung H mỗi người 15 năm tù giam vì tội 'Mua bán trái phép chất ma túy",
+        "answer": "Nghi phạm: Ngô Văn C, Vũ Trung H\nTội danh: Mua bán trái phép chất ma túy\nTổ chức pháp lý: Tòa án nhân dân tỉnh Bắc Ninh\nPhán quyết: 15 năm tù giam cho mỗi bị cáo\nThời gian: Ngày 16/6/2024",
+        "prediction": "Thời gian: Ngày 16/6/2024  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Bắc Ninh  \nNghi phạm: Ngô Văn C, Vũ Trung H  \nPhán quyết: mỗi người 15 năm tù giam  \nTội danh: Mua bán trái phép chất ma túy  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào ngày 29/8/2023, Nguyễn Văn Th đã lừa đảo chiếm đoạt 01 điện thoại iPhone 12 Pro Max, màu xanh, trị giá 13.500.000 đồng từ chị Lê Thị Huyền L2 tại khu công nghiệp HP, thôn 2, xã HP, thành phố B, tỉnh Đắk Lắk",
+        "answer": "Nghi phạm: Nguyễn Văn Th\nNạn nhân: Lê Thị Huyền L2\nTài sản bị đánh cắp: iPhone 12 Pro Max, màu xanh, trị giá 13.500.000 đồng\nThời gian: Ngày 29/8/2023\nĐịa điểm: Khu công nghiệp HP, thôn 2, xã HP, thành phố B, tỉnh Đắk Lắk",
+        "prediction": "- Thời gian: Ngày 29/8/2023\n- Nghi phạm: Nguyễn Văn Th\n- Nạn nhân: Chị Lê Thị Huyền L2\n- Tài sản bị đánh cắp: 01 điện thoại iPhone 12 Pro Max, màu xanh, trị giá 13.500.000 đồng\n- Địa điểm: Khu công nghiệp HP, thôn 2, xã HP, thành phố B, tỉnh Đắk Lắk\n- Tội danh: Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 10/9/2023, Nguyễn Văn Th tiếp tục lừa đảo chiếm đoạt 01 điện thoại iPhone 11 Pro Max, màu xanh, trị giá 9.000.000 đồng từ anh Nguyễn Đình H2 tại số 07, đường YW, phường ET, thành phố B, tỉnh Đắk Lắk",
+        "answer": "Nghi phạm: Nguyễn Văn Th\nNạn nhân: Nguyễn Đình H2\nTài sản bị đánh cắp: iPhone 11 Pro Max, màu xanh, trị giá 9.000.000 đồng\nThời gian: Ngày 10/9/2023\nĐịa điểm: Số 07, đường YW, phường ET, thành phố B, tỉnh Đắk Lắk",
+        "prediction": "- Thời gian: Ngày 10/9/2023\n- Nghi phạm: Nguyễn Văn Th\n- Tội danh: Lừa đảo chiếm đoạt\n- Tài sản bị đánh cắp: 01 điện thoại iPhone 11 Pro Max, màu xanh, trị giá 9.000.000 đồng\n- Nạn nhân: Nguyễn Đình H2\n- Địa điểm: Số 07, đường YW, phường ET, thành phố B, tỉnh Đắk Lắk"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 16/4/2024, Tòa án nhân dân thành phố Buôn Ma Thuột tuyên phạt Nguyễn Văn Th 01 năm 06 tháng tù về tội 'Lừa đảo chiếm đoạt tài sản",
+        "answer": "Nghi phạm: Nguyễn Văn Th\nTội danh: Lừa đảo chiếm đoạt tài sản\nTổ chức pháp lý: Tòa án nhân dân thành phố Buôn Ma Thuột\nPhán quyết: 01 năm 06 tháng tù\nThời gian: Ngày 16/4/2024",
+        "prediction": "Thời gian: Ngày 16/4/2024  \nĐịa điểm: thành phố Buôn Ma Thuột  \nTổ chức pháp lý: Tòa án nhân dân thành phố Buôn Ma Thuột  \nNghi phạm: Nguyễn Văn Th  \nTội danh: Lừa đảo chiếm đoạt tài sản  \nPhán quyết: 01 năm 06 tháng tù  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 04/7/2024, Tòa án nhân dân tỉnh Đắk Lắk xử phúc thẩm, không chấp nhận kháng cáo xin giảm nhẹ hình phạt của Nguyễn Văn Th và giữ nguyên bản án sơ thẩm",
+        "answer": "Tổ chức pháp lý: Tòa án nhân dân tỉnh Đắk Lắk\nPhán quyết: Giữ nguyên bản án sơ thẩm\nThời gian: Ngày 04/7/2024",
+        "prediction": "Thời gian: Ngày 04/7/2024  \nĐịa điểm: Tòa án nhân dân tỉnh Đắk Lắk  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Đắk Lắk  \nNghi phạm: Nguyễn Văn Th  \nPhán quyết: Không chấp nhận kháng cáo xin giảm nhẹ hình phạt và giữ nguyên bản án sơ thẩm  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Tổng giá trị tài sản chiếm đoạt trong hai vụ lừa đảo là 22.500.000 đồng, tài sản đã được thu hồi và hoàn trả",
+        "answer": "Tài sản bị đánh cắp: Tổng giá trị 22.500.000 đồng",
+        "prediction": "Tài sản bị đánh cắp: 22.500.000 đồng"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 11/3/2024, Tòa án nhân dân huyện Yên Lạc xử sơ thẩm tuyên Nguyễn Văn T 01 năm tù và Ngô Văn T1 10 tháng tù về tội 'Đánh bạc'",
+        "answer": "Nghi phạm: Nguyễn Văn T, Ngô Văn T1\nTội danh: Đánh bạc\nTổ chức pháp lý: Tòa án nhân dân huyện Yên Lạc\nPhán quyết: Nguyễn Văn T: 01 năm tù; Ngô Văn T1: 10 tháng tù\nThời gian: Ngày 11/3/2024",
+        "prediction": "Thời gian: Ngày 11/3/2024  \nĐịa điểm: huyện Yên Lạc  \nTổ chức pháp lý: Tòa án nhân dân huyện Yên Lạc  \nNghi phạm: Nguyễn Văn T, Ngô Văn T1  \nTội danh: Đánh bạc  \nPhán quyết: Nguyễn Văn T 01 năm tù, Ngô Văn T1 10 tháng tù"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 24/6/2023, Nguyễn Văn T tiếp tục bán số lô cho Ngô Văn T1 với tổng số tiền giao dịch là 11.080.000 đồng. Sau khi đối chiếu kết quả xổ số, T trả thưởng cho T1 số tiền 8.000.000 đồng.",
+        "answer": "Nghi phạm: Nguyễn Văn T, Ngô Văn T1\n\nCông cụ gây án: Điện thoại di động\nThời gian: Ngày 24/6/2023",
+        "prediction": "Thời gian: Ngày 24/6/2023  \nNghi phạm: Nguyễn Văn T  \nNạn nhân: Ngô Văn T1  \nTài sản bị đánh cắp: Không có thông tin về tài sản bị đánh cắp trong câu này  \nCông cụ gây án: Không có thông tin về công cụ gây án trong câu này  \nĐịa điểm: Không có thông tin về địa điểm trong câu này  \nTổ chức pháp lý: Không có thông tin về tổ chức pháp lý trong câu này  \nTội danh: Không có thông tin về tội danh trong câu này  \nPhán quyết: Không có thông tin về phán quyết trong câu này"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 24/7/2024, Tòa án nhân dân tỉnh Vĩnh Phúc xử phúc thẩm, chấp nhận kháng cáo của Nguyễn Văn T và Ngô Văn T1, cho cả hai bị cáo hưởng án treo với thời gian thử thách là 02 năm và 01 năm 08 tháng tương ứng",
+        "answer": "Tổ chức pháp lý: Tòa án nhân dân tỉnh Vĩnh Phúc\nPhán quyết: Nguyễn Văn T: 2 năm tù treo; Ngô Văn T1: 1 năm 8 tháng tháng tù treo\nThời gian: Ngày 24/7/2024",
+        "prediction": "Thời gian: Ngày 24/7/2024  \nĐịa điểm: Tỉnh Vĩnh Phúc  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Vĩnh Phúc  \nNghi phạm: Nguyễn Văn T, Ngô Văn T1  \nPhán quyết: Cho cả hai bị cáo hưởng án treo với thời gian thử thách là 02 năm và 01 năm 08 tháng tương ứng  \n"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Khoảng giữa tháng 5/2017, Trần Thị H gặp Bùi Văn C và thỏa thuận mua 04 bánh Heroine với giá 160.000.000 đồng/bánh. Bùi Văn C sau đó mua 02 bánh Heroine từ Vì Thị T với giá 150.000.000 đồng/bánh",
+        "answer": "Nghi phạm: Trần Thị H, Bùi Văn C, Vì Thị T\nThời gian: Giữa tháng 5/2017\nĐịa điểm: Xã Thanh H, huyện Điện B, tỉnh Điện Biên",
+        "prediction": "Thời gian: Khoảng giữa tháng 5/2017  \nNghi phạm: Trần Thị H, Bùi Văn C, Vì Thị T  \nTài sản bị đánh cắp: 04 bánh Heroine, 02 bánh Heroine  \nTội danh: Mua bán trái phép chất ma túy  \nTài sản từ bị đánh cắp: 160.000.000 đồng/bánh, 150.000.000 đồng/bánh  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Các tài sản liên quan gồm điện thoại iPhone XS Max, Samsung A52, OPPO Realme 6 được tịch thu làm bằng chứng phục vụ điều tra.",
+        "answer": "Công cụ gây án: Điện thoại di động iPhone XS Max, Samsung A52, OPPO Realme 6",
+        "prediction": "Tài sản bị đánh cắp: điện thoại iPhone XS Max, Samsung A52, OPPO Realme 6"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 27/11/2019, Tòa án nhân dân tỉnh Điện Biên tuyên phạt Trần Thị H 20 năm tù về tội mua bán trái phép chất ma túy",
+        "answer": "Nghi phạm: Trần Thị H\nTổ chức pháp lý: Tòa án nhân dân tỉnh Điện Biên\nThời gian: Ngày 27/11/2019\nTội danh: Mua bán trái phép chất ma túy\nPhán quyết: 20 năm tù",
+        "prediction": "Thời gian: Ngày 27/11/2019  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Điện Biên  \nNghi phạm: Trần Thị H  \nPhán quyết: 20 năm tù  \nTội danh: Mua bán trái phép chất ma túy"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 19/5/2022, Tòa án nhân dân cấp cao tại Hà Nội hủy án sơ thẩm để điều tra lại",
+        "answer": "Tổ chức pháp lý: Tòa án nhân dân cấp cao tại Hà Nội\nThời gian: Ngày 19/5/2022\nPhán quyết: Hủy bản án sơ thẩm, yêu cầu điều tra lại",
+        "prediction": "Thời gian: Ngày 19/5/2022  \nTổ chức pháp lý: Tòa án nhân dân cấp cao tại Hà Nội  \nPhán quyết: Hủy án sơ thẩm để điều tra lại"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 29/9/2023, Tòa án nhân dân tối cao hủy một phần bản án phúc thẩm, giao hồ sơ cho Tòa án nhân dân cấp cao tại Hà Nội xét xử lại",
+        "answer": "Tổ chức: Tòa án nhân dân tối cao, Tòa án nhân dân cấp cao tại Hà Nội\nThời gian: Ngày 29/9/2023",
+        "prediction": "Thời gian: Ngày 29/9/2023  \nTổ chức pháp lý: Tòa án nhân dân tối cao  \nTổ chức pháp lý: Tòa án nhân dân cấp cao tại Hà Nội  \nPhán quyết: Hủy một phần bản án phúc thẩm, giao hồ sơ xét xử lại  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Phùng Văn T bị xử phạt 39 tháng tù về tội đánh bạc tại Bản án hình sự sơ thẩm số 08/2021/HS-ST ngày 19/01/2021 của Tòa án nhân dân huyện Yên Phong, tỉnh Bắc Ninh",
+        "answer": "Nghi phạm: Phùng Văn T\nTội danh: Đánh bạc\nTổ chức: Tòa án nhân dân huyện Yên Phong, tỉnh Bắc Ninh\nThời gian: Ngày 19/01/2021\nPhán quyết: 39 tháng tù",
+        "prediction": "Nghi phạm: Phùng Văn T  \nThời gian: ngày 19/01/2021  \nĐịa điểm: huyện Yên Phong, tỉnh Bắc Ninh  \nTổ chức pháp lý: Tòa án nhân dân huyện Yên Phong  \nTội danh: đánh bạc  \nPhán quyết: xử phạt 39 tháng tù  \nBản án: Bản án hình sự sơ thẩm số 08/2021/HS-ST"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Phùng Văn T tiếp tục bị xử phạt 09 tháng tù về tội đánh bạc tại Bản án hình sự sơ thẩm số 126/2021/HS-ST ngày 25/9/2021 của Tòa án nhân dân huyện Sóc Sơn, TP. Hà Nội và bị tổng hợp hình phạt thành 48 tháng tù",
+        "answer": "Nghi phạm: Phùng Văn T\nTội danh: Đánh bạc\nTổ chức: Tòa án nhân dân huyện Sóc Sơn, TP. Hà Nội\nThời gian: Ngày 25/9/2021\nHình phạt: 48 tháng tù (tổng hợp)",
+        "prediction": "Nghi phạm: Phùng Văn T  \nThời gian: ngày 25/9/2021  \nĐịa điểm: huyện Sóc Sơn, TP. Hà Nội  \nTổ chức pháp lý: Tòa án nhân dân huyện Sóc Sơn  \nTội danh: đánh bạc  \nPhán quyết: xử phạt 09 tháng tù, tổng hợp hình phạt thành 48 tháng tù  \nBản án: Bản án hình sự sơ thẩm số 126/2021/HS-ST"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 25/3/2022, Tòa án nhân dân cấp cao tại Hà Nội tổng hợp hình phạt 36 tháng tù về tội đánh bạc và 39 tháng tù, dẫn đến hình phạt 75 tháng tù cho Phùng Văn T.",
+        "answer": "Nghi phạm: Phùng Văn T\nTổ chức: Tòa án nhân dân cấp cao tại Hà Nội\nThời gian: Ngày 25/3/2022\nHình phạt: 75 tháng tù",
+        "prediction": "Thời gian: Ngày 25/3/2022  \nTổ chức pháp lý: Tòa án nhân dân cấp cao tại Hà Nội  \nPhán quyết: tổng hợp hình phạt 36 tháng tù về tội đánh bạc và 39 tháng tù, dẫn đến hình phạt 75 tháng tù  \nNghi phạm: Phùng Văn T  \nTội danh: đánh bạc  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 29/5/2023, Chánh án Tòa án nhân dân tối cao kháng nghị bản án phúc thẩm, yêu cầu hủy bỏ phần tổng hợp hình phạt của Phùng Văn T vì có sai sót",
+        "answer": "Tổ chức: Tòa án nhân dân tối cao\nThời gian: Ngày 29/5/2023\nNghi phạm: Phùng Văn T",
+        "prediction": "Thời gian: Ngày 29/5/2023  \nTổ chức pháp lý: Tòa án nhân dân tối cao  \nNghi phạm: Phùng Văn T  \nPhán quyết: Kháng nghị bản án phúc thẩm, yêu cầu hủy bỏ phần tổng hợp hình phạt  \n"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 29/9/2023, Tòa án nhân dân tối cao chấp nhận kháng nghị, hủy bản án phúc thẩm số 167/2022/HS-PT của Tòa án cấp cao tại Hà Nội và giao lại để tổng hợp hình phạt theo đúng quy định",
+        "answer": "Tổ chức: Tòa án nhân dân tối cao, Tòa án cấp cao tại Hà Nội\nThời gian: Ngày 29/9/2023",
+        "prediction": "Thời gian: Ngày 29/9/2023  \nTổ chức pháp lý: Tòa án nhân dân tối cao  \nTổ chức pháp lý: Tòa án cấp cao tại Hà Nội  \nPhán quyết: Chấp nhận kháng nghị, hủy bản án phúc thẩm số 167/2022/HS-PT và giao lại để tổng hợp hình phạt theo đúng quy định"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 10/01/2023, Nguyễn Hoài P bị bắt quả tang tàng trữ ma túy tại phòng trọ với tổng khối lượng 72,521 gam ma túy, trong đó gồm 35,6076 gam Ketamine và 36,9134 gam MDMA",
+        "answer": "Nghi phạm: Nguyễn Hoài P\nThời gian: ngày 10/01/2023\nĐịa điểm: phòng trọ",
+        "prediction": "Thời gian: Ngày 10/01/2023  \nNghi phạm: Nguyễn Hoài P  \nTội danh: Tàng trữ ma túy  \nĐịa điểm: Phòng trọ  \nTài sản bị đánh cắp: 72,521 gam ma túy (bao gồm 35,6076 gam Ketamine và 36,9134 gam MDMA)  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 17/01/2023, kết quả giám định xác nhận tổng số ma túy thu giữ là 72,521 gam, thuộc danh mục chất ma túy cấm",
+        "answer": "Thời gian: 17/01/2023",
+        "prediction": "Thời gian: Ngày 17/01/2023  \nTài sản bị đánh cắp: 72,521 gam ma túy  \nTổ chức pháp lý: Không có thông tin cụ thể trong câu  \nTội danh: Sở hữu chất ma túy cấm  \nPhán quyết: Không có thông tin cụ thể trong câu"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 11/6/2024, Tòa án nhân dân tỉnh Bình Phước tuyên phạt Nguyễn Hoài P 16 năm tù về tội 'Mua bán trái phép chất ma túy",
+        "answer": "Nghi phạm: Nguyễn Hoài P\nTội danh: Mua bán trái phép chất ma túy\nTổ chức pháp lý: Tòa án nhân dân tỉnh Bình Phước\nPhán quyết: 16 năm tù\nThời gian: 11/6/2024",
+        "prediction": "Thời gian: Ngày 11/6/2024  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Bình Phước  \nNghi phạm: Nguyễn Hoài P  \nTội danh: Mua bán trái phép chất ma túy  \nPhán quyết: 16 năm tù  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vật chứng của vụ án, gồm ma túy, túi nilon, quần vải và một điện thoại iPhone xanh, được tịch thu tiêu hủy. Số tiền 3.000.000 đồng thu lợi từ việc bán ma túy bị truy thu nộp ngân sách Nhà nước.",
+        "answer": "Công cụ gây án: Điện thoại iPhone, túi nilon, quần vải",
+        "prediction": "Tài sản bị đánh cắp: 3.000.000 đồng (thu lợi từ việc bán ma túy)  \nCông cụ gây án: ma túy, túi nilon, quần vải, điện thoại iPhone xanh  \nPhán quyết: tịch thu tiêu hủy (vật chứng), truy thu nộp ngân sách Nhà nước (số tiền thu lợi)"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào ngày 22/11/2022, Nguyễn Văn K lừa ông Đào Q mua thửa đất số 16, tờ bản đồ số 59, tiểu khu B, khoảnh 5, với giá 150.000.000 đồng, yêu cầu đặt cọc 70.000.000 đồng nhưng không thực hiện chuyển nhượng mà chiếm đoạt số tiền này",
+        "answer": "Nghi phạm: Nguyễn Văn K\nNạn nhân: Đào Q\nTài sản bị đánh cắp: 70.000.000 đồng\nThời gian: Ngày 22/11/2022",
+        "prediction": "- Thời gian: Ngày 22/11/2022\n- Nghi phạm: Nguyễn Văn K\n- Nạn nhân: Ông Đào Q\n- Tài sản bị đánh cắp: 70.000.000 đồng\n- Địa điểm: Thửa đất số 16, tờ bản đồ số 59, tiểu khu B, khoảnh 5\n- Tội danh: Lừa đảo chiếm đoạt tài sản"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Nguyễn Văn K sử dụng toàn bộ số tiền đặt cọc để trả nợ và tiêu xài cá nhân, không thực hiện thủ tục chuyển nhượng quyền sử dụng đất như đã cam kết.",
+        "answer": "Nghi phạm: Nguyễn Văn K\nThời gian: Sau ngày 22/11/2022",
+        "prediction": "Nghi phạm: Nguyễn Văn K  \nTội danh: Không thực hiện thủ tục chuyển nhượng quyền sử dụng đất như đã cam kết"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 08/6/2023, ông Đào Q tố cáo hành vi của Nguyễn Văn K đến Cơ quan Cảnh sát điều tra Công an huyện Thạch Hà.",
+        "answer": "Nghi phạm: Nguyễn Văn K\nNạn nhân: Đào Q\nTổ chức pháp lý: Cơ quan Cảnh sát điều tra Công an huyện Thạch Hà\nThời gian: Ngày 08/6/2023",
+        "prediction": "Thời gian: Ngày 08/6/2023  \nNạn nhân: Ông Đào Q  \nNghi phạm: Nguyễn Văn K  \nTổ chức pháp lý: Cơ quan Cảnh sát điều tra Công an huyện Thạch Hà"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 15/12/2023, Tòa án nhân dân huyện Thạch Hà tuyên phạt Nguyễn Văn K 27 tháng tù về tội 'Lừa đảo chiếm đoạt tài sản'.",
+        "answer": "Nghi phạm: Nguyễn Văn K\nTội danh: Lừa đảo chiếm đoạt tài sản\nTổ chức pháp lý: Tòa án nhân dân huyện Thạch Hà\nPhán quyết: 27 tháng tù\nThời gian: Ngày 15/12/2023",
+        "prediction": "Thời gian: Ngày 15/12/2023  \nTổ chức pháp lý: Tòa án nhân dân huyện Thạch Hà  \nNghi phạm: Nguyễn Văn K  \nTội danh: Lừa đảo chiếm đoạt tài sản  \nPhán quyết: 27 tháng tù  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Ngày 21/05/2024, Tòa án nhân dân tỉnh Hà Tĩnh xử phúc thẩm, sửa án sơ thẩm và cho Nguyễn Văn K hưởng án treo với thời gian thử thách là 54 tháng",
+        "answer": "Tổ chức pháp lý: Tòa án nhân dân tỉnh Hà Tĩnh\nPhán quyết: hưởng án treo, thử thách 54 tháng\nThời gian: Ngày 21/05/2024",
+        "prediction": "Thời gian: Ngày 21/05/2024  \nTổ chức pháp lý: Tòa án nhân dân tỉnh Hà Tĩnh  \nNghi phạm: Nguyễn Văn K  \nPhán quyết: Hưởng án treo với thời gian thử thách là 54 tháng"
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào khoảng 15 giờ ngày 27/11/2023, Nguyễn Thái H mua 02 gói ma túy đá với giá 400.000 đồng từ một người không rõ lai lịch tại đường số 9, khu trung tâm hành chính, thành phố Dĩ An, tỉnh Bình Dương.",
+        "answer": "Nghi phạm: Nguyễn Thái H\nThời gian: 15 giờ ngày 27/11/2023\nĐịa điểm: Đường số 9, khu trung tâm hành chính, thành phố Dĩ An, tỉnh Bình Dương",
+        "prediction": "Thời gian: 15 giờ ngày 27/11/2023  \nNghi phạm: Nguyễn Thái H  \nTài sản bị đánh cắp: 02 gói ma túy đá  \nĐịa điểm: Đường số 9, khu trung tâm hành chính, thành phố Dĩ An, tỉnh Bình Dương  "
+    },
+    {
+        "instruction": "Dựa vào đoạn văn bản đã cho, trích xuất thông tin thực thể từ câu. Các loại thực thể bao gồm: Nghi phạm, Nạn nhân, Tài sản bị đánh cắp, Công cụ gây án, Thời gian, Địa điểm, Tổ chức pháp lý, Tội danh, Phán quyết. Liệt kê từng thông tin thực thể. Dưới đây là một ví dụ: \nCâu: Sau đó, Nguyễn Đình N đã dùng số tiền 200 đồng thu được từ việc đánh cắp để bị tiêu hết. \nNghi phạm: Nguyễn Đình N\nTài sản từ bị đánh cắp: 200 đồng \nXin bạn trả lời:",
+        "question": "Vào lúc 20 giờ ngày 28/11/2023, tại phòng 302 khách sạn Japan, Nguyễn Thái H cùng Nguyễn Sanh T tổ chức sử dụng ma túy bằng cách nấu và sử dụng ma túy đá với bộ dụng cụ mang theo",
+        "answer": "Nghi phạm: Nguyễn Thái H, Nguyễn Sanh T\nCông cụ gây án: Bộ dụng cụ\nThời gian: 20 giờ ngày 28/11/2023\nĐịa điểm: Phòng 302, khách sạn Japan, đường GS3, khu phố Tây B, phường Đông Hòa, thành phố Dĩ An, tỉnh Bình Dương",
+        "prediction": "Thời gian: 20 giờ ngày 28/11/2023  \nĐịa điểm: Phòng 302 khách sạn Japan  \nNghi phạm: Nguyễn Thái H, Nguyễn Sanh T  \nTội danh: Tổ chức sử dụng ma túy  \nCông cụ gây án: Bộ dụng cụ nấu và sử dụng ma túy đá  "
+    }
+]
