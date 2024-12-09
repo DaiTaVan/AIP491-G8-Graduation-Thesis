@@ -355,10 +355,12 @@ class Agent5(BaseAgent):
         except ValidationError as ve:
             # Handle Pydantic validation errors
             print(f"Validation error: {ve}")
+            return ""
             raise ValueError("Received invalid JSON response from the model.") from ve
         except Exception as e:
             # Handle other potential exceptions
             print(f"An error occurred: {e}")
+            return ""
             raise ValueError("An unexpected error occurred while processing the query.") from e
             print(f"Error occurred: {e}")
             return "An error occurred while processing the request."
