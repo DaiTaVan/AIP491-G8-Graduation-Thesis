@@ -6,6 +6,7 @@ from typing import Dict, List, TypedDict, Literal
 from llm import Ollama, OpenAI
 from langchain_openai import ChatOpenAI
 from langchain_ollama import OllamaLLM
+from langchain_community.llms import HuggingFaceEndpoint
 
 from langgraph.graph import Graph, START, END
 from vector_database import LawBGEM3QdrantDatabase
@@ -23,7 +24,10 @@ class AgentState(TypedDict):
     agent2_output: Dict
     retrieved_nodes: List
     final_answer_state: str
+    final_context_nodes_str: str
     intermediate_steps: List
+    recursive_check: bool
+    enable_recursive: bool
     agent5_output: str
     agent6_output: str
 
@@ -96,7 +100,7 @@ class Pipeline:
         self.agent1 = Agent1(config=self.config, model=self.gpt_model)
         self.agent2 = Agent2(config=self.config, model=self.gpt_model)
         self.agent3 = Agent3(
-            llm=self.gpt_model, 
+            # llm=self.gpt_model, 
             vector_database=self.vector_database, 
             embedding=self.embedding_model, 
             reranker=self.jina_reranker,
@@ -105,7 +109,9 @@ class Pipeline:
         )
 
         self.agent4 = Agent4(
-            rerank=self.gpt_reranker,
+            # llm=self.gpt_model,
+            # config=self.config,
+            # rerank=self.gpt_reranker,
             graph_database=self.graph_db,
         )
         self.agent5 = Agent5(
@@ -143,9 +149,9 @@ class Pipeline:
     def agent2_node(self, state: AgentState) -> AgentState:
         """Analyzes the query and breaks it down into components."""
         try:
-            question_category = state["agent1_output"].get("danh_muc_cau_hoi", "")
+            # question_category = state["agent1_output"].get("danh_muc_cau_hoi", "")
 
-            input_agent2 = f"Đề mục trong văn bản pháp luật Việt Nam: {self.legal_topics}\nLoại câu hỏi: {question_category}"
+            input_agent2 = f"Đề mục trong văn bản pháp luật Việt Nam: {self.legal_topics}\n"
             
             state["agent2_output"] = self.agent2.run(input_agent2=input_agent2, query=state["query"])
             return state
@@ -153,32 +159,34 @@ class Pipeline:
             print(f"Error in agent2_node: {e}")
             raise
     
-    def condition_agent2_node(self, state: AgentState) -> Literal["retrieval", "agent6"]:
+    def condition_agent2_node(self, state: AgentState) -> Literal["agent3", "agent6"]:
         """Go to agent 6 directly"""
         agent2_output = state["agent2_output"]
         if agent2_output is None:
             return "agent6"
         else:
-            return "retrieval"
+            return "agent3"
 
-    def retrieval_node(self, state: AgentState) -> AgentState:
+    def agent3_node(self, state: AgentState) -> AgentState:
         """Retrieves relevant legal documents based on query analysis."""
         try:
             difficulty = state["agent2_output"].get("do_kho", "Trung bình")
             params = {
                 "Dễ": (3, 0.5, 2),
                 "Trung bình": (5, 0.5, 3),
-                "Khó": (8, 0.7, 5)
+                "Khó": (5, 0.5, 3)
             }
             top_k, alpha, top_n = params.get(difficulty, (5, 0.5, 3))
 
             self.jina_reranker.update_top_n(n=top_n)
+            self.agent3.update_top_k_and_alpha(top_k=top_k, alpha=alpha)
+            self.agent3.reranker = self.jina_reranker
             # Prepare queries for retrieval
             list_query = [state["agent2_output"].get("cau_hoi_tang_cuong", "")] + state["agent2_output"].get("cau_hoi_phan_ra", [])
             print(f"Retrieval Queries: {list_query}")
 
             # Perform retrieval
-            self.agent3.update_top_k_and_alpha(top_k=top_k, alpha=alpha)
+
             state["retrieved_nodes"] = self.agent3.run(list_query=list_query, original_query=state["query"])
 
             if not state["retrieved_nodes"]:
@@ -189,21 +197,22 @@ class Pipeline:
             print(f"Error in retrieval_node: {e}")
             raise
 
-    def final_answer_node(self, state: AgentState) -> AgentState:
+    def agent4_node(self, state: AgentState) -> AgentState:
         """Generates the final answer using retrieved information."""
         try:
-            difficulty = state["agent2_output"].get("do_kho", "Trung bình")
-            params = {
-                "Dễ": (3, 0.5, 2),
-                "Trung bình": (5, 0.5, 3),
-                "Khó": (8, 0.7, 5)
-            }
-            _, _, top_n = params.get(difficulty, (5, 0.5, 3))
+            # difficulty = state["agent2_output"].get("do_kho", "Trung bình")
+            # params = {
+            #     "Dễ": (3, 0.5, 2),
+            #     "Trung bình": (5, 0.5, 3),
+            #     "Khó": (8, 0.7, 5)
+            # }
+            # _, _, top_n = params.get(difficulty, (5, 0.5, 3))
 
             # final_answer_state as final_content_context
             state["final_answer_state"] = self.agent4.run(
                 query=state["query"],
                 retrieved_nodes=state["retrieved_nodes"],
+                addition_info = state["agent2_output"]
             )
             return state
         except Exception as e:
@@ -214,14 +223,24 @@ class Pipeline:
         """Processes the final answer through Agent5."""
         try:
             final_content_context = state["final_answer_state"]
-            
+            list_contexts = [{"doc_no": ele[0], "Nội dung": ele[1]} for ele in final_content_context['contexts']]
             # Run Agent5
-            ans = self.agent5.run(state["query"], str(final_content_context))
+            ans = self.agent5.run(state["query"], state['agent2_output'], str(list_contexts))
             state["agent5_output"] = ans
+            if ans is not None:
+                state["recursive_check"] = ans.get('recursive', False)
             return state
         except Exception as e:
             print(f"Error in agent5_node: {e}")
             raise
+    
+    def condition_agent5_node(self, state: AgentState) -> Literal["agent2", "agent6"]:
+        """Go to agent 2 recursive"""
+        if state["recursive_check"] and state["enable_recursive"]:
+            return "agent2"
+        else:
+            return "agent6"
+
 
     def agent6_node(self, state: AgentState) -> AgentState:
         """Processes the output through Agent6 and generates the final Markdown output."""
@@ -235,10 +254,20 @@ class Pipeline:
                     state["agent6_output"] = self.agent6.run_single_shot(query_str = state["query"])
                 
             else:
-                final_content_context = state["final_answer_state"]
-                response_2 = state["agent5_output"]  # Assuming response_2 comes from Agent5
+                if state["agent5_output"] is None:
+                    final_context_nodes = [ele[1] for ele in state["final_answer_state"]['contexts']][:3]
+                else:
+                    dict_context_node = {ele[0]: ele[1] for ele in state["final_answer_state"]['contexts']}
+                    filter_node_ids = state["agent5_output"]["doc_numbers"]
+                    final_context_nodes = []
+                    for node_id in filter_node_ids:
+                        if node_id in dict_context_node.keys():
+                            final_context_nodes.append(dict_context_node[node_id])
+                    
+                final_context_nodes_str = '\n'.join(final_context_nodes)
+                state["final_context_nodes_str"] = final_context_nodes_str
                 
-                result = self.agent6.run(state["query"], str(response_2), str(final_content_context))
+                result = self.agent6.run(state["query"], state["agent2_output"], final_context_nodes_str)
                 state["agent6_output"] = result
             return state
         except Exception as e:
@@ -252,8 +281,8 @@ class Pipeline:
         # Add nodes
         workflow.add_node("agent1", self.agent1_node)
         workflow.add_node("agent2", self.agent2_node)
-        workflow.add_node("retrieval", self.retrieval_node)
-        workflow.add_node("final_answer", self.final_answer_node)
+        workflow.add_node("agent3", self.agent3_node)
+        workflow.add_node("agent4", self.agent4_node)
         workflow.add_node("agent5", self.agent5_node)
         workflow.add_node("agent6", self.agent6_node)
 
@@ -263,9 +292,10 @@ class Pipeline:
         # workflow.add_edge("agent1", "agent2")
         # workflow.add_edge("agent2", "retrieval")
         workflow.add_conditional_edges("agent2", self.condition_agent2_node)
-        workflow.add_edge("retrieval", "final_answer")
-        workflow.add_edge("final_answer", "agent5")
-        workflow.add_edge("agent5", "agent6")
+        workflow.add_edge("agent3", "agent4")
+        workflow.add_edge("agent4", "agent5")
+        # workflow.add_edge("agent5", "agent6")
+        workflow.add_conditional_edges("agent5", self.condition_agent5_node)
         workflow.add_edge("agent6", END)
 
         return workflow.compile()
@@ -280,9 +310,12 @@ class Pipeline:
                 agent2_output={},
                 retrieved_nodes=[],
                 final_answer_state="",  # renamed from final_answer to match your code
+                final_context_nodes_str = "",
                 intermediate_steps=[],
                 agent5_output="",
-                agent6_output=""
+                agent6_output="",
+                recursive_check = False,
+                enable_recursive=False
             )
             result = self.graph.invoke(state)
             return result

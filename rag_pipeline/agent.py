@@ -54,7 +54,7 @@ class Agent1(BaseAgent):
         # Create the prompt template using the configuration
         self.prompt = PromptTemplate(
             # template=config['Agent_1']['prompt'],
-            template=config['Agent_1']['prompt_2'],
+            template=config['Agent_1']['prompt'],
             input_variables=["query"],
             partial_variables={"format_instructions": self.parser.get_format_instructions()},
         )
@@ -152,7 +152,7 @@ class Agent3(BaseAgent):
     """
     def __init__(
             self,
-            llm,
+            # llm,
             vector_database: LawBGEM3QdrantDatabase,
             embedding: BGEEmbedding,
             reranker: JinaRerank,
@@ -205,13 +205,13 @@ class Agent4(BaseAgent):
     """
     def __init__(
             self,
-            rerank: RankGPTRerank,
+            # rerank: RankGPTRerank,
             graph_database: Neo4jDatabase,
     ): 
-        self.rerank = rerank
+        # self.rerank = rerank
         self.graph_database = graph_database
     
-    def run(self, retrieved_nodes: List[NodeWithScore], query: str):
+    def run(self, retrieved_nodes: List[NodeWithScore], query: str, addition_info: dict):
         # new_list_nodes = self.rerank._postprocess_nodes(
         #     nodes=retrieved_nodes,
         #     query=query
@@ -228,9 +228,31 @@ class Agent4(BaseAgent):
         
         list_dieu_luat = [self.get_dieu_luat_theo_id(node_id) for node_id in node_ids]
 
+        # Add related dieu luat
         dict_dieu_luat_lien_quan =  {node_id: self.get_dieu_luat_lien_quan_theo_id(node_id) for node_id in node_ids}
         print(dict_dieu_luat_lien_quan)
-#        Thêm llm check dieu liên quan và xóa bớt đi 
+        contribute_dieu_luat = []
+        for root_node, list_related_dieu_luat in dict_dieu_luat_lien_quan.items():
+            if len(list_related_dieu_luat) > 2:
+                continue
+            source_root_node = self.get_parent_of_dieu_luat_by_id(root_node)
+            list_candicate_topic: list = addition_info['chu_de_lien_quan']
+            list_candicate_topic.append(source_root_node.get('ChuDePhapdien')['title'] + ' - ' + source_root_node.get('DeMucPhapdien')['title'])
+            list_candicate_topic = list(set(list_candicate_topic))
+
+            for related_dieu_luat in list_related_dieu_luat:
+                source_related_node = self.get_parent_of_dieu_luat_by_id(related_dieu_luat['id'])
+                source_related_topic =  source_related_node.get('ChuDePhapdien')['title'] + ' - ' + source_related_node.get('DeMucPhapdien')['title']
+                if source_related_topic in list_candicate_topic:
+                    contribute_dieu_luat.append(related_dieu_luat)
+        
+        for dieu_luat in contribute_dieu_luat:
+            # print('dieu_luat',dieu_luat)
+            if dieu_luat['id'] not in node_ids:
+                list_dieu_luat.append(dieu_luat)
+                node_ids.append(dieu_luat['id'])
+                node_titles.append("")
+
         contexts = [(node_id, self.get_context_by_dieu_luat(dieu_luat, node_title)) for node_id, dieu_luat, node_title in zip(node_ids, list_dieu_luat, node_titles)]
         # reranked_context['topic'][0].get('ChuDePhapdien')['title'] + ' - ' + reranked_context['topic'][0].get('DeMucPhapdien')['title']
         topic = [self.get_parent_of_dieu_luat_by_id(node_id).get('ChuDePhapdien')['title'] + ' - ' + \
@@ -315,9 +337,6 @@ class RelatedLegalRules(BaseModel):
     doc_numbers: List[str]= Field(
         description="Lấy `doc_no` của ngữ cảnh cung cấp ở trên"
     )
-    reference_ids: List[str] = Field(
-        description="Lấy `reference_id` của ngữ cảnh cung cấp ở trên"
-    )
 
 class Agent5(BaseAgent):
     def __init__(self, config, model):
@@ -333,14 +352,14 @@ class Agent5(BaseAgent):
         # Create the prompt template using the configuration
         self.prompt = PromptTemplate(
             template=config['Agent_5']['prompt'],
-            input_variables=["query"],
+            input_variables=["query", "analysis_str", "context_str"],
             partial_variables={"format_instructions": self.parser.get_format_instructions()},
         )
         
         # Set up the pipeline: prompt -> model -> parser
         self.chain = self.prompt | model | self.parser
 
-    def run(self, query: str, context: str) -> RelatedLegalRules:
+    def run(self, query: str, analysis_str: str, context: str) -> RelatedLegalRules:
         """
         Run the agent with the given query.
 
@@ -350,20 +369,20 @@ class Agent5(BaseAgent):
         """
         try:
             # Invoke the chain with the provided query
-            response = self.chain.invoke({"query": query, "context_str": context})
+            response = self.chain.invoke({"query": query, "analysis_str": analysis_str, "context_str": context})
             return response  # This should be a RelatedLegalRules instance
         except ValidationError as ve:
             # Handle Pydantic validation errors
             print(f"Validation error: {ve}")
-            return ""
-            raise ValueError("Received invalid JSON response from the model.") from ve
+            return None
+            # raise ValueError("Received invalid JSON response from the model.") from ve
         except Exception as e:
             # Handle other potential exceptions
             print(f"An error occurred: {e}")
-            return ""
-            raise ValueError("An unexpected error occurred while processing the query.") from e
-            print(f"Error occurred: {e}")
-            return "An error occurred while processing the request."
+            return None
+            # raise ValueError("An unexpected error occurred while processing the query.") from e
+            # print(f"Error occurred: {e}")
+            # return "An error occurred while processing the request."
 
 class Agent6(BaseAgent):
     def __init__(self, config, model):
