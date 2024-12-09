@@ -1,7 +1,7 @@
 import json
 import os
 import argparse
-from typing import Dict, List, TypedDict
+from typing import Dict, List, TypedDict, Literal
 
 from llm import Ollama, OpenAI
 from langchain_openai import ChatOpenAI
@@ -43,7 +43,7 @@ class Pipeline:
         os.environ["OPENAI_API_KEY"] = openai_api_key
 
         # Initialize models
-        self.gpt_model = ChatOpenAI(temperature=0.4, model_name="gpt-4o-mini")
+        self.gpt_model = ChatOpenAI(temperature=0.1, model_name="gpt-4o")
         self.ollama_model = OllamaLLM(model="qwen:2.5", temperature=0.7)
 
         # Initialize database configurations
@@ -126,10 +126,19 @@ class Pipeline:
         try:
             
             state["agent1_output"] = self.agent1.run(query=state["query"])
+            print("agent1_output", state["agent1_output"])
             return state
         except Exception as e:
             print(f"Error in agent1_node: {e}")
             raise
+    
+    def condition_agent1_node(self, state: AgentState) -> Literal["agent2", "agent6"]:
+        """Go to agent 6 directly"""
+        agent1_output = state["agent1_output"]
+        if agent1_output["lien_quan_luat"].lower() == 'không' or agent1_output["can_them_thong_tin"].lower() =='không':
+            return "agent6"
+        else:
+            return "agent2"
 
     def agent2_node(self, state: AgentState) -> AgentState:
         """Analyzes the query and breaks it down into components."""
@@ -143,6 +152,14 @@ class Pipeline:
         except Exception as e:
             print(f"Error in agent2_node: {e}")
             raise
+    
+    def condition_agent2_node(self, state: AgentState) -> Literal["retrieval", "agent6"]:
+        """Go to agent 6 directly"""
+        agent2_output = state["agent2_output"]
+        if agent2_output is None:
+            return "agent6"
+        else:
+            return "retrieval"
 
     def retrieval_node(self, state: AgentState) -> AgentState:
         """Retrieves relevant legal documents based on query analysis."""
@@ -209,16 +226,25 @@ class Pipeline:
     def agent6_node(self, state: AgentState) -> AgentState:
         """Processes the output through Agent6 and generates the final Markdown output."""
         try:
-            final_content_context = state["final_answer_state"]
-            response_2 = state["agent5_output"]  # Assuming response_2 comes from Agent5
-
-            
-            result = self.agent6.run(state["query"], str(response_2), str(final_content_context))
-            state["agent6_output"] = result
+            if state["agent2_output"] is None:
+                state["agent6_output"] = self.agent6.run_single_shot(query_str = state["query"])
+            elif len(state["agent2_output"]) == 0:
+                if state["agent1_output"]["lien_quan_luat"].lower() == 'không':
+                    state["agent6_output"] = "Xin lỗi, có thể câu hỏi của bạn không liên quan đến luật. Xin hãy hỏi lại hoặc cung cấp thêm thông tin."
+                elif state["agent1_output"]["can_them_thong_tin"].lower() =='không':
+                    state["agent6_output"] = self.agent6.run_single_shot(query_str = state["query"])
+                
+            else:
+                final_content_context = state["final_answer_state"]
+                response_2 = state["agent5_output"]  # Assuming response_2 comes from Agent5
+                
+                result = self.agent6.run(state["query"], str(response_2), str(final_content_context))
+                state["agent6_output"] = result
             return state
         except Exception as e:
             print(f"Error in agent6_node: {e}")
             raise
+    
 
     def _create_graph(self) -> Graph:
         """Creates the workflow graph for the pipeline."""
@@ -233,8 +259,10 @@ class Pipeline:
 
         # Add edges
         workflow.add_edge(START, "agent1")
-        workflow.add_edge("agent1", "agent2")
-        workflow.add_edge("agent2", "retrieval")
+        workflow.add_conditional_edges("agent1", self.condition_agent1_node)
+        # workflow.add_edge("agent1", "agent2")
+        # workflow.add_edge("agent2", "retrieval")
+        workflow.add_conditional_edges("agent2", self.condition_agent2_node)
         workflow.add_edge("retrieval", "final_answer")
         workflow.add_edge("final_answer", "agent5")
         workflow.add_edge("agent5", "agent6")

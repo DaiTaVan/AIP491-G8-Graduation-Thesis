@@ -31,6 +31,14 @@ class LawQuestionAnalysis(BaseModel):
         description="Danh mục cụ thể trong từng loại câu hỏi"
     )
 
+class LawQuestionAnalysisV2(BaseModel):
+    lien_quan_luat: str = Field(
+        description="Xác định xem câu hỏi có liên quan đến luật hay không: 'Có' hoặc 'Không'"
+    )
+    can_them_thong_tin: str = Field(
+        description="Xác định xem câu hỏi có cần thêm thông tin về các điều luật không: 'Có' hoặc 'Không'"
+    )
+
 class Agent1(BaseAgent):
     def __init__(self, config, model):
         """
@@ -40,11 +48,13 @@ class Agent1(BaseAgent):
         :param model: The language model to be used (e.g., ollama_model).
         """
         # Define the JSON output parser using the Pydantic model
-        self.parser = JsonOutputParser(pydantic_object=LawQuestionAnalysis)
+        # self.parser = JsonOutputParser(pydantic_object=LawQuestionAnalysis)
+        self.parser = JsonOutputParser(pydantic_object=LawQuestionAnalysisV2)
         
         # Create the prompt template using the configuration
         self.prompt = PromptTemplate(
-            template=config['Agent_1']['prompt'],
+            # template=config['Agent_1']['prompt'],
+            template=config['Agent_1']['prompt_2'],
             input_variables=["query"],
             partial_variables={"format_instructions": self.parser.get_format_instructions()},
         )
@@ -52,7 +62,7 @@ class Agent1(BaseAgent):
         # Set up the pipeline: prompt -> model -> parser
         self.chain = self.prompt | model | self.parser
 
-    def run(self, query: str) -> LawQuestionAnalysis:
+    def run(self, query: str) -> LawQuestionAnalysisV2:
         """
         Run the agent with the given query.
 
@@ -91,6 +101,8 @@ class Agent2(BaseAgent):
         :param config: A dictionary containing configuration parameters.
         :param model: The language model to be used (e.g., ChatOpenAI).
         """
+
+        self.max_retries = 0
         # Define the JSON output parser using the Pydantic model
         self.parser = JsonOutputParser(pydantic_object=EnhancedLawAnalysis)
         
@@ -113,18 +125,26 @@ class Agent2(BaseAgent):
         :return: An instance of EnhancedLawAnalysis containing the detailed analysis.
         :raises ValueError: If the model's response is invalid or cannot be parsed.
         """
-        try:
-            # Invoke the chain with the provided inputs
-            response = self.chain.invoke({"input_agent2": input_agent2, "query": query})
-            return response  # This should be an EnhancedLawAnalysis instance
-        except ValidationError as ve:
-            # Handle Pydantic validation errors
-            print(f"Validation error: {ve}")
-            raise ValueError("Received invalid JSON response from the model.") from ve
-        except Exception as e:
-            # Handle other potential exceptions
-            print(f"An error occurred: {e}")
-            raise ValueError("An unexpected error occurred while processing the query.") from e
+        
+        current_retry = 0
+        while True:
+            try:
+                # Invoke the chain with the provided inputs
+                response = self.chain.invoke({"input_agent2": input_agent2, "query": query})
+                return response  # This should be an EnhancedLawAnalysis instance
+            except ValidationError as ve:
+                # Handle Pydantic validation errors
+                print(f"Validation error: {ve}")
+                if current_retry == self.max_retries:
+                    # raise ValueError("Received invalid JSON response from the model.") from ve
+                    return None
+            except Exception as e:
+                # Handle other potential exceptions
+                print(f"An error occurred: {e}")
+                if current_retry == self.max_retries:
+                    # raise ValueError("An unexpected error occurred while processing the query.") from e
+                    return None
+            current_retry += 1
 
 class Agent3(BaseAgent):
     """
@@ -132,7 +152,7 @@ class Agent3(BaseAgent):
     """
     def __init__(
             self,
-            llm: BaseLLM,
+            llm,
             vector_database: LawBGEM3QdrantDatabase,
             embedding: BGEEmbedding,
             reranker: JinaRerank,
@@ -344,7 +364,7 @@ class Agent5(BaseAgent):
             return "An error occurred while processing the request."
 
 class Agent6(BaseAgent):
-    def __init__(self, config, model: BaseLLM):
+    def __init__(self, config, model):
         """
         Initialize Agent6 with the given configuration and model.
 
@@ -353,14 +373,36 @@ class Agent6(BaseAgent):
         """
 
         # Create the prompt template using the configuration
-        self.prompt = PromptTemplate(
+        self.prompt_check_instruct = PromptTemplate(
+            template=config['Agent_6']['prompt_check_instruct'],
+            input_variables=["query_str"],
+        )
+        self.prompt_no_instruct = PromptTemplate(
             template=config['Agent_6']['prompt'],
             input_variables=["query_str", "analysis_str", "context_str"],
         )
+        self.prompt_instruct = PromptTemplate(
+            template=config['Agent_6']['prompt_instruct'],
+            input_variables=["query_str", "analysis_str", "context_str"],
+        )
+        self.model = model
         
         # Create the LLMChain
-        self.chain = LLMChain(llm=model, prompt=self.prompt)
+        self.chain_check_instruct = LLMChain(llm=self.model, prompt=self.prompt_check_instruct)
+        self.chain_no_instruct = LLMChain(llm=self.model, prompt=self.prompt_no_instruct)
+        self.chain_instruct = LLMChain(llm=self.model, prompt=self.prompt_instruct)
     
+
+    def check_instruct(self, query_str: str):
+        
+        check_instruct = self.chain_check_instruct.run({"query_str": query_str}).strip().rstrip().lower()
+        print('check_instruct', check_instruct)
+        if check_instruct == 'không':
+            return False
+        else:
+            return True
+
+
     def run(self, query_str: str, analysis_str: str, context_str: str):
         """
         Run Agent6 with the given inputs to generate the final report.
@@ -374,15 +416,18 @@ class Agent6(BaseAgent):
         try:
             # Prepare the inputs for the prompt
             inputs = {
-                "query_str": query_str,
-                "analysis_str": analysis_str,
-                "context_str": context_str,
-            }
-            
-            # Run the LLMChain
-            raw_result = self.chain.run(inputs)
-            
-            return raw_result
+                    "query_str": query_str,
+                    "analysis_str": analysis_str,
+                    "context_str": context_str,
+                }
+            if self.check_instruct(query_str=query_str):
+                # Run the LLMChain
+                result = self.chain_instruct.run(inputs)
+            else:
+                # Run the LLMChain
+                result = self.chain_no_instruct.run(inputs)
+
+            return result
         except ValidationError as ve:
             # Handle Pydantic validation errors
             print(f"Validation error in Agent6: {ve}")
@@ -392,3 +437,5 @@ class Agent6(BaseAgent):
             print(f"Error in Agent6: {e}")
             raise ValueError("An unexpected error occurred while processing the query in Agent6.") from e
 
+    def run_single_shot(self, query_str: str):
+        return self.model.invoke(query_str).content
