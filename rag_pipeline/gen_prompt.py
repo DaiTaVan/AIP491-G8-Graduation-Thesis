@@ -14,12 +14,12 @@ Hay những sự việc có phải có luật pháp để có thể giải quy�
 - Nếu không, hãy dừng lại
 - Nếu có, tiếp tục với các nhiệm vụ sau.
 
-### Nhiệm vụ 2.1: Phân loại loại câu hỏi
-Xác định loại câu hỏi dựa trên nội dung câu hỏi của người dùng. Có 4 loại câu hỏi chính:
-1. **Tạo nội dung**: Câu hỏi yêu cầu tạo hoặc tổng hợp nội dung mới.
-2. **Lựa chọn đáp án**: Câu hỏi yêu cầu lựa chọn đáp án từ các tùy chọn.
-3. **Trích xuất thông tin**: Câu hỏi yêu cầu trích xuất hoặc nhận diện thông tin cụ thể từ dữ liệu.
-4. **Dự đoán**: Câu hỏi yêu cầu dự đoán các vấn đề pháp luật cụ thể.
+# ### Nhiệm vụ 2.1: Phân loại loại câu hỏi
+# Xác định loại câu hỏi dựa trên nội dung câu hỏi của người dùng. Có 4 loại câu hỏi chính:
+# 1. **Tạo nội dung**: Câu hỏi yêu cầu tạo hoặc tổng hợp nội dung mới.
+# 2. **Lựa chọn đáp án**: Câu hỏi yêu cầu lựa chọn đáp án từ các tùy chọn.
+# 3. **Trích xuất thông tin**: Câu hỏi yêu cầu trích xuất hoặc nhận diện thông tin cụ thể từ dữ liệu.
+# 4. **Dự đoán**: Câu hỏi yêu cầu dự đoán các vấn đề pháp luật cụ thể.
 
 ### Nhiệm vụ 2.2: Xác định danh mục cụ thể trong loại câu hỏi
 Dựa trên loại câu hỏi đã xác định ở nhiệm vụ 2.1, xác định danh mục cụ thể như sau:
@@ -36,6 +36,7 @@ Dựa trên loại câu hỏi đã xác định ở nhiệm vụ 2.1, xác đị
   1. **Nhận diện thực thể**: Nhận diện các thực thể quan trọng trong câu hỏi (tên, địa điểm, tổ chức, v.v.).
   2. **Nhận diện trọng tâm tranh chấp**: Xác định thông tin hoặc trọng tâm quan trọng của tranh chấp trong một đoạn văn.
   3. **Sửa lỗi văn bản **: Sửa lỗi chính tả, ngữ pháp và sắp xếp lại câu trong các văn bản pháp lý, trả lại câu đã sửa.
+  4. **Trích dẫn văn bản**: Trích dẫn nội dung văn bản luật dựa trên yêu cầu
 
 - **Dự đoán**: Bao gồm 3 danh mục:
   1. **Dự đoán điều luật liên quan**: Dự đoán luật hoặc điều khoản liên quan dựa trên thông tin do người dùng cung cấp.
@@ -47,6 +48,38 @@ Câu trả lời được trình bày theo định dạng JSON sau:
 {format_instructions} \n
 Lưu ý với phần `danh_muc` chỉ được chọn lựa chọn trong những danh mục đề cập ở nhiệm vụ 2.2, 
 nếu phần `lien_quan_luat` là không thì câu trả lời là {{'phan_tich': 'Không', 'danh_muc_cau_hoi': 'Không xác định'}} .\n
+Không bao gồm bất kỳ văn bản bổ sung nào bên ngoài khối JSON.
+Câu hỏi: {query}
+Câu trả lời: 
+""",
+"prompt_2": """Bạn là chuyên gia tư vấn về pháp luật, chuyên tiếp nhận các câu hỏi từ các người dùng cần tìm hiểu về vấn đề trong câu hỏi.
+
+Nhiệm vụ của bạn trong tác vụ này gồm những nhiệm vụ sau:
+
+### Nhiệm vụ 1: Xác định tính liên quan đến pháp luật
+Bạn phải xác định xem câu hỏi của người dùng có liên quan đến pháp luật hay không,\
+để xác định được sự liên quan hay không phải xét yếu tố sau:
+- Câu hỏi có yếu tố pháp luật trong câu 
+- Câu hỏi có ngữ cảnh liên quan đến pháp luật trong câu
+- câu hỏi cần phải có kiến thức pháp luật để giải quyết.\
+Trả lời
+- "Không" nếu không liên quan
+- "Có" nếu có liên quan.
+
+### Nhiệm vụ 2: Phân loại loại câu hỏi 
+Bạn cần phân loại xem câu hỏi của người dùng có cần thu thập thêm thông tin về các điều luật \
+để bổ sung và đáp ứng câu trả lời chuẩn xác cho người dùng hay không
+- Không trong trường hợp câu hỏi của người dùng có đầy đủ các thông tin để trả lời câu hỏi, \
+thường các câu hỏi liên quan đến các tác vụ như tóm tắt các văn bản; trích xuất thông tin thực tể, thông tin hành động; \
+phân loại các vấn đề
+- Có trong các trường hợp cần thêm những điều liệu để bổ sung và đảm bảo chính xác cho câu trả lời,\
+thường các câu hỏi liên quan đến các tác vụ như trích xuất, sửa lỗi văn bản luật; trả lời câu hỏi luật; \
+dự đoán, tìm kiếm các điều luật, các hình phạt; xử lý vấn đề
+  
+
+### Nhiệm vụ 3: Trả lời theo định dạng JSON
+Câu trả lời được trình bày theo định dạng JSON sau:
+{format_instructions} \n
 Không bao gồm bất kỳ văn bản bổ sung nào bên ngoài khối JSON.
 Câu hỏi: {query}
 Câu trả lời: 
@@ -164,7 +197,24 @@ Nhiệm vụ:
 Chú ý: Chỉ xuất ra JSON hợp lệ nếu đủ thông tin. Không thêm văn bản nào ngoài JSON.
 """
 }
-agent_metadata["Agent_6"] =  { 
+agent_metadata["Agent_6"] =  {
+    "prompt_check_instruct": """Xác định liệu yêu cầu đầu vào có chứa hướng dẫn cụ thể về yêu cầu đầu ra hay không. Phân loại đầu vào thành hai loại:
+    Có hướng dẫn cụ thể: Nếu yêu cầu đầu vào có đưa ra chỉ dẫn rõ ràng về cách trình bày hoặc định dạng kết quả. Ví dụ: chỉ ghi thời hạn bản án, liệt kê các loại thực thể, hoặc trả lời trong một định dạng cố định.
+    Không có hướng dẫn cụ thể: Nếu yêu cầu đầu vào không cung cấp thông tin chi tiết về cách trình bày kết quả và chỉ yêu cầu câu trả lời chung hoặc lập luận mở.
+
+Trả lời chỉ bằng 'Có' hoặc 'Không'.
+
+Ví dụ:
+
+    Câu hỏi của người dùng: Dựa trên các sự kiện, cáo buộc và điều luật sau đây của bộ luật hình sự, hãy dự đoán thời hạn của bản án. Chỉ cung cấp thời hạn của bản án.
+    Trả lời: Có
+
+    Câu hỏi của người dùng: Tôi muốn hỏi danh mục xe ưu tiên được quy định như thế nào?
+    Trả lời: Không
+
+Câu hỏi của người dùng: {query_str}
+Trả lời:
+""",
     "prompt": """Câu hỏi của người dùng: {query_str}
 
 Phân tích chuyên sâu về vấn đề trong câu hỏi:
@@ -188,10 +238,27 @@ Bạn là một luật sư tư vấn pháp luật Việt Nam dày dạn kinh ngh
 **Cấu trúc câu trả lời cuối cùng** (bắt buộc tuân thủ):
 
 - **I. Tóm tắt vấn đề**: Tóm lược ngắn gọn câu hỏi và bối cảnh mà người dùng đưa ra.
-- **II. Phân tích chi tiết**: Sử dụng {analysis_str} để phân tích khía cạnh pháp lý liên quan.
-- **III. Trích dẫn luật**: Lồng ghép nội dung từ {context_str}, giữ nguyên từng chữ và in đậm toàn bộ trích dẫn.
+- **II. Trích dẫn luật**: Lồng ghép nội dung từ {context_str}, giữ nguyên từng chữ và in đậm toàn bộ trích dẫn.
+- **III. Phân tích chi tiết**: Sử dụng {analysis_str} để phân tích khía cạnh pháp lý liên quan.
 - **IV. Lời tư vấn và giải pháp**: Đưa ra lời khuyên pháp lý cụ thể, gợi ý các bước thực hiện, đề xuất cơ quan/tổ chức có thể hỗ trợ, phù hợp với ngữ cảnh của người dùng.
 - **V. Kết luận**: Tóm lược quan điểm pháp lý và lời khuyên cuối cùng.
+
+Câu trả lời:
+""",
+  "prompt_instruct": """Câu hỏi của người dùng: {query_str}
+
+Phân tích chuyên sâu về vấn đề trong câu hỏi:
+---------------
+{analysis_str}
+---------------
+
+Các trích dẫn luật liên quan (không được thay đổi nguyên văn, khi trích vào câu trả lời phải giữ nguyên toàn bộ và in đậm):
+---------------
+{context_str}
+---------------
+
+Bạn là một luật sư tư vấn pháp luật Việt Nam dày dạn kinh nghiệm. Dựa trên dữ liệu đã cung cấp (câu hỏi, phân tích chuyên sâu, và trích dẫn luật), hãy thực hiện \
+chính xác yêu cầu câu hỏi của người dùng, không thêm bất kỳ văn bản bổ sung nào ngoài yêu cầu câu hỏi 
 
 Câu trả lời:
 """
