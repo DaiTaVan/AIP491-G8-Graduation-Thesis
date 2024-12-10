@@ -48,6 +48,7 @@ class Pipeline:
 
         # Initialize models
         self.gpt_model = ChatOpenAI(temperature=0.1, model_name="gpt-4o")
+        self.gpt_model_2 = ChatOpenAI(temperature=0.1, model_name="gpt-4o-mini")
         self.ollama_model = OllamaLLM(model="qwen:2.5", temperature=0.7)
 
         # Initialize database configurations
@@ -81,7 +82,7 @@ class Pipeline:
         self.jina_reranker = JinaRerank(
             top_n=DEFAULT_TOP_N,
             model="jina-colbert-v2",
-            api_key="jina_c3454a5b2f874d2290894c0d81137503mLsIhAJEVBn1SAKqFNjJbMnhQCnk"
+            api_key="jina_3aae2274d00c463283df7c00c739c8b5SPy2R3WklmpXKQw3T8eZ0jBFmnvk"
         )
 
         self.gpt_reranker = RankGPTRerank(
@@ -97,7 +98,7 @@ class Pipeline:
             password=self.neo4j_auth[1],
         )
 
-        self.agent1 = Agent1(config=self.config, model=self.gpt_model)
+        self.agent1 = Agent1(config=self.config, model=self.gpt_model_2)
         self.agent2 = Agent2(config=self.config, model=self.gpt_model)
         self.agent3 = Agent3(
             # llm=self.gpt_model, 
@@ -115,12 +116,12 @@ class Pipeline:
             graph_database=self.graph_db,
         )
         self.agent5 = Agent5(
-                model=self.gpt_model,
+                model=self.gpt_model_2,
                 config=self.config
             )
 
         self.agent6 = Agent6(
-                model=self.gpt_model,
+                model=self.gpt_model_2,
                 config=self.config
             )
 
