@@ -49,7 +49,7 @@ class Pipeline:
         # Initialize models
         self.gpt_model = ChatOpenAI(temperature=0.1, model_name="gpt-4o")
         self.gpt_model_2 = ChatOpenAI(temperature=0.1, model_name="gpt-4o-mini")
-        self.ollama_model = OllamaLLM(model="qwen:2.5", temperature=0.7)
+        # self.ollama_model = OllamaLLM(model="qwen:2.5", temperature=0.7)
 
         # Initialize database configurations
         self.qdrant_url = qdrant_url
@@ -259,7 +259,7 @@ class Pipeline:
                     final_context_nodes = [ele[1] for ele in state["final_answer_state"]['contexts']][:3]
                 else:
                     dict_context_node = {ele[0]: ele[1] for ele in state["final_answer_state"]['contexts']}
-                    filter_node_ids = state["agent5_output"]["doc_numbers"]
+                    filter_node_ids = state["agent5_output"]["doc_numbers"][:5]
                     final_context_nodes = []
                     for node_id in filter_node_ids:
                         if node_id in dict_context_node.keys():
