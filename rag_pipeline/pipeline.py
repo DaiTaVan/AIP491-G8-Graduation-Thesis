@@ -4,7 +4,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 from typing import Dict, List, Any, TypedDict, Literal
-
+from datetime import datetime
 # Required imports from the original system
 from llm import Ollama, OpenAI
 from langchain_openai import ChatOpenAI
@@ -266,7 +266,7 @@ class Pipeline:
                 state["agent6_output"] = self.agent6.run_single_shot(query_str = state["query"])
             elif len(state["agent2_output"]) == 0:
                 if state["agent1_output"]["lien_quan_luat"].lower() == 'không':
-                    state["agent6_output"] = "Xin lỗi, có thể câu hỏi của bạn không liên quan đến luật. Xin hãy hỏi lại hoặc cung cấp thêm thông tin."
+                    state["agent6_output"] = "Xin lỗi, có thể câu hỏi của bạn không liên quan đến luật. Xin hãy hỏi lại hoặc cung cấp thêm thông tin. 😊"
                 elif state["agent1_output"]["can_them_thong_tin"].lower() =='không':
                     state["agent6_output"] = self.agent6.run_single_shot(query_str = state["query"])    
             else:
@@ -384,8 +384,10 @@ class Pipeline:
             "agent5_output": {},
             "agent6_output": {},
             "retrieved_nodes": [],
-            "final_answer_state": "Câu hỏi của bạn không liên quan đến các vấn đề về pháp luật, bạn có muốn đặt một câu hỏi khác không 😊",
+            "final_answer_state": "",
+            "final_context_nodes_str": "",
             "intermediate_steps": [],
+            "enable_recursive": False,
             "recursive_check": False
         }
         self.logger.debug(f"Initial State: {state}")
