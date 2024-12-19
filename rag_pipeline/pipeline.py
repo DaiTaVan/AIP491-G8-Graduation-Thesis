@@ -116,7 +116,7 @@ class Pipeline:
 
         # Initialize vector database and retriever components
         self.vector_database = LawBGEM3QdrantDatabase(url=self.qdrant_url, api_key=self.qdrant_api_key)
-        self.embedding_model = BGEEmbedding(model_name="BAAI/bge-m3")
+        self.embedding_model = BGEEmbedding(model_name="bge-m3")
 
         DEFAULT_TOP_N = 3
         self.jina_reranker = JinaRerank(
@@ -193,6 +193,7 @@ class Pipeline:
 
     def agent3_node(self, state: AgentState) -> AgentState:
         self.logger.info("Starting Agent3 (Retrieval).")
+        # Use initialized components
         difficulty = state["agent2_output"].get("do_kho", "Trung bình")
         params = {
             "Dễ": (3, 0.5, 2),
@@ -205,9 +206,6 @@ class Pipeline:
         self.agent3.update_top_k_and_alpha(top_k=top_k, alpha=alpha)
         self.agent3.reranker = self.jina_reranker
         # Prepare queries for retrieval
-        list_query = [state["agent2_output"].get("cau_hoi_tang_cuong", "")] + state["agent2_output"].get("cau_hoi_phan_ra", [])
-        state["retrieved_nodes"] = self.agent3.run(list_query=list_query, original_query=state["query"])
-        # Use initialized components
         list_query = [state["agent2_output"].get("cau_hoi_tang_cuong", "")] + state["agent2_output"].get("cau_hoi_phan_ra", [])
         self.logger.debug(f"List of Queries for Agent3: {list_query}")
 
