@@ -15,6 +15,11 @@ from pydantic import BaseModel, Field, ValidationError
 from abc import ABC, abstractmethod
 from langchain.chains import LLMChain
 import os
+# Thiết lập các biến môi trường
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_PROJECT"] = "pr-smug-champagne-93"
 
 class BaseAgent:
     @abstractmethod
@@ -54,7 +59,7 @@ class Agent1(BaseAgent):
         # Create the prompt template using the configuration
         self.prompt = PromptTemplate(
             # template=config['Agent_1']['prompt'],
-            template=config['Agent_1']['prompt'],
+            template=config['Agent_1']['prompt_2'],
             input_variables=["query"],
             partial_variables={"format_instructions": self.parser.get_format_instructions()},
         )
