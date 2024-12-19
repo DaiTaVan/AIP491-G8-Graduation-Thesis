@@ -18,7 +18,6 @@ from knowledge_graph.neo4j_database import Neo4jDatabase
 
 from agent import Agent1, Agent2, Agent3, Agent4, Agent5, Agent6
 
-
 class JsonFormatter(logging.Formatter):
     def format(self, record):
         log_record = {
@@ -198,7 +197,12 @@ class Pipeline:
         }
         top_k, alpha, top_n = params.get(difficulty, (5, 0.5, 3))
         self.logger.debug(f"Retrieval Parameters - Difficulty: {difficulty}, Top K: {top_k}, Alpha: {alpha}, Top N: {top_n}")
-
+        self.jina_reranker.update_top_n(n=top_n)
+        self.agent3.update_top_k_and_alpha(top_k=top_k, alpha=alpha)
+        self.agent3.reranker = self.jina_reranker
+        # Prepare queries for retrieval
+        list_query = [state["agent2_output"].get("cau_hoi_tang_cuong", "")] + state["agent2_output"].get("cau_hoi_phan_ra", [])
+        state["retrieved_nodes"] = self.agent3.run(list_query=list_query, original_query=state["query"])
         # Use initialized components
         agent3 = self.agent3
         list_query = [state["agent2_output"].get("cau_hoi_tang_cuong", "")] + state["agent2_output"].get("cau_hoi_phan_ra", [])
