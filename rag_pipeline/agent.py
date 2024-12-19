@@ -58,8 +58,8 @@ class Agent1(BaseAgent):
         
         # Create the prompt template using the configuration
         self.prompt = PromptTemplate(
-            # template=config['Agent_1']['prompt'],
-            template=config['Agent_1']['prompt_2'],
+            template=config['Agent_1']['prompt'],
+            # template=config['Agent_1']['prompt_2'],
             input_variables=["query"],
             partial_variables={"format_instructions": self.parser.get_format_instructions()},
         )
