@@ -119,7 +119,7 @@ class Pipeline:
         self.jina_reranker = JinaRerank(
             top_n=DEFAULT_TOP_N,
             model="jina-colbert-v2",
-            api_key="jina_c3454a5b2f874d2290894c0d81137503mLsIhAJEVBn1SAKqFNjJbMnhQCnk"
+            api_key="jina_ac22e30cbc5b42eaa84b191d452e2d7aaTEwrOsPnT4LUI5F-guMJPr01A1C"
         )
 
         self.gpt_reranker = RankGPTRerank(
@@ -206,6 +206,7 @@ class Pipeline:
 
         try:
             state["retrieved_nodes"] = agent3.run(list_query=list_query, original_query=state["query"])
+            state["agent3_output"] = state["retrieved_nodes"]
             self.logger.info(f"Agent3 Retrieved Nodes: {state['retrieved_nodes']}")
             state["intermediate_steps"].append("Agent3 (Retrieval) completed.")
         except Exception as e:
@@ -230,6 +231,7 @@ class Pipeline:
                 query=state["query"],
                 retrieved_nodes=state["retrieved_nodes"],
             )
+            state["agent4_output"] = state["final_answer_state"]
             self.logger.info(f"Agent4 Output: {state['final_answer_state']}")
             state["intermediate_steps"].append("Agent4 (Final Answer) completed.")
         except Exception as e:
@@ -255,13 +257,30 @@ class Pipeline:
 
     def agent6_node(self, state: AgentState) -> AgentState:
         self.logger.info("Starting Agent6.")
-        final_content_context = state["final_answer_state"]
-        response_2 = final_content_context
+        # Trích xuất doc_numbers từ agent5_output
+        doc_numbers = state.get("agent5_output", {}).get("doc_numbers", [])
+        contexts = state.get("agent4_output", {}).get("contexts", [[]])
+
+        if not doc_numbers or not contexts or not contexts[0]:
+            logging.warning("doc_numbers or contexts is empty.")
+        else:
+            extracted_texts = []
+            for context in contexts:
+                print(context[0])
+                doc_id = context[0]  # Trích xuất ID văn bản
+                doc_content = context[1]  # Trích xuất nội dung văn bản
+                
+                # Kiểm tra nếu doc_id nằm trong danh sách doc_numbers
+                if doc_id in doc_numbers:
+                    extracted_texts.append(f"{doc_content}")
+        extracted_text_str = "\n".join(extracted_texts)
+        self.logger.debug(f"Relevant Laws: {extracted_text_str}")
+        response_2 = state.get("agent2_output", {})
         self.logger.debug(f"Response 2 Content: {response_2}")
 
         agent6 = self.agent6
         try:
-            result = agent6.run(state["query"], str(response_2), str(final_content_context))
+            result = agent6.run(state["query"], str(response_2), str(extracted_text_str))
             state["agent6_output"] = result
             self.logger.info(f"Agent6 Output: {state['agent6_output']}")
             state["intermediate_steps"].append("Agent6 completed.")
@@ -295,8 +314,8 @@ class Pipeline:
         # Add nodes
         workflow.add_node("agent1", self.agent1_node)
         workflow.add_node("agent2", self.agent2_node)
-        workflow.add_node("retrieval", self.retrieval_node)
-        workflow.add_node("agent4_node", self.agent4_node)
+        workflow.add_node("agent3", self.retrieval_node)
+        workflow.add_node("agent4", self.agent4_node)
         workflow.add_node("agent5", self.agent5_node)
         workflow.add_node("agent6", self.agent6_node)
 
@@ -309,18 +328,16 @@ class Pipeline:
             "agent1",
             combined_route,
             {
-                "agent2": "retrieval",
+                "agent2": "agent2",
                 "agent6": "agent6",
                 END: END
             }
         )
         self.logger.debug("Added conditional edges after Agent1.")
 
-        # Path if Agent2 is chosen
-        workflow.add_edge("retrieval", "agent4_node")
-        self.logger.debug("Added edge from Retrieval to Final Answer.")
-        workflow.add_edge("agent4_node", "agent5")
-        self.logger.debug("Added edge from Final Answer to Agent5.")
+        workflow.add_edge("agent2", "agent3")
+        workflow.add_edge("agent3", "agent4")
+        workflow.add_edge("agent4", "agent5")
 
         # Conditional routing after Agent5 based on recursion
         def recursion_route(state: AgentState) -> str:
@@ -335,7 +352,7 @@ class Pipeline:
             "agent5",
             recursion_route,
             {
-                "agent2": "retrieval",
+                "agent2": "agent2",
                 "agent6": "agent6"
             }
         )
@@ -375,14 +392,13 @@ class Pipeline:
 
         return result
 
-
 # Argument parser function
 def parse_args():
     parser = argparse.ArgumentParser(description="Run the RAG Pipeline with arguments.")
     parser.add_argument(
         "--openai_api_key",
         type=str,
-        default="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",
+        default="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",
         help="OpenAI API key."
     )
     parser.add_argument(
@@ -463,7 +479,32 @@ if __name__ == "__main__":
     except Exception as e:
         logging.error(f"Failed to run the pipeline: {e}")
         exit(1)
-
+    
     # Print the final answer
     print("Final Answer:", result.get("final_answer_state", "No answer generated."))
     print("Intermediate Steps:", result.get("intermediate_steps", []))
+    # Tạo tên file dựa trên timestamp hiện tại
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = f"pipeline_result_{timestamp}.md"
+
+    agents = [
+        "agent1_output",
+        "agent2_output",
+        "agent3_output",
+        "agent4_output",
+        "agent5_output",
+        "agent6_output"
+    ]
+
+    try:
+        with open(output_file, "w", encoding="utf-8") as f:
+            for agent_name in agents:
+                f.write(f"----------{agent_name.upper()}-------------\n\n")
+                agent_data = result.get(agent_name, {})
+                # Chuyển dict sang JSON format cho dễ đọc, hoặc bạn có thể format theo ý thích
+                agent_content = json.dumps(agent_data, indent=4, ensure_ascii=False)
+                f.write(agent_content + "\n\n")
+            f.write(result.get("final_answer_state", "No answer generated."))
+        logging.info(f"Agent states have been saved to {output_file}")
+    except Exception as e:
+        logging.error(f"Failed to save agent states: {e}")
