@@ -48,7 +48,7 @@ class BGEEmbedding:
 
 if __name__ == '__main__':
     bge_embedding = BGEEmbedding(
-        model_name='/media/tavandai/DATA10/fpt_university/Graduation_Thesis/AIP491-G8-Graduation-Thesis/bge-m3'
+        model_name='bge-m3'
     )
     sentences_1 = ["What is BGE M3?", "Defination of BM25", 
                 "BGE M3 is an embedding model supporting dense retrieval, lexical matching and multi-vector interaction.", 

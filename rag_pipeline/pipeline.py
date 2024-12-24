@@ -116,7 +116,7 @@ class Pipeline:
 
         # Initialize vector database and retriever components
         self.vector_database = LawBGEM3QdrantDatabase(url=self.qdrant_url, api_key=self.qdrant_api_key)
-        self.embedding_model = BGEEmbedding(model_name="bge-m3")
+        self.embedding_model = BGEEmbedding(model_name="bge-m3-finetune")
 
         DEFAULT_TOP_N = 3
         self.jina_reranker = JinaRerank(
