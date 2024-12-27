@@ -118,7 +118,7 @@ class Pipeline:
         self.jina_reranker = JinaRerank(
             top_n=DEFAULT_TOP_N,
             model="jina-colbert-v2",
-            api_key="jina_ac22e30cbc5b42eaa84b191d452e2d7aaTEwrOsPnT4LUI5F-guMJPr01A1C"
+            api_key=""
         )
 
         self.gpt_reranker = RankGPTRerank(
@@ -402,7 +402,7 @@ def parse_args():
     parser.add_argument(
         "--openai_api_key",
         type=str,
-        default="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",
+        default="",
         help="OpenAI API key."
     )
     parser.add_argument(

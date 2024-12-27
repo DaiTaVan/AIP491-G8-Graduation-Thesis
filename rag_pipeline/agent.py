@@ -18,8 +18,8 @@ import os
 # Thiết lập các biến môi trường
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGCHAIN_API_KEY"] = "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"
-os.environ["LANGCHAIN_PROJECT"] = "pr-smug-champagne-93"
+os.environ["LANGCHAIN_API_KEY"] = ""
+os.environ["LANGCHAIN_PROJECT"] = ""
 
 class BaseAgent:
     @abstractmethod

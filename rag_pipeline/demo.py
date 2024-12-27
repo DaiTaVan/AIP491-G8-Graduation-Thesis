@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Khởi tạo pipeline (giá trị các tham số có thể tuỳ chỉnh theo nhu cầu thực tế)
 pipeline = Pipeline(
-    openai_api_key="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",
+    openai_api_key="",
     qdrant_url="http://localhost:6333",
     qdrant_api_key=None,
     neo4j_uri="neo4j://localhost",
