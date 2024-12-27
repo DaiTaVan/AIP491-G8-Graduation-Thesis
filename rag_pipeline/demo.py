@@ -7,17 +7,17 @@ from src.pipeline import Pipeline  # Giả sử bạn có file pipeline.py chứ
 logging.basicConfig(level=logging.INFO)
 
 # Khởi tạo pipeline (giá trị các tham số có thể tuỳ chỉnh theo nhu cầu thực tế)
-# pipeline = Pipeline(
-#     openai_api_key="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",
-#     qdrant_url="http://localhost:6333",
-#     qdrant_api_key=None,
-#     neo4j_uri="neo4j://localhost",
-#     neo4j_auth=("neo4j", "Abc12345"),
-#     config_path="/teamspace/studios/this_studio/AIP491-G8-Graduation-Thesis/rag_pipeline/config/agent.json",
-#     legal_topics_path="/teamspace/studios/this_studio/AIP491-G8-Graduation-Thesis/rag_pipeline/test.txt",
-# )
 pipeline = Pipeline(
-    openai_api_key="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",
+    openai_api_key="",
+    qdrant_url="http://localhost:6333",
+    qdrant_api_key=None,
+    neo4j_uri="neo4j://localhost",
+    neo4j_auth=("neo4j", "Abc12345"),
+    config_path="/teamspace/studios/this_studio/AIP491-G8-Graduation-Thesis/rag_pipeline/config/agent.json",
+    legal_topics_path="/teamspace/studios/this_studio/AIP491-G8-Graduation-Thesis/rag_pipeline/test.txt",
+)
+pipeline = Pipeline(
+    openai_api_key="",
     legal_topics_path="config/list_chude_demuc.txt",
     config_path="config/sample_agent.json")
 

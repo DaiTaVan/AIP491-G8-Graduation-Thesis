@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 from rag_pipeline.src.llm import OpenAI
 
-llm_engine = OpenAI(api_key="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",
+llm_engine = OpenAI(api_key="",
                     model_name='gpt-4o', 
                     temperature=0.2)
 

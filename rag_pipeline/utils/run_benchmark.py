@@ -5,7 +5,7 @@ from tqdm import tqdm
 from src.pipeline import Pipeline
 
 pipeline = Pipeline(
-    openai_api_key="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",
+    openai_api_key="",
     legal_topics_path="config/list_chude_demuc.txt",
     config_path="config/agent.json")
 
