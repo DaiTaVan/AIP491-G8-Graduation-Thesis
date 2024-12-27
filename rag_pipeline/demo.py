@@ -17,7 +17,7 @@ pipeline = Pipeline(
     qdrant_api_key=None,
     neo4j_uri="neo4j://localhost",
     neo4j_auth=("neo4j", "Abc12345"),
-    config_path="config/sample_agent.json",
+    config_path=os.environ["CONFIG_PATH"],
     legal_topics_path="config/list_chude_demuc.txt",
 )
 
