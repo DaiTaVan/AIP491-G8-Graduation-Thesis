@@ -24,6 +24,6 @@ chude_nodes
 # %%
 all_dieu_nodes
 # %%
-json.dump([node.to_json() for node in root_nodes], open('/media/tavandai/DATA1/fpt_university/Graduation_Thesis/AIP491-G8-Graduation-Thesis/dataset/Phapdien/root_nodes.json', 'w'), ensure_ascii=False, indent=4)
-json.dump(all_dieu_nodes, open('/media/tavandai/DATA1/fpt_university/Graduation_Thesis/AIP491-G8-Graduation-Thesis/dataset/Phapdien/dieu_phap_dien.json', 'w'), ensure_ascii=False, indent=4)
+json.dump([node.to_json() for node in root_nodes], open('../../dataset/Phapdien/root_nodes.json', 'w'), ensure_ascii=False, indent=4)
+json.dump(all_dieu_nodes, open('../../dataset/Phapdien/dieu_phap_dien.json', 'w'), ensure_ascii=False, indent=4)
 # %%
