@@ -6,8 +6,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 # FastAPI app instance
 app = FastAPI()
 
-model_name = "Qwen/Qwen2.5-7B-Instruct"
-# model_name = "daitavan/Qwen2.5-7B-Instruct-finetune-llamafactory-bf16"
+# model_name = "Qwen/Qwen2.5-7B-Instruct"
+model_name = "daitavan/Qwen2.5-7B-Instruct-finetune-llamafactory-bf16"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
