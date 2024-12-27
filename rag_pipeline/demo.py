@@ -2,7 +2,7 @@ import gradio as gr
 import logging
 import os
 
-from pipeline import Pipeline  # Giả sử bạn có file pipeline.py chứa class Pipeline
+from src.pipeline import Pipeline  # Giả sử bạn có file pipeline.py chứa class Pipeline
 
 logging.basicConfig(level=logging.INFO)
 
@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 pipeline = Pipeline(
     openai_api_key="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",
     legal_topics_path="config/list_chude_demuc.txt",
-    config_path="config/agent.json")
+    config_path="config/sample_agent.json")
 
 def run_pipeline(query):
     """

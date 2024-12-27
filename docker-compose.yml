@@ -19,16 +19,16 @@ services:
       - NEO4J_EDITION=community
       - NEO4J_HOME=/var/lib/neo4j
     volumes:
-      - ./neo4j/data:/data
-      - ./neo4j/logs:/logs
-      - ./neo4j/config:/config
-      - ./neo4j/plugins:/plugins
+      - ./database/neo4j/data:/data
+      - ./database/neo4j/logs:/logs
+      - ./database/neo4j/config:/config
+      - ./database/neo4j/plugins:/plugins
     restart: always
   
   qdrant:
     image: qdrant/qdrant
     container_name: graduation_thesis_qdrant
     volumes:
-      - ./qdrant:/qdrant/storage
+      - ./database/qdrant:/qdrant/storage
     ports:
       - "6333:6333"
