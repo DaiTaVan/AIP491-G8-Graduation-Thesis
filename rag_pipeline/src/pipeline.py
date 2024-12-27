@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+from dotenv import load_dotenv
 import logging
 from logging.handlers import RotatingFileHandler
 from typing import Dict, List, Any, TypedDict, Literal
@@ -122,7 +123,7 @@ class Pipeline:
         self.jina_reranker = JinaRerank(
             top_n=DEFAULT_TOP_N,
             model="jina-colbert-v2",
-            api_key="jina_ac22e30cbc5b42eaa84b191d452e2d7aaTEwrOsPnT4LUI5F-guMJPr01A1C"
+            api_key=os.environ["JINA_API_KEY"]
         )
 
         self.gpt_reranker = RankGPTRerank(

@@ -1,25 +1,25 @@
 import gradio as gr
 import logging
 import os
+from dotenv import load_dotenv
+
 
 from src.pipeline import Pipeline  # Giả sử bạn có file pipeline.py chứa class Pipeline
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 
 # Khởi tạo pipeline (giá trị các tham số có thể tuỳ chỉnh theo nhu cầu thực tế)
 pipeline = Pipeline(
-    openai_api_key="",
+    openai_api_key=os.environ["OPENAI_API_KEY"],
     qdrant_url="http://localhost:6333",
     qdrant_api_key=None,
     neo4j_uri="neo4j://localhost",
     neo4j_auth=("neo4j", "Abc12345"),
-    config_path="/teamspace/studios/this_studio/AIP491-G8-Graduation-Thesis/rag_pipeline/config/agent.json",
-    legal_topics_path="/teamspace/studios/this_studio/AIP491-G8-Graduation-Thesis/rag_pipeline/test.txt",
-)
-pipeline = Pipeline(
-    openai_api_key="",
+    config_path="config/sample_agent.json",
     legal_topics_path="config/list_chude_demuc.txt",
-    config_path="config/sample_agent.json")
+)
 
 def run_pipeline(query):
     """

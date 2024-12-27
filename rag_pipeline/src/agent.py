@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 from typing import Dict, List, Any
 from langchain_openai import ChatOpenAI
 from abc import abstractmethod
@@ -16,11 +17,12 @@ from pydantic import BaseModel, Field, ValidationError
 from abc import ABC, abstractmethod
 from langchain.chains import LLMChain
 
+load_dotenv()
 # Thiết lập các biến môi trường
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGCHAIN_API_KEY"] = "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"
-os.environ["LANGCHAIN_PROJECT"] = "pr-essential-streetcar-18"
+# os.environ["LANGCHAIN_TRACING_V2"] = ""
+# os.environ["LANGCHAIN_ENDPOINT"] = ""
+# os.environ["LANGCHAIN_API_KEY"] = ""
+# os.environ["LANGCHAIN_PROJECT"] = ""
 
 class BaseAgent:
     @abstractmethod
