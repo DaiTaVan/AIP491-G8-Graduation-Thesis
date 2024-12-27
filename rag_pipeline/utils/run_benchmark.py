@@ -5,7 +5,7 @@ from tqdm import tqdm
 from src.pipeline import Pipeline
 
 pipeline = Pipeline(
-    openai_api_key="",
+    openai_api_key=os.environ["OPENAI_API_KEY"],
     legal_topics_path="config/list_chude_demuc.txt",
     config_path="config/agent.json")
 

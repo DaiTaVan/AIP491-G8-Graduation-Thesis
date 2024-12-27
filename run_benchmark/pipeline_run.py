@@ -5,7 +5,7 @@ from tqdm import tqdm
 from rag_pipeline.src.pipeline import Pipeline
 
 pipeline = Pipeline(
-    openai_api_key="",
+    openai_api_key=os.environ["OPENAI_API_KEY"],
     legal_topics_path="rag_pipeline/config/list_chude_demuc.txt",
     config_path="rag_pipeline/config/agent.json")
 
