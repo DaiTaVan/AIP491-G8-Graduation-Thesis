@@ -35,6 +35,7 @@ python local_llm_api/main.py
 #### Run demo code
 ```
 cd rag_pipeline
+mkdir logging
 python demo.py
 ```
 
