@@ -11,7 +11,7 @@ wget https://huggingface.co/datasets/daitavan/Vietnam-Law-Raw-Data/resolve/main/
 unzip database.zip
 rm database.zip
 cd rag_pipeline
-git clone daitavan/bge-m3-finetune
+git clone https://huggingface.co/daitavan/bge-m3-finetune
 ```
 ### Setup env
 Create file ```.env``` from ```.env.example``` and enter (or edit) parameters
